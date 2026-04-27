@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 
 // === KAPTEN: GANTI URL INI DENGAN URL WORKER CLOUDFLARE ANDA NANTI ===
-const WORKER_URL = "https://jembatan-camel.username.workers.dev"; 
+const WORKER_URL = "https://camel-bridge.ahmadadityaberdikari.workers.dev"; 
 // ======================================================================
 
 function smartExtractMatches(json) {
