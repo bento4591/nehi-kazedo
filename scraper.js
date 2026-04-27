@@ -5,7 +5,6 @@ const WORKER_URL = "https://camel-bridge.ahmadadityaberdikari.workers.dev";
 const targetMainDomain = "https://www.camellive.top"; 
 const globalUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 
-// Fungsi Pengekstrak API Tangguh (Kembali ke versi terbaik Anda)
 function smartExtractMatches(json) {
     let matches = [];
     function searchNode(obj) {
@@ -32,20 +31,17 @@ function extractTeamName(teamObj) {
 }
 
 (async () => {
-    console.log("[LOG] Memulai Scraper (Restore Header + Format Worker .m3u8)...");
+    console.log("[LOG] Memulai Scraper V12.1 (Full Header + Taktik Jangkar)...");
     const matchesMap = new Map();
     const database = {}; 
 
-    // Ambil Data dari API dengan kuota yang diperbesar
+    // FASE 1: API Scraper
     try {
         const apiResponse = await fetch('https://api.cameltv.live/camel-service/ee/sports_live/home?page=1&size=50', {
             headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json',
                 'AppVersion': '20.0.0.0',
                 'Device': 'WEB',
-                'region': 'XM',
-                'node': 'camel1_g2'
+                'region': 'XM'
             }
         });
 
@@ -69,7 +65,7 @@ function extractTeamName(teamObj) {
             });
         }
     } catch (error) {
-        console.error(`[ERROR] API: ${error.message}`);
+        console.log(`[WARN] API Gagal, mengandalkan fallback.`);
     }
 
     const browser = await chromium.launch({ headless: true });
@@ -120,22 +116,21 @@ function extractTeamName(teamObj) {
                 });
 
                 await streamPage.goto(link, { waitUntil: 'domcontentloaded', timeout: 30000 });
-                
                 const playBtn = streamPage.locator('[class*="play"], video').first();
                 if (await playBtn.isVisible()) await playBtn.click().catch(() => {});
 
-                await streamPage.waitForTimeout(10000);
+                await streamPage.waitForTimeout(8000);
                 await streamPage.close(); 
 
                 if (capturedM3u8) {
                     database[urlId] = capturedM3u8;
 
-                    // MENGEMBALIKAN SEMUA HEADER & MENGGUNAKAN URL MASKING
+                    // EKSEKUSI FINAL: Header Penuh + Taktik Jangkar ExoPlayer
                     playlistContent += `#EXTINF:-1 tvg-logo="${matchData.logo}" group-title="CAMEL SPORTS", ${matchData.title} [CAMEL LIVE]\n`;
                     playlistContent += `#EXTVLCOPT:http-origin=${targetMainDomain}\n`;
                     playlistContent += `#EXTVLCOPT:http-referrer=${targetMainDomain}/\n`;
                     playlistContent += `#EXTVLCOPT:http-user-agent=${globalUserAgent}\n`;
-                    playlistContent += `${WORKER_URL}/${urlId}.m3u8\n`;
+                    playlistContent += `${WORKER_URL}/?id=${urlId}#.m3u8\n`;
                     
                     streamFoundCount++;
                 }
@@ -150,6 +145,7 @@ function extractTeamName(teamObj) {
         } else {
             fs.writeFileSync('playlist.m3u', "#EXTM3U\n#EXTINF:-1,Tidak Ada Siaran Langsung\nhttp://offline.local");
         }
+        console.log(`[SUKSES] ${streamFoundCount} stream diekstrak dengan Full Armor!`);
 
     } catch (error) {
         console.error(`[ERROR FATAL] ${error.message}`);
