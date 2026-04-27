@@ -28,12 +28,11 @@ function extractTeamName(teamObj) {
 }
 
 (async () => {
-    console.log("[LOG] Memulai Operasi Database (DYNAMICS MODE)...");
+    console.log("[LOG] Memulai Operasi (ULTIMATE HYBRID: SNIPER + FAST CAPTURE + CLEAN URL)...");
     const matchesMap = new Map();
-    const database = {}; // Objek untuk menyimpan link murni
 
     // ==========================================
-    // FASE 1: API INTELLIGENCE
+    // FASE 1: DATA INTELLIGENCE (API)
     // ==========================================
     try {
         const apiResponse = await fetch('https://api.cameltv.live/camel-service/ee/sports_live/home?page=1&size=20', {
@@ -47,72 +46,163 @@ function extractTeamName(teamObj) {
                 'deviceId': '07fc8207-5b16-4b3f-b46e-e1f7e986a2aa'
             }
         });
+
         const apiJson = await apiResponse.json();
         const rawMatches = smartExtractMatches(apiJson);
 
         for (const m of rawMatches) {
             let id = m.id || m.matchId || m.match_id || m.sv_id || null;
             if (!id) continue;
-            let homeName = extractTeamName(m.homeTeamName || m.home_team);
-            let awayName = extractTeamName(m.awayTeamName || m.away_team);
-            matchesMap.set(String(id).toLowerCase(), `${homeName} VS ${awayName}`);
+
+            let homeName = extractTeamName(m.homeTeamName || m.home_team || m.homeName || m.home);
+            let awayName = extractTeamName(m.awayTeamName || m.away_team || m.awayName || m.away);
+            
+            let logoUrl = "https://raw.githubusercontent.com/tsender57-dotcom/offline/refs/heads/main/logo/Logo%20OGI%20Bone.png";
+            if (m.home_team && m.home_team.logo) logoUrl = m.home_team.logo;
+            else if (m.homeLogo) logoUrl = m.homeLogo;
+            
+            matchesMap.set(String(id).toLowerCase(), {
+                title: `${homeName} VS ${awayName} [CAMEL LIVE]`,
+                logo: logoUrl
+            });
         }
-    } catch (error) { console.error(`[ERROR] API: ${error.message}`); }
+        console.log(`[LOG] Memetakan ${matchesMap.size} jadwal dari API.`);
+    } catch (error) {
+        console.error(`[ERROR] API: ${error.message}`);
+    }
 
     // ==========================================
-    // FASE 2: PLAYWRIGHT TURBO SNIFFER
+    // FASE 2: EXECUTION ENGINE (PLAYWRIGHT)
     // ==========================================
-    const browser = await chromium.launch({ headless: true });
     const targetMainDomain = "https://www.camellive.top"; 
+    const globalUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
+
+    const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        userAgent: globalUserAgent,
+        viewport: { width: 1280, height: 720 },
+        extraHTTPHeaders: {
+            'Origin': targetMainDomain,
+            'Referer': targetMainDomain + '/'
+        }
     });
+
+    let playlistContent = "#EXTM3U\n";
+    let streamFoundCount = 0;
 
     try {
         const page = await context.newPage();
-        await page.route('**/*', r => ['image', 'stylesheet', 'font'].includes(r.request().resourceType()) ? r.abort() : r.continue());
-        await page.goto(targetMainDomain + '/', { waitUntil: 'domcontentloaded' });
-        await page.waitForTimeout(3000);
+        
+        // Resource Blocker untuk kecepatan maksimal (Turbo Mode)
+        await page.route('**/*', route => {
+            const type = route.request().resourceType();
+            if (['image', 'stylesheet', 'font'].includes(type)) {
+                route.abort();
+            } else {
+                route.continue();
+            }
+        });
 
-        const liveLinks = await page.$$eval('a', as => [...new Set(as.map(a => a.href).filter(h => h.includes('/live/') || h.includes('/football/')))]);
+        await page.goto(targetMainDomain + '/', { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(3000); 
+
+        // LOGIKA SNIPER: Hanya ambil href dari kotak berstatus "LIVE"
+        const liveLinks = await page.$$eval('.match-items', cards => {
+            let links = [];
+            for (const card of cards) {
+                const cardText = card.innerText.toUpperCase();
+                if (cardText.includes('LIVE')) {
+                    const aTag = card.querySelector('a.match-items-before');
+                    if (aTag && aTag.href) {
+                        links.push(aTag.href);
+                    }
+                }
+            }
+            return [...new Set(links)];
+        });
+        
+        console.log(`[LOG] Filter Sniper Aktif! Menemukan ${liveLinks.length} tautan yang PASTI LIVE.`);
 
         for (const link of liveLinks) {
             try {
                 const urlParts = link.split('/');
-                let urlId = urlParts[urlParts.length - 1].toLowerCase().split('?')[0];
+                let urlId = urlParts[urlParts.length - 1].toLowerCase();
+                if(urlId.includes('?')) urlId = urlId.split('?')[0];
+
+                const matchData = matchesMap.get(urlId) || {
+                    title: `CAMEL LIVE EVENT ${streamFoundCount + 1}`,
+                    logo: "https://raw.githubusercontent.com/tsender57-dotcom/offline/refs/heads/main/logo/Logo%20OGI%20Bone.png"
+                };
+
                 const streamPage = await context.newPage();
                 let capturedM3u8 = null;
 
+                // Resource Blocker di halaman stream
+                await streamPage.route('**/*', route => {
+                    const type = route.request().resourceType();
+                    if (['image', 'stylesheet', 'font'].includes(type)) {
+                        route.abort();
+                    } else {
+                        route.continue();
+                    }
+                });
+
+                // LOGIKA TANGKAPAN TERBAIK ANDA + BALAPAN LOGIKA
                 const m3u8Promise = new Promise((resolve) => {
                     streamPage.on('response', async (response) => {
                         const resUrl = response.url();
-                        // LOGIKA PRO: Hanya tangkap jika mengandung "auth=" (Langkah 2)
-                        if (resUrl.includes('.m3u8') && resUrl.includes('auth=')) {
+                        if (resUrl.includes('.m3u8') && (resUrl.includes('txSecret') || resUrl.includes('auth='))) {
                             capturedM3u8 = resUrl;
-                            resolve(true);
+                            resolve(true); // Putus kompas seketika saat URL didapat!
                         }
                     });
                 });
 
-                await streamPage.goto(link, { waitUntil: 'domcontentloaded' });
+                console.log(`[>>] Eksekusi: ${matchData.title}`);
+                await streamPage.goto(link, { waitUntil: 'domcontentloaded', timeout: 30000 });
+                
                 const playBtn = streamPage.locator('[class*="play"], video').first();
-                if (await playBtn.isVisible()) await playBtn.click().catch(() => {});
+                if (await playBtn.isVisible()) {
+                    await playBtn.click().catch(() => {});
+                }
 
-                // Balapan: Tunggu sampai auth ditemukan atau timeout 10 detik
-                await Promise.race([m3u8Promise, streamPage.waitForTimeout(10000)]);
-                await streamPage.close();
+                // Balapan: Menunggu M3U8 tertangkap ATAU maksimal 10 detik.
+                // Jika detik ke-2 sudah tertangkap, mesin langsung lanjut tanpa menunggu detik ke-10.
+                await Promise.race([
+                    m3u8Promise,
+                    streamPage.waitForTimeout(10000)
+                ]);
+
+                await streamPage.close(); 
 
                 if (capturedM3u8) {
-                    // Simpan ke database dengan ID sebagai kunci
-                    database[urlId] = capturedM3u8;
-                    console.log(`[SUCCESS] Captured Auth: ${urlId}`);
+                    console.log(`[SUCCESS] M3U8 Ditangkap!`);
+                    
+                    // STRUKTUR MURNI: Header VLC Opt dipisah dengan rapi
+                    playlistContent += `#EXTINF:-1 tvg-logo="${matchData.logo}" group-title="CAMEL SPORTS", ${matchData.title}\n`;
+                    playlistContent += `#EXTVLCOPT:http-origin=${targetMainDomain}\n`;
+                    playlistContent += `#EXTVLCOPT:http-referrer=${targetMainDomain}/\n`;
+                    playlistContent += `#EXTVLCOPT:http-user-agent=${globalUserAgent}\n`;
+                    playlistContent += `${capturedM3u8}\n`;
+                    streamFoundCount++;
                 }
-            } catch (err) {}
+
+            } catch (err) {
+                console.log(`[SKIP] Gagal memuat atau Timeout.`);
+            }
         }
 
-        // Simpan hasil ke database.json
-        fs.writeFileSync('database.json', JSON.stringify(database, null, 2));
-        console.log("[LOG] database.json Updated!");
+        if (streamFoundCount > 0) {
+            fs.writeFileSync('playlist.m3u', playlistContent);
+            console.log(`[LOG] Selesai! Berhasil menyimpan ${streamFoundCount} stream murni dengan secepat kilat.`);
+        } else {
+            console.log("[LOG] Tidak ada stream yang sedang live.");
+            fs.writeFileSync('playlist.m3u', "#EXTM3U\n#EXTINF:-1,Tidak Ada Siaran Langsung Saat Ini\nhttp://offline.local");
+        }
 
-    } finally { await browser.close(); }
+    } catch (error) {
+        console.error(`[ERROR FATAL] ${error.message}`);
+    } finally {
+        await browser.close();
+    }
 })();
