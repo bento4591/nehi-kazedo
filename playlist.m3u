@@ -1,3 +1,6 @@
 #EXTM3U
-#EXTINF:-1,Tidak Ada Siaran Langsung Saat Ini
-http://offline.local
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b2f93e9c3851644d017dd42d08e06eb7.png" group-title="CAMEL SPORTS", Wuhan Golden Banks of Two Rivers VS Meizhou Qiangmin [CAMEL LIVE]
+#EXTVLCOPT:http-origin=https://www.camellive.top
+#EXTVLCOPT:http-referrer=https://www.camellive.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://camel-bridge.ahmadadityaberdikari.workers.dev/?id=vjxm8ghe7gj2r6o
