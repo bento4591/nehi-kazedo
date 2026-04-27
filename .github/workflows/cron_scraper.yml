@@ -2,8 +2,6 @@ name: Scheduled M3U8 Scraper (Hybrid)
 
 on:
   schedule:
-    # Mempertahankan ritme 5 menit sesuai siklus kedaluwarsa token server
-    - cron: '*/5 * * * *'
   workflow_dispatch: 
 
 jobs:
