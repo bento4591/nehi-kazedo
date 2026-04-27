@@ -1,27 +1,8 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 
-// URL WORKER CLOUDFLARE ANDA SUDAH DIPASANG
+// URL Worker Jembatan Anda
 const WORKER_URL = "https://camel-bridge.ahmadadityaberdikari.workers.dev"; 
-
-function smartExtractMatches(json) {
-    let matches = [];
-    function searchNode(obj) {
-        if (Array.isArray(obj)) {
-            if (obj.length > 0 && typeof obj[0] === 'object' && obj[0] !== null) {
-                const sampleStr = JSON.stringify(obj[0]).toLowerCase();
-                if (sampleStr.includes('home') && sampleStr.includes('away')) {
-                    matches = matches.concat(obj);
-                }
-            }
-            obj.forEach(searchNode);
-        } else if (typeof obj === 'object' && obj !== null) {
-            Object.values(obj).forEach(searchNode);
-        }
-    }
-    searchNode(json);
-    return matches;
-}
 
 function extractTeamName(teamObj) {
     if (!teamObj) return "Unknown Team";
@@ -30,196 +11,101 @@ function extractTeamName(teamObj) {
 }
 
 (async () => {
-    console.log("[LOG] Memulai Operasi (WORKER BRIDGE + DOM EXTRACTION FIX)...");
+    console.log("[LOG] Memulai Scraper V12.1 (Masking M3U8 & Clean Playlist)...");
     const matchesMap = new Map();
     const database = {}; 
 
-    // ==========================================
-    // FASE 1: DATA INTELLIGENCE (API)
-    // ==========================================
+    // FASE 1: Ambil Data dari API (Untuk Nama & Logo Asli)
     try {
-        const apiResponse = await fetch('https://api.cameltv.live/camel-service/ee/sports_live/home?page=1&size=20', {
+        const apiResponse = await fetch('https://api.cameltv.live/camel-service/ee/sports_live/home?page=1&size=30', {
             headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json',
                 'AppVersion': '20.0.0.0',
                 'Device': 'WEB',
-                'region': 'XM',
-                'node': 'camel1_g2',
-                'deviceId': '07fc8207-5b16-4b3f-b46e-e1f7e986a2aa'
+                'region': 'XM'
             }
         });
-
         const apiJson = await apiResponse.json();
-        const rawMatches = smartExtractMatches(apiJson);
-
-        for (const m of rawMatches) {
-            let id = m.id || m.matchId || m.match_id || m.sv_id || null;
-            if (!id) continue;
-
-            let homeName = extractTeamName(m.homeTeamName || m.home_team || m.homeName || m.home);
-            let awayName = extractTeamName(m.awayTeamName || m.away_team || m.awayName || m.away);
+        
+        // Logika pencarian data pertandingan di dalam JSON API
+        const rows = apiJson.data?.rows || [];
+        rows.forEach(m => {
+            const id = String(m.id || m.matchId).toLowerCase();
+            const home = extractTeamName(m.homeTeamName || m.home_team);
+            const away = extractTeamName(m.awayTeamName || m.away_team);
+            const logo = m.home_team?.logo || m.homeLogo || "https://raw.githubusercontent.com/tsender57-dotcom/offline/refs/heads/main/logo/Logo%20OGI%20Bone.png";
             
-            let logoUrl = "https://raw.githubusercontent.com/tsender57-dotcom/offline/refs/heads/main/logo/Logo%20OGI%20Bone.png";
-            if (m.home_team && m.home_team.logo) logoUrl = m.home_team.logo;
-            else if (m.homeLogo) logoUrl = m.homeLogo;
-            
-            matchesMap.set(String(id).toLowerCase(), {
-                title: `${homeName} VS ${awayName} [CAMEL LIVE]`,
-                logo: logoUrl
-            });
-        }
-    } catch (error) {
-        console.error(`[ERROR] API: ${error.message}`);
-    }
-
-    // ==========================================
-    // FASE 2: EXECUTION ENGINE (PLAYWRIGHT)
-    // ==========================================
-    const targetMainDomain = "https://www.camellive.top"; 
-    const globalUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
+            matchesMap.set(id, { title: `${home} VS ${away}`, logo: logo });
+        });
+    } catch (e) { console.log("[WARN] Gagal akses API, mengandalkan data Web."); }
 
     const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({
-        userAgent: globalUserAgent,
-        viewport: { width: 1280, height: 720 },
-        extraHTTPHeaders: {
-            'Origin': targetMainDomain,
-            'Referer': targetMainDomain + '/'
-        }
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
     });
 
     let playlistContent = "#EXTM3U\n";
-    let streamFoundCount = 0;
+    let found = 0;
 
     try {
         const page = await context.newPage();
-        
-        await page.route('**/*', route => {
-            const type = route.request().resourceType();
-            if (['image', 'stylesheet', 'font'].includes(type)) {
-                route.abort();
-            } else {
-                route.continue();
-            }
-        });
+        await page.goto("https://www.camellive.top/", { waitUntil: 'networkidle', timeout: 60000 });
 
-        await page.goto(targetMainDomain + '/', { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(3000); 
-
-        // LOGIKA PERBAIKAN: Ekstrak Nama & Logo langsung dari HTML Website sebagai Cadangan!
-        const liveLinksData = await page.$$eval('.match-items', cards => {
-            let data = [];
-            for (const card of cards) {
-                if (card.innerText.toUpperCase().includes('LIVE')) {
-                    const aTag = card.querySelector('a.match-items-before');
-                    if (aTag && aTag.href) {
-                        
-                        // Ekstrak nama tim dari URL web (anti-gagal)
-                        let fTitle = "CAMEL LIVE EVENT";
-                        try {
-                            const parts = aTag.href.split('/');
-                            const slug = parts[parts.length - 3];
-                            if(slug) fTitle = slug.replace(/-/g, ' ').toUpperCase();
-                        } catch(e){}
-
-                        // Ekstrak logo dari gambar yang ada di kotak pertandingan
-                        let fLogo = "https://raw.githubusercontent.com/tsender57-dotcom/offline/refs/heads/main/logo/Logo%20OGI%20Bone.png";
-                        const img = card.querySelector('img');
-                        if (img && img.src) fLogo = img.src;
-
-                        data.push({
-                            url: aTag.href,
-                            fallbackTitle: fTitle + " [CAMEL LIVE]",
-                            fallbackLogo: fLogo
-                        });
-                    }
-                }
-            }
-            // Hapus duplikat
-            const unique = [];
-            const urls = new Set();
-            for (const d of data) {
-                if (!urls.has(d.url)) {
-                    urls.add(d.url);
-                    unique.push(d);
-                }
-            }
-            return unique;
-        });
-
-        for (const item of liveLinksData) {
-            try {
-                const link = item.url;
-                const urlParts = link.split('/');
-                let urlId = urlParts[urlParts.length - 1].toLowerCase();
-                if(urlId.includes('?')) urlId = urlId.split('?')[0];
-
-                // Jika API gagal menemukan ID, mesin akan menggunakan data Cadangan dari HTML
-                const matchData = matchesMap.get(urlId) || {
-                    title: item.fallbackTitle,
-                    logo: item.fallbackLogo
-                };
-
-                const streamPage = await context.newPage();
-                let capturedM3u8 = null;
-
-                await streamPage.route('**/*', route => {
-                    const type = route.request().resourceType();
-                    if (['image', 'stylesheet', 'font'].includes(type)) route.abort();
-                    else route.continue();
-                });
-
-                const m3u8Promise = new Promise((resolve) => {
-                    streamPage.on('response', async (response) => {
-                        const resUrl = response.url();
-                        if (resUrl.includes('.m3u8') && (resUrl.includes('txSecret') || resUrl.includes('auth='))) {
-                            capturedM3u8 = resUrl;
-                            resolve(true); 
-                        }
-                    });
-                });
-
-                console.log(`[>>] Eksekusi: ${matchData.title}`);
-                await streamPage.goto(link, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        // AMBIL DATA LANGSUNG DARI HALAMAN WEB (DOM)
+        const liveElements = await page.$$eval('.match-items', cards => {
+            return cards.filter(c => c.innerText.includes('LIVE')).map(c => {
+                const a = c.querySelector('a');
+                const img = c.querySelector('img');
+                const teams = c.querySelectorAll('.team-name'); 
                 
-                const playBtn = streamPage.locator('[class*="play"], video').first();
-                if (await playBtn.isVisible()) {
-                    await playBtn.click().catch(() => {});
-                }
+                return {
+                    url: a ? a.href : null,
+                    webTitle: teams.length >= 2 ? `${teams[0].innerText} VS ${teams[1].innerText}` : null,
+                    webLogo: img ? img.src : null
+                };
+            }).filter(item => item.url !== null);
+        });
 
-                await Promise.race([m3u8Promise, streamPage.waitForTimeout(10000)]);
-                await streamPage.close(); 
+        for (const item of liveElements) {
+            const urlParts = item.url.split('/');
+            const rawId = urlParts[urlParts.length - 1].split('?')[0];
+            const id = rawId.toLowerCase();
 
-                if (capturedM3u8) {
-                    database[urlId] = capturedM3u8;
+            // SINKRONISASI: Cek API dulu, kalau tidak ada pakai data Web
+            const info = matchesMap.get(id) || {
+                title: item.webTitle || "LIVE MATCH " + id.toUpperCase(),
+                logo: item.webLogo || "https://raw.githubusercontent.com/tsender57-dotcom/offline/refs/heads/main/logo/Logo%20OGI%20Bone.png"
+            };
 
-                    playlistContent += `#EXTINF:-1 tvg-logo="${matchData.logo}" group-title="CAMEL SPORTS", ${matchData.title}\n`;
-                    playlistContent += `#EXTVLCOPT:http-origin=${targetMainDomain}\n`;
-                    playlistContent += `#EXTVLCOPT:http-referrer=${targetMainDomain}/\n`;
-                    playlistContent += `#EXTVLCOPT:http-user-agent=${globalUserAgent}\n`;
-                    playlistContent += `${WORKER_URL}/?id=${urlId}\n`;
-                    
-                    streamFoundCount++;
-                }
+            const streamPage = await context.newPage();
+            let m3u8 = null;
 
-            } catch (err) {
-                console.log(`[SKIP] Timeout.`);
+            streamPage.on('response', res => {
+                const u = res.url();
+                if (u.includes('.m3u8') && (u.includes('txSecret') || u.includes('auth'))) m3u8 = u;
+            });
+
+            await streamPage.goto(item.url, { waitUntil: 'domcontentloaded' });
+            await streamPage.waitForTimeout(5000); // Tunggu token muncul
+
+            if (m3u8) {
+                database[id] = m3u8;
+                
+                // Format output yang SUPER BERSIH: Logo, Judul, dan URL Masking .m3u8 (Tanpa Header Tambahan)
+                playlistContent += `#EXTINF:-1 tvg-logo="${info.logo}" group-title="CAMEL SPORTS", ${info.title} [CAMEL LIVE]\n`;
+                playlistContent += `${WORKER_URL}/${id}.m3u8\n`;
+                
+                found++;
+                console.log(`[OK] Berhasil: ${info.title}`);
             }
+            await streamPage.close();
         }
 
         fs.writeFileSync('database.json', JSON.stringify(database, null, 2));
-        
-        if (streamFoundCount > 0) {
-            fs.writeFileSync('playlist.m3u', playlistContent);
-            console.log(`[LOG] Selesai! Tersimpan ${streamFoundCount} stream.`);
-        } else {
-            console.log("[LOG] Tidak ada stream yang sedang live.");
-            fs.writeFileSync('playlist.m3u', "#EXTM3U\n#EXTINF:-1,Tidak Ada Siaran Langsung Saat Ini\nhttp://offline.local");
-        }
+        fs.writeFileSync('playlist.m3u', playlistContent);
+        console.log(`[FINISH] Berhasil mengupdate ${found} siaran.`);
 
-    } catch (error) {
-        console.error(`[ERROR FATAL] ${error.message}`);
+    } catch (err) {
+        console.error("[ERROR]", err);
     } finally {
         await browser.close();
     }
