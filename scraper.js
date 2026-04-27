@@ -1,7 +1,10 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 
-// Logika Pro: Ekstraksi data API cerdas
+// === KAPTEN: GANTI URL INI DENGAN URL WORKER CLOUDFLARE ANDA NANTI ===
+const WORKER_URL = "https://jembatan-camel.username.workers.dev"; 
+// ======================================================================
+
 function smartExtractMatches(json) {
     let matches = [];
     function searchNode(obj) {
@@ -28,12 +31,10 @@ function extractTeamName(teamObj) {
 }
 
 (async () => {
-    console.log("[LOG] Memulai Operasi (ULTIMATE HYBRID: SNIPER + FAST CAPTURE + CLEAN URL)...");
+    console.log("[LOG] Memulai Operasi (WORKER BRIDGE + JSON DATABASE MODE)...");
     const matchesMap = new Map();
+    const database = {}; // Objek untuk menyimpan link M3U8 mentah
 
-    // ==========================================
-    // FASE 1: DATA INTELLIGENCE (API)
-    // ==========================================
     try {
         const apiResponse = await fetch('https://api.cameltv.live/camel-service/ee/sports_live/home?page=1&size=20', {
             headers: {
@@ -71,9 +72,6 @@ function extractTeamName(teamObj) {
         console.error(`[ERROR] API: ${error.message}`);
     }
 
-    // ==========================================
-    // FASE 2: EXECUTION ENGINE (PLAYWRIGHT)
-    // ==========================================
     const targetMainDomain = "https://www.camellive.top"; 
     const globalUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 
@@ -93,7 +91,6 @@ function extractTeamName(teamObj) {
     try {
         const page = await context.newPage();
         
-        // Resource Blocker untuk kecepatan maksimal (Turbo Mode)
         await page.route('**/*', route => {
             const type = route.request().resourceType();
             if (['image', 'stylesheet', 'font'].includes(type)) {
@@ -106,22 +103,19 @@ function extractTeamName(teamObj) {
         await page.goto(targetMainDomain + '/', { waitUntil: 'domcontentloaded', timeout: 30000 });
         await page.waitForTimeout(3000); 
 
-        // LOGIKA SNIPER: Hanya ambil href dari kotak berstatus "LIVE"
         const liveLinks = await page.$$eval('.match-items', cards => {
             let links = [];
             for (const card of cards) {
                 const cardText = card.innerText.toUpperCase();
                 if (cardText.includes('LIVE')) {
                     const aTag = card.querySelector('a.match-items-before');
-                    if (aTag && aTag.href) {
-                        links.push(aTag.href);
-                    }
+                    if (aTag && aTag.href) links.push(aTag.href);
                 }
             }
             return [...new Set(links)];
         });
         
-        console.log(`[LOG] Filter Sniper Aktif! Menemukan ${liveLinks.length} tautan yang PASTI LIVE.`);
+        console.log(`[LOG] Sniper Aktif! Menemukan ${liveLinks.length} tautan LIVE.`);
 
         for (const link of liveLinks) {
             try {
@@ -137,7 +131,6 @@ function extractTeamName(teamObj) {
                 const streamPage = await context.newPage();
                 let capturedM3u8 = null;
 
-                // Resource Blocker di halaman stream
                 await streamPage.route('**/*', route => {
                     const type = route.request().resourceType();
                     if (['image', 'stylesheet', 'font'].includes(type)) {
@@ -147,13 +140,12 @@ function extractTeamName(teamObj) {
                     }
                 });
 
-                // LOGIKA TANGKAPAN TERBAIK ANDA + BALAPAN LOGIKA
                 const m3u8Promise = new Promise((resolve) => {
                     streamPage.on('response', async (response) => {
                         const resUrl = response.url();
                         if (resUrl.includes('.m3u8') && (resUrl.includes('txSecret') || resUrl.includes('auth='))) {
                             capturedM3u8 = resUrl;
-                            resolve(true); // Putus kompas seketika saat URL didapat!
+                            resolve(true); 
                         }
                     });
                 });
@@ -166,24 +158,22 @@ function extractTeamName(teamObj) {
                     await playBtn.click().catch(() => {});
                 }
 
-                // Balapan: Menunggu M3U8 tertangkap ATAU maksimal 10 detik.
-                // Jika detik ke-2 sudah tertangkap, mesin langsung lanjut tanpa menunggu detik ke-10.
-                await Promise.race([
-                    m3u8Promise,
-                    streamPage.waitForTimeout(10000)
-                ]);
-
+                await Promise.race([m3u8Promise, streamPage.waitForTimeout(10000)]);
                 await streamPage.close(); 
 
                 if (capturedM3u8) {
-                    console.log(`[SUCCESS] M3U8 Ditangkap!`);
+                    console.log(`[SUCCESS] M3U8 Ditangkap! Merakit Database dan Playlist...`);
                     
-                    // STRUKTUR MURNI: Header VLC Opt dipisah dengan rapi
+                    // 1. Simpan URL mentah ke dalam Database JSON
+                    database[urlId] = capturedM3u8;
+
+                    // 2. Rakit M3U Playlist menggunakan URL Cloudflare Worker
                     playlistContent += `#EXTINF:-1 tvg-logo="${matchData.logo}" group-title="CAMEL SPORTS", ${matchData.title}\n`;
                     playlistContent += `#EXTVLCOPT:http-origin=${targetMainDomain}\n`;
                     playlistContent += `#EXTVLCOPT:http-referrer=${targetMainDomain}/\n`;
                     playlistContent += `#EXTVLCOPT:http-user-agent=${globalUserAgent}\n`;
-                    playlistContent += `${capturedM3u8}\n`;
+                    playlistContent += `${WORKER_URL}/?id=${urlId}\n`; // Tautan diarahkan ke Worker
+                    
                     streamFoundCount++;
                 }
 
@@ -192,9 +182,12 @@ function extractTeamName(teamObj) {
             }
         }
 
+        // Output Ganda: Simpan Database JSON dan Playlist M3U
+        fs.writeFileSync('database.json', JSON.stringify(database, null, 2));
+        
         if (streamFoundCount > 0) {
             fs.writeFileSync('playlist.m3u', playlistContent);
-            console.log(`[LOG] Selesai! Berhasil menyimpan ${streamFoundCount} stream murni dengan secepat kilat.`);
+            console.log(`[LOG] Selesai! Tersimpan ${streamFoundCount} stream ke database.json dan playlist.m3u`);
         } else {
             console.log("[LOG] Tidak ada stream yang sedang live.");
             fs.writeFileSync('playlist.m3u', "#EXTM3U\n#EXTINF:-1,Tidak Ada Siaran Langsung Saat Ini\nhttp://offline.local");
