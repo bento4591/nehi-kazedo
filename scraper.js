@@ -3,7 +3,8 @@ const fs = require('fs');
 
 const WORKER_URL = "https://camel-bridge.ahmadadityaberdikari.workers.dev"; 
 const targetMainDomain = "https://www.camellive.top"; 
-const globalUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
+// Tetap gunakan UA Chrome untuk proses scraping agar tidak diblokir web
+const scraperUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 
 function smartExtractMatches(json) {
     let matches = [];
@@ -31,7 +32,7 @@ function extractTeamName(teamObj) {
 }
 
 (async () => {
-    console.log("[LOG] Memulai Scraper V12.1 (Full Header, Tanpa #.m3u8)...");
+    console.log("[LOG] Memulai Scraper V12.1 (ExoPlayer UA Injection)...");
     const matchesMap = new Map();
     const database = {}; 
 
@@ -70,7 +71,7 @@ function extractTeamName(teamObj) {
 
     const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({
-        userAgent: globalUserAgent,
+        userAgent: scraperUserAgent,
         viewport: { width: 1280, height: 720 },
         extraHTTPHeaders: { 'Origin': targetMainDomain, 'Referer': targetMainDomain + '/' }
     });
@@ -125,11 +126,11 @@ function extractTeamName(teamObj) {
                 if (capturedM3u8) {
                     database[urlId] = capturedM3u8;
 
-                    // EKSEKUSI FINAL: Header Penuh, URL Bersih tanpa #.m3u8
+                    // EKSEKUSI FINAL: Injeksi UA ExoPlayer Android 15 untuk TV Anda
                     playlistContent += `#EXTINF:-1 tvg-logo="${matchData.logo}" group-title="CAMEL SPORTS", ${matchData.title} [CAMEL LIVE]\n`;
                     playlistContent += `#EXTVLCOPT:http-origin=${targetMainDomain}\n`;
                     playlistContent += `#EXTVLCOPT:http-referrer=${targetMainDomain}/\n`;
-                    playlistContent += `#EXTVLCOPT:http-user-agent=${globalUserAgent}\n`;
+                    playlistContent += `#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0\n`;
                     playlistContent += `${WORKER_URL}/?id=${urlId}\n`;
                     
                     streamFoundCount++;
@@ -145,7 +146,7 @@ function extractTeamName(teamObj) {
         } else {
             fs.writeFileSync('playlist.m3u', "#EXTM3U\n#EXTINF:-1,Tidak Ada Siaran Langsung\nhttp://offline.local");
         }
-        console.log(`[SUKSES] ${streamFoundCount} stream diekstrak dengan URL Bersih!`);
+        console.log(`[SUKSES] ${streamFoundCount} stream diekstrak dengan ExoPlayer UA!`);
 
     } catch (error) {
         console.error(`[ERROR FATAL] ${error.message}`);
