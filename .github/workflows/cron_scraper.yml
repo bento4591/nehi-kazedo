@@ -1,12 +1,17 @@
 name: Scheduled M3U8 Scraper (Hybrid)
 
 on:
-  schedule:
-  workflow_dispatch: 
+  workflow_dispatch: # Wajib ada untuk trigger dari cron-job.org
+  # schedule: # Bagian ini dimatikan karena Anda menggunakan pihak ketiga (cron-job.org)
 
 jobs:
   scrape_and_update:
     runs-on: ubuntu-latest
+    
+    # Memberikan izin menulis agar bot bisa melakukan Push
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -20,7 +25,7 @@ jobs:
 
       - name: Install Playwright & Dependencies
         run: |
-          npm install playwright --no-save
+          npm install playwright
           npx playwright install chromium --with-deps
 
       - name: Run Scraper Engine
@@ -28,17 +33,24 @@ jobs:
 
       - name: Commit and Push Data (M3U + JSON)
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           
-          # LOGIKA PRO 100%: Mesin mengecek keberadaan file, lalu mengangkut KEDUANYA!
-          if [ -f playlist.m3u ] || [ -f database.json ]; then
-            git add playlist.m3u database.json
-            git commit -m "Auto-Update: M3U & Database [$(date)]" || echo "No changes to commit"
-            
-            # Sistem penyapu sampah agar mesin tetap bersih (menghindari error rebase)
-            git stash || true
-            
+          # Cek apakah file ada sebelum di-add untuk menghindari error 'pathspec'
+          if [ -f playlist.m3u ]; then git add playlist.m3u; fi
+          if [ -f database.json ]; then git add database.json; fi
+          
+          # Cek apakah ada perubahan yang perlu di-commit
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan data."
+            exit 0
+          fi
+
+          git commit -m "Auto-Update: M3U & Database [$(date +'%Y-%m-%d %H:%M:%S') WITA]"
+          
+          # Logika Push yang lebih aman (Safe Rebase)
+          if ! git push origin main; then
+            echo "Push gagal, mencoba rebase..."
             git pull --rebase origin main
-            git push
+            git push origin main
           fi
