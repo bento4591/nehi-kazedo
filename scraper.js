@@ -31,7 +31,7 @@ function extractTeamName(teamObj) {
 }
 
 (async () => {
-    console.log("[LOG] Memulai Scraper V12.1 (Full Header + Taktik Jangkar)...");
+    console.log("[LOG] Memulai Scraper V12.1 (Full Header, Tanpa #.m3u8)...");
     const matchesMap = new Map();
     const database = {}; 
 
@@ -125,12 +125,12 @@ function extractTeamName(teamObj) {
                 if (capturedM3u8) {
                     database[urlId] = capturedM3u8;
 
-                    // EKSEKUSI FINAL: Header Penuh + Taktik Jangkar ExoPlayer
+                    // EKSEKUSI FINAL: Header Penuh, URL Bersih tanpa #.m3u8
                     playlistContent += `#EXTINF:-1 tvg-logo="${matchData.logo}" group-title="CAMEL SPORTS", ${matchData.title} [CAMEL LIVE]\n`;
                     playlistContent += `#EXTVLCOPT:http-origin=${targetMainDomain}\n`;
                     playlistContent += `#EXTVLCOPT:http-referrer=${targetMainDomain}/\n`;
                     playlistContent += `#EXTVLCOPT:http-user-agent=${globalUserAgent}\n`;
-                    playlistContent += `${WORKER_URL}/?id=${urlId}#.m3u8\n`;
+                    playlistContent += `${WORKER_URL}/?id=${urlId}\n`;
                     
                     streamFoundCount++;
                 }
@@ -145,7 +145,7 @@ function extractTeamName(teamObj) {
         } else {
             fs.writeFileSync('playlist.m3u', "#EXTM3U\n#EXTINF:-1,Tidak Ada Siaran Langsung\nhttp://offline.local");
         }
-        console.log(`[SUKSES] ${streamFoundCount} stream diekstrak dengan Full Armor!`);
+        console.log(`[SUKSES] ${streamFoundCount} stream diekstrak dengan URL Bersih!`);
 
     } catch (error) {
         console.error(`[ERROR FATAL] ${error.message}`);
