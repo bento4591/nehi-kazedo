@@ -6,6 +6,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
+from collections import defaultdict
 
 # --- KONFIGURASI DASAR ---
 TAG = "STRMSGATE"
@@ -34,6 +35,27 @@ def format_event_name(t1: str, t2: str) -> str:
     if t1 == "TBD": return "TBD"
     return f"{t1.strip()} vs {t2.strip()}"
 
+def parse_universal_time(time_val):
+    """Mesin penerjemah berbagai format waktu kacau dari API menjadi format UTC yang solid"""
+    try:
+        # Jika formatnya angka UNIX (contoh: 1714291200)
+        if isinstance(time_val, (int, float)):
+            return datetime.fromtimestamp(time_val, tz=ZoneInfo("UTC"))
+        if isinstance(time_val, str) and time_val.isdigit():
+            return datetime.fromtimestamp(int(time_val), tz=ZoneInfo("UTC"))
+        
+        # Jika formatnya teks ISO (contoh: 2024-04-28T15:30:00Z)
+        clean = str(time_val).replace("Z", "+00:00").replace("T", " ")
+        try:
+            dt_utc = datetime.fromisoformat(clean)
+            if dt_utc.tzinfo is None: 
+                dt_utc = dt_utc.replace(tzinfo=ZoneInfo("UTC"))
+            return dt_utc
+        except ValueError:
+            return datetime.strptime(clean[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZoneInfo("UTC"))
+    except Exception:
+        return None
+
 async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
     try:
         resp = await client.get(url, timeout=15)
@@ -43,57 +65,51 @@ async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
         ifr = soup.find("iframe")
         
         if not ifr or not ifr.get("src"):
-            print(f"⚠️ [{url_num}] Tidak ada Iframe video di halaman.")
             return None, None
             
-        # Perbaikan: Menggunakan urljoin agar link relatif (seperti /embed/...) tetap terbaca
         ifr_src = urljoin(url, ifr.get("src"))
         
         ifr_resp = await client.get(ifr_src, headers={"Referer": url}, timeout=15)
         ifr_resp.raise_for_status()
         
-        # Perbaikan regex agar lebih luwes mendeteksi tanda kutip 1 atau 2
         valid_m3u8 = re.compile(r"(?:file|source)\s*:\s*['\"]([^'\"]+)['\"]", re.IGNORECASE)
         match = valid_m3u8.search(ifr_resp.text)
         
         if match:
             m3u8_link = match.group(1)
-            print(f"✅ [{url_num}] M3U8 Tertangkap: {m3u8_link.split('?')[0][:60]}...")
             return m3u8_link, ifr_src
         else:
-            print(f"❌ [{url_num}] Iframe ada, tapi tidak ditemukan m3u8 di dalamnya.")
             return None, None
             
-    except Exception as e:
-        print(f"❌ [{url_num}] Gagal memproses URL: {e}")
+    except Exception:
         return None, None
 
 async def scrape():
-    print(f"🚀 Memulai Scraper StreamsGate...")
+    print("🚀 Memulai Scraper StreamsGate MABES ENTERPRISE...")
     now_wib = datetime.now(ZoneInfo("Asia/Jakarta"))
-    headers = { "User-Agent": USER_AGENT, "Accept": "application/json" }
     
+    # Menentukan Jendela Waktu (-3 Jam sampai +4 Jam)
+    window_start = now_wib - timedelta(hours=3)
+    window_end = now_wib + timedelta(hours=4)
+    print(f"🕒 Acuan Server: {now_wib.strftime('%H:%M WIB')}")
+    print(f"🎯 Filter Jendela Tayang: {window_start.strftime('%H:%M WIB')} s/d {window_end.strftime('%H:%M WIB')}")
+
+    headers = { "User-Agent": USER_AGENT, "Accept": "application/json" }
     all_streams = []
     
     async with httpx.AsyncClient(headers=headers, follow_redirects=True) as client:
-        # TAHAP 1: Bongkar API
+        # TAHAP 1: Merampok & Memfilter API
         for sport in SPORTS_TO_SCRAPE:
             api_url = f"{BASE_URL}/data/{sport}.json"
-            print(f"\n📂 Memeriksa API {sport.upper()}...")
             
             try:
                 resp = await client.get(api_url, timeout=10)
-                if resp.status_code != 200:
-                    print(f"⚠️ Akses ditolak/gagal (Status: {resp.status_code})")
-                    continue
+                if resp.status_code != 200: continue
                 events_data = resp.json()
-            except Exception as e:
-                print(f"⚠️ Error jaringan: {e}")
+            except Exception:
                 continue
                 
-            if not events_data:
-                print("   -> Tidak ada jadwal ditemukan.")
-                continue
+            if not events_data: continue
 
             for item in events_data:
                 date_str = item.get("time")
@@ -104,63 +120,75 @@ async def scrape():
                 
                 if not all([date_str, league, t1, t2, streams]): continue
                 
-                match_url = streams[0].get("url")
-                if not match_url: continue
+                dt_utc = parse_universal_time(date_str)
+                if not dt_utc: continue # Abaikan jika waktu benar-benar rusak
                 
-                # --- LOGIKA WAKTU TAHAN BANTING ---
-                try:
-                    clean = str(date_str).replace("Z", "+00:00").replace("T", " ")
-                    # Coba parsing otomatis ala ISO 8601
-                    try:
-                        dt_utc = datetime.fromisoformat(clean)
-                        if dt_utc.tzinfo is None: dt_utc = dt_utc.replace(tzinfo=ZoneInfo("UTC"))
-                    except ValueError:
-                        # Fallback manual
-                        dt_utc = datetime.strptime(clean[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZoneInfo("UTC"))
-                    dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
-                except Exception as e:
-                    print(f"   [Peringatan] Format waktu '{date_str}' aneh. Menggunakan waktu sekarang agar tidak terbuang.")
-                    dt_wib = now_wib
+                dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
                 
-                # Filter: Buang yang kemarin
-                if dt_wib.date() < now_wib.date() - timedelta(days=1):
+                # EKSEKUSI FILTER JENDELA WAKTU KETAT
+                if dt_wib < window_start or dt_wib > window_end:
                     continue
-                    
-                diff_sec = (now_wib - dt_wib).total_seconds()
-                is_live = (0 <= diff_sec <= 14400)
                 
-                time_tag = f"[{dt_wib.strftime('%H:%M WIB')}]"
-                if is_live: time_tag = f"[🔴 LIVE] {time_tag}"
+                # Tentukan Status LIVE (Jika waktu tayang sudah terlewati/sekarang)
+                if dt_wib <= now_wib:
+                    time_tag = f"[🔴 LIVE] [{dt_wib.strftime('%H:%M WIB')}]"
+                else:
+                    time_tag = f"[{dt_wib.strftime('%H:%M WIB')}]"
                     
                 event_name = format_event_name(t1, t2)
-                full_title = f"{time_tag} [{league.upper()}] {event_name} (Gate)"
+                base_title = f"{time_tag} [{league.upper()}] {event_name}"
                 
-                all_streams.append({
-                    "sport": sport,
-                    "title": full_title,
-                    "url": match_url
-                })
+                # Ambil SEMUA server cadangan dari API jika ada
+                for stream_item in streams:
+                    match_url = stream_item.get("url")
+                    if match_url:
+                        all_streams.append({
+                            "sport": sport,
+                            "base_title": base_title,
+                            "url": match_url
+                        })
 
         if not all_streams:
-            print("\n💀 Tidak ada satupun jadwal pertandingan yang masuk filter hari ini.")
+            print("\n💀 Tidak ada pertandingan di dalam Jendela Waktu 7 Jam.")
             return
 
-        print(f"\n🎯 Terkumpul {len(all_streams)} jadwal potensial. Memulai ekstraksi M3U8...")
+        print(f"\n🎯 Terkumpul {len(all_streams)} link potensial. Memulai ekstraksi M3U8...")
         
-        # TAHAP 2: Ekstrak link M3U8
+        # TAHAP 2: Ekstrak M3U8 & Gerbang Anti-Duplikat
         playlist_entries = []
+        seen_m3u8 = set()
+        server_counts = defaultdict(int)
+        
         for i, ev in enumerate(all_streams, start=1):
             m3u8_link, iframe_src = await process_event(client, ev["url"], i)
             
             if m3u8_link and iframe_src:
-                clean_m3u8 = m3u8_link.split("?st")[0]
+                clean_m3u8 = m3u8_link.split("?st")[0].strip()
+                
+                # LOGIKA ANTI-DUPLIKAT SPAM
+                if clean_m3u8 in seen_m3u8:
+                    print(f"🗑️ [SKIP] M3U8 Duplikat ditemukan untuk {ev['base_title']}")
+                    continue
+                
+                seen_m3u8.add(clean_m3u8)
+                
+                # LOGIKA PENAMAAN SERVER CADANGAN
+                base_title = ev["base_title"]
+                server_counts[base_title] += 1
+                count = server_counts[base_title]
+                
+                final_title = f"{base_title} (Gate)"
+                if count > 1:
+                    final_title += f" [S{count}]"
+                    
+                print(f"✅ Harta diamankan: {final_title}")
+                
                 origin_match = re.search(r'(https?://[^/]+)', iframe_src)
                 origin = origin_match.group(1) if origin_match else BASE_URL
-                
                 tvg_id, logo, group_name = get_tv_data(ev["sport"])
                 
                 entry = [
-                    f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tvg_id}" group-title="BONE TV",LIVE {ev["sport"].upper()} - Bone TV | {ev["title"]}',
+                    f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tvg_id}" group-title="BONE TV",LIVE {ev["sport"].upper()} - Bone TV | {final_title}',
                     f'#EXTVLCOPT:http-referrer={iframe_src}',
                     f'#EXTVLCOPT:http-origin={origin}',
                     f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
@@ -169,14 +197,14 @@ async def scrape():
                 ]
                 playlist_entries.extend(entry)
                 
-        # TAHAP 3: Tulis ke File
+        # TAHAP 3: Tulis File
         if playlist_entries:
-            ts = datetime.now().strftime("%Y-%m-%d %H:%M WIB")
+            ts = now_wib.strftime("%Y-%m-%d %H:%M WIB")
             header = ['#EXTM3U', f'# Last Updated: {ts}', '']
             OUTPUT_FILE.write_text("\n".join(header + playlist_entries), encoding="utf-8")
-            print(f"\n🏁 SELESAI! {int(len(playlist_entries)/6)} tayangan berhasil disimpan ke {OUTPUT_FILE}.")
+            print(f"\n🏁 SELESAI! {len(seen_m3u8)} tayangan unik (beserta server cadangan) berhasil disimpan ke {OUTPUT_FILE}.")
         else:
-            print("\n❌ Ekstraksi selesai, tapi nihil. M3U8 disembunyikan/terblokir oleh server.")
+            print("\n❌ Ekstraksi selesai, tapi nihil. Semua link mungkin diblokir server.")
 
 if __name__ == "__main__":
     asyncio.run(scrape())
