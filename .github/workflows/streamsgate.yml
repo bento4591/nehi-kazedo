@@ -2,7 +2,7 @@ name: StreamsGate Updater
 
 on:
   schedule:
-    - cron: '*/10 * * * *' 
+    - cron: '*/30 * * * *' # Berjalan otomatis setiap 30 menit
   workflow_dispatch: # Tombol manual jalan
 
 permissions:
@@ -36,9 +36,15 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          # Menjaring file m3u8 hasil rampokan
-          git add streamsgate.m3u8
+          # Cek dulu apakah file berhasil dibuat oleh script Python
+          if [ -f streamsgate.m3u8 ]; then
+            git add streamsgate.m3u8
+          else
+            echo "File streamsgate.m3u8 tidak ditemukan (Mungkin tidak ada jadwal saat ini). Skip commit."
+            exit 0
+          fi
 
+          # Cek apakah ada perbedaan isi file (jadwal baru)
           if git diff --cached --quiet; then
             echo "Tidak ada jadwal baru, skip commit."
             exit 0
@@ -52,7 +58,7 @@ jobs:
             git stash
             git pull --rebase origin main
             git stash pop
-            git add streamsgate.m3u8
+            git add streamsgate.m3u8 || true
             git commit -m "Update StreamsGate playlist (rebased) [skip ci]" || true
             git push origin main
           fi
