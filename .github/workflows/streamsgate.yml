@@ -1,0 +1,58 @@
+name: StreamsGate Updater
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' 
+  workflow_dispatch: # Tombol manual jalan
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          # Sangat ringan! Tidak butuh Playwright/Chromium sama sekali
+          pip install httpx beautifulsoup4
+
+      - name: Run Scraper
+        run: |
+          echo "Memulai eksekusi StreamsGate..."
+          python streamsgate.py
+
+      - name: Commit & Push safely
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          # Menjaring file m3u8 hasil rampokan
+          git add streamsgate.m3u8
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada jadwal baru, skip commit."
+            exit 0
+          fi
+
+          git commit -m "Update StreamsGate playlist [skip ci]"
+
+          # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
+          if ! git push origin main; then
+            echo "Push tertahan — melakukan rebase aman..."
+            git stash
+            git pull --rebase origin main
+            git stash pop
+            git add streamsgate.m3u8
+            git commit -m "Update StreamsGate playlist (rebased) [skip ci]" || true
+            git push origin main
+          fi
