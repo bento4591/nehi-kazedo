@@ -14,49 +14,63 @@ BASE_URL = "https://streamsgates.io"
 OUTPUT_FILE = Path("streamsgate.m3u8")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
-SPORTS_TO_SCRAPE = ["mlb", "nba", "nhl", "soccer", "ufc"]
+# Kategori Olahraga yang dirampok (cfb dan olympics dibuang)
+SPORTS_TO_SCRAPE = ["soccer", "nfl", "nba", "mlb", "nhl", "ufc", "box", "f1"]
 
-TV_INFO = {
-    "soccer": ("Soccer.Dummy.us", "https://i.postimg.cc/HsWHFvV0/Soccer.png", "Soccer"),
-    "mlb": ("MLB.Baseball.Dummy.us", "https://i.postimg.cc/FsFmwC7K/Baseball3.png", "MLB"),
-    "nba": ("NBA.Basketball.Dummy.us", "https://i.postimg.cc/jdqKB3LW/Basketball-2.png", "NBA"),
-    "nfl": ("Football.Dummy.us", "https://i.postimg.cc/tRNpSGCq/Maxx.png", "NFL"),
-    "nhl": ("NHL.Hockey.Dummy.us", "https://i.postimg.cc/mgMRQ7FR/nhl-logo-png-seeklogo-534236.png", "NHL"),
-    "ufc": ("UFC.Fight.Pass.Dummy.us", "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png", "UFC"),
-    "misc": ("Sports.Dummy.us", "https://i.postimg.cc/qMm0rc3L/247.png", "Random Events")
+# --- KAMUS LOGO BONE TV ---
+# Logo Bawaan Olahraga (Jika tim tidak ada di database)
+SPORT_FALLBACK_LOGOS = {
+    "soccer": "https://i.postimg.cc/HsWHFvV0/Soccer.png",
+    "mlb": "https://i.postimg.cc/FsFmwC7K/Baseball3.png",
+    "nba": "https://i.postimg.cc/jdqKB3LW/Basketball-2.png",
+    "nfl": "https://i.postimg.cc/tRNpSGCq/Maxx.png",
+    "nhl": "https://i.postimg.cc/mgMRQ7FR/nhl-logo-png-seeklogo-534236.png",
+    "ufc": "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png",
+    "box": "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png",
+    "f1": "https://i.postimg.cc/Vv8M1Q30/F1.png",
+    "misc": "https://i.postimg.cc/qMm0rc3L/247.png"
 }
 
-def get_tv_data(sport_name):
-    key = sport_name.lower().strip()
-    return TV_INFO.get(key, TV_INFO["misc"])
+# Kamus Logo Tim Raksasa (Silakan Kapten tambahkan sendiri ke depannya)
+TEAM_LOGOS = {
+    # NBA
+    "los angeles lakers": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+    "boston celtics": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+    "golden state warriors": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+    "miami heat": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+    "chicago bulls": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+    # Soccer - EPL
+    "manchester united": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "arsenal": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "chelsea": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "manchester city": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "tottenham hotspur": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    # Soccer - La Liga
+    "real madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "atlético madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    # Soccer - Serie A
+    "juventus": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+    "ac milan": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "internazionale": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+    # Soccer - Others
+    "bayern munich": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "paris saint-germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
+}
+
+def get_logo(team_name, sport):
+    """Pencari Logo Otomatis: Cek kamus tim dulu, jika tidak ada pakai logo default olahraga"""
+    clean_name = str(team_name).lower().strip()
+    return TEAM_LOGOS.get(clean_name, SPORT_FALLBACK_LOGOS.get(sport, SPORT_FALLBACK_LOGOS["misc"]))
 
 def format_event_name(t1: str, t2: str) -> str:
     if t1 == "RED ZONE": return "NFL RedZone"
     if t1 == "TBD": return "TBD"
     return f"{t1.strip()} vs {t2.strip()}"
 
-def parse_universal_time(time_val):
-    """Mesin penerjemah berbagai format waktu kacau dari API menjadi format UTC yang solid"""
-    try:
-        # Jika formatnya angka UNIX (contoh: 1714291200)
-        if isinstance(time_val, (int, float)):
-            return datetime.fromtimestamp(time_val, tz=ZoneInfo("UTC"))
-        if isinstance(time_val, str) and time_val.isdigit():
-            return datetime.fromtimestamp(int(time_val), tz=ZoneInfo("UTC"))
-        
-        # Jika formatnya teks ISO (contoh: 2024-04-28T15:30:00Z)
-        clean = str(time_val).replace("Z", "+00:00").replace("T", " ")
-        try:
-            dt_utc = datetime.fromisoformat(clean)
-            if dt_utc.tzinfo is None: 
-                dt_utc = dt_utc.replace(tzinfo=ZoneInfo("UTC"))
-            return dt_utc
-        except ValueError:
-            return datetime.strptime(clean[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZoneInfo("UTC"))
-    except Exception:
-        return None
-
 async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
+    """Mengekstrak iframe dan M3U8"""
     try:
         resp = await client.get(url, timeout=15)
         resp.raise_for_status()
@@ -64,8 +78,7 @@ async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
         soup = BeautifulSoup(resp.text, "html.parser")
         ifr = soup.find("iframe")
         
-        if not ifr or not ifr.get("src"):
-            return None, None
+        if not ifr or not ifr.get("src"): return None, None
             
         ifr_src = urljoin(url, ifr.get("src"))
         
@@ -76,8 +89,7 @@ async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
         match = valid_m3u8.search(ifr_resp.text)
         
         if match:
-            m3u8_link = match.group(1)
-            return m3u8_link, ifr_src
+            return match.group(1), ifr_src
         else:
             return None, None
             
@@ -98,9 +110,11 @@ async def scrape():
     all_streams = []
     
     async with httpx.AsyncClient(headers=headers, follow_redirects=True) as client:
-        # TAHAP 1: Merampok & Memfilter API
+        # TAHAP 1: Bongkar JSON dengan Acuan UNIX Timestamp
         for sport in SPORTS_TO_SCRAPE:
-            api_url = f"{BASE_URL}/data/{sport}.json"
+            # Gunakan timestamp cache-busting agar tidak mendapat data usang
+            cache_buster = int(datetime.now().timestamp() * 1000)
+            api_url = f"{BASE_URL}/data/{sport}.json?_={cache_buster}"
             
             try:
                 resp = await client.get(api_url, timeout=10)
@@ -112,44 +126,51 @@ async def scrape():
             if not events_data: continue
 
             for item in events_data:
-                date_str = item.get("time")
+                ts_unix = item.get("timestamp")
                 league = item.get("league")
-                t1 = item.get("away")
-                t2 = item.get("home")
+                t1_home = item.get("home")
+                t2_away = item.get("away")
                 streams = item.get("streams")
                 
-                if not all([date_str, league, t1, t2, streams]): continue
+                if not all([ts_unix, league, t1_home, t2_away, streams]): continue
                 
-                dt_utc = parse_universal_time(date_str)
-                if not dt_utc: continue # Abaikan jika waktu benar-benar rusak
+                # --- MESIN WAKTU UNIX ---
+                try:
+                    dt_utc = datetime.fromtimestamp(int(ts_unix), tz=ZoneInfo("UTC"))
+                    dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
+                except Exception:
+                    continue # Lewati jika gagal konversi angka
                 
-                dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
-                
-                # EKSEKUSI FILTER JENDELA WAKTU KETAT
+                # --- FILTER JENDELA WAKTU KETAT (7 JAM) ---
                 if dt_wib < window_start or dt_wib > window_end:
                     continue
                 
-                # Tentukan Status LIVE (Jika waktu tayang sudah terlewati/sekarang)
+                # --- STATUS LIVE ---
                 if dt_wib <= now_wib:
                     time_tag = f"[🔴 LIVE] [{dt_wib.strftime('%H:%M WIB')}]"
                 else:
                     time_tag = f"[{dt_wib.strftime('%H:%M WIB')}]"
                     
-                event_name = format_event_name(t1, t2)
+                event_name = format_event_name(t1_home, t2_away)
                 base_title = f"{time_tag} [{league.upper()}] {event_name}"
                 
-                # Ambil SEMUA server cadangan dari API jika ada
+                # Cari Logo Tuan Rumah
+                team_logo = get_logo(t1_home, sport)
+                
+                # Ambil SEMUA URL dari array "streams"
                 for stream_item in streams:
                     match_url = stream_item.get("url")
                     if match_url:
                         all_streams.append({
                             "sport": sport,
                             "base_title": base_title,
-                            "url": match_url
+                            "url": match_url,
+                            "logo": team_logo,
+                            "tvg_id": f"{sport.upper()}.Dummy.us"
                         })
 
         if not all_streams:
-            print("\n💀 Tidak ada pertandingan di dalam Jendela Waktu 7 Jam.")
+            print("\n💀 Tidak ada pertandingan di dalam Jendela Waktu 7 Jam saat ini.")
             return
 
         print(f"\n🎯 Terkumpul {len(all_streams)} link potensial. Memulai ekstraksi M3U8...")
@@ -165,14 +186,13 @@ async def scrape():
             if m3u8_link and iframe_src:
                 clean_m3u8 = m3u8_link.split("?st")[0].strip()
                 
-                # LOGIKA ANTI-DUPLIKAT SPAM
+                # BUANG LINK SPAM (SAMA PERSIS)
                 if clean_m3u8 in seen_m3u8:
-                    print(f"🗑️ [SKIP] M3U8 Duplikat ditemukan untuk {ev['base_title']}")
                     continue
                 
                 seen_m3u8.add(clean_m3u8)
                 
-                # LOGIKA PENAMAAN SERVER CADANGAN
+                # LOGIKA PENAMAAN SERVER CADANGAN [S2], [S3]
                 base_title = ev["base_title"]
                 server_counts[base_title] += 1
                 count = server_counts[base_title]
@@ -185,10 +205,9 @@ async def scrape():
                 
                 origin_match = re.search(r'(https?://[^/]+)', iframe_src)
                 origin = origin_match.group(1) if origin_match else BASE_URL
-                tvg_id, logo, group_name = get_tv_data(ev["sport"])
                 
                 entry = [
-                    f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tvg_id}" group-title="BONE TV",LIVE {ev["sport"].upper()} - Bone TV | {final_title}',
+                    f'#EXTINF:-1 tvg-logo="{ev["logo"]}" tvg-id="{ev["tvg_id"]}" group-title="BONE TV",LIVE {ev["sport"].upper()} - Bone TV | {final_title}',
                     f'#EXTVLCOPT:http-referrer={iframe_src}',
                     f'#EXTVLCOPT:http-origin={origin}',
                     f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
@@ -202,9 +221,9 @@ async def scrape():
             ts = now_wib.strftime("%Y-%m-%d %H:%M WIB")
             header = ['#EXTM3U', f'# Last Updated: {ts}', '']
             OUTPUT_FILE.write_text("\n".join(header + playlist_entries), encoding="utf-8")
-            print(f"\n🏁 SELESAI! {len(seen_m3u8)} tayangan unik (beserta server cadangan) berhasil disimpan ke {OUTPUT_FILE}.")
+            print(f"\n🏁 SELESAI! {len(seen_m3u8)} tayangan unik berhasil disimpan ke {OUTPUT_FILE}.")
         else:
-            print("\n❌ Ekstraksi selesai, tapi nihil. Semua link mungkin diblokir server.")
+            print("\n❌ Ekstraksi selesai, tapi nihil. M3U8 mungkin diblokir oleh server web.")
 
 if __name__ == "__main__":
     asyncio.run(scrape())
