@@ -20,14 +20,14 @@ SPORTS_TO_SCRAPE = ["soccer", "nfl", "nba", "mlb", "nhl", "ufc", "box", "f1"]
 # --- KAMUS LOGO BONE TV ---
 # Logo Bawaan Olahraga (Jika tim tidak ada di database)
 SPORT_FALLBACK_LOGOS = {
-    "soccer": "https://i.postimg.cc/HsWHFvV0/Soccer.png",
-    "mlb": "https://i.postimg.cc/FsFmwC7K/Baseball3.png",
-    "nba": "https://i.postimg.cc/jdqKB3LW/Basketball-2.png",
-    "nfl": "https://i.postimg.cc/tRNpSGCq/Maxx.png",
-    "nhl": "https://i.postimg.cc/mgMRQ7FR/nhl-logo-png-seeklogo-534236.png",
-    "ufc": "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png",
+    "soccer": "https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png",
+    "mlb": "https://images.seeklogo.com/logo-png/28/1/mlb-com-logo-png_seeklogo-288672.png",
+    "nba": "https://images.seeklogo.com/logo-png/24/1/nba-logo-png_seeklogo-247736.png",
+    "nfl": "https://images.seeklogo.com/logo-png/37/1/nfl-logo-png_seeklogo-375127.png",
+    "nhl": "https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png",
+    "ufc": "https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png",
     "box": "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png",
-    "f1": "https://i.postimg.cc/Vv8M1Q30/F1.png",
+    "f1": "https://images.seeklogo.com/logo-png/33/1/formula-1-logo-png_seeklogo-330361.png",
     "misc": "https://i.postimg.cc/qMm0rc3L/247.png"
 }
 
