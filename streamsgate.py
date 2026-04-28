@@ -14,7 +14,7 @@ BASE_URL = "https://streamsgates.io"
 OUTPUT_FILE = Path("streamsgate.m3u8")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
-# Kategori Olahraga yang dirampok (cfb dan olympics dibuang)
+# Kategori Olahraga yang dirampok
 SPORTS_TO_SCRAPE = ["soccer", "nfl", "nba", "mlb", "nhl", "ufc", "box", "f1"]
 
 # --- KAMUS LOGO BONE TV ---
@@ -127,12 +127,11 @@ async def scrape():
 
             for item in events_data:
                 ts_unix = item.get("timestamp")
-                league = item.get("league")
                 t1_home = item.get("home")
                 t2_away = item.get("away")
                 streams = item.get("streams")
                 
-                if not all([ts_unix, league, t1_home, t2_away, streams]): continue
+                if not all([ts_unix, t1_home, t2_away, streams]): continue
                 
                 # --- MESIN WAKTU UNIX ---
                 try:
@@ -152,7 +151,9 @@ async def scrape():
                     time_tag = f"[{dt_wib.strftime('%H:%M WIB')}]"
                     
                 event_name = format_event_name(t1_home, t2_away)
-                base_title = f"{time_tag} [{league.upper()}] {event_name}"
+                
+                # FORMAT BARU YANG LEBIH RAMPING DAN ELEGAN
+                base_title = f"{time_tag} [{sport.upper()}] {event_name}"
                 
                 # Cari Logo Tuan Rumah
                 team_logo = get_logo(t1_home, sport)
@@ -206,8 +207,9 @@ async def scrape():
                 origin_match = re.search(r'(https?://[^/]+)', iframe_src)
                 origin = origin_match.group(1) if origin_match else BASE_URL
                 
+                # FORMAT OUTPUT BARU (TANPA EMBEL-EMBEL BERLEBIHAN)
                 entry = [
-                    f'#EXTINF:-1 tvg-logo="{ev["logo"]}" tvg-id="{ev["tvg_id"]}" group-title="BONE TV",LIVE {ev["sport"].upper()} - Bone TV | {final_title}',
+                    f'#EXTINF:-1 tvg-logo="{ev["logo"]}" tvg-id="{ev["tvg_id"]}" group-title="BONE TV",{final_title}',
                     f'#EXTVLCOPT:http-referrer={iframe_src}',
                     f'#EXTVLCOPT:http-origin={origin}',
                     f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
