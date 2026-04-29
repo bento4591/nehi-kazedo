@@ -128,8 +128,11 @@ async def main():
                 tvg_id, logo, group_name = get_tv_data(league)
                 full_title = f"[🔴 LIVE] [{league.upper()}] {title} - WFTY"
                 
+                # PERBAIKAN: Menambahkan kembali Origin dan Referer
                 all_streams.append([
                     f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{tvg_id}" group-title="BONE TV - Watchfooty",{full_title}',
+                    f'#EXTVLCOPT:http-referrer=https://sportsembed.su/',
+                    f'#EXTVLCOPT:http-origin=https://sportsembed.su',
                     f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
                     proxied_url,
                     ''
