@@ -1,9 +1,9 @@
-name: Watchfooty Updater
+name: Watchfooty Updater (Playwright + Proxy)
 
 on:
   schedule:
     - cron: '*/10 * * * *' 
-  workflow_dispatch: # Tombol pemicu manual
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,43 +23,36 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Sangat ringan! Playwright sudah diistirahatkan.
-          # Hanya butuh 'requests' untuk menembak API WFTY.
-          pip install requests
+          pip install requests playwright bs4
+          playwright install chromium
 
-      - name: Run Watchfooty Scraper
-        run: |
-          echo "Memulai eksekusi radar Watchfooty..."
-          python update_watchfooty.py
+      - name: Run Scraper
+        run: python update_watchfooty.py
 
-      - name: Commit & Push safely
+      - name: Commit & Push
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          # Cek dulu apakah file m3u8 berhasil dibuat oleh script Python
           if [ -f Watchfooty_BoneTV.m3u8 ]; then
             git add Watchfooty_BoneTV.m3u8
           else
-            echo "File Watchfooty_BoneTV.m3u8 tidak ditemukan (Mungkin tidak ada jadwal LIVE). Skip commit."
+            echo "File M3U8 tidak ditemukan. Skip commit."
             exit 0
           fi
 
-          # Cek apakah ada perbedaan isi file (jadwal baru)
           if git diff --cached --quiet; then
-            echo "Tidak ada perubahan jadwal baru, skip commit."
+            echo "Tidak ada perubahan, skip commit."
             exit 0
           fi
 
-          git commit -m "Update Watchfooty playlist [skip ci]"
+          git commit -m "Update Watchfooty (Playwright Proxy) [skip ci]"
 
-          # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
           if ! git push origin main; then
-            echo "Push tertahan — melakukan rebase aman..."
             git stash
             git pull --rebase origin main
             git stash pop
             git add Watchfooty_BoneTV.m3u8 || true
-            git commit -m "Update Watchfooty playlist (rebased) [skip ci]" || true
+            git commit -m "Update Watchfooty (rebased) [skip ci]" || true
             git push origin main
           fi
