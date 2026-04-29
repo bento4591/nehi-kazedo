@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 # --- KONFIGURASI UTAMA ---
 # GANTI INI dengan URL Cloudflare Worker Anda nanti
-WORKER_RESOLVER_URL = "https://URL_WORKER_KAPTEN.workers.dev"
+WORKER_RESOLVER_URL = "https://watchfooty99.iwansandra1974.workers.dev/"
 
 BASE_DOMAIN = "watchfooty.st"
 API_URL = f"https://api.{BASE_DOMAIN}"
