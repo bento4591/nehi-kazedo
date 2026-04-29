@@ -1,0 +1,65 @@
+name: Watchfooty Updater
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' 
+  workflow_dispatch: # Tombol pemicu manual
+
+permissions:
+  contents: write
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          # Sangat ringan! Playwright sudah diistirahatkan.
+          # Hanya butuh 'requests' untuk menembak API WFTY.
+          pip install requests
+
+      - name: Run Watchfooty Scraper
+        run: |
+          echo "Memulai eksekusi radar Watchfooty..."
+          python update_watchfooty.py
+
+      - name: Commit & Push safely
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          # Cek dulu apakah file m3u8 berhasil dibuat oleh script Python
+          if [ -f Watchfooty_BoneTV.m3u8 ]; then
+            git add Watchfooty_BoneTV.m3u8
+          else
+            echo "File Watchfooty_BoneTV.m3u8 tidak ditemukan (Mungkin tidak ada jadwal LIVE). Skip commit."
+            exit 0
+          fi
+
+          # Cek apakah ada perbedaan isi file (jadwal baru)
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan jadwal baru, skip commit."
+            exit 0
+          fi
+
+          git commit -m "Update Watchfooty playlist [skip ci]"
+
+          # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
+          if ! git push origin main; then
+            echo "Push tertahan — melakukan rebase aman..."
+            git stash
+            git pull --rebase origin main
+            git stash pop
+            git add Watchfooty_BoneTV.m3u8 || true
+            git commit -m "Update Watchfooty playlist (rebased) [skip ci]" || true
+            git push origin main
+          fi
