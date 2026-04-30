@@ -1,17 +1,17 @@
 #EXTM3U
-# Last Updated: 2026-04-30 07:55 WIB
+# Last Updated: 2026-04-30 08:00 WIB
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/det.png" tvg-id="NBA.Dummy.us" group-title="BONE TV",[🔴 LIVE] [06:00 WIB] [NBA] Detroit Pistons vs Orlando Magic (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA1
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NBA1/index.m3u8
+https://instreams.live/US/NBA1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/cle.png" tvg-id="NBA.Dummy.us" group-title="BONE TV",[🔴 LIVE] [06:30 WIB] [NBA] Cleveland Cavaliers vs Toronto Raptors (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA2
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NBA2/index.m3u8
+https://instreams.live/US/NBA2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/lal.png" tvg-id="NBA.Dummy.us" group-title="BONE TV",[09:00 WIB] [NBA] Los Angeles Lakers vs Houston Rockets (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA3
@@ -29,10 +29,10 @@ https://instreams.live/US/NHL1/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NHL2
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NHL2/index.m3u8
+https://instreams.pro/US/NHL2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.Dummy.us" group-title="BONE TV",[09:00 WIB] [NHL] Vegas Golden Knights vs Utah Mammoth (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NHL3
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NHL3/index.m3u8
+https://instreams.pro/US/NHL3/index.m3u8
