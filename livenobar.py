@@ -51,8 +51,8 @@ def main():
                             # Jika timestamp gagal, pakai waktu teks bawaan API
                             kick_off_time = match.get("match_time", "LIVE")
 
-                        # Merakit Judul Tampilan Akhir
-                        display_title = f"[🔴 LIVE {kick_off_time}] {title}"
+                        # Merakit Judul Tampilan Akhir dengan label [Seru]
+                        display_title = f"[🔴 LIVE {kick_off_time}] {title} [Seru]"
 
                         # 4. Mengekstrak Link M3U8
                         live_sources = match.get("live_sources", [])
@@ -65,9 +65,9 @@ def main():
                                 
                                 print(f"  ✅ {display_title} -> {m3u8_url}")
                                 
-                                # Merakit Playlist dengan Logo dan Jam
+                                # Merakit Playlist (Batas potong karakter dilepas)
                                 all_streams.append([
-                                    f'#EXTINF:-1 tvg-logo="{home_logo}" group-title="BONE TV - Livenobar",{display_title[:70]}',
+                                    f'#EXTINF:-1 tvg-logo="{home_logo}" group-title="BONE TV - Livenobar",{display_title}',
                                     f'#EXTVLCOPT:http-referrer={REFERER}',
                                     f'#EXTVLCOPT:http-origin={ORIGIN}',
                                     f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
@@ -75,7 +75,7 @@ def main():
                                     ''
                                 ])
 
-        print(f"🎯 Ditemukan {len(all_streams)} link M3U8 murni dengan logo dan jadwal.")
+        print(f"🎯 Ditemukan {len(all_streams)} link M3U8 murni dengan logo, jadwal, dan label [Seru].")
 
     except Exception as e:
         print(f"❌ Terjadi kesalahan fatal saat menyadap API: {e}")
