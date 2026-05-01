@@ -12,14 +12,13 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 OUTPUT_FILE = "Livenobar_BoneTV.m3u8"
 
 async def extract_m3u8(context, match_url, match_title):
-    """Fungsi intelijen untuk masuk ke halaman pertandingan dan mengendus M3U8"""
+    """Fungsi intelijen Brutal-Force untuk masuk ke halaman dan menekan Play"""
     page = await context.new_page()
     m3u8_link = None
 
-    # Pasang Radar Network
+    # Pasang Radar Network untuk menangkap m3u8 dari sportnobar.xyz dll
     def handle_request(request):
         nonlocal m3u8_link
-        # Cari file .m3u8, abaikan iklan atau master playlist palsu jika ada
         if ".m3u8" in request.url and "ad" not in request.url.lower() and not m3u8_link:
             m3u8_link = request.url
 
@@ -29,17 +28,26 @@ async def extract_m3u8(context, match_url, match_title):
         print(f"  🔍 Mengendus: {match_title}")
         await page.goto(match_url, wait_until="domcontentloaded", timeout=25000)
         
-        # Tunggu sebentar agar player video merender dan memanggil M3U8
-        await page.wait_for_timeout(5000) 
+        # Tunggu loading player Next.js
+        await page.wait_for_timeout(4000) 
         
-        # Pancing video agar berputar jika belum
-        try:
-            play_btn = page.locator("button.vjs-big-play-button, .play-wrapper").first
-            if await play_btn.count() > 0:
-                await play_btn.click(timeout=2000)
-                await page.wait_for_timeout(3000)
-        except:
-            pass
+        print("  ▶️ Menembakkan klik ke tombol Play Kuning...")
+        # Taktik Brutal: Klik tepat di tengah layar (koordinat 640x360 dari resolusi 1280x720)
+        await page.mouse.click(640, 360)
+        await page.wait_for_timeout(1000)
+        
+        # Jaga-jaga jika tombolnya butuh klik dua kali atau berada di dalam iframe
+        await page.mouse.click(640, 360)
+        
+        # Jika player berupa Iframe, kita sapu semua iframe dan klik di tengahnya
+        for frame in page.frames:
+            try:
+                # Klik area player dalam iframe
+                await frame.locator("body").click(position={"x": 300, "y": 200}, force=True, timeout=2000)
+            except: pass
+
+        # Tunggu 5 detik agar video merender dan M3U8 tertangkap radar
+        await page.wait_for_timeout(5000) 
 
     except Exception as e:
         print(f"  ❌ Gagal memuat halaman: {e}")
@@ -50,13 +58,15 @@ async def extract_m3u8(context, match_url, match_title):
     return m3u8_link
 
 async def main():
-    print("🚀 Memulai Radar LivenobarSeru MABES ENTERPRISE...")
+    print("🚀 Memulai Radar LivenobarSeru MABES ENTERPRISE (Mode Brutal)...")
     all_streams = []
 
     async with async_playwright() as p:
-        # Jalankan Chromium dengan penyamaran penuh
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+        
+        # Kunci resolusi layar agar klik koordinat tengah (640,360) selalu akurat
         context = await browser.new_context(
+            viewport={'width': 1280, 'height': 720},
             user_agent=USER_AGENT,
             extra_http_headers={
                 "Origin": ORIGIN,
@@ -70,33 +80,38 @@ async def main():
         try:
             print("Membuka halaman utama...")
             await main_page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
-            await main_page.wait_for_timeout(4000) # Biarkan list pertandingan termuat sempurna
+            await main_page.wait_for_timeout(5000) # Biarkan Next.js merender seluruh blok
             
-            print("Mencari pertandingan LIVE (Status 'Tonton')...")
+            print("Menyapu bersih link pertandingan LIVE (Status 'Tonton')...")
             
-            # TAKTIK BARU: Mencari tag <a> yang membungkus span berteks "Tonton"
-            # Berdasarkan inspeksi elemen Kapten yang sangat akurat
-            match_elements = await main_page.locator("a").filter(has=main_page.locator("span", has_text="Tonton")).all()
+            # TAKTIK BARU: Evaluasi Javascript Murni di Browser (Kebal dari bug locator)
+            matches = await main_page.evaluate("""() => {
+                let results = [];
+                // Sapu semua tag link di halaman
+                document.querySelectorAll('a').forEach(a => {
+                    // Jika teks di dalamnya mengandung kata "Tonton"
+                    if (a.innerText && a.innerText.includes('Tonton')) {
+                        results.push({
+                            url: a.href,
+                            raw_title: a.innerText
+                        });
+                    }
+                });
+                return results;
+            }""")
 
             target_links = []
-            for el in match_elements:
-                href = await el.get_attribute("href")
-                if href:
-                    # Gabungkan URL jika path-nya relatif
-                    full_url = href if href.startswith("http") else f"{ORIGIN}{href}"
-                    
-                    # Ambil semua teks di dalam kotak tersebut
-                    raw_text = await el.inner_text()
-                    
-                    # Pembersih Judul Tempur:
-                    # Mengubah newline menjadi spasi, menghapus kata 'Tonton', dan merapikan spasi ganda
-                    clean_title = re.sub(r'\s+', ' ', raw_text).replace('Tonton', '').strip()
-                    # Menghapus angka skor jika menempel (opsional, tapi membuat judul lebih rapi)
-                    clean_title = re.sub(r'\s\d+\s', ' vs ', clean_title) 
-                    
-                    target_links.append({"url": full_url, "title": clean_title})
+            for m in matches:
+                full_url = m['url']
+                
+                # Pembersih Judul Tempur:
+                # Menghapus spasi berlebih, enter, kata Tonton, dan mengganti skor jadi 'vs'
+                clean_title = re.sub(r'\s+', ' ', m['raw_title']).replace('Tonton', '').strip()
+                clean_title = re.sub(r'\s\d+\s', ' vs ', clean_title) 
+                
+                target_links.append({"url": full_url, "title": clean_title})
 
-            # Hapus duplikat link (jika web meload dua elemen yang sama)
+            # Hapus duplikat link
             unique_targets = {v['url']:v for v in target_links}.values()
             
             print(f"🎯 Ditemukan {len(unique_targets)} pertandingan LIVE (Tonton).")
@@ -118,7 +133,7 @@ async def main():
                         ''
                     ])
                 else:
-                    print("  ⚠️ M3U8 tidak terdeteksi.")
+                    print("  ⚠️ M3U8 tidak terdeteksi (Tombol kuning meleset atau enkripsi kuat).")
 
         except Exception as e:
             print(f"Terjadi kesalahan utama: {e}")
@@ -135,7 +150,7 @@ async def main():
             f.write("\n".join(header + flat_list))
         print(f"\n🏁 SELESAI! {len(all_streams)} link berhasil disimpan ke {OUTPUT_FILE}.")
     else:
-        print("\n💀 Operasi selesai, namun tidak ada M3U8 yang berhasil diekstrak (Mungkin enkripsi kuat atau sedang tidak ada live).")
+        print("\n💀 Operasi selesai, namun tidak ada M3U8 yang berhasil diekstrak.")
 
 if __name__ == "__main__":
     asyncio.run(main())
