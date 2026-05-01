@@ -1,144 +1,65 @@
-import asyncio
-import re
+import json
+import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from playwright.async_api import async_playwright
 
 # --- KONFIGURASI MABES ENTERPRISE ---
-BASE_URL = "https://stream.livenobarseru.com/id"
+API_URL = "https://apiy.cdnsport.xyz/api/v1/fixtures/live"
 ORIGIN = "https://stream.livenobarseru.com"
 REFERER = "https://stream.livenobarseru.com/"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 OUTPUT_FILE = "Livenobar_BoneTV.m3u8"
 
-async def extract_m3u8(context, match_url, match_title):
-    """Fungsi intelijen Brutal-Force untuk masuk ke halaman dan menekan Play"""
-    page = await context.new_page()
-    m3u8_link = None
-
-    # Pasang Radar Network untuk menangkap m3u8 dari sportnobar.xyz dll
-    def handle_request(request):
-        nonlocal m3u8_link
-        if ".m3u8" in request.url and "ad" not in request.url.lower() and not m3u8_link:
-            m3u8_link = request.url
-
-    page.on("request", handle_request)
-
-    try:
-        print(f"  🔍 Mengendus: {match_title}")
-        await page.goto(match_url, wait_until="domcontentloaded", timeout=25000)
-        
-        # Tunggu loading player Next.js
-        await page.wait_for_timeout(4000) 
-        
-        print("  ▶️ Menembakkan klik ke tombol Play Kuning...")
-        # Taktik Brutal: Klik tepat di tengah layar (koordinat 640x360 dari resolusi 1280x720)
-        await page.mouse.click(640, 360)
-        await page.wait_for_timeout(1000)
-        
-        # Jaga-jaga jika tombolnya butuh klik dua kali atau berada di dalam iframe
-        await page.mouse.click(640, 360)
-        
-        # Jika player berupa Iframe, kita sapu semua iframe dan klik di tengahnya
-        for frame in page.frames:
-            try:
-                # Klik area player dalam iframe
-                await frame.locator("body").click(position={"x": 300, "y": 200}, force=True, timeout=2000)
-            except: pass
-
-        # Tunggu 5 detik agar video merender dan M3U8 tertangkap radar
-        await page.wait_for_timeout(5000) 
-
-    except Exception as e:
-        print(f"  ❌ Gagal memuat halaman: {e}")
-    finally:
-        page.remove_listener("request", handle_request)
-        await page.close()
-
-    return m3u8_link
-
-async def main():
-    print("🚀 Memulai Radar LivenobarSeru MABES ENTERPRISE (Mode Brutal)...")
+def main():
+    print("🚀 Memulai Radar API LivenobarSeru MABES ENTERPRISE (Jalur VIP)...")
     all_streams = []
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-        
-        # Kunci resolusi layar agar klik koordinat tengah (640,360) selalu akurat
-        context = await browser.new_context(
-            viewport={'width': 1280, 'height': 720},
-            user_agent=USER_AGENT,
-            extra_http_headers={
-                "Origin": ORIGIN,
-                "Referer": REFERER,
-                "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
-            }
-        )
-        
-        main_page = await context.new_page()
-        
-        try:
-            print("Membuka halaman utama...")
-            await main_page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
-            await main_page.wait_for_timeout(5000) # Biarkan Next.js merender seluruh blok
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Origin": ORIGIN,
+        "Referer": REFERER,
+        "Accept": "application/json"
+    }
+
+    try:
+        print(f"Menyadap data dari: {API_URL}")
+        response = requests.get(API_URL, headers=headers, timeout=15)
+        response.raise_for_status()
+        data_json = response.json()
+
+        if data_json.get("success") and data_json.get("data"):
+            sports = data_json["data"]
             
-            print("Menyapu bersih link pertandingan LIVE (Status 'Tonton')...")
-            
-            # TAKTIK BARU: Evaluasi Javascript Murni di Browser (Kebal dari bug locator)
-            matches = await main_page.evaluate("""() => {
-                let results = [];
-                // Sapu semua tag link di halaman
-                document.querySelectorAll('a').forEach(a => {
-                    // Jika teks di dalamnya mengandung kata "Tonton"
-                    if (a.innerText && a.innerText.includes('Tonton')) {
-                        results.push({
-                            url: a.href,
-                            raw_title: a.innerText
-                        });
-                    }
-                });
-                return results;
-            }""")
+            # Membongkar brankas JSON
+            for sport in sports:
+                for league in sport.get("leagues", []):
+                    for match in league.get("matches", []):
+                        title = match.get("title", "Live Match").replace(" VS ", " vs ")
+                        live_sources = match.get("live_sources", [])
 
-            target_links = []
-            for m in matches:
-                full_url = m['url']
-                
-                # Pembersih Judul Tempur:
-                # Menghapus spasi berlebih, enter, kata Tonton, dan mengganti skor jadi 'vs'
-                clean_title = re.sub(r'\s+', ' ', m['raw_title']).replace('Tonton', '').strip()
-                clean_title = re.sub(r'\s\d+\s', ' vs ', clean_title) 
-                
-                target_links.append({"url": full_url, "title": clean_title})
+                        for source in live_sources:
+                            m3u8_url = source.get("source")
+                            
+                            if m3u8_url and ".m3u8" in m3u8_url:
+                                # Bersihkan URL jika ada escape character
+                                m3u8_url = m3u8_url.replace("\\/", "/")
+                                
+                                print(f"  ✅ Harta didapat: {title} -> {m3u8_url}")
+                                
+                                # Merakit Playlist
+                                all_streams.append([
+                                    f'#EXTINF:-1 group-title="BONE TV - Livenobar",[🔴 LIVE] {title[:45]}',
+                                    f'#EXTVLCOPT:http-referrer={REFERER}',
+                                    f'#EXTVLCOPT:http-origin={ORIGIN}',
+                                    f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
+                                    m3u8_url,
+                                    ''
+                                ])
 
-            # Hapus duplikat link
-            unique_targets = {v['url']:v for v in target_links}.values()
-            
-            print(f"🎯 Ditemukan {len(unique_targets)} pertandingan LIVE (Tonton).")
+        print(f"🎯 Ditemukan {len(all_streams)} link M3U8 murni.")
 
-            # Eksekusi masuk ke masing-masing halaman pertandingan
-            for target in unique_targets:
-                m3u8_url = await extract_m3u8(context, target['url'], target['title'][:50])
-                
-                if m3u8_url:
-                    print(f"  ✅ Harta didapat: {m3u8_url}")
-                    
-                    # Format ke Playlist M3U8
-                    all_streams.append([
-                        f'#EXTINF:-1 group-title="BONE TV - Livenobar",[🔴 LIVE] {target["title"][:45]}',
-                        f'#EXTVLCOPT:http-referrer={REFERER}',
-                        f'#EXTVLCOPT:http-origin={ORIGIN}',
-                        f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
-                        m3u8_url,
-                        ''
-                    ])
-                else:
-                    print("  ⚠️ M3U8 tidak terdeteksi (Tombol kuning meleset atau enkripsi kuat).")
-
-        except Exception as e:
-            print(f"Terjadi kesalahan utama: {e}")
-        finally:
-            await browser.close()
+    except Exception as e:
+        print(f"❌ Terjadi kesalahan fatal saat menyadap API: {e}")
 
     # --- MENULIS HASIL KE FILE M3U8 ---
     if all_streams:
@@ -150,7 +71,7 @@ async def main():
             f.write("\n".join(header + flat_list))
         print(f"\n🏁 SELESAI! {len(all_streams)} link berhasil disimpan ke {OUTPUT_FILE}.")
     else:
-        print("\n💀 Operasi selesai, namun tidak ada M3U8 yang berhasil diekstrak.")
+        print("\n💀 Operasi selesai. Tidak ada M3U8 (Mungkin tidak ada pertandingan live saat ini).")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
