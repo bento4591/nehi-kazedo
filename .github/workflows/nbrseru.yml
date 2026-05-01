@@ -1,14 +1,10 @@
 name: Livenobar Updater (Manual Only)
 
 on:
-  workflow_dispatch: # Mengaktifkan gerbang manual via Token/API/Button
+  workflow_dispatch: # Gerbang manual via Token
 
 permissions:
   contents: write
-
-env:
-  # Menghilangkan peringatan Node.js deprecated agar log tetap bersih
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   scrape-livenobar:
@@ -25,13 +21,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright
-          # Instalasi Chromium beserta library sistem pendukungnya
-          python -m playwright install --with-deps chromium
+          # Playwright dihapus, hanya butuh library requests dasar!
+          pip install requests tzdata
 
-      - name: Run Scraper
+      - name: Run Fast API Scraper
         run: |
-          echo "🚀 Menjalankan radar Livenobar..."
+          echo "🚀 Menjalankan misil API Livenobar..."
           python livenobar.py
 
       - name: Commit & Push safely
@@ -39,11 +34,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          # PERISAI ANTI-ERROR: Cek keberadaan file sebelum ditambahkan
           if [ -f Livenobar_BoneTV.m3u8 ]; then
             git add Livenobar_BoneTV.m3u8
           else
-            echo "💀 File M3U8 tidak ditemukan (0 Pertandingan LIVE). Membatalkan commit dengan aman."
+            echo "💀 File M3U8 tidak ditemukan (0 Pertandingan LIVE). Skip commit."
             exit 0
           fi
 
@@ -52,9 +46,8 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update Livenobar playlist [skip ci]"
+          git commit -m "Update Livenobar playlist via API [skip ci]"
 
-          # Logika Push dengan Rebase untuk menghindari tabrakan API
           if ! git push origin main; then
             echo "Push tertahan — melakukan rebase otomatis..."
             git pull --rebase origin main
