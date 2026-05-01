@@ -1,7 +1,7 @@
-name: Livenobar Updater
+name: Livenobar Updater (Manual Only)
 
 on:
-  workflow_dispatch: # 
+  workflow_dispatch: # Mengaktifkan gerbang manual via Token/API/Button
 
 permissions:
   contents: write
@@ -32,7 +32,6 @@ jobs:
       - name: Run Scraper
         run: |
           echo "🚀 Menjalankan radar Livenobar..."
-          # Pastikan nama file python di bawah ini sesuai dengan nama file script Kapten
           python livenobar.py
 
       - name: Commit & Push safely
@@ -40,8 +39,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          # Menambahkan file hasil scraper (sesuaikan dengan nama output di python)
-          git add Livenobar_BoneTV.m3u8
+          # PERISAI ANTI-ERROR: Cek keberadaan file sebelum ditambahkan
+          if [ -f Livenobar_BoneTV.m3u8 ]; then
+            git add Livenobar_BoneTV.m3u8
+          else
+            echo "💀 File M3U8 tidak ditemukan (0 Pertandingan LIVE). Membatalkan commit dengan aman."
+            exit 0
+          fi
 
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan jadwal baru, skip commit."
@@ -56,4 +60,3 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-
