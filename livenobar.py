@@ -34,9 +34,28 @@ def main():
             for sport in sports:
                 for league in sport.get("leagues", []):
                     for match in league.get("matches", []):
+                        # 1. Merapikan Judul
                         title = match.get("title", "Live Match").replace(" VS ", " vs ")
-                        live_sources = match.get("live_sources", [])
+                        
+                        # 2. Mengambil Logo Tim Kandang (Home)
+                        home_logo = match.get("home_team", {}).get("logo", "")
+                        
+                        # 3. Mengkonversi Timestamp menjadi Jam Kick-Off (WIB)
+                        match_ts = match.get("match_timestamp")
+                        kick_off_time = ""
+                        if match_ts:
+                            # Ubah timestamp server ke waktu Asia/Jakarta (WIB)
+                            dt_obj = datetime.fromtimestamp(match_ts, tz=ZoneInfo("Asia/Jakarta"))
+                            kick_off_time = dt_obj.strftime("%H:%M WIB")
+                        else:
+                            # Jika timestamp gagal, pakai waktu teks bawaan API
+                            kick_off_time = match.get("match_time", "LIVE")
 
+                        # Merakit Judul Tampilan Akhir
+                        display_title = f"[🔴 LIVE {kick_off_time}] {title}"
+
+                        # 4. Mengekstrak Link M3U8
+                        live_sources = match.get("live_sources", [])
                         for source in live_sources:
                             m3u8_url = source.get("source")
                             
@@ -44,11 +63,11 @@ def main():
                                 # Bersihkan URL jika ada escape character
                                 m3u8_url = m3u8_url.replace("\\/", "/")
                                 
-                                print(f"  ✅ Harta didapat: {title} -> {m3u8_url}")
+                                print(f"  ✅ {display_title} -> {m3u8_url}")
                                 
-                                # Merakit Playlist
+                                # Merakit Playlist dengan Logo dan Jam
                                 all_streams.append([
-                                    f'#EXTINF:-1 group-title="BONE TV - Livenobar",[🔴 LIVE] {title[:45]}',
+                                    f'#EXTINF:-1 tvg-logo="{home_logo}" group-title="BONE TV - Livenobar",{display_title[:70]}',
                                     f'#EXTVLCOPT:http-referrer={REFERER}',
                                     f'#EXTVLCOPT:http-origin={ORIGIN}',
                                     f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
@@ -56,7 +75,7 @@ def main():
                                     ''
                                 ])
 
-        print(f"🎯 Ditemukan {len(all_streams)} link M3U8 murni.")
+        print(f"🎯 Ditemukan {len(all_streams)} link M3U8 murni dengan logo dan jadwal.")
 
     except Exception as e:
         print(f"❌ Terjadi kesalahan fatal saat menyadap API: {e}")
