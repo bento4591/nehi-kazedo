@@ -20,24 +20,24 @@ async def extract_m3u8(context, match_url, match_title):
     def handle_request(request):
         nonlocal m3u8_link
         # Cari file .m3u8, abaikan iklan atau master playlist palsu jika ada
-        if ".m3u8" in request.url and not m3u8_link:
+        if ".m3u8" in request.url and "ad" not in request.url.lower() and not m3u8_link:
             m3u8_link = request.url
 
     page.on("request", handle_request)
 
     try:
-        print(f"  🔍 Mengendus: {match_title} ({match_url})")
-        await page.goto(match_url, wait_until="domcontentloaded", timeout=20000)
+        print(f"  🔍 Mengendus: {match_title}")
+        await page.goto(match_url, wait_until="domcontentloaded", timeout=25000)
         
         # Tunggu sebentar agar player video merender dan memanggil M3U8
-        await page.wait_for_timeout(4000) 
+        await page.wait_for_timeout(5000) 
         
-        # Jika ada tombol play di tengah video, coba di-klik (opsional, tergantung web)
+        # Pancing video agar berputar jika belum
         try:
             play_btn = page.locator("button.vjs-big-play-button, .play-wrapper").first
             if await play_btn.count() > 0:
                 await play_btn.click(timeout=2000)
-                await page.wait_for_timeout(2000)
+                await page.wait_for_timeout(3000)
         except:
             pass
 
@@ -55,7 +55,7 @@ async def main():
 
     async with async_playwright() as p:
         # Jalankan Chromium dengan penyamaran penuh
-        browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
+        browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
         context = await browser.new_context(
             user_agent=USER_AGENT,
             extra_http_headers={
@@ -70,50 +70,47 @@ async def main():
         try:
             print("Membuka halaman utama...")
             await main_page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
-            await main_page.wait_for_timeout(3000) # Biarkan list pertandingan termuat
+            await main_page.wait_for_timeout(4000) # Biarkan list pertandingan termuat sempurna
             
-            # MENCARI TARGET SPESIFIK: Hanya yang ada tulisan "Tonton"
-            # Asumsi: Tombol "Tonton" berada di dalam tag <a> (link) atau elemen yang bisa diklik
-            print("Menyaring pertandingan dengan status 'Tonton'...")
+            print("Mencari pertandingan LIVE (Status 'Tonton')...")
             
-            # Kita cari elemen yang mengandung teks "Tonton" dan cari tahu link (href) nya
-            match_elements = await main_page.locator("xpath=//a[.//text()[contains(., 'Tonton')]]").all()
-            
-            # Jika struktur web tidak menggunakan tag <a> untuk tombol, kita bisa cari div pelindungnya
-            if not match_elements:
-                print("Mencari menggunakan elemen pembungkus...")
-                # Mencari kontainer pertandingan yang memiliki kata "Tonton"
-                match_elements = await main_page.locator("xpath=//*[contains(@class, 'match-card') or contains(@class, 'item')]//a[contains(text(), 'Tonton')]").all()
+            # TAKTIK BARU: Mencari tag <a> yang membungkus span berteks "Tonton"
+            # Berdasarkan inspeksi elemen Kapten yang sangat akurat
+            match_elements = await main_page.locator("a").filter(has=main_page.locator("span", has_text="Tonton")).all()
 
             target_links = []
             for el in match_elements:
                 href = await el.get_attribute("href")
                 if href:
-                    # Gabungkan URL jika path-nya relatif (misal: /id/match/123)
-                    full_url = href if href.startswith("http") else f"https://stream.livenobarseru.com{href}"
+                    # Gabungkan URL jika path-nya relatif
+                    full_url = href if href.startswith("http") else f"{ORIGIN}{href}"
                     
-                    # Coba ambil nama tim dari elemen di sekitarnya (Bisa disesuaikan dengan struktur web)
-                    # Ini mengambil seluruh teks dalam kotak pertandingan
-                    raw_text = await el.evaluate("node => node.closest('div').innerText")
-                    clean_title = raw_text.replace('\n', ' ').strip() if raw_text else "Live Match"
+                    # Ambil semua teks di dalam kotak tersebut
+                    raw_text = await el.inner_text()
+                    
+                    # Pembersih Judul Tempur:
+                    # Mengubah newline menjadi spasi, menghapus kata 'Tonton', dan merapikan spasi ganda
+                    clean_title = re.sub(r'\s+', ' ', raw_text).replace('Tonton', '').strip()
+                    # Menghapus angka skor jika menempel (opsional, tapi membuat judul lebih rapi)
+                    clean_title = re.sub(r'\s\d+\s', ' vs ', clean_title) 
                     
                     target_links.append({"url": full_url, "title": clean_title})
 
-            # Hapus duplikat link
+            # Hapus duplikat link (jika web meload dua elemen yang sama)
             unique_targets = {v['url']:v for v in target_links}.values()
             
             print(f"🎯 Ditemukan {len(unique_targets)} pertandingan LIVE (Tonton).")
 
-            # Eksekusi satu per satu
+            # Eksekusi masuk ke masing-masing halaman pertandingan
             for target in unique_targets:
-                m3u8_url = await extract_m3u8(context, target['url'], target['title'][:50] + "...")
+                m3u8_url = await extract_m3u8(context, target['url'], target['title'][:50])
                 
                 if m3u8_url:
                     print(f"  ✅ Harta didapat: {m3u8_url}")
                     
                     # Format ke Playlist M3U8
                     all_streams.append([
-                        f'#EXTINF:-1 group-title="BONE TV - Livenobar",[🔴 LIVE] {target["title"][:40]}',
+                        f'#EXTINF:-1 group-title="BONE TV - Livenobar",[🔴 LIVE] {target["title"][:45]}',
                         f'#EXTVLCOPT:http-referrer={REFERER}',
                         f'#EXTVLCOPT:http-origin={ORIGIN}',
                         f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
@@ -138,8 +135,7 @@ async def main():
             f.write("\n".join(header + flat_list))
         print(f"\n🏁 SELESAI! {len(all_streams)} link berhasil disimpan ke {OUTPUT_FILE}.")
     else:
-        print("\n💀 Operasi selesai, namun tidak ada M3U8 yang berhasil diekstrak.")
+        print("\n💀 Operasi selesai, namun tidak ada M3U8 yang berhasil diekstrak (Mungkin enkripsi kuat atau sedang tidak ada live).")
 
 if __name__ == "__main__":
     asyncio.run(main())
-
