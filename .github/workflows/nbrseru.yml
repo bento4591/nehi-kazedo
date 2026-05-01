@@ -1,0 +1,59 @@
+name: Livenobar Updater
+
+on:
+  workflow_dispatch: # 
+
+permissions:
+  contents: write
+
+env:
+  # Menghilangkan peringatan Node.js deprecated agar log tetap bersih
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  scrape-livenobar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          # Instalasi Chromium beserta library sistem pendukungnya
+          python -m playwright install --with-deps chromium
+
+      - name: Run Scraper
+        run: |
+          echo "🚀 Menjalankan radar Livenobar..."
+          # Pastikan nama file python di bawah ini sesuai dengan nama file script Kapten
+          python livenobar.py
+
+      - name: Commit & Push safely
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          # Menambahkan file hasil scraper (sesuaikan dengan nama output di python)
+          git add Livenobar_BoneTV.m3u8
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan jadwal baru, skip commit."
+            exit 0
+          fi
+
+          git commit -m "Update Livenobar playlist [skip ci]"
+
+          # Logika Push dengan Rebase untuk menghindari tabrakan API
+          if ! git push origin main; then
+            echo "Push tertahan — melakukan rebase otomatis..."
+            git pull --rebase origin main
+            git push origin main
+          fi
+
