@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-05-03 00:55 WIB
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [22:00 WIB] [SOCCER] Paris Saint-Germain vs Lorient (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/EU/HDTV22/index.m3u8
+# Last Updated: 2026-05-03 01:00 WIB
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3514.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:00 WIB] [SOCCER] Como vs Napoli (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV11
@@ -35,7 +29,7 @@ https://instreams.pro/EU/HDTV13/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV22/index.m3u8
+https://instreams.live/EU/HDTV22/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[01:45 WIB] [SOCCER] Atalanta vs Genoa (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV12
