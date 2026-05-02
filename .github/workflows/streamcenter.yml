@@ -1,0 +1,56 @@
+name: Streamcenter Heavy Scraper
+
+on:
+  workflow_dispatch: # Gerbang untuk Pihak Ketiga (Cron Job)
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  scrape-streamcenter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests playwright tzdata
+          python -m playwright install --with-deps chromium
+
+      - name: Run Tank Berat Streamcenter
+        run: |
+          python streamcenter.py
+
+      - name: Commit & Push safely
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          if [ -f Streamcenter_BoneTV.m3u8 ]; then
+            git add Streamcenter_BoneTV.m3u8
+          else
+            echo "File tidak ada, skip commit."
+            exit 0
+          fi
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan, skip commit."
+            exit 0
+          fi
+
+          git commit -m "Update Streamcenter playlist [skip ci]"
+
+          if ! git push origin main; then
+            git pull --rebase origin main
+            git push origin main
+          fi
