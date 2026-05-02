@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-05-02 19:10 WIB
+# Last Updated: 2026-05-02 19:15 WIB
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/102.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [19:00 WIB] [SOCCER] Villarreal vs Levante (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV8
@@ -17,19 +17,25 @@ https://instreams.live/EU/HDTV11/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV16
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV16/index.m3u8
+https://instreams.live/EU/HDTV16/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[20:30 WIB] [SOCCER] Bayern Munich vs 1. FC Heidenheim 1846 (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV13
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/EU/HDTV13/index.m3u8
+https://instreams.pro/EU/HDTV13/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[20:30 WIB] [SOCCER] Eintracht Frankfurt vs Hamburg SV (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV14
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV14/index.m3u8
+https://instreams.live/EU/HDTV14/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[20:30 WIB] [SOCCER] TSG Hoffenheim vs VfB Stuttgart (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV16
+#EXTVLCOPT:http-origin=https://instream.click
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://instreams.pro/EU/HDTV16/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[20:30 WIB] [SOCCER] Werder Bremen vs FC Augsburg (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV17
@@ -47,7 +53,13 @@ https://instreams.pro/US/NFLHD2/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD3
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD3/index.m3u8
+https://instreams.pro/US/NFLHD3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/94.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[21:15 WIB] [SOCCER] Valencia vs Atlético Madrid (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV8
+#EXTVLCOPT:http-origin=https://instream.click
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://instreams.live/EU/HDTV8/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[22:00 WIB] [SOCCER] Paris Saint-Germain vs Lorient (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
@@ -56,12 +68,6 @@ https://instreams.live/US/NFLHD3/index.m3u8
 https://instreams.pro/EU/HDTV22/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[🔴 LIVE] [18:00 WIB] [UFC] Tai Tuivasa vs Louie Sutherland (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD30
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD30/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[🔴 LIVE] [18:00 WIB] [UFC] Carlos Prates vs Jack Della Maddalena (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD30
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
