@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-05-02 23:35 WIB
+# Last Updated: 2026-05-02 23:40 WIB
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/337.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [21:00 WIB] [SOCCER] Brentford vs West Ham United (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD2
@@ -11,13 +11,13 @@ https://instreams.pro/US/NFLHD2/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD3
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD3/index.m3u8
+https://instreams.pro/US/NFLHD3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/380.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [21:00 WIB] [SOCCER] Wolverhampton Wanderers vs Sunderland (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD4
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD4/index.m3u8
+https://instreams.pro/US/NFLHD4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/94.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [21:15 WIB] [SOCCER] Valencia vs Atlético Madrid (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV8
@@ -29,31 +29,25 @@ https://instreams.live/EU/HDTV8/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/EU/HDTV22/index.m3u8
+https://instreams.pro/EU/HDTV22/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3514.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:00 WIB] [SOCCER] Como vs Napoli (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV11
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/EU/HDTV11/index.m3u8
+https://instreams.pro/EU/HDTV11/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:30 WIB] [SOCCER] Arsenal vs Fulham (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD1
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD1/index.m3u8
+https://instreams.live/US/NFLHD1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:30 WIB] [SOCCER] Bayer Leverkusen vs RB Leipzig (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV13
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV13/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[00:00 WIB] [SOCCER] Metz vs AS Monaco (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV22/index.m3u8
+https://instreams.live/EU/HDTV13/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[01:45 WIB] [SOCCER] Atalanta vs Genoa (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV12
@@ -67,8 +61,14 @@ https://instreams.live/EU/HDTV12/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://instreams.live/EU/HDTV9/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[02:05 WIB] [SOCCER] Nice vs Lens (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV22
+#EXTVLCOPT:http-origin=https://instream.click
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://instreams.live/EU/HDTV22/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/33/1/formula-1-logo-png_seeklogo-330361.png" tvg-id="F1.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:00 WIB] [F1] Crypto.com vs Miami Grand Prix Sprint Race (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD29
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD29/index.m3u8
+https://instreams.live/US/NFLHD29/index.m3u8
