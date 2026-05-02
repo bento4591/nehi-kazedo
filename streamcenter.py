@@ -1,51 +1,58 @@
 import asyncio
-import json
 import requests
-import re
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
 # --- KONFIGURASI MABES ENTERPRISE ---
-API_URL = "https://backend.streamcenter.live/api/Parties?pageNumber=1&pageSize=50"
+API_URL = "https://backend.streamcenter.live/api/Parties?pageNumber=1&pageSize=500"
 ORIGIN = "https://streamcenter.live"
 REFERER = "https://streamcenter.live/"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 OUTPUT_FILE = "Streamcenter_BoneTV.m3u8"
 
 async def extract_m3u8(context, url, match_title):
-    """Fungsi Tank Berat: Mendobrak halaman PHP dan menyadap M3U8 dari mainstreams.pro"""
+    """Taktik Baru: Menyadap Respons dari decrypt.php tanpa menunggu video berputar"""
     page = await context.new_page()
     m3u8_link = None
 
-    # Pasang Radar Network Khusus Streamcenter
-    def handle_request(request):
+    # RADAR PENYADAP RESPONS
+    async def handle_response(response):
         nonlocal m3u8_link
-        # Tangkap jika ada request ke mainstreams.pro yang berakhiran .m3u8 beserta tokennya
-        if "mainstreams.pro/hls" in request.url and ".m3u8" in request.url and not m3u8_link:
-            m3u8_link = request.url
+        # Jika musuh memanggil decrypt.php, kita baca isi balasannya!
+        if "decrypt.php" in response.url:
+            try:
+                text = await response.text()
+                if "mainstreams.pro" in text and ".m3u8" in text:
+                    m3u8_link = text.strip()
+            except:
+                pass
+        # Jaga-jaga jika m3u8 dipanggil langsung tanpa decrypt
+        elif "mainstreams.pro/hls" in response.url and ".m3u8" in response.url and not m3u8_link:
+            m3u8_link = response.url
 
-    page.on("request", handle_request)
+    page.on("response", handle_response)
 
     try:
         print(f"  🔍 Menerjunkan pasukan ke: {match_title}")
+        # Masuk ke halaman dan biarkan Javascript musuh meracik kuncinya
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         
-        # Tunggu loading Javascript musuh untuk memanggil decrypt.php
-        await page.wait_for_timeout(5000) 
-        
-        # Tembakan Brutal: Klik di tengah layar jaga-jaga jika butuh interaksi Play
-        await page.mouse.click(640, 360)
-        await page.wait_for_timeout(3000)
-        await page.mouse.click(640, 360) # Klik kedua untuk menembus overlay iklan jika ada
-        
-        # Tunggu sejenak agar M3U8 keluar dari sarangnya
-        await page.wait_for_timeout(5000) 
+        # Pantau terus selama 10 detik, jika radar menangkap M3U8, langsung hentikan pencarian (Efisien)
+        for _ in range(10):
+            if m3u8_link:
+                break
+            await page.wait_for_timeout(1000)
+            
+        # Tembakan Pancingan (jika dalam 10 detik belum muncul)
+        if not m3u8_link:
+            await page.mouse.click(640, 360)
+            await page.wait_for_timeout(3000)
 
     except Exception as e:
         print(f"  ❌ Gagal memuat halaman: {e}")
     finally:
-        page.remove_listener("request", handle_request)
+        page.remove_listener("response", handle_response)
         await page.close()
 
     return m3u8_link
@@ -65,28 +72,25 @@ async def main():
         print(f"❌ Gagal membaca API: {e}")
         return
 
-    # Waktu saat ini dalam UTC (Karena API Streamcenter menggunakan UTC)
     now_utc = datetime.now(timezone.utc)
-    
     target_matches = []
     
     if isinstance(data, list):
         for item in data:
             try:
-                # Parsing string waktu dari API "2026-05-02T15:00:00"
                 begin_dt = datetime.strptime(item.get("beginPartie"), "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
                 end_dt = datetime.strptime(item.get("endPartie"), "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
                 
-                # Toleransi: Mulai menyadap 30 menit sebelum Kick-off sampai pertandingan selesai
-                if (begin_dt - timedelta(minutes=30)) <= now_utc <= end_dt:
+                # Toleransi Waktu Diperlebar: -6 Jam sebelum main, sampai +2 Jam setelah selesai
+                if (begin_dt - timedelta(hours=6)) <= now_utc <= (end_dt + timedelta(hours=2)):
                     target_matches.append((item, begin_dt))
             except Exception:
                 continue
 
-    print(f"🎯 Ditemukan {len(target_matches)} target potensial (LIVE & Segera Main).")
+    print(f"🎯 Ditemukan {len(target_matches)} target potensial (LIVE & UPCOMING dekat).")
 
     if not target_matches:
-        print("💀 Tidak ada pertandingan live saat ini.")
+        print("💀 Tidak ada pertandingan dalam jangkauan radar waktu.")
     else:
         # 2. TERJUNKAN PLAYWRIGHT UNTUK EKSTRAKSI
         async with async_playwright() as p:
@@ -98,26 +102,23 @@ async def main():
             )
             
             for item, begin_dt in target_matches:
-                # Format Judul
                 league_text = ""
                 if item.get("description") and " - " in item.get("description"):
                     league_text = f"[{item['description'].split(' - ')[0]}] "
                 
-                # Konversi jam Kick-off ke WIB
                 jkt_time = begin_dt.astimezone(ZoneInfo("Asia/Jakarta")).strftime("%H:%M WIB")
                 display_title = f"[🔴 LIVE {jkt_time}] {league_text}{item.get('name', 'Live Match')} [Seru]"
                 
                 logo = item.get("logoTeam1", "")
                 raw_url = item.get("videoUrl", "")
-                
-                # Bersihkan URL dari tag <English
                 clean_url = raw_url.split("<")[0] if raw_url else None
                 
-                if clean_url:
-                    m3u8_url = await extract_m3u8(context, clean_url, display_title[:50])
+                # Hanya buru link embed
+                if clean_url and "embed" in clean_url:
+                    m3u8_url = await extract_m3u8(context, clean_url, display_title[:60])
                     
                     if m3u8_url:
-                        print(f"  ✅ HARTA DIDAPAT: {m3u8_url}")
+                        print(f"  ✅ HARTA DIDAPAT: {m3u8_url[:60]}...")
                         all_streams.append([
                             f'#EXTINF:-1 tvg-logo="{logo}" group-title="BONE TV - Streamcenter",{display_title}',
                             f'#EXTVLCOPT:http-referrer={REFERER}',
@@ -127,7 +128,7 @@ async def main():
                             ''
                         ])
                     else:
-                        print("  ⚠️ M3U8 tidak tertembus (Mungkin enkripsi gagal atau stream mati).")
+                        print("  ⚠️ Gagal menyadap M3U8.")
 
             await browser.close()
 
