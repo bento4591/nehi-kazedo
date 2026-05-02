@@ -6,20 +6,22 @@ from playwright.async_api import async_playwright
 
 # --- KONFIGURASI MABES ENTERPRISE ---
 API_URL = "https://backend.streamcenter.live/api/Parties?pageNumber=1&pageSize=500"
-ORIGIN = "https://streamcenter.live"
-REFERER = "https://streamcenter.live/"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 OUTPUT_FILE = "Streamcenter_BoneTV.m3u8"
 
 async def extract_m3u8(context, url, match_title):
-    """Taktik Baru: Menyadap Respons dari decrypt.php tanpa menunggu video berputar"""
     page = await context.new_page()
     m3u8_link = None
 
-    # RADAR PENYADAP RESPONS
+    # RADAR 1: Sadap Request (Jaga-jaga jika M3U8 dipanggil langsung)
+    async def handle_request(request):
+        nonlocal m3u8_link
+        if "mainstreams.pro/hls" in request.url and ".m3u8" in request.url:
+            m3u8_link = request.url
+
+    # RADAR 2: Sadap Response (Menangkap balasan dari decrypt.php)
     async def handle_response(response):
         nonlocal m3u8_link
-        # Jika musuh memanggil decrypt.php, kita baca isi balasannya!
         if "decrypt.php" in response.url:
             try:
                 text = await response.text()
@@ -27,31 +29,38 @@ async def extract_m3u8(context, url, match_title):
                     m3u8_link = text.strip()
             except:
                 pass
-        # Jaga-jaga jika m3u8 dipanggil langsung tanpa decrypt
-        elif "mainstreams.pro/hls" in response.url and ".m3u8" in response.url and not m3u8_link:
-            m3u8_link = response.url
 
+    page.on("request", handle_request)
     page.on("response", handle_response)
 
     try:
         print(f"  🔍 Menerjunkan pasukan ke: {match_title}")
-        # Masuk ke halaman dan biarkan Javascript musuh meracik kuncinya
-        await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         
-        # Pantau terus selama 10 detik, jika radar menangkap M3U8, langsung hentikan pencarian (Efisien)
-        for _ in range(10):
+        # Masuk ke halaman dan tunggu sampai SELURUH Iframe selesai dimuat (wait_until="load")
+        await page.goto(url, wait_until="load", timeout=25000)
+        
+        # Tembakan Pancingan 1: Klik di tengah layar
+        await page.mouse.click(640, 360)
+        await page.wait_for_timeout(1000)
+        
+        # Tembakan Pancingan 2: Cari Iframe player dan paksa klik di dalamnya
+        for frame in page.frames:
+            try:
+                await frame.locator("body").click(force=True, timeout=1000)
+            except:
+                pass
+
+        # Pantau radar selama maksimal 15 detik
+        for _ in range(15):
             if m3u8_link:
                 break
             await page.wait_for_timeout(1000)
-            
-        # Tembakan Pancingan (jika dalam 10 detik belum muncul)
-        if not m3u8_link:
-            await page.mouse.click(640, 360)
-            await page.wait_for_timeout(3000)
 
     except Exception as e:
-        print(f"  ❌ Gagal memuat halaman: {e}")
+        print(f"  ❌ Timeout/Hambatan: {e}")
     finally:
+        # Bersihkan radar dan tarik mundur pasukan
+        page.remove_listener("request", handle_request)
         page.remove_listener("response", handle_response)
         await page.close()
 
@@ -63,7 +72,7 @@ async def main():
 
     # 1. AMBIL JADWAL DARI API
     try:
-        headers = {"User-Agent": USER_AGENT, "Origin": ORIGIN, "Referer": REFERER}
+        headers = {"User-Agent": USER_AGENT}
         print("Membaca Radar API Streamcenter...")
         response = requests.get(API_URL, headers=headers, timeout=15)
         response.raise_for_status()
@@ -81,24 +90,24 @@ async def main():
                 begin_dt = datetime.strptime(item.get("beginPartie"), "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
                 end_dt = datetime.strptime(item.get("endPartie"), "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
                 
-                # Toleransi Waktu Diperlebar: -6 Jam sebelum main, sampai +2 Jam setelah selesai
+                # Toleransi Waktu: -6 Jam sebelum main, sampai +2 Jam setelah selesai
                 if (begin_dt - timedelta(hours=6)) <= now_utc <= (end_dt + timedelta(hours=2)):
                     target_matches.append((item, begin_dt))
             except Exception:
                 continue
 
-    print(f"🎯 Ditemukan {len(target_matches)} target potensial (LIVE & UPCOMING dekat).")
+    print(f"🎯 Ditemukan {len(target_matches)} target potensial dalam radar.")
 
     if not target_matches:
-        print("💀 Tidak ada pertandingan dalam jangkauan radar waktu.")
+        print("💀 Tidak ada pertandingan dalam jangkauan waktu.")
     else:
         # 2. TERJUNKAN PLAYWRIGHT UNTUK EKSTRAKSI
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+            # Matikan audio agar tidak membebani memori server GitHub
+            browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
             context = await browser.new_context(
                 viewport={'width': 1280, 'height': 720},
-                user_agent=USER_AGENT,
-                extra_http_headers={"Origin": ORIGIN, "Referer": REFERER}
+                user_agent=USER_AGENT
             )
             
             for item, begin_dt in target_matches:
@@ -121,14 +130,14 @@ async def main():
                         print(f"  ✅ HARTA DIDAPAT: {m3u8_url[:60]}...")
                         all_streams.append([
                             f'#EXTINF:-1 tvg-logo="{logo}" group-title="BONE TV - Streamcenter",{display_title}',
-                            f'#EXTVLCOPT:http-referrer={REFERER}',
-                            f'#EXTVLCOPT:http-origin={ORIGIN}',
+                            f'#EXTVLCOPT:http-referrer=https://streams.center/',
+                            f'#EXTVLCOPT:http-origin=https://streams.center',
                             f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
                             m3u8_url,
                             ''
                         ])
                     else:
-                        print("  ⚠️ Gagal menyadap M3U8.")
+                        print("  ⚠️ Gagal menyadap M3U8 (API diblokir / Belum LIVE).")
 
             await browser.close()
 
