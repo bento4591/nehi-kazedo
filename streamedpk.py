@@ -17,11 +17,21 @@ async def extract_m3u8(context, url, match_title):
     # SUNTIKAN ANTI-DETEKSI
     await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
+    # ALGORITMA TAB KILLER (DIPERBAIKI)
+    # Sekarang hanya menembak mati "popup" liar, bukan halaman utama kita!
+    async def handle_popup(popup):
+        try:
+            await popup.close()
+            print("    [!] Iklan Pop-up liar berhasil dihancurkan.")
+        except:
+            pass
+    page.on("popup", handle_popup)
+
     # RADAR PENYADAP NETWORK
     async def handle_request(request):
         nonlocal m3u8_link, dynamic_referer
         if ".m3u8" in request.url:
-            print(f"    📡 [Radar M3U8]: {request.url[:80]}...") # LOG DEBUG: Tampilkan semua m3u8 yang lewat
+            print(f"    📡 [Radar M3U8]: {request.url[:80]}...") 
             if not m3u8_link or "index" in request.url or "master" in request.url:
                 m3u8_link = request.url
                 if "referer" in request.headers:
@@ -32,15 +42,14 @@ async def extract_m3u8(context, url, match_title):
     try:
         print(f"  🔍 Menyusup ke: {url}")
         
-        # TAKTIK BARU: Jangan tunggu iklan selesai loading!
         await page.goto(url, wait_until="domcontentloaded", timeout=25000)
-        await page.wait_for_timeout(3000) # Beri waktu 3 detik agar Iframe player muncul
+        await page.wait_for_timeout(3000) 
         
-        # CEK JUDUL HALAMAN (Mendeteksi blokir Cloudflare)
+        # CEK JUDUL HALAMAN 
         title = await page.title()
         print(f"    [Status] Judul Halaman: {title}")
         
-        # KLIK GANDA BERJEDA
+        # KLIK GANDA BERJEDA TEPAT SASARAN
         for _ in range(3):
             if m3u8_link: 
                 break
@@ -57,12 +66,13 @@ async def extract_m3u8(context, url, match_title):
         print(f"  ❌ Terkena Ranjau/Timeout: {e}")
     finally:
         page.remove_listener("request", handle_request)
+        page.remove_listener("popup", handle_popup)
         await page.close()
 
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Tank Berat MABES ENTERPRISE (Xvfb GUI Mode)...")
+    print("🚀 Memulai Tank Berat MABES ENTERPRISE (Xvfb GUI Mode V16.1)...")
     all_streams = []
 
     try:
@@ -81,18 +91,8 @@ async def main():
         print("💀 Tidak ada pertandingan live saat ini.")
     else:
         async with async_playwright() as p:
-            # TAKTIK BARU: Headless=False! Kita pakai layar virtual Xvfb
             browser = await p.chromium.launch(headless=False, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
             context = await browser.new_context(viewport={'width': 1280, 'height': 720}, user_agent=USER_AGENT)
-            
-            # TAB KILLER
-            async def handle_popup(new_page):
-                try:
-                    await new_page.close()
-                    print("    [!] Iklan Pop-up terdeteksi dan dihancurkan.")
-                except:
-                    pass
-            context.on("page", handle_popup)
             
             for match in live_matches:
                 league = match.get("League", "Sports")
@@ -102,10 +102,9 @@ async def main():
                 display_title = f"[🔴 LIVE] [{league}] {title} [Seru]"
                 streams = match.get("Streams", [])
                 
-                # FILTER HANYA HD
                 hd_streams = [s for s in streams if str(s.get("Quality", "")).upper() == "HD"]
                 
-                # Uji coba: Maksimal 1 stream per pertandingan agar cepat
+                # Eksekusi maksimal 1 stream HD pertama per jadwal
                 for stream in hd_streams[:1]:
                     embed_url = stream.get("Embed_URL")
                     source_name = stream.get("Source", "unknown").upper()
@@ -126,7 +125,7 @@ async def main():
                                 ''
                             ])
                         else:
-                            print("  ⚠️ Gagal mendapatkan M3U8 (Video diblokir / mati).")
+                            print("  ⚠️ Gagal mendapatkan M3U8.")
 
             await browser.close()
 
