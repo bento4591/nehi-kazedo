@@ -1,7 +1,7 @@
-name: StreamedPK Heavy Scraper
+name: StreamedPK HD Scraper
 
 on:
-  workflow_dispatch: # Gerbang untuk Pihak Ketiga (Cron Job)
+  workflow_dispatch: 
 
 permissions:
   contents: write
