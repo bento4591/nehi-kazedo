@@ -116,7 +116,7 @@ async def main():
                     league_text = f"[{item['description'].split(' - ')[0]}] "
                 
                 jkt_time = begin_dt.astimezone(ZoneInfo("Asia/Jakarta")).strftime("%H:%M WIB")
-                display_title = f"[🔴 LIVE {jkt_time}] {league_text}{item.get('name', 'Live Match')} [Seru]"
+                display_title = f"[🔴 LIVE {jkt_time}] {league_text}{item.get('name', 'Live Match')} [CNT]"
                 
                 logo = item.get("logoTeam1", "")
                 raw_url = item.get("videoUrl", "")
