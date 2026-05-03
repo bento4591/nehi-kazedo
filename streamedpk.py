@@ -12,42 +12,49 @@ OUTPUT_FILE = "StreamedPK_BoneTV.m3u8"
 async def extract_m3u8(context, url, match_title):
     page = await context.new_page()
     m3u8_link = None
-    dynamic_referer = "https://embedsports.top/" # Default
+    dynamic_referer = "https://embedsports.top/"
 
-    # RADAR PENYADAP NETWORK KHUSUS M3U8
+    # SUNTIKAN ANTI-DETEKSI
+    await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+    # RADAR PENYADAP NETWORK
     async def handle_request(request):
         nonlocal m3u8_link, dynamic_referer
-        if ".m3u8" in request.url and ("secure" in request.url or "modifiles" in request.url):
-            # Ambil yang pertama kali muncul, atau prioritaskan index/master jika ada
-            if not m3u8_link or "index" in request.url:
+        if ".m3u8" in request.url:
+            print(f"    📡 [Radar M3U8]: {request.url[:80]}...") # LOG DEBUG: Tampilkan semua m3u8 yang lewat
+            if not m3u8_link or "index" in request.url or "master" in request.url:
                 m3u8_link = request.url
-                # Curi Referer Asli
                 if "referer" in request.headers:
                     dynamic_referer = request.headers["referer"]
 
     page.on("request", handle_request)
 
     try:
-        print(f"  🔍 Menyusup ke: {match_title}")
-        await page.goto(url, wait_until="load", timeout=30000)
-        await page.wait_for_timeout(3000)
+        print(f"  🔍 Menyusup ke: {url}")
         
-        # TAKTIK DOUBLE-TAP (KLIK GANDA BERJEDA)
-        # Lakukan 3 tembakan untuk memastikan lapisan iklan hancur dan tombol Play tertekan
+        # TAKTIK BARU: Jangan tunggu iklan selesai loading!
+        await page.goto(url, wait_until="domcontentloaded", timeout=25000)
+        await page.wait_for_timeout(3000) # Beri waktu 3 detik agar Iframe player muncul
+        
+        # CEK JUDUL HALAMAN (Mendeteksi blokir Cloudflare)
+        title = await page.title()
+        print(f"    [Status] Judul Halaman: {title}")
+        
+        # KLIK GANDA BERJEDA
         for _ in range(3):
-            if m3u8_link: # Jika sudah dapat, berhenti menembak
+            if m3u8_link: 
                 break
-            await page.mouse.click(640, 360) # Klik tepat di tengah layar
-            await page.wait_for_timeout(1500)
+            await page.mouse.click(640, 360)
+            await page.wait_for_timeout(2000)
 
-        # Pantau radar selama maksimal 10 detik setelah klik
+        # Tunggu hasil maksimal 10 detik
         for _ in range(10):
-            if m3u8_link and "index" in m3u8_link:
+            if m3u8_link and "index" in m3u8_link: 
                 break
             await page.wait_for_timeout(1000)
 
     except Exception as e:
-        print(f"  ❌ Gagal menembus pertahanan: {e}")
+        print(f"  ❌ Terkena Ranjau/Timeout: {e}")
     finally:
         page.remove_listener("request", handle_request)
         await page.close()
@@ -55,12 +62,11 @@ async def extract_m3u8(context, url, match_title):
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Tank Berat MABES ENTERPRISE (StreamedPK HD Edition)...")
+    print("🚀 Memulai Tank Berat MABES ENTERPRISE (Xvfb GUI Mode)...")
     all_streams = []
 
-    # 1. BACA PETA SATELIT JSON
     try:
-        print("Membaca JSON dari GitHub Kapten...")
+        print("Membaca Peta Satelit (JSON)...")
         response = requests.get(JSON_URL, timeout=15)
         response.raise_for_status()
         matches = response.json()
@@ -68,22 +74,18 @@ async def main():
         print(f"❌ Gagal membaca JSON: {e}")
         return
 
-    # 2. FILTER HANYA LIVE 🔴
     live_matches = [m for m in matches if "Live" in m.get("Match Status", "")]
     print(f"🎯 Ditemukan {len(live_matches)} pertandingan yang sedang LIVE.")
 
     if not live_matches:
         print("💀 Tidak ada pertandingan live saat ini.")
     else:
-        # 3. TERJUNKAN PLAYWRIGHT
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
-            context = await browser.new_context(
-                viewport={'width': 1280, 'height': 720},
-                user_agent=USER_AGENT
-            )
+            # TAKTIK BARU: Headless=False! Kita pakai layar virtual Xvfb
+            browser = await p.chromium.launch(headless=False, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
+            context = await browser.new_context(viewport={'width': 1280, 'height': 720}, user_agent=USER_AGENT)
             
-            # ALGORITMA TAB KILLER: Bunuh otomatis semua tab iklan pop-up yang terbuka!
+            # TAB KILLER
             async def handle_popup(new_page):
                 try:
                     await new_page.close()
@@ -103,7 +105,7 @@ async def main():
                 # FILTER HANYA HD
                 hd_streams = [s for s in streams if str(s.get("Quality", "")).upper() == "HD"]
                 
-                # Ambil 1 stream HD saja per pertandingan agar eksekusi cepat
+                # Uji coba: Maksimal 1 stream per pertandingan agar cepat
                 for stream in hd_streams[:1]:
                     embed_url = stream.get("Embed_URL")
                     source_name = stream.get("Source", "unknown").upper()
@@ -111,13 +113,10 @@ async def main():
                     
                     if embed_url:
                         tag_title = f"{display_title} - HD {lang} ({source_name})".strip()
-                        
                         m3u8_url, dynamic_referer = await extract_m3u8(context, embed_url, tag_title[:65])
                         
                         if m3u8_url:
                             print(f"  ✅ HARTA DIDAPAT: {m3u8_url[:60]}...")
-                            print(f"  🔑 Referer Curian: {dynamic_referer}")
-                            
                             all_streams.append([
                                 f'#EXTINF:-1 tvg-logo="{poster}" group-title="BONE TV - StreamedPK",{tag_title}',
                                 f'#EXTVLCOPT:http-referrer={dynamic_referer}',
@@ -127,11 +126,10 @@ async def main():
                                 ''
                             ])
                         else:
-                            print("  ⚠️ Gagal mendapatkan M3U8 (Video mati).")
+                            print("  ⚠️ Gagal mendapatkan M3U8 (Video diblokir / mati).")
 
             await browser.close()
 
-    # 4. MENYIMPAN HASIL M3U8
     ts = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%Y-%m-%d %H:%M WIB")
     header = ['#EXTM3U', f'# Last Updated: {ts}', '']
     
