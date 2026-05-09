@@ -1,23 +1,17 @@
 #EXTM3U
-# Last Updated: 2026-05-10 01:55 WIB
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/113.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:00 WIB] [SOCCER] Lazio vs Internazionale (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV11
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/EU/HDTV11/index.m3u8
+# Last Updated: 2026-05-10 02:00 WIB
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:30 WIB] [SOCCER] Manchester City vs Brentford (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD1
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD1/index.m3u8
+https://instreams.pro/US/NFLHD1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:30 WIB] [SOCCER] Atlético Madrid vs Celta Vigo (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV8
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/EU/HDTV8/index.m3u8
+https://instreams.pro/EU/HDTV8/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [23:30 WIB] [SOCCER] VfL Wolfsburg vs Bayern Munich (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV13
@@ -29,21 +23,27 @@ https://instreams.live/EU/HDTV13/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV9
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV9/index.m3u8
+https://instreams.live/EU/HDTV9/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/114.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [01:45 WIB] [SOCCER] Lecce vs Juventus (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV12
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV12/index.m3u8
+https://instreams.live/EU/HDTV12/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/89.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[02:00 WIB] [SOCCER] Real Sociedad vs Real Betis (Gate)
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/89.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [02:00 WIB] [SOCCER] Real Sociedad vs Real Betis (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV8
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDTV8/index.m3u8
+https://instreams.live/EU/HDTV8/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/cle.png" tvg-id="NBA.Dummy.us" group-title="BONE TV",[02:00 WIB] [NBA] Cleveland Cavaliers vs Detroit Pistons (Gate)
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [02:00 WIB] [SOCCER] Málaga vs Sporting Gijón (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV9
+#EXTVLCOPT:http-origin=https://instream.click
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://instreams.pro/EU/HDTV9/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/cle.png" tvg-id="NBA.Dummy.us" group-title="BONE TV",[🔴 LIVE] [02:00 WIB] [NBA] Cleveland Cavaliers vs Detroit Pistons (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NBA1
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
@@ -59,13 +59,13 @@ https://instreams.pro/US/NFLHD12/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD13
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD13/index.m3u8
+https://instreams.pro/US/NFLHD13/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/cin.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[03:10 WIB] [MLB] Cincinnati Reds vs Houston Astros (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD14
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD14/index.m3u8
+https://instreams.live/US/NFLHD14/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/bos.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[03:10 WIB] [MLB] Boston Red Sox vs Tampa Bay Rays (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD15
@@ -77,7 +77,7 @@ https://instreams.live/US/NFLHD15/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD16
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD16/index.m3u8
+https://instreams.pro/US/NFLHD16/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/phi.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[05:05 WIB] [MLB] Philadelphia Phillies vs Colorado Rockies (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD17
@@ -89,25 +89,25 @@ https://instreams.live/US/NFLHD17/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD18
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD18/index.m3u8
+https://instreams.live/US/NFLHD18/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/phi.png" tvg-id="NHL.Dummy.us" group-title="BONE TV",[05:00 WIB] [NHL] Philadelphia Flyers vs Carolina Hurricanes (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NHL1
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NHL1/index.m3u8
+https://instreams.pro/US/NHL1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[04:00 WIB] [UFC] Clayton Carpenter vs Jose Ochoa (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD30
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD30/index.m3u8
+https://instreams.live/US/NFLHD30/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[04:00 WIB] [UFC] Djorden Santos vs Baisangur Susurkaev (Gate)
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[04:00 WIB] [UFC] Pat Sabatini vs William Gomis (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD30
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NFLHD30/index.m3u8
+https://instreams.pro/US/NFLHD30/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png" tvg-id="BOX.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:30 WIB] [BOX] Fabio Wardley vs Daniel Dubois (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD28
