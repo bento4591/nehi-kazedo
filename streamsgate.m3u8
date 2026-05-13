@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-05-13 11:25 WIB
+# Last Updated: 2026-05-13 11:30 WIB
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/28/1/mlb-com-logo-png_seeklogo-288672.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[🔴 LIVE] [08:40 WIB] [MLB] Athletics vs St. Louis Cardinals (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=MLB14
@@ -11,10 +11,4 @@ https://instreams.live/US/MLB14/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=MLB15
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/MLB15/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png" tvg-id="NHL.Dummy.us" group-title="BONE TV",[🔴 LIVE] [08:30 WIB] [NHL] Vegas Golden Knights vs Anaheim Ducks (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NHL2
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/US/NHL2/index.m3u8
+https://instreams.pro/US/MLB15/index.m3u8
