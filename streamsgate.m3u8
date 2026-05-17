@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-05-18 03:30 WIB
+# Last Updated: 2026-05-18 03:35 WIB
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/106.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [01:45 WIB] [SOCCER] Cagliari vs Torino (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD5
@@ -42,24 +42,6 @@ https://instreams.pro/US/NFLHD3/index.m3u8
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://instreams.pro/US/NBA1/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:35 WIB] [MLB] Washington Nationals vs Baltimore Orioles (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=MLB2
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/MLB2/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/atl.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:35 WIB] [MLB] Atlanta Braves vs Boston Red Sox (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=MLB3
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/MLB3/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/pit.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:35 WIB] [MLB] Pittsburgh Pirates vs Philadelphia Phillies (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=MLB4
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/MLB4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/cle.png" tvg-id="MLB.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:40 WIB] [MLB] Cleveland Guardians vs Cincinnati Reds (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=MLB5
