@@ -140,7 +140,7 @@ async def main():
                     
                     if watch_links:
                         # Ambil stream pertama saja untuk efisiensi
-                        tag_title = f"[🔴 LIVE] {ev['title']} [Seru]"
+                        tag_title = f"[🔴 LIVE] {ev['title']} [Ft]"
                         m3u8_url, referer = await extract_m3u8(context, watch_links[0], tag_title[:60])
                         
                         if m3u8_url:
