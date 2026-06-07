@@ -1,9 +1,7 @@
-name: StreamsGate Updater
+name: MABES Scraper (StreamsGate & FootyStream)
 
 on:
-  schedule:
-    - cron: '*/30 * * * *' # Berjalan otomatis setiap 30 menit
-  workflow_dispatch: # Tombol manual jalan
+  workflow_dispatch: # Pemicu manual khusus dari Cron Job pihak ketiga Kapten
 
 permissions:
   contents: write
@@ -23,34 +21,56 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Sangat ringan! Tidak butuh Playwright/Chromium sama sekali
-          pip install httpx beautifulsoup4
+          echo "Memasang amunisi gabungan..."
+          pip install httpx beautifulsoup4 requests playwright selectolax tzdata
+          python -m playwright install --with-deps chromium
 
-      - name: Run Scraper
+      - name: Run StreamsGate Scraper
+        # Menggunakan '|| echo ...' agar jika error, script tidak mati dan lanjut ke step berikutnya
         run: |
           echo "Memulai eksekusi StreamsGate..."
-          python streamsgate.py
+          python streamsgate.py || echo "⚠️ Peringatan: StreamsGate mengalami kendala, melanjutkan ke target berikutnya..."
+
+      - name: Run FootyStream Scraper
+        # Sama, menggunakan '|| echo ...' untuk mode anti-gagal
+        run: |
+          echo "Memulai eksekusi Tank FootyStream..."
+          python footystream.py || echo "⚠️ Peringatan: FootyStream mengalami kendala, tetap melanjutkan proses..."
 
       - name: Commit & Push safely
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          # Cek dulu apakah file berhasil dibuat oleh script Python
+          # Deteksi dan tambahkan file mana saja yang berhasil dibuat/diperbarui
+          FILE_ADDED=0
+
           if [ -f streamsgate.m3u8 ]; then
             git add streamsgate.m3u8
+            FILE_ADDED=1
           else
-            echo "File streamsgate.m3u8 tidak ditemukan (Mungkin tidak ada jadwal saat ini). Skip commit."
+            echo "File streamsgate.m3u8 tidak ditemukan."
+          fi
+
+          if [ -f FootyStream_BoneTV.m3u8 ]; then
+            git add FootyStream_BoneTV.m3u8
+            FILE_ADDED=1
+          else
+            echo "File FootyStream_BoneTV.m3u8 tidak ditemukan."
+          fi
+
+          if [ $FILE_ADDED -eq 0 ]; then
+            echo "Tidak ada file M3U8 yang dihasilkan sama sekali. Skip commit."
             exit 0
           fi
 
-          # Cek apakah ada perbedaan isi file (jadwal baru)
+          # Cek apakah ada perbedaan isi file (jadwal baru) dari file yang ditambahkan
           if git diff --cached --quiet; then
-            echo "Tidak ada jadwal baru, skip commit."
+            echo "Tidak ada jadwal baru atau perubahan, skip commit."
             exit 0
           fi
 
-          git commit -m "Update StreamsGate playlist [skip ci]"
+          git commit -m "Update M3U8 playlists (StreamsGate & FootyStream) [skip ci]"
 
           # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
           if ! git push origin main; then
@@ -58,7 +78,11 @@ jobs:
             git stash
             git pull --rebase origin main
             git stash pop
-            git add streamsgate.m3u8 || true
-            git commit -m "Update StreamsGate playlist (rebased) [skip ci]" || true
+            
+            # Tambahkan ulang file yang mungkin terkena stash
+            [ -f streamsgate.m3u8 ] && git add streamsgate.m3u8 || true
+            [ -f FootyStream_BoneTV.m3u8 ] && git add FootyStream_BoneTV.m3u8 || true
+            
+            git commit -m "Update M3U8 playlists (rebased) [skip ci]" || true
             git push origin main
           fi
