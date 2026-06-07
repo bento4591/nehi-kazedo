@@ -190,7 +190,7 @@ async def main():
                 if ev['status'] == "UPCOMING":
                     print(f"  ⏳ {base_title} -> Menanam Link Dummy (Parkir Jadwal)")
                     all_streams.append([
-                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="BONE TV - FootyStream",{base_title}',
+                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="FtyStream",{base_title}',
                         DUMMY_LINK,
                         ''
                     ])
