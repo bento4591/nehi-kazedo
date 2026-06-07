@@ -225,7 +225,7 @@ async def main():
                                     server_label = f" (Server {server_num})" if len(watch_links) > 1 else ""
                                     
                                     all_streams.append([
-                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="BONE TV - FootyStream",{base_title}{server_label}',
+                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="Live FtyStream",{base_title}{server_label}',
                                         f'{m3u8_url}{pipe_headers}',
                                         ''
                                     ])
