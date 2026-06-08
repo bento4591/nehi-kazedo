@@ -1,17 +1,14 @@
 #EXTM3U
-# Last Updated: 2026-06-08 07:26 WIB
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="Live FtyStream",[🔴 LIVE] [05:00 WIB] [Golf] PGA Tour [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=LoQPZba8sDI2LsnFDyX8yQ&expires=1780883156&ch=dadoskymoxo&s=b0a64493559926713ab48f7683d70310|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="Live FtyStream",[🔴 LIVE] [05:00 WIB] [Golf] PGA Tour [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=6n12G_4o9K-CJoze7sPJlA&expires=1780883159&ch=dadoskygo&s=ef0ff1931d0c358ea6c3222cc0bad7a4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+# Last Updated: 2026-06-08 07:31 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/jordan/logo.webp" group-title="Live FtyStream",[🔴 LIVE] [06:00 WIB] Jordan vs Colombia [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/yt34.m3u8?md5=kZJmpgunRTRLoEJTrw_b5w&expires=1780883162&ch=yt34&s=7e860c5d234025cb235bdaf565d69809|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt34.m3u8?md5=tN4fhIUKmyDjoHfWOqKCsw&expires=1780883463&ch=yt34&s=b92b72745b7aeec79c2f8e71f781991e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/jordan/logo.webp" group-title="Live FtyStream",[🔴 LIVE] [06:00 WIB] Jordan vs Colombia [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=FCL5UTf6nnSHOqcTChVt6Q&expires=1780883165&ch=spch41&s=6252292c265f3e3231345072ae1be6c8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=qbWCMSEVFVRme-_7rJ-EFA&expires=1780883466&ch=spch41&s=f79f527daee93378044370f29047c798|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chicago-cubs/logo.webp" group-title="Live FtyStream",[🔴 LIVE] [07:30 WIB] Chicago Cubs vs San Francisco Giants [Ft]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=GbRu8dXWqCsLLNa_4brtvg&expires=1780883470&ch=bbtsip1&s=f224da8efd63e926e15cca0e7ff798a6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="FtyStream",[⏳ UPCOMING] [01:45 WIB] [Soccer] Netherlands vs Uzbekistan [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
