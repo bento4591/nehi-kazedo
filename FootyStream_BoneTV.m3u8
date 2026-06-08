@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 2026-06-09 01:55 WIB
+# Last Updated: 2026-06-09 02:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/uzbekistan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] Uzbekistan vs Netherlands [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=V2XsaVzfrpOsuiRz44Ta1A&expires=1780949754&ch=spch89&s=17d7767ecd9ba0dc41c9ab91ae3f9814|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=1XumVKQ73B4u6W9IFES1hA&expires=1780950060&ch=spch89&s=53af5e69df88ea2a2d9ed7ae0f6c0a02|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/uzbekistan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] Uzbekistan vs Netherlands [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=X9yW1zqsdFYNLxaLdyYylA&expires=1780949757&ch=spch73&s=ee29b0797f82a562c759bc076fc1a73a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=BXN8hqdn_jkBUTXlquFPfA&expires=1780950064&ch=spch73&s=536fec0d2f8a41d58eafdc959f3ddf01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/northern-ireland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Soccer] Northern Ireland vs France [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/northern-ireland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] Northern Ireland vs France [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=xA1Zi9ka1sOjAgrwGR6FCw&expires=1780950067&ch=foxsp2&s=20e4fb977d5ce39325de2a8315beab0a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/northern-ireland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] Northern Ireland vs France [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=uUAYqVJDqTlNP9Z7QGzTOw&expires=1780950070&ch=spch62&s=ba442ed40b550b79344f43195ee8cf68|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/peru/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [09:00 WIB] [Soccer] Peru vs Spain [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
