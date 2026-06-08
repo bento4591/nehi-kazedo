@@ -187,7 +187,7 @@ async def main():
                 if ev['status'] == "UPCOMING":
                     print(f"  ⏳ {base_title} -> Menanam Link Dummy")
                     all_streams.append([
-                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="BONE TV - FootyStream",{base_title}',
+                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="LIVE - FootyStream",{base_title}',
                         DUMMY_LINK,
                         ''
                     ])
@@ -221,7 +221,7 @@ async def main():
                                     server_label = f" (Server {server_num})" if len(watch_links) > 1 else ""
                                     
                                     all_streams.append([
-                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="BONE TV - FootyStream",{base_title}{server_label}',
+                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",{base_title}{server_label}',
                                         f'{m3u8_url}{pipe_headers}',
                                         ''
                                     ])
