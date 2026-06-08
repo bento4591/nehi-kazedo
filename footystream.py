@@ -36,7 +36,7 @@ def check_status(start_str, end_str):
         return "UNKNOWN"
 
 def format_title(team1, team2):
-    """SMART TITLING: Mencegah 'Formula 1 vs Formula 1'"""
+    """SMART TITLING: Mencegah pengulangan nama event tunggal"""
     t1_lower, t2_lower = team1.lower(), team2.lower()
     if t1_lower == t2_lower or t1_lower in t2_lower or t2_lower in t1_lower:
         return team1 if len(team1) >= len(team2) else team2
@@ -59,7 +59,7 @@ def get_category(logo_url, is_soccer_page):
     return ""
 
 def parse_schedule(html_text, is_soccer_page=False):
-    """Mengekstrak jadwal dari halaman HTML"""
+    """Mengekstrak jadwal dari halaman HTML dengan Taktik Swap Posisi"""
     soup = HTMLParser(html_text)
     events = []
     
@@ -70,22 +70,24 @@ def parse_schedule(html_text, is_soccer_page=False):
             end_str = countdown.attributes.get("data-end")
             status = check_status(start_str, end_str)
             
-            # Abaikan pertandingan yang sudah selesai
             if status == "ENDED": continue
-            # Di Halaman Utama, abaikan yang belum mulai (Upcoming)
             if not is_soccer_page and status == "UPCOMING": continue
             
             teams = a_tag.css("img")
-            logo = teams[0].attributes.get("src", "") if teams else ""
-            category_tag = get_category(logo, is_soccer_page)
             
+            # 🔄 TAKTIK SWAP POSISI (V2.2)
+            # Web asli: [Tamu] vs [Tuan Rumah] -> Diubah ke: [Tuan Rumah] vs [Tamu]
             if len(teams) >= 2:
-                team1 = teams[0].attributes.get('alt', 'Team 1')
-                team2 = teams[1].attributes.get('alt', 'Team 2')
-                raw_title = format_title(team1, team2)
+                team_away = teams[0].attributes.get('alt', 'Team Away')
+                team_home = teams[1].attributes.get('alt', 'Team Home')
+                
+                raw_title = format_title(team_home, team_away)
+                logo = teams[1].attributes.get("src", "") # Menggunakan logo Tuan Rumah
             else:
                 raw_title = "Live Event"
+                logo = teams[0].attributes.get("src", "") if teams else ""
 
+            category_tag = get_category(logo, is_soccer_page)
             kickoff_wib = convert_time_to_wib(start_str)
             href = a_tag.attributes.get("href")
             full_url = f"{MAIN_URL}{href}" if href.startswith("/") else href
@@ -128,7 +130,6 @@ async def extract_m3u8(context, url):
         await page.goto(url, wait_until="domcontentloaded", timeout=25000)
         await page.wait_for_timeout(3000) 
         
-        # TAKTIK DOUBLE TAP
         for _ in range(3):
             if m3u8_link: break
             await page.mouse.click(640, 360)
@@ -147,17 +148,15 @@ async def extract_m3u8(context, url):
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Operasi FootyStream (V2.1 - Smart Deduplication & Dummy Link)...")
+    print("🚀 Memulai Operasi FootyStream (V2.2 - Swap Posisi & Dummy Link)...")
     all_streams = []
     raw_events = []
 
     try:
-        # 1. Pindai Halaman Utama (Hanya LIVE)
         print("\n🔍 Memindai Halaman Utama...")
         res_main = requests.get(MAIN_URL, headers={"User-Agent": USER_AGENT}, timeout=15)
         raw_events.extend(parse_schedule(res_main.text, is_soccer_page=False))
 
-        # 2. Pindai Halaman Soccer (Live & Upcoming)
         print("🔍 Memindai Halaman Soccer-Streams...")
         res_soc = requests.get(SOCCER_URL, headers={"User-Agent": USER_AGENT}, timeout=15)
         raw_events.extend(parse_schedule(res_soc.text, is_soccer_page=True))
@@ -166,7 +165,7 @@ async def main():
         print(f"❌ Gagal memindai web: {e}")
         return
 
-    # 3. PEMBERSIHAN DUPLIKAT (Kombinasi Judul + Waktu + URL)
+    # PEMBERSIHAN DUPLIKAT (Berdasarkan Judul + Waktu + URL)
     unique_events_dict = {}
     for ev in raw_events:
         unique_key = f"{ev['raw_title']}_{ev['kickoff']}_{ev['url']}"
@@ -177,7 +176,6 @@ async def main():
     print(f"🎯 Ditemukan Total {len(unique_events)} Pertandingan Unik.")
 
     if unique_events:
-        # Siapkan browser (Tapi hanya dipakai untuk yang LIVE)
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
             context = await browser.new_context(viewport={'width': 1280, 'height': 720}, user_agent=USER_AGENT)
@@ -186,16 +184,14 @@ async def main():
                 status_icon = "🔴 LIVE" if ev['status'] == "LIVE" else "⏳ UPCOMING"
                 base_title = f"[{status_icon}] [{ev['kickoff']}] {ev['category']}{ev['raw_title']} [Ft]"
                 
-                # SKENARIO A: PERTANDINGAN BELUM MULAI (UPCOMING) -> Pakai Dummy Link
                 if ev['status'] == "UPCOMING":
-                    print(f"  ⏳ {base_title} -> Menanam Link Dummy (Parkir Jadwal)")
+                    print(f"  ⏳ {base_title} -> Menanam Link Dummy")
                     all_streams.append([
-                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="FtyStream",{base_title}',
+                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="BONE TV - FootyStream",{base_title}',
                         DUMMY_LINK,
                         ''
                     ])
                 
-                # SKENARIO B: PERTANDINGAN SEDANG LIVE -> Serang dengan Playwright
                 elif ev['status'] == "LIVE":
                     print(f"\n⚡ Mengeksekusi LIVE: {base_title}")
                     try:
@@ -209,7 +205,7 @@ async def main():
                                 if href and "footystream.top" in href:
                                     watch_links.append(href)
                         
-                        # BATASI MAKSIMAL 2 SERVER SAJA
+                        # Batasi maksimal 2 server
                         watch_links = watch_links[:2] 
                         
                         if watch_links:
@@ -225,7 +221,7 @@ async def main():
                                     server_label = f" (Server {server_num})" if len(watch_links) > 1 else ""
                                     
                                     all_streams.append([
-                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="Live FtyStream",{base_title}{server_label}',
+                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="BONE TV - FootyStream",{base_title}{server_label}',
                                         f'{m3u8_url}{pipe_headers}',
                                         ''
                                     ])
@@ -238,7 +234,6 @@ async def main():
 
             await browser.close()
 
-    # 4. SIMPAN HASIL KE M3U8
     ts = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%Y-%m-%d %H:%M WIB")
     header = ['#EXTM3U', f'# Last Updated: {ts}', '']
     
