@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-06-09 11:05 WIB
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/peru/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] Peru vs Spain [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=SgcH5dem6oP1IciMIcROIA&expires=1780982749&ch=spch62&s=43a217bd8dacb9d48870cadae6167d27|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/peru/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] Peru vs Spain [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=ooAk3-nfs9yG9giJfgGLTA&expires=1780982752&ch=foxsp2&s=882a812ec57d184af77a1994cd4048f7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+# Last Updated: 2026-06-09 11:10 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kuwait/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [Soccer] Kuwait vs Oman [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
