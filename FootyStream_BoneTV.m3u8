@@ -1,17 +1,17 @@
 #EXTM3U
-# Last Updated: 2026-06-10 00:31 WIB
+# Last Updated: 2026-06-10 00:36 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/burkina-faso/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] Burkina Faso vs Belarus [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=eDkVcbpccMS8jBWIzLaVQg&expires=1781031057&ch=spch64&s=c9a726fc5f48d16019f2fb20d432fe50|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=0Mj4lAfcoOLxXK-RpqXOfg&expires=1781031353&ch=spch64&s=e9cd2f7a1aa87360987bf14fc67a6896|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/burkina-faso/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] Burkina Faso vs Belarus [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=yFFmFIIKAc-PqLB2vIEL8w&expires=1781031060&ch=spch89&s=f42bbdafa7656107a156339f073d57f8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=AQ7rlO-8YLrREUKBAriVfw&expires=1781031356&ch=spch89&s=63c696c7d246481abfd70b666f323422|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kazakhstan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] Kazakhstan vs Hungary [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=mKh19M1RNCBQD3DW-Bxp0A&expires=1781031063&ch=spch62&s=e99c370173b0a79d14c1d1ebfc6d6136|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=DsOvvv0wTnGcyKqWELYg3w&expires=1781031360&ch=spch62&s=494a2601e832e2e39a3c1aecf55f47e9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kazakhstan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] Kazakhstan vs Hungary [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=OnoRspQdrUcDvfBe68MsQQ&expires=1781031067&ch=foxsp2&s=fc24da632fba7ab58ea208844c3e0ddc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=pHNn8IrHnBq-awm6grghdw&expires=1781031363&ch=foxsp2&s=f6425517f65d5675791f296ff914861e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/san-marino/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [Soccer] San Marino vs Azerbaijan [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -29,6 +29,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/costa-rica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [Soccer] Costa Rica vs England [Ft]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fifa-world-cup/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [Soccer] Fifa World Cup [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-africa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Soccer] South Africa vs Mexico [Ft]
