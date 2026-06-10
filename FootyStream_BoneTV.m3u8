@@ -1,11 +1,11 @@
 #EXTM3U
-# Last Updated: 2026-06-10 08:51 WIB
+# Last Updated: 2026-06-10 08:56 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iceland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] Iceland vs Argentina [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=5lRtNpWonB_gXIdhMSJcMA&expires=1781061058&ch=spch61&s=68c896eb9d0242a07d261ee5b2820ae9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=EYcXZUt4K5KGXLZOBN0RXw&expires=1781061355&ch=spch61&s=471164760da9ad7edf50404bae194680|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iceland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] Iceland vs Argentina [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/espn.m3u8?md5=1VLPZlZXzoh4gP0HExBkpg&expires=1781061061&ch=espn&s=db9a1177ebb959ca7b3408002968961d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/espn.m3u8?md5=ffbX5XndhTcMPqbm1bupig&expires=1781061359&ch=espn&s=3a6c339300531309346fd820c6bc1f4c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:45 WIB] [Soccer] Nigeria vs Portugal [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
