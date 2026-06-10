@@ -1,11 +1,14 @@
 #EXTM3U
-# Last Updated: 2026-06-11 02:40 WIB
+# Last Updated: 2026-06-11 02:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cleveland-guardians/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:10 WIB] Cleveland Guardians vs New York Yankees [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=J4wBNhy-LVBX-YeCgDVa0Q&expires=1781125257&ch=bbtsvp2&s=cec322e9202a1d0c58fe1b0d483b70af|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=QhRJtdlQLeIt_H9l5cVwkw&expires=1781125561&ch=bbtsvp2&s=8dde95aebb9395392c4f3cd3ed8544c0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:45 WIB] [Soccer] Nigeria vs Portugal [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:45 WIB] Nigeria vs Portugal [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=CjcZkeh5vss5WIYhdl6_cQ&expires=1781125565&ch=spch62&s=03b2ec4a10761498259b825df3f79055|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:45 WIB] Nigeria vs Portugal [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=M-z48nyUJZe35EVpC_RuRw&expires=1781125568&ch=spch71&s=b9567d79fa3f7cec72b2c0ce46ff001d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/costa-rica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [Soccer] Costa Rica vs England [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
