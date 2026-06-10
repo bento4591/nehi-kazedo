@@ -1,17 +1,20 @@
 #EXTM3U
-# Last Updated: 2026-06-11 02:56 WIB
+# Last Updated: 2026-06-11 03:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cleveland-guardians/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:10 WIB] Cleveland Guardians vs New York Yankees [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=BC5bkmDwD7U_5SwojZhwzA&expires=1781126153&ch=bbtsvp2&s=8c85edbb85e3679d6c41e3aa59350044|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=LzwFkQ3SBZBo_qdBCTYI9A&expires=1781126468&ch=bbtsvp2&s=2dc480bf90d43cadb4eb1dd63da14b0e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:45 WIB] Nigeria vs Portugal [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=nwF8bhcIe6LAGdKxYj7BAQ&expires=1781126156&ch=spch62&s=20d81a435df2791f94a9275ed4f8049c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=tD67_55qUSjm4gbCeyWAMQ&expires=1781126471&ch=spch62&s=89d6cbb713cf7991a6ff16a7c7cfd034|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:45 WIB] Nigeria vs Portugal [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=HCcrL4nyrE2550joKTCe-A&expires=1781126159&ch=spch71&s=9f18a34ee1c841be1515c5a669fe6676|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=4Zr58XFoNZePHVHsk47-eA&expires=1781126475&ch=spch71&s=6b9b431de8487a40e7e187d9c290cc2d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/costa-rica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [Soccer] Costa Rica vs England [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/costa-rica/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] Costa Rica vs England [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=8X5pk8GRGm0qP6xtXTUPyQ&expires=1781126478&ch=itv111&s=501eb068626c943137b2d3ae581a79a1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/costa-rica/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] Costa Rica vs England [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=CVUynS-x_iu1U-uw2zqJRQ&expires=1781126482&ch=spch61&s=3f427a52bace92f4aa2d18f32c942ba9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fifa-world-cup/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [Soccer] Fifa World Cup [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
