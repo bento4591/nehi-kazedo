@@ -1,5 +1,8 @@
 #EXTM3U
-# Last Updated: 2026-06-11 02:06 WIB
+# Last Updated: 2026-06-11 02:10 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cleveland-guardians/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:10 WIB] Cleveland Guardians vs New York Yankees [Ft]
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=5Z-5m4WCoFCxrWHzXQyOxA&expires=1781123457&ch=bbtsvp2&s=23ad3824a12d1b99ac2bd251152d860b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nigeria/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:45 WIB] [Soccer] Nigeria vs Portugal [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
