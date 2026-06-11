@@ -1,14 +1,11 @@
 #EXTM3U
-# Last Updated: 2026-06-11 18:56 WIB
+# Last Updated: 2026-06-11 19:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/adelaide-crows/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] Adelaide Crows vs Western Bulldogs [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=1aXTPL3ujWr6fKx0Y7AEAg&expires=1781183753&ch=bbtsip1&s=5cdf5cf03c23f8235476dd802aea0ce2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] South Sydney Rabbitohs vs Brisbane Broncos [Ft]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=XVKStgyqzGAvFbuNX616eg&expires=1781183756&ch=dadosky3&s=afb7cd3809fad8443666d0ff532bf494|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=LjRW1Ux29eduudred_2XlQ&expires=1781184063&ch=bbtsip1&s=21015b66894c8ed78a1cc12ebd0eea32|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [Golf] PGA Tour [Ft]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=TFTcVVofdJWzcdNp0wiNow&expires=1781183759&ch=dadoskygo&s=41359121c7d925b2a8208791f457cba8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=Cip7MzbpuOok7xM46ggkaA&expires=1781184066&ch=dadoskygo&s=397c4794babe3f7d98ee1285d6848ae5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fifa-world-cup/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [Soccer] Fifa World Cup [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
