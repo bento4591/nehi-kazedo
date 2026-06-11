@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 2026-06-11 23:26 WIB
+# Last Updated: 2026-06-11 23:31 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [Golf] PGA Tour [Ft]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=jw5IFr-4r-Y0nE1H2hFRpg&expires=1781199958&ch=dadoskygo&s=141834ded323415dda5da7bc9f8aaa8f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=8N7SQdCx9A-HUz5tChRfCQ&expires=1781200291&ch=dadoskygo&s=c87f826665ce06e8d8dfa0ed8141eed8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [Golf] PGA Tour [Ft]
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=_syLRK4zw7qaGPHG-3Q6UA&expires=1781199961&ch=dadoskymoxo&s=2f97bb153da04ad751e8ac8dc671c23d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=drSos1rRYFHW1XFFPsfzsw&expires=1781200294&ch=dadoskymoxo&s=66d9571562b4623e4194db3f59affefa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fifa-world-cup/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [Soccer] Fifa World Cup [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fifa-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] Fifa World Cup [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=crrn-sU82tYG9XhcZGOJyg&expires=1781200297&ch=itv111&s=0cbd76ba6ca6e88e3acbbfe695c1517e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fifa-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] Fifa World Cup [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=lfG7TNGGkH8F9ym3SGwxfg&expires=1781200301&ch=tsn1ca&s=e4eccd1558740463a4aae5b88501e8f5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-africa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Soccer] South Africa vs Mexico [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
