@@ -59,7 +59,7 @@ def parse_schedule(html_text, is_soccer_page=False):
             
             teams = a_tag.css("img")
             
-            # STANDAR ASIA: Kiri Tuan Rumah (0), Kanan Tamu (1)
+            # URUTAN DIKEMBALIKAN: Kiri Tuan Rumah (0), Kanan Tamu (1)
             if len(teams) >= 2:
                 team1 = teams[0].attributes.get('alt', 'Team 1') # Tuan Rumah
                 team2 = teams[1].attributes.get('alt', 'Team 2') # Tamu
@@ -87,7 +87,7 @@ async def extract_m3u8(context, url):
     """Menyusup ke Player Video dan mengambil M3U8 + Referer"""
     page = await context.new_page()
     m3u8_link = None
-    dynamic_referer = "https://footystream.top/"
+    dynamic_referer = "https://footystream.pk/"
 
     await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
@@ -128,7 +128,7 @@ async def extract_m3u8(context, url):
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Operasi FootyStream (V2.4 - Ultimate Tournament Tagging)...")
+    print("🚀 Memulai Operasi FootyStream (Ultimate Final Version)...")
     all_streams = []
     raw_events = []
 
@@ -166,13 +166,12 @@ async def main():
                     match_res = requests.get(ev['url'], headers={"User-Agent": USER_AGENT}, timeout=10)
                     match_soup = HTMLParser(match_res.text)
                     
-                    # Curi Nama Turnamen (contoh: Fifa World Cup)
+                    # Curi Nama Turnamen
                     tour_elem = match_soup.css_first("div.text-white.font-semibold.text-sm")
                     if tour_elem:
                         tournament_name = tour_elem.text(strip=True)
                         category_tag = f"[{tournament_name}] "
                     else:
-                        # Fallback jika elemen tidak ditemukan
                         category_tag = "[Soccer] " if "soccer" in ev['url'] else "[Event] "
 
                     status_icon = "🔴 LIVE" if ev['status'] == "LIVE" else "⏳ UPCOMING"
@@ -193,8 +192,11 @@ async def main():
                         for a in match_soup.css("a"):
                             if a.text(strip=True) == "Watch":
                                 href = a.attributes.get("href")
-                                if href and "footystream.top" in href:
-                                    watch_links.append(href)
+                                # TAKTIK FILTER FLEKSIBEL
+                                if href and ("/alpha/" in href or "footystream" in href):
+                                    full_watch_link = f"{MAIN_URL}{href}" if href.startswith("/") else href
+                                    if full_watch_link not in watch_links:
+                                        watch_links.append(full_watch_link)
                         
                         # Sapu Bersih (No Limit Servers)
                         if watch_links:
