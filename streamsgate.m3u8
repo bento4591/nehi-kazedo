@@ -1,26 +1,14 @@
 #EXTM3U
-# Last Updated: 2026-06-15 02:55 WIB
+# Last Updated: 2026-06-15 03:01 WIB
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:00 WIB] [SOCCER] Germany vs Curaçao (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD1
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png" tvg-id="NHL.Dummy.us" group-title="BONE TV",[07:00 WIB] [NHL] Vegas Golden Knights vs Carolina Hurricanes (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NHL1
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD1/index.m3u8
+https://instreams.pro/US/NHL1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:00 WIB] [SOCCER] Germany vs Curaçao (Gate) [S2]
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD2
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[07:00 WIB] [UFC] Steve Garcia vs Diego Lopes (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD30
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD2/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:00 WIB] [SOCCER] Germany vs Curaçao (Gate) [S3]
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD3
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD3/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [00:00 WIB] [SOCCER] Germany vs Curaçao (Gate) [S4]
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDWC1
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/EU/HDWC1/index.m3u8
+https://instreams.pro/US/NFLHD30/index.m3u8
