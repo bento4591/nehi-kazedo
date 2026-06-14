@@ -1,17 +1,35 @@
 #EXTM3U
-# Last Updated: 2026-06-15 05:56 WIB
+# Last Updated: 2026-06-15 06:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Darts] Darts [Ft]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=jKez2UMXRZ1_V3m3BVgWqQ&expires=1781482562&ch=dadosky3&s=181bf622420aee98372c8744ca2b741c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=yiWH1EsMiwlHNRvlEQUGmw&expires=1781482875&ch=tsn1ca&s=487ae80d2deab85172c233a7818c0ac8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=AVbi8CMrCRI4fX07fKESng&expires=1781482878&ch=bbc1ld&s=b722834f90cfa3ad7d4291ee1f2cf8a6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=jMq3W3EQ75-QKIn_Ay7x9g&expires=1781482881&ch=spch9&s=16a20bcce947772fa41e7f40d4bbd54c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/tsn4ca.m3u8?md5=oE72X2rHPRU3tXrOb0it2A&expires=1781482885&ch=tsn4ca&s=eaa78bca3eb5a7fac138c3d7aa997411|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=jUycjx3n1u7HMRH0-Wc-_A&expires=1781482888&ch=daznlaliga&s=c04970ac6b3632a412fcb9c051cad27a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=AzpipgMy3LeIcH9AXpR8ng&expires=1781482892&ch=yt29&s=c48aebd9da47f775a1869e30d8288860|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=iq5xDCZNPrWJoLWSIdSK8w&expires=1781482895&ch=bsp1fr&s=0c28b3640a6d8873070e0ff05621949a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=QA8fw2np2S4ACKxPgF6PIQ&expires=1781482899&ch=spch45&s=8547a81fa39cf3c320b670bfed0d8b24|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=j_L1mxk9NPcUBLMIO_a0dQ&expires=1781482565&ch=dadoskygo&s=e2111bb2d44033417416e3b2b1c95e8e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=U2c4kJ2rdPRKtMwjiq_k-g&expires=1781482903&ch=dadoskygo&s=f7a26e0edf067203c7587c35178f88cc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=0p_kAKXD0sQcvdMBW6VNHA&expires=1781482569&ch=dadoskymoxo&s=c9565b9028b770e2e3988209772cef62|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cote-divoire/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [06:00 WIB] [Fifa World Cup] Côte d'Ivoire vs Ecuador [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=RjkwTLlKevnxiKWitMEAgQ&expires=1781482907&ch=dadoskymoxo&s=a04c9fc97085e3deaf87fa3c076fcd60|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sweden/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [09:00 WIB] [Fifa World Cup] Sweden vs Tunisia [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
