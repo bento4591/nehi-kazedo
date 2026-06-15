@@ -1,8 +1,32 @@
 #EXTM3U
-# Last Updated: 2026-06-16 01:56 WIB
+# Last Updated: 2026-06-16 02:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=fvM-Tyy6rL2PBWeOBjmE0Q&expires=1781554877&ch=tsn1ca&s=4162f24b2f59571d665e8b701d21192f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=o-afB1D8ca-YwG5K0mbJXg&expires=1781554880&ch=bbc1ld&s=cd952420ff41aa12726badb2885c3a02|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=ayuOqkm57w5E0091PHhUyA&expires=1781554883&ch=spch9&s=661003cce8a1f9a46aacdb33d591cdfb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=PISK3XcntuQSXwDIKpEVRA&expires=1781554886&ch=tsn3ca&s=267eae12aa5c4edfba9190ec0c142130|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=1XzeeSQx3Oqvfdrwlh6nFQ&expires=1781554890&ch=daznlaliga&s=268aeea6ab3f0f643112510afd25da7e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=Qj2iYLHNAO2ONU7MDtnvpQ&expires=1781554893&ch=spch45&s=546270fbad4de6b6d618267ebedc4104|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/yt28.m3u8?md5=2xsNhu0a0mYJtu8TYg5nhA&expires=1781554896&ch=yt28&s=6e3b389478b3c5b095de6be99f8c6c66|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=vAn_appu5YdVUoqfYpYt9A&expires=1781554900&ch=bsp1fr&s=140bf12265d3222f76b7d8cfbf894064|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Belgium vs Egypt [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/yt36.m3u8?md5=N8c3jG9fbIaVVwXFuU3z6w&expires=1781554903&ch=yt36&s=b7e53df530badab3aae4d352983a25fb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
