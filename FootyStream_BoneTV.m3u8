@@ -1,8 +1,35 @@
 #EXTM3U
-# Last Updated: 2026-06-16 04:56 WIB
+# Last Updated: 2026-06-16 05:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=WJXdepCFLG1CiMNJsb8Pow&expires=1781565713&ch=tsn1ca&s=ab988e41e1dd4600d29c9155a2bd6758|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=Tjoywn7LcwuyViu0-gVN_Q&expires=1781565717&ch=itv111&s=f6a21aa2dd0fd217b4ef7f5fcb7fd2c5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=fYcTGuTCe3xnj1EtmiTJfA&expires=1781565721&ch=spch9&s=3923b03de2d13cdf3090d0a6cf3cfac4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=YKbom9SIkm5YmBDcYgYtYw&expires=1781565724&ch=tsn3ca&s=bc706f23d3c6ce83eb95396b045798a7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=OjN9ZQHVlZrifym8N_WokA&expires=1781565727&ch=daznlaliga&s=0b5cd5112a2e7a0a24d874f72efe37dc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/zdf.m3u8?md5=_U0rnNO2Y4d_n6f6aCmCbQ&expires=1781565731&ch=zdf&s=ded9e48d2e34e2e0d0def5acdc70ef31|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=QKkj7hBiOYYgdNC_CVF-hw&expires=1781565734&ch=spch45&s=4ee4026a30b8cdee94b0b38f8a148ca7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=xOUwx-bXz3HBAH90DMx26w&expires=1781565738&ch=bsp1fr&s=f5adf223a7b82edd6b2b89be44781ea1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=_WPe1soVDXsC_yn4k5zAoA&expires=1781565741&ch=yt39&s=c4ac4562c27812d35fc66a2bac8dc04d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [Fifa World Cup] Saudi Arabia vs Uruguay [Ft] (Server 10)
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=itx0HQ1mEFo2KJ1sZjjSeA&expires=1781565745&ch=spch10&s=b4ff94d70061a3b2bed5ade70509372a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iran/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [08:00 WIB] [Fifa World Cup] Iran vs New Zealand [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
