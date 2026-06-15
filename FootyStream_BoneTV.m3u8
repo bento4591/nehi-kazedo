@@ -1,11 +1,11 @@
 #EXTM3U
-# Last Updated: 2026-06-15 12:41 WIB
+# Last Updated: 2026-06-15 12:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/ufc-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [UFC] Gaethje [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=2iioVwjZXAxdh8icHFzkXg&expires=1781506867&ch=bbtsip1&s=20685eefc9455abc5c690998f23120d0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=N_PI1rJ6AgOypLDEc-qcsQ&expires=1781507159&ch=bbtsip1&s=b9444b9c542410d48d9bd459b17fdce8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/ufc-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [UFC] Gaethje [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=mSoupPlfqLfGLWJp4cjybA&expires=1781506873&ch=spch71&s=afc2f99908ae6a6a418debac47e81585|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=6y5iVfhh-64qIMLnFj5w4w&expires=1781507163&ch=spch71&s=4b8410b20ec3d257619909320a80f478|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [Fifa World Cup] Spain vs Cabo Verde [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -34,5 +34,5 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [Event] England vs Croatia [Ft]
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [Fifa World Cup] England vs Croatia [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
