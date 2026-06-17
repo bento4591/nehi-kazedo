@@ -1,11 +1,41 @@
 #EXTM3U
-# Last Updated: 2026-06-17 23:56 WIB
+# Last Updated: 2026-06-18 00:06 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cincinnati-reds/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:40 WIB] [MLB] Cincinnati Reds vs New York Mets [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=CcWQxvOj63ztvvjrIWlnaw&expires=1781720158&ch=bbtsip1&s=26b666a486cf713f05a9d87940b478de|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=o6FpUNgnJiIhhUtjoVj6Fw&expires=1781720756&ch=bbtsip1&s=01f9d5b6d4ae0d22ed435628d6302c15|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=-e1_WzI3LFmPvaS2y2Qupg&expires=1781720759&ch=tsn1ca&s=b290eaf3cae9ad78e0dd6783b789f1f8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=t75qQScfQFgv6-hhB7dXsw&expires=1781720762&ch=bbc1ld&s=dc4e5f93190128be65379b8debca73a8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=U-ebe707ZfheuW6LXIU-Bw&expires=1781720765&ch=spch9&s=288d6be7114bfdb4a11a1f689f12935e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=tBsiKISRDPchpBK0Ok8S3Q&expires=1781720768&ch=spch10&s=aeb3042f362a5c2e3ed099fca3441b33|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=Qub96Lnz9H8_svcHGg09oQ&expires=1781720772&ch=tsn3ca&s=05abd2be0d13dd98a2273f1aeddfd91e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=G9sKeppozaIFguGPUYYDJA&expires=1781720776&ch=daznlaliga&s=d518d1e59125d6dc8a8891ce000526fd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=-fXmmfQZUWqdzMLmuDqyOQ&expires=1781720779&ch=yt39&s=0d6b2e9d0933343266a7f60824f07ee1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/zdf.m3u8?md5=eD__1RVPuQDIgtsOiyvyCg&expires=1781720782&ch=zdf&s=7b4a6c0e844464ec35485e1aa06f4aef|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=cDbba-RzUFKimXx2OIuGJg&expires=1781720786&ch=bsp1fr&s=89251fdd4afd5205ca898e5160fe34f5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 10)
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=3F0ytxD60btO4MjSzvwR1A&expires=1781720789&ch=spch41&s=b2c8053a964c27a6fce5b2f79476e46d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft] (Server 11)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=bknGBNw1QdfSdHXN6ZBaiA&expires=1781720793&ch=spch45&s=93c48cdc698d55bc3e8d3d382bed462c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [Fifa World Cup] England vs Croatia [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
