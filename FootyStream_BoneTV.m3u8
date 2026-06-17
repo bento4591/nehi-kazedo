@@ -1,14 +1,5 @@
 #EXTM3U
-# Last Updated: 2026-06-17 19:41 WIB
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/queensland-maroons/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [State of Origin] Queensland Maroons vs NSW Blues [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=Ncag21eldmvpPePErSzERQ&expires=1781704892&ch=dadosky3&s=56876196a77a07d2785aca88baa54c39|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/queensland-maroons/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [State of Origin] Queensland Maroons vs NSW Blues [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=53y7Hg-aWsCjT3yNu1VdEA&expires=1781704895&ch=spch62&s=946ce6bf8efaa7cac7030eb2e68e1366|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/queensland-maroons/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [State of Origin] Queensland Maroons vs NSW Blues [Ft] (Server 3)
-https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=4m1wMQoxCfIYmV_p1nHXmA&expires=1781704898&ch=fox502&s=9bab4f9a6b6af660e60c7faf9c554a8c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+# Last Updated: 2026-06-17 19:45 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [Fifa World Cup] Portugal vs DR Congo [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
