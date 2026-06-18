@@ -1,11 +1,35 @@
 #EXTM3U
-# Last Updated: 2026-06-18 08:56 WIB
+# Last Updated: 2026-06-18 09:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-york-yankees/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:00 WIB] [MLB] New York Yankees vs Chicago White Sox [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=tq2uUMG9WCvsigkyKmqI-Q&expires=1781752558&ch=bbtsip1&s=b754c302ca1f265d8e8a5773ca055f67|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=cb3KjYCzk4iFChdvNZLdLg&expires=1781752868&ch=tsn1ca&s=e2b838925bfe1aa32016da4c81775a34|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=u1lAp98zPdG0-E5RnaFN1w&expires=1781752871&ch=bbc1ld&s=87c67351779756a46d77ad6779592148|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/foxsp1.m3u8?md5=42JrG9hKp2iVfrY8UKzI_g&expires=1781752875&ch=foxsp1&s=903451a4facd218e0f99d50b42d9c722|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=iJPFwtN5-t03_xuYJeftMw&expires=1781752878&ch=spch10&s=97b8c608d0a1076885fb4def59493515|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=VbF76YCWF-LR5T1p8uEW1w&expires=1781752881&ch=tsn3ca&s=a65d83b41075046d322b19e53a9ee000|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=sdkSET7ogvHwzLfVmmOhdQ&expires=1781752885&ch=daznlaliga&s=ab3c5a49c1538045ac5b806a6b081675|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=pQOQSoXGk4M4fmZpfsLizw&expires=1781752888&ch=yt39&s=b424d9c4fc24b32b3433a87bdb1fbf48|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=nJjJSmuh06PLOu8LYtkNWw&expires=1781752892&ch=yt27&s=8bbcb12895ad71a2143369e194c66006|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=sn7Qi5DvZBV2jFL73Gmvkw&expires=1781752895&ch=spch45&s=b6f7bd57a9a87594b17ddbe4cfe5b474|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [Fifa World Cup] Colombia vs Uzbekistan [Ft] (Server 10)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=d4-pSCZn9Mu8HWyaQ6Bo3A&expires=1781752899&ch=bsp1fr&s=6ca3434eb8bb3be8995d1b05275cb1f0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
