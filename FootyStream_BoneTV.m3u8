@@ -1,17 +1,50 @@
 #EXTM3U
-# Last Updated: 2026-06-19 01:55 WIB
+# Last Updated: 2026-06-19 02:07 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=gUO-QYHRFPu-G3IZzZ_oOQ&expires=1781813716&ch=dadoskygo&s=238cc22f87a56684c0c27f89b1e1d263|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=L2o0iYYvNfGSBjYNC2MjAA&expires=1781814368&ch=dadoskygo&s=c6bdb980781cfa08c77217a1f5526452|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=mDg__0CHM3k-gR-MLVEfXg&expires=1781813719&ch=dadosky1&s=e943b2eebeb551efeff723535ff96982|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=9M46A7GsaF013ihfBTVy-A&expires=1781814371&ch=dadosky1&s=a8eab57bb94af6254006b240659fdeb4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/milwaukee-brewers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:10 WIB] [MLB] Milwaukee Brewers vs Cleveland Guardians [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=EHyL_iAyYnycoyA1mq1ZRw&expires=1781813723&ch=bbtsip1&s=eacfd6435e70462e8633636beb6be508|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=YJCESuZeqeG2OHxWHBzZdg&expires=1781814375&ch=bbtsip1&s=994cb8f1b2131d66916730cf510bd2c9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=Wn2fjeG36-9a_gPZOUO77g&expires=1781814379&ch=tsn1ca&s=8a1de481beae9e9579462e9c764fa106|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=KLyCXm-1lwSqLppL4oeKig&expires=1781814382&ch=itv111&s=cf446e06b13ba51a19b25c233a5aaf25|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=OCiPU8D2p6mNCzfRXG1y9Q&expires=1781814386&ch=spch9&s=d5500570f673e137463c616807bca68e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=agKc4bfQdo-CMBekONHNhQ&expires=1781814390&ch=spch10&s=5c1cc3f41e46f26f3f63585f75e3237b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=UGXIEodtGK5swKbWaTPiHw&expires=1781814393&ch=tsn3ca&s=117e5567e61e2e63d045d68e92988e7e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=uRH79w8S4CIBsCndRu0WNQ&expires=1781814396&ch=daznlaliga&s=77cf2e91e50cf1ef7d5be12af530725b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=Ab8Kq7o8UiefFwMcRHKZjw&expires=1781814400&ch=yt39&s=3ae045efd31de2b0946be0aac270801c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=sA054zTrQahthUQf-LXveQ&expires=1781814404&ch=yt29&s=4065e6e3b8e3787f2213521f19245f81|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=RJxG8PaZNmum5pEKjPwrQw&expires=1781814407&ch=bsp1fr&s=b34ed76694a4e42af15d96ecbb0f44d6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft] (Server 10)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=gx9zcsR9Cmz8Q1P8xybtCA&expires=1781814410&ch=spch45&s=3a37dc5d1f84e13e53e1e5548a2f5eda|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-rhinos/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Super League] Leeds Rhinos vs Warrington Wolves [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=KUEZ-ze-PIeK6BVCz_6P9w&expires=1781814414&ch=dadosky3&s=797876ac08b7eaaddca1f065de0702d0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-rhinos/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [Super League] Leeds Rhinos vs Warrington Wolves [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=bKsh_WoyS7EJcbKoExm_0g&expires=1781814418&ch=dadoskyare&s=ad808963438b7c37d7fecfade9401af3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [Fifa World Cup] Canada vs Qatar [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
