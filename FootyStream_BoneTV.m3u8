@@ -1,14 +1,41 @@
 #EXTM3U
-# Last Updated: 2026-06-18 22:47 WIB
+# Last Updated: 2026-06-18 23:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=yzfnhuhLXM8c1foNKx-B1w&expires=1781802416&ch=dadoskygo&s=e4642be9ce5f45bf83c9a15238c38101|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=SP3LfrWbFwPqh0x8TiMLug&expires=1781803224&ch=dadoskygo&s=fd9a983d88738af867bef1bcb6d601e9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=M-K10wfcnw5wdeOWunFqgw&expires=1781802420&ch=dadosky1&s=64b70ea7ee7dbef5eae5d07108efe7f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=iqnRmueDbTOdvmmUAU7XMA&expires=1781803227&ch=dadosky1&s=62aa66dfc03fa2fb1dd0149eb24d2ed2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=Pq9wtF02QzFmQzs68gXbwg&expires=1781803230&ch=tsn1ca&s=dd74b66e4ca2e681fc91814ad4e66494|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=xbk_a6BbzKPjDXILitYl8w&expires=1781803233&ch=bbc1ld&s=b60bee827d9744b1b8bc058ae775a3e9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=DBNHs7NZS12OPltRtYZQ2w&expires=1781803237&ch=spch9&s=c01d109c1ab309114a2b61349ae697cc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=MfvLhQnR-pqJwXJ5QmYSjA&expires=1781803240&ch=spch10&s=c8c7a66d39cca5175e79fa2e781ce8b4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=EjePYOiDlzROBbwpZ6SAxA&expires=1781803244&ch=tsn3ca&s=5fb08fa6dc00ddad61cfc02ecd89a740|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=nbcoblcdF06V8BCAooNVOA&expires=1781803247&ch=daznlaliga&s=d210f759a649fd4b7c8db6fd10eec0a0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=e3deCkjeI-3V0965eRaiuQ&expires=1781803250&ch=yt39&s=bcd41eb1886e43a2ccace37d8ff04bca|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=CoJ0OKtrS_FJc7tMH-PLIg&expires=1781803254&ch=yt29&s=5b26a6192d03658a563b724b28dc5e92|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=WYbMQHRVkWuZ0Tks7hke8g&expires=1781803257&ch=spch45&s=19d3896d996bc09325cf0fd0f02edeea|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/czechia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [Fifa World Cup] Czechia vs South Africa [Ft] (Server 10)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=9VQYK3KRoUBfkCuwRugiPQ&expires=1781803261&ch=bsp1fr&s=10ff116d9003e19ed60e86d36302e2a0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bosnia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Fifa World Cup] Bosnia and Herzegovina vs Switzerland [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
