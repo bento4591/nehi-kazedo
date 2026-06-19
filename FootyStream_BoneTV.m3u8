@@ -1,17 +1,44 @@
 #EXTM3U
-# Last Updated: 2026-06-19 07:56 WIB
+# Last Updated: 2026-06-19 08:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=SlLZU3k7UAQtltar0xALCQ&expires=1781835355&ch=dadoskygo&s=717574f82fa3db1127386329066267f9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=W5ioPMIknWX4Bjyf41ujRg&expires=1781835677&ch=dadoskygo&s=7abf8d68912b9687c546d24a6eee7ce9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=CtwFxD54tPkkE4GB-T2GQQ&expires=1781835359&ch=dadosky1&s=219cec446a124dacd4f202c742c808cd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=6E_qsOCapmJYP_Rlz9k33Q&expires=1781835681&ch=dadosky1&s=0a9404fb1c0bde83d1c9ce204ad3e7f6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/philadelphia-phillies/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:40 WIB] [MLB] Philadelphia Phillies vs New York Mets [Ft]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=btSLlz3Xd9T_cgQLZ52jKA&expires=1781835363&ch=bbtsip1&s=1456d9d6a070d7619a26ac1faf1a0913|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=fy94Wopva2jHdrkBOS_MPg&expires=1781835685&ch=bbtsip1&s=45cea354cad2e73022f006b13cbcde0f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 1)
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=cBI8OzR4Hjj2r0hASssaMg&expires=1781835688&ch=tsn1ca&s=9f785522935bf7242bd0604eadb0fcb2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 2)
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=9yJw4TLsvCEovwp-KR1IYg&expires=1781835692&ch=bbc2&s=0c05f319a62b9a4c92fb7fa17c39172e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 3)
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=jPITzLTSxatfVT97PMT1uQ&expires=1781835696&ch=spch9&s=7873a470141560d3396c8ca8aaadb9a5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 4)
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=YcztohCUgmGXgUSFR2l5Bw&expires=1781835699&ch=spch10&s=1a0d31e3a6152f9b3a4c3fdf80711943|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 5)
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=8dxrgaZU6PUSCn6oGlI4ag&expires=1781835703&ch=tsn3ca&s=91b93386cf8619a94df170d4f71fc681|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 6)
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=eVN3FLVzKf3udMIaQ9DU4g&expires=1781835706&ch=daznlaliga&s=80d5c44dbba4fb9aac958b4b77840a63|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 7)
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=Vo2RRnes-b-SviFG_yYOpw&expires=1781835710&ch=yt39&s=fe97871db04f70eae4e0d9b114eab9f9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 8)
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=a4AblHbgrsx6Lb1bamlPKQ&expires=1781835713&ch=yt29&s=e5d51ac151775f50bfdc849b24747e32|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 9)
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=v-Vb4Wz0XH8zkro0u128ew&expires=1781835717&ch=bsp1fr&s=687c3df8d78ccafdd4adadb16ef77d7a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [Fifa World Cup] Mexico vs South Korea [Ft] (Server 10)
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=qv_xvb1BRRh3v4Yoehp4dQ&expires=1781835720&ch=spch45&s=ce9a5f8cc47fd5b9d9110cc864a92a2d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Fifa World Cup] Australia vs USA [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
