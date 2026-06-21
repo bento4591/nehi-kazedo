@@ -1,4 +1,4 @@
-name: MABES Scraper (StreamsGate & FootyStream)
+name: MABES Scraper (StreamsGate, FootyStream & EmbedHD)
 
 on:
   workflow_dispatch: # Pemicu manual khusus dari Cron Job pihak ketiga Kapten
@@ -26,13 +26,17 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run StreamsGate Scraper
-        # Menggunakan '|| echo ...' agar jika error, script tidak mati dan lanjut ke step berikutnya
         run: |
           echo "Memulai eksekusi StreamsGate..."
           python streamsgate.py || echo "⚠️ Peringatan: StreamsGate mengalami kendala, melanjutkan ke target berikutnya..."
 
+      - name: Run EmbedHD Scraper
+        run: |
+          echo "Memulai eksekusi EmbedHD..."
+          # Sesuaikan nama file python di bawah ini jika berbeda
+          python embedhd.py || echo "⚠️ Peringatan: EmbedHD mengalami kendala, tetap melanjutkan proses..."
+
       - name: Run FootyStream Scraper
-        # Sama, menggunakan '|| echo ...' untuk mode anti-gagal
         run: |
           echo "Memulai eksekusi Tank FootyStream..."
           python footystream.py || echo "⚠️ Peringatan: FootyStream mengalami kendala, tetap melanjutkan proses..."
@@ -59,6 +63,17 @@ jobs:
             echo "File FootyStream_BoneTV.m3u8 tidak ditemukan."
           fi
 
+          # Tambahkan file output EmbedHD (Sesuaikan nama file m3u8 jika berbeda)
+          if [ -f embedhd.m3u8 ]; then
+            git add embedhd.m3u8
+            FILE_ADDED=1
+          else
+            echo "File embedhd.m3u8 tidak ditemukan."
+          fi
+          
+          # Jika EmbedHD menggunakan file JSON cache yang perlu di-commit, otomatis masuk di sini
+          git add *.json || true
+
           if [ $FILE_ADDED -eq 0 ]; then
             echo "Tidak ada file M3U8 yang dihasilkan sama sekali. Skip commit."
             exit 0
@@ -70,7 +85,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update M3U8 playlists (StreamsGate & FootyStream) [skip ci]"
+          git commit -m "Update M3U8 playlists (MABES ENTERPRISE) [skip ci]"
 
           # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
           if ! git push origin main; then
@@ -82,6 +97,8 @@ jobs:
             # Tambahkan ulang file yang mungkin terkena stash
             [ -f streamsgate.m3u8 ] && git add streamsgate.m3u8 || true
             [ -f FootyStream_BoneTV.m3u8 ] && git add FootyStream_BoneTV.m3u8 || true
+            [ -f embedhd.m3u8 ] && git add embedhd.m3u8 || true
+            git add *.json || true
             
             git commit -m "Update M3U8 playlists (rebased) [skip ci]" || true
             git push origin main
