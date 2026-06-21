@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 TAG = "STRMHUB"
 OUTPUT_FILE = "streamhub.m3u8"
 BASE_URL = "https://streamhub.pro"
-M3U8_DOMAIN = "https://obstreamx.click/live/" # Sengaja ditaruh di luar agar mudah diganti jika bandar ganti domain
+M3U8_DOMAIN = "https://obstreamx.click/live/" 
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
 
 # Properti Spoofing MABES
@@ -38,7 +38,6 @@ def save_event_cache(data):
 async def extract_m3u8(client, url, url_num):
     """Taktik Penyadapan Double-Iframe Streamhub"""
     try:
-        # Lapis 1: Buka halaman pertandingan
         resp1 = await client.get(url, timeout=15.0)
         if resp1.status_code != 200: return None
         soup1 = BeautifulSoup(resp1.text, 'html.parser')
@@ -47,7 +46,6 @@ async def extract_m3u8(client, url, url_num):
         if not ifr_1 or not ifr_1.get('src'): return None
         ifr_1_src = ifr_1['src']
         
-        # Lapis 2: Buka Iframe pertama
         resp2 = await client.get(ifr_1_src, headers={"Referer": BASE_URL}, timeout=15.0)
         if resp2.status_code != 200: return None
         soup2 = BeautifulSoup(resp2.text, 'html.parser')
@@ -56,7 +54,6 @@ async def extract_m3u8(client, url, url_num):
         if not ifr_2 or not ifr_2.get('src'): return None
         ifr_2_src = ifr_2['src']
         
-        # Lapis 3: Rampas stream key dari parameter
         params = dict(parse_qsl(urlsplit(ifr_2_src).query))
         stream_key = params.get("stream")
         
@@ -77,18 +74,14 @@ async def get_events(client):
         resp = await client.get(BASE_URL, headers={"User-Agent": USER_AGENT}, timeout=15.0)
         soup = BeautifulSoup(resp.text, 'html.parser')
         
-        # Cari semua blok kategori olahraga
         blocks = soup.find_all('div', class_='upcoming-date-block')
         
         for block in blocks:
-            # Dapatkan nama olahraga
             sport_elem = block.find('div', class_='upcoming-sport-head')
             if not sport_elem: continue
             
-            # Mengambil teks pertama saja (mengabaikan "3 games" dll)
             sport = sport_elem.contents[0].strip().upper()
             
-            # Cari semua baris pertandingan dalam blok olahraga ini
             rows = block.find_all('div', class_='match-row')
             for row in rows:
                 countdown = row.find('span', class_='countdown')
@@ -101,14 +94,32 @@ async def get_events(client):
                 ts_et = int(countdown.get('data-start', 0))
                 if ts_et == 0: continue
                 
-                # Ekstrak Teks Tim dan Logo
+                # Ekstrak Teks Tim
                 teams = row.find_all('span', class_='team-name')
                 if len(teams) < 2: continue
                 
                 home_team = teams[0].text.strip()
                 away_team = teams[1].text.strip()
-                raw_event_name = f"{home_team} - {away_team}"
                 
+                # 🛡️ PENDETEKSI NAMA LIGA (LEAGUE TAGGING)
+                league_name = ""
+                league_div = row.find('div', class_='league-name')
+                if league_div:
+                    league_name = league_div.text.strip()
+                else:
+                    meta_div = row.find('div', class_='match-meta')
+                    if meta_div:
+                        spans = meta_div.find_all('span')
+                        if spans:
+                            league_name = spans[0].text.strip()
+                
+                # Format penyusunan judul M3U8
+                if league_name and league_name != "•":
+                    raw_event_name = f"[{league_name}] {home_team} - {away_team}"
+                else:
+                    raw_event_name = f"{home_team} - {away_team}"
+                
+                # Ekstrak Logo
                 logos = row.find_all('img', class_='small-logo')
                 home_logo = logos[0].get('src', '') if logos else ""
                 
@@ -116,7 +127,7 @@ async def get_events(client):
                 if not link_elem: continue
                 event_link = urljoin(BASE_URL, link_elem.get('href'))
                 
-                # Konversi Zona Waktu & Penetapan Status
+                # Konversi Zona Waktu
                 dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
                 dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
                 kickoff_tag = dt_wib.strftime("%H:%M WIB %d/%m/%Y")
@@ -146,14 +157,11 @@ async def scrape():
     current_playlist_urls = {}
     now_ts = time.time()
     
-    # Gunakan httpx AsyncClient agar operasi jaringan berjalan paralel dan kencang
     async with httpx.AsyncClient(verify=False) as client:
         events = await get_events(client)
         
         if events:
             print(f"🎯 Ditemukan {len(events)} siaran di beranda Streamhub.")
-            
-            # Kita batasi concurrency agar server Streamhub tidak mendeteksi serangan DDoS
             semaphore = asyncio.Semaphore(5) 
             
             async def process_single_event(i, ev):
@@ -166,14 +174,12 @@ async def scrape():
                 
                 key = f"[{sport}] [{status_tag}] [{kickoff_tag}] {raw_name} ({TAG})"
                 
-                # Pakai cache jika link aktif sudah tersimpan (Hemat waktu)
                 cached_entry = cached_urls.get(key)
                 if cached_entry and cached_entry.get("url") and cached_entry["url"] != DUMMY_LINK:
                     print(f"  ℹ️ {key} -> Menggunakan link dari database cache.")
                     current_playlist_urls[key] = cached_entry
                     return
                 
-                # Taktik Siap Tempur: Selama ada link di halaman web, kita gasak!
                 async with semaphore:
                     if status_tag == "⏳ UPCOMING":
                         print(f"\n⚡ Mencoba operasi PRA-PERTANDINGAN: {key}")
@@ -199,11 +205,9 @@ async def scrape():
                 if url:
                     current_playlist_urls[key] = entry
 
-            # Jalankan semua proses secara konkuren
             tasks = [process_single_event(i, ev) for i, ev in enumerate(events, start=1)]
             await asyncio.gather(*tasks)
             
-            # Bersihkan cache dari acara yang sudah usang
             active_keys = current_playlist_urls.keys()
             cleaned_cache = {k: v for k, v in cached_urls.items() if k in active_keys}
             save_event_cache(cleaned_cache)
