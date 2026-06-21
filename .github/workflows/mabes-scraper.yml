@@ -33,7 +33,6 @@ jobs:
       - name: Run EmbedHD Scraper
         run: |
           echo "Memulai eksekusi EmbedHD..."
-          # Sesuaikan nama file python di bawah ini jika berbeda
           python embedhd.py || echo "⚠️ Peringatan: EmbedHD mengalami kendala, tetap melanjutkan proses..."
 
       - name: Run FootyStream Scraper
@@ -63,7 +62,6 @@ jobs:
             echo "File FootyStream_BoneTV.m3u8 tidak ditemukan."
           fi
 
-          # Tambahkan file output EmbedHD (Sesuaikan nama file m3u8 jika berbeda)
           if [ -f embedhd.m3u8 ]; then
             git add embedhd.m3u8
             FILE_ADDED=1
@@ -71,7 +69,7 @@ jobs:
             echo "File embedhd.m3u8 tidak ditemukan."
           fi
           
-          # Jika EmbedHD menggunakan file JSON cache yang perlu di-commit, otomatis masuk di sini
+          # Ikut sertakan file json cache agar tidak scrap ulang dari nol
           git add *.json || true
 
           if [ $FILE_ADDED -eq 0 ]; then
@@ -87,19 +85,9 @@ jobs:
 
           git commit -m "Update M3U8 playlists (MABES ENTERPRISE) [skip ci]"
 
-          # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
+          # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE (Tanpa Stash Kosong)
           if ! git push origin main; then
             echo "Push tertahan — melakukan rebase aman..."
-            git stash
             git pull --rebase origin main
-            git stash pop
-            
-            # Tambahkan ulang file yang mungkin terkena stash
-            [ -f streamsgate.m3u8 ] && git add streamsgate.m3u8 || true
-            [ -f FootyStream_BoneTV.m3u8 ] && git add FootyStream_BoneTV.m3u8 || true
-            [ -f embedhd.m3u8 ] && git add embedhd.m3u8 || true
-            git add *.json || true
-            
-            git commit -m "Update M3U8 playlists (rebased) [skip ci]" || true
             git push origin main
           fi
