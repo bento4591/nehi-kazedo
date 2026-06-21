@@ -8,13 +8,13 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
-# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V3.0 ---
+# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V3.1 ---
 TAG = "EMBEDHD"
 OUTPUT_FILE = "embedhd.m3u8"
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
 BASE_URL = "https://embedhd.org"
 
-# File database cache lokal (Versi 3 untuk membersihkan data corrupt sebelumnya)
+# File database cache lokal 
 API_CACHE_FILE = f"{TAG}_api_v3.json"
 EVENT_CACHE_FILE = f"{TAG}_event_v3.json"
 
@@ -106,18 +106,18 @@ async def get_events():
 
             ts_et = int(event.get("ts_et", 0))
             
-            # RADAR DILEBARKAN: -12 Jam ke belakang hingga +36 Jam ke depan (Sapu Bersih semua olahraga)
+            # Jaring radar super luas (-12 Jam hingga +36 Jam)
             if not ((now_ts - 43200) <= ts_et <= (now_ts + 129600)):
                 continue
 
             sport = fix_league(event_league)
             raw_event_name = event.get("title", "Unknown Event")
 
-            # Ekstraksi waktu ke format kalender pesanan Kapten (DD/MM/YYYY HH:MM WIB)
+            # 🔄 FORMAT WAKTU BARU: Jam ditaruh di depan Tanggal
             try:
                 dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
                 dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
-                kickoff_tag = dt_wib.strftime("%d/%m/%Y %H:%M WIB")
+                kickoff_tag = dt_wib.strftime("%H:%M WIB %d/%m/%Y")
                 
                 if datetime.now(timezone.utc) >= dt_utc:
                     status_tag = "🔴 LIVE"
@@ -132,13 +132,22 @@ async def get_events():
             
             event_link = event_streams[0].get("link")
             if not event_link: continue
+
+            # 🔄 TAKTIK EKSTRAKSI LOGO TIM HOME
+            # Memotong teks nama tim pertama sebelum tanda " - " untuk dijadikan nama file logo
+            try:
+                home_team = raw_event_name.split(" - ")[0].strip()
+                home_logo = f"https://embedhd.org/images/team-logos/{home_team}.png".replace(" ", "%20")
+            except Exception:
+                home_logo = ""
                 
             events.append({
                 "sport": sport,
                 "raw_title": raw_event_name,
                 "kickoff_tag": kickoff_tag,
                 "link": event_link,
-                "status_tag": status_tag
+                "status_tag": status_tag,
+                "logo": home_logo
             })
             
     return events
@@ -147,7 +156,6 @@ async def scrape(browser):
     cached_urls = load_event_cache()
     current_playlist_urls = {}
     
-    # Menarik seluruh data dari API tanpa ada bypass filter cache yang merusak data
     events = await get_events()
     
     if events:
@@ -160,18 +168,18 @@ async def scrape(browser):
             status_tag = ev["status_tag"]
             kickoff_tag = ev["kickoff_tag"]
             link = ev["link"]
+            home_logo = ev["logo"]
             
-            # Format Struktur Judul Baru dengan Tanggal Lengkap
+            # Struktur Judul Sesuai Permintaan
             key = f"[{sport}] [{status_tag}] [{kickoff_tag}] {raw_name} ({TAG})"
             
-            # Check-Point: Jika link M3U8 asli sudah ada di cache dan berstatus LIVE, pakai data cache (Irit Waktu)
+            # Pemakaian data cache jika M3U8 siaran Live sudah pernah tersadap dengan sukses sebelumnya
             cached_entry = cached_urls.get(key)
             if cached_entry and cached_entry.get("url") and cached_entry["url"] != DUMMY_LINK:
-                print(f"  ℹ️ {key} -> Menggunakan link sadapan dari database cache.")
+                print(f"  ℹ️ {key} -> Menggunakan link dari database cache.")
                 current_playlist_urls[key] = cached_entry
                 continue
                 
-            # Eksekusi Taktik Pembagian Siaran
             if status_tag == "⏳ UPCOMING":
                 print(f"  ⏳ {key} -> Menanam Link Dummy")
                 url = DUMMY_LINK
@@ -186,7 +194,7 @@ async def scrape(browser):
             
             entry = {
                 "url": url,
-                "logo": "", 
+                "logo": home_logo, # Logo Tim Home berhasil disuntikkan ke database
                 "id": "Live.Event.us",
                 "link": link
             }
@@ -202,7 +210,7 @@ async def scrape(browser):
     return current_playlist_urls
 
 async def main():
-    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V3.0...")
+    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V3.1...")
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
