@@ -10,13 +10,13 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
-# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V4.0 (DIRECT BREACH & HDS BYPASS) ---
+# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V4.1 (MULTI-CHANNEL & CLEAN FORMAT) ---
 TAG = "EMBEDHD"
 OUTPUT_FILE = "embedhd.m3u8"
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
 BASE_URL = "https://embedhd.org"
 
-# Properti Penyamaran (Spoofing) Ekstrem
+# Properti Penyamaran (Spoofing)
 SPOOF_REFERER = "https://exposestrat.com"
 SPOOF_ORIGIN = "https://exposestrat.com"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
@@ -52,7 +52,7 @@ async def extract_m3u8(context, url, index_num):
         # Pendaratan udara langsung ke URL iframe rahasia (fetch.php)
         await page.goto(url, wait_until="domcontentloaded", timeout=20000, referer=BASE_URL)
         
-        for _ in range(15): # Waktu tunggu Playwright diperpanjang menjadi 15 detik
+        for _ in range(15): 
             if m3u8_link: break
             await asyncio.sleep(1)
             
@@ -84,7 +84,6 @@ async def get_events():
     events = []
     kategori_panjang = ["FIGHT", "WWE", "UFC", "MOTOR", "TENNIS", "BADMINTON", "VOLLEYBALL"]
     
-    # Memburu kotak jadwal (score-row) secara langsung
     rows = soup.find_all('div', class_='score-row event-row')
     
     for row in rows:
@@ -94,39 +93,25 @@ async def get_events():
         ts_et = int(row.get('data-start', 0))
         if ts_et == 0: continue
         
-        # Tentukan batas kedaluwarsa secara dinamis
         batas_waktu = 28800 if any(k in sport for k in kategori_panjang) else 14400
 
-        # Filter masa lalu dan masa depan
         if now_ts > (ts_et + batas_waktu): continue
         if ts_et > (now_ts + 129600): continue
             
         home_team = row.get('data-home', '')
         away_team = row.get('data-away', '')
-        raw_event_name = f"{home_team} - {away_team}" if home_team and away_team else row.get('data-title', 'Unknown Event')
+        base_matchup = f"{home_team} - {away_team}" if home_team and away_team else row.get('data-title', 'Unknown Event')
         
         home_logo = row.get('data-home-logo', '')
         
-        # Deteksi nama liga
+        # 🛡️ LOGIKA PENGHAPUSAN REDUNDANSI (Cerdas memilih prefix)
         league_div = row.find('div', class_='league-cell')
         league_name = league_div.get('title', '').strip() if league_div else ""
+        
         if league_name:
-            raw_event_name = f"[{league_name}] {raw_event_name}"
-
-        # 🛡️ TAKTIK "DIRECT BREACH" (Pencurian Kunci HDS dari HTML)
-        event_link = ""
-        hds_data = row.get('data-hds', '')
-        if hds_data:
-            match = re.search(r'\d+', hds_data)
-            if match:
-                # Rakit URL langsung ke jantung pemutar video
-                event_link = f"https://embedhd.org/source/fetch.php?hd={match.group()}"
+            prefix = f"[{league_name.upper()}]"
         else:
-            # Fallback jika tidak ada data HDS
-            onclick_attr = row.get('onclick', '')
-            if 'location.href=' in onclick_attr:
-                extracted = onclick_attr.split("location.href='")[1].split("'")[0]
-                event_link = urljoin(BASE_URL, extracted)
+            prefix = f"[{sport}]"
 
         # Logika 1 Jam Pre-Match = LIVE
         waktu_ke_kickoff = ts_et - now_ts
@@ -139,14 +124,43 @@ async def get_events():
         except Exception:
             kickoff_tag = "UNKNOWN"
             
-        events.append({
-            "sport": sport,
-            "raw_title": raw_event_name,
-            "kickoff_tag": kickoff_tag,
-            "link": event_link,
-            "status_tag": status_tag,
-            "logo": home_logo
-        })
+        # 🛡️ TAKTIK "MULTI-CHANNEL" (Ekstraksi seluruh daftar HDS)
+        hds_data = row.get('data-hds', '')
+        channels = re.findall(r'\d+', hds_data) if hds_data else []
+        
+        if channels:
+            # Jika ada array hds, gandakan jadwal sesuai jumlah channel
+            for idx, ch_num in enumerate(channels, start=1):
+                event_link = f"https://embedhd.org/source/fetch.php?hd={ch_num}"
+                
+                # Hanya beri akhiran [CH 1], [CH 2] jika saluran lebih dari satu
+                ch_suffix = f" [CH {idx}]" if len(channels) > 1 else ""
+                raw_title = f"{prefix} {base_matchup}{ch_suffix}"
+                
+                events.append({
+                    "raw_title": raw_title,
+                    "kickoff_tag": kickoff_tag,
+                    "link": event_link,
+                    "status_tag": status_tag,
+                    "logo": home_logo
+                })
+        else:
+            # Fallback jika hds tidak tersedia
+            onclick_attr = row.get('onclick', '')
+            event_link = ""
+            if 'location.href=' in onclick_attr:
+                extracted = onclick_attr.split("location.href='")[1].split("'")[0]
+                event_link = urljoin(BASE_URL, extracted)
+                
+            raw_title = f"{prefix} {base_matchup}"
+            
+            events.append({
+                "raw_title": raw_title,
+                "kickoff_tag": kickoff_tag,
+                "link": event_link,
+                "status_tag": status_tag,
+                "logo": home_logo
+            })
             
     return events
 
@@ -157,34 +171,37 @@ async def scrape(browser):
     events = await get_events()
     
     if events:
-        print(f"🎯 Ditemukan {len(events)} siaran dalam radar operasi.")
+        print(f"🎯 Ditemukan {len(events)} siaran (termasuk multi-channel) dalam radar.")
         context = await browser.new_context(viewport={'width': 1280, 'height': 720}, user_agent=USER_AGENT)
         
         for i, ev in enumerate(events, start=1):
-            sport = ev["sport"]
             raw_name = ev["raw_title"]
             status_tag = ev["status_tag"]
             kickoff_tag = ev["kickoff_tag"]
             link = ev["link"]
             home_logo = ev["logo"]
             
-            key = f"[{sport}] [{status_tag}] [{kickoff_tag}] {raw_name} ({TAG})"
+            # Format display string yang sangat bersih (Tanpa kata EMBEDHD di belakang)
+            display_title = f"[{status_tag}] [{kickoff_tag}] {raw_name}"
+            
+            # Key tetap dibuat unik untuk cache internal
+            key = display_title
             
             cached_entry = cached_urls.get(key)
             if cached_entry and cached_entry.get("url") and cached_entry["url"] != DUMMY_LINK:
-                print(f"  ℹ️ {key} -> Menggunakan link dari database cache.")
+                print(f"  ℹ️ {display_title} -> Link dari database cache.")
                 current_playlist_urls[key] = cached_entry
                 continue
                 
             if not link:
-                print(f"  ⏳ {key} -> Link HDS belum tersedia (Bandar belum mengaktifkan)")
+                print(f"  ⏳ {display_title} -> Menanam Link Dummy (Link kosong)")
                 url = DUMMY_LINK
             else:
                 if status_tag == "⏳ UPCOMING":
-                    print(f"  ⏳ {key} -> Link HDS terdeteksi, tapi jadwal masih > 1 Jam. (Menahan sadapan)")
+                    print(f"  ⏳ {display_title} -> Kickoff masih > 1 Jam. (Menahan sadapan)")
                     url = DUMMY_LINK
                 else:
-                    print(f"\n⚡ Meluncurkan operasi penyadapan jalur udara: {key}")
+                    print(f"\n⚡ Meluncurkan penyadapan LIVE / PRE-MATCH: {display_title}")
                     url = await extract_m3u8(context, link, i)
                     if url:
                         print(f"      ✅ Sukses merampas M3U8: {url[:50]}...")
@@ -196,7 +213,7 @@ async def scrape(browser):
                 "url": url,
                 "logo": home_logo, 
                 "id": "Live.Event.us",
-                "link": link
+                "display_title": display_title
             }
             
             cached_urls[key] = entry
@@ -213,7 +230,7 @@ async def scrape(browser):
     return current_playlist_urls
 
 async def main():
-    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V4.0 (Direct Breach & HDS Bypass)...")
+    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V4.1 (Multi-Channel Stealth)...")
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
@@ -229,7 +246,8 @@ async def main():
         if info.get("url"):
             group_title = "LIVE - EmbedHD" if "🔴 LIVE" in key else "UPCOMING - EmbedHD"
             
-            extinf = f'#EXTINF:-1 tvg-id="{info["id"]}" tvg-logo="{info["logo"]}" group-title="{group_title}",{key}'
+            # Menyusun extinf dengan format display super bersih tanpa embel-embel
+            extinf = f'#EXTINF:-1 tvg-id="{info["id"]}" tvg-logo="{info["logo"]}" group-title="{group_title}",{info["display_title"]}'
             playlist_lines.append(extinf)
             
             if info["url"] == DUMMY_LINK:
@@ -245,7 +263,7 @@ async def main():
     if playlist_lines:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + playlist_lines))
-        print(f"🏁 BERHASIL! {len(playlist_lines)//6} Channel lintas olahraga dikunci ke {OUTPUT_FILE}")
+        print(f"🏁 BERHASIL! {len(playlist_lines)//6} Channel (termasuk kloning) dikunci ke {OUTPUT_FILE}")
     else:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + ["# Tidak ada siaran aktif dalam radar saat ini."]))
