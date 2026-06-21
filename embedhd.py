@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 
 from playwright.async_api import Browser, Page, async_playwright
 
-# Perbaikan: Titik dihapus agar skrip bisa dieksekusi mandiri (standalone) di GitHub Actions
+# Memastikan import dari berkas lokal berjalan mulus tanpa tanda titik (.)
 from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -97,7 +97,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             sport = fix_league(event_league)
             raw_event_name = event["title"]
 
-            # Konversi Waktu WIB & Penentuan Status
+            # Konversi waktu ke zona lokal WIB dan pasang penanda status siaran
             try:
                 ts_et = int(event["ts_et"])
                 dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
@@ -128,7 +128,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
                 "event": formatted_event_name,
                 "link": event_link,
                 "timestamp": now.timestamp(),
-                "status_tag": status_tag  # Kirim status ke mesin scraper utama
+                "status_tag": status_tag
             })
 
     return events
@@ -151,9 +151,9 @@ async def scrape(browser: Browser) -> None:
                 link = ev["link"]
                 status_tag = ev["status_tag"]
                 
-                # TAKTIK DUMMY LINK (Hemat Waktu)
+                # Skenario pertandingan mendatang langsung dipasangi dummy link tanpa membebani browser
                 if status_tag == "⏳ UPCOMING":
-                    log.info(f"URL {i}) [UPCOMING] Menggunakan Dummy Link (Membypass Playwright)")
+                    log.info(f"URL {i}) [UPCOMING] Menanamkan Dummy Link secara otomatis.")
                     url = DUMMY_LINK
                 else:
                     async with network.event_page(context) as page:
@@ -189,13 +189,11 @@ async def scrape(browser: Browser) -> None:
 async def main():
     print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Scraper...")
     
-    # 1. Jalankan Scraper (Siapkan Playwright)
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
         await scrape(browser)
         await browser.close()
         
-    # 2. Mesin Perakitan File M3U8
     print("🎯 Membangun file M3U8 EmbedHD...")
     ts = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%Y-%m-%d %H:%M WIB")
     header = ['#EXTM3U', f'# Last Updated: {ts}', '']
@@ -203,30 +201,27 @@ async def main():
     playlist_lines = []
     for key, info in urls.items():
         if info["url"]:
-            # Tentukan Group Title otomatis
             group_title = "LIVE - EmbedHD" if "🔴 LIVE" in key else "UPCOMING - EmbedHD"
             
             extinf = f'#EXTINF:-1 tvg-id="{info["id"]}" tvg-logo="{info["logo"]}" group-title="{group_title}",{key}'
             playlist_lines.append(extinf)
             
-            # Khusus link M3U8 asli (bukan dummy), tambahkan referer agar bisa diputar
             if info["url"] == DUMMY_LINK:
                 playlist_lines.append(info["url"])
             else:
                 playlist_lines.append(f'{info["url"]}|Referer={BASE_URL}/')
             
-            playlist_lines.append("") # Jarak 1 baris antar channel
+            playlist_lines.append("")
             
-    # 3. Cetak ke dalam File Fisik
     if playlist_lines:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + playlist_lines))
         print(f"🏁 SELESAI! Berhasil mengunci link ke {OUTPUT_FILE}")
     else:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(header + ["# Tidak ada stream yang berhasil diekstrak saat ini."]))
+            f.write("\n".join(header + ["# Tidak ada siaran yang aktif saat ini."]))
         print("💀 Operasi selesai tanpa hasil buruan.")
 
-# PELATUK UTAMA
+
 if __name__ == "__main__":
     asyncio.run(main())
