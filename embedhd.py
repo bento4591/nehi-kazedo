@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
-# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V3.2 ---
+# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V3.3 (SMART DURATION) ---
 TAG = "EMBEDHD"
 OUTPUT_FILE = "embedhd.m3u8"
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
@@ -101,6 +101,9 @@ async def get_events():
 
     events = []
     
+    # Kategori olahraga dengan durasi maraton / PPV
+    kategori_panjang = ["FIGHT", "WWE", "UFC", "MOTOR", "TENNIS", "BADMINTON", "VOLLEYBALL"]
+    
     for info in api_data.get("days", []):
         for event in info.get("items", []):
             event_league = event.get("league", "")
@@ -108,12 +111,23 @@ async def get_events():
                 continue
 
             ts_et = int(event.get("ts_et", 0))
+            sport = fix_league(event_league)
+            sport_upper = sport.upper()
             
-            # Jaring radar super luas (-12 Jam hingga +36 Jam)
-            if not ((now_ts - 43200) <= ts_et <= (now_ts + 129600)):
+            # Tentukan batas waktu kedaluwarsa secara dinamis
+            if any(k in sport_upper for k in kategori_panjang):
+                batas_waktu = 28800  # 8 Jam (untuk PPV, Balapan, dan Turnamen Maraton)
+            else:
+                batas_waktu = 14400  # 4 Jam (untuk Sepak Bola, MLB, Basket, dll)
+
+            # 🛡️ FILTER KEDALUWARSA: Buang pertandingan yang sudah melebihi batas durasinya
+            if now_ts > (ts_et + batas_waktu):
+                continue
+                
+            # FILTER MASA DEPAN: Buang pertandingan yang jadwalnya masih lebih dari 36 Jam ke depan
+            if ts_et > (now_ts + 129600):
                 continue
 
-            sport = fix_league(event_league)
             raw_event_name = event.get("title", "Unknown Event")
 
             try:
@@ -129,11 +143,9 @@ async def get_events():
                 kickoff_tag = "UNKNOWN"
                 status_tag = "🔴 LIVE"
                 
-            # 🛡️ TAKTIK HANTU: Kita cabut blokade jika link belum ada, agar jadwal FIFA/NHL tetap tampil
             event_streams = event.get("streams", [])
             event_link = event_streams[0].get("link") if event_streams else ""
 
-            # Ekstraksi Logo Tim Home
             try:
                 home_team = raw_event_name.split(" - ")[0].strip()
                 home_logo = f"https://embedhd.org/images/team-logos/{home_team}.png".replace(" ", "%20")
@@ -177,9 +189,8 @@ async def scrape(browser):
                 current_playlist_urls[key] = cached_entry
                 continue
                 
-            # Jika status UPCOMING atau link belum dibuat oleh server (FIFA World Cup)
             if status_tag == "⏳ UPCOMING" or not link:
-                print(f"  ⏳ {key} -> Menanam Link Dummy (Belum ada link siaran aktif)")
+                print(f"  ⏳ {key} -> Menanam Link Dummy")
                 url = DUMMY_LINK
             else:
                 print(f"\n⚡ Meluncurkan operasi penyadapan LIVE: {key}")
@@ -201,14 +212,18 @@ async def scrape(browser):
             if url:
                 current_playlist_urls[key] = entry
                 
-        save_event_cache(cached_urls)
+        # Membersihkan cache dari siaran yang sudah usang
+        active_keys = current_playlist_urls.keys()
+        cleaned_cache = {k: v for k, v in cached_urls.items() if k in active_keys}
+        save_event_cache(cleaned_cache)
+        
     else:
         print("✅ Tidak ditemukan siaran baru dalam radar.")
         
     return current_playlist_urls
 
 async def main():
-    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V3.2...")
+    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V3.3 (Smart Duration)...")
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
@@ -228,14 +243,12 @@ async def main():
             playlist_lines.append(extinf)
             
             if info["url"] == DUMMY_LINK:
-                # Link Dummy dibiarkan normal tanpa injeksi EXTVLCOPT
                 playlist_lines.append(info["url"])
             else:
                 # 🛡️ INJEKSI SPOOFING KELAS BERAT (EXTVLCOPT)
                 playlist_lines.append(f'#EXTVLCOPT:http-referrer={SPOOF_REFERER}')
                 playlist_lines.append(f'#EXTVLCOPT:http-origin={SPOOF_ORIGIN}')
                 playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
-                # Menambahkan M3U8 murni tanpa parameter tambahan di belakangnya
                 playlist_lines.append(info["url"])
             
             playlist_lines.append("")
