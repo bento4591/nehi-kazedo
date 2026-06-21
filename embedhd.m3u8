@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 22/06/2026 05:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Houston%20Astros.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [01:10 WIB 22/06/2026] Houston Astros - Cleveland Guardians (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=wQAoRj_h10EHL-ooqopIMQ&expires=1782072656
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Kansas%20City%20Royals.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [01:10 WIB 22/06/2026] Kansas City Royals - St. Louis Cardinals (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=e3YH05H1HeVIlk9O4W759A&expires=1782072657
+# Last Updated: 22/06/2026 05:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Chicago%20Cubs.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [01:20 WIB 22/06/2026] Chicago Cubs - Toronto Blue Jays (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
