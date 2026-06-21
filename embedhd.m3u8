@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 22/06/2026 05:30 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Texas%20Rangers.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [01:35 WIB 22/06/2026] Texas Rangers - San Diego Padres (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=BoXmkt2PjtcpS7oyXv6MKw&expires=1782074160
+# Last Updated: 22/06/2026 05:35 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Belgium.png" group-title="LIVE - EmbedHD",[Fifa World Cup] [🔴 LIVE] [02:00 WIB 22/06/2026] Belgium - Iran (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
