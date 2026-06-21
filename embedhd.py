@@ -14,9 +14,9 @@ OUTPUT_FILE = "embedhd.m3u8"
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
 BASE_URL = "https://embedhd.org"
 
-# Sistem Cache Mandiri (Pengganti modul 'utils')
-API_CACHE_FILE = f"{TAG}_api_cache.json"
-EVENT_CACHE_FILE = f"{TAG}_event_cache.json"
+# Sistem Cache Mandiri (Nama v2 untuk membypass cache lama yang error)
+API_CACHE_FILE = f"{TAG}_api_v2.json"
+EVENT_CACHE_FILE = f"{TAG}_event_v2.json"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
 
@@ -52,7 +52,6 @@ async def extract_m3u8(context, url, index_num):
     page = await context.new_page()
     m3u8_link = None
     
-    # Bypass deteksi bot
     await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
     async def handle_request(request):
@@ -65,13 +64,12 @@ async def extract_m3u8(context, url, index_num):
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=15000, referer=BASE_URL)
         
-        # Taktik menunggu M3U8 (Maksimal 10 detik)
         for _ in range(10):
             if m3u8_link: break
             await asyncio.sleep(1)
             
     except Exception as e:
-        print(f"    ⚠️ URL {index_num} error: {e}")
+        print(f"    ⚠️ URL {index_num} error saat dibuka Playwright: {e}")
     finally:
         page.remove_listener("request", handle_request)
         await page.close()
@@ -83,12 +81,26 @@ async def get_events(cached_keys):
     api_data = load_api_cache()
     
     if not api_data:
-        print("🔄 Mengunduh data API baru dari server...")
+        print("🔄 Mengunduh data API segar dari server...")
         try:
-            r = requests.get(urljoin(BASE_URL, "api-event.php"), timeout=15)
-            api_data = r.json()
-            api_data["timestamp"] = now_ts
-            save_api_cache(api_data)
+            # TAKTIK BARU: Menambahkan Identitas (Headers) agar tidak diblokir Cloudflare
+            headers = {
+                "User-Agent": USER_AGENT,
+                "Referer": BASE_URL,
+                "Accept": "application/json"
+            }
+            r = requests.get(urljoin(BASE_URL, "api-event.php"), headers=headers, timeout=15)
+            r.raise_for_status()
+            
+            fresh_data = r.json()
+            if "days" in fresh_data:
+                fresh_data["timestamp"] = now_ts
+                save_api_cache(fresh_data)
+                api_data = fresh_data
+            else:
+                print("⚠️ Server merespons, tapi data 'days' kosong.")
+                api_data = fresh_data
+                
         except Exception as e:
             print(f"❌ Gagal mengambil API EmbedHD: {e}")
             return []
@@ -103,14 +115,13 @@ async def get_events(cached_keys):
 
             ts_et = int(event.get("ts_et", 0))
             
-            # Filter jadwal (-3 Jam ke belakang sampai +30 Menit ke depan)
-            if not ((now_ts - 10800) <= ts_et <= (now_ts + 1800)):
+            # TAKTIK BARU: Radar waktu dilebarkan! (-6 Jam sampai +24 Jam)
+            if not ((now_ts - 21600) <= ts_et <= (now_ts + 86400)):
                 continue
 
             sport = fix_league(event_league)
             raw_event_name = event.get("title", "Unknown Event")
 
-            # Konversi Zona Waktu & Penetapan Status
             dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
             dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
             kickoff_wib = dt_wib.strftime("%H:%M WIB")
@@ -122,7 +133,6 @@ async def get_events(cached_keys):
 
             formatted_event_name = f"[{status_tag}] [{kickoff_wib}] {raw_event_name}"
             
-            # Anti-Duplikat Cache
             match_suffix = f"{raw_event_name} ({TAG})"
             if any(c_key.endswith(match_suffix) for c_key in cached_keys):
                 continue
@@ -159,7 +169,6 @@ async def scrape(browser):
             link = ev["link"]
             status_tag = ev["status_tag"]
             
-            # TAKTIK PARKING: Hemat Server, Bypass Playwright jika Upcoming
             if status_tag == "⏳ UPCOMING":
                 print(f"  ⏳ {ev['event']} -> Menanam Link Dummy")
                 url = DUMMY_LINK
@@ -169,6 +178,8 @@ async def scrape(browser):
                 url = await extract_m3u8(context, link, i)
                 if url:
                     print(f"      ✅ Berhasil: {url[:40]}...")
+                else:
+                    print("      ⚠️ Gagal mendapatkan M3U8")
                 
             sport = ev["sport"]
             event_name = ev["event"]
@@ -187,20 +198,18 @@ async def scrape(browser):
                 
         save_event_cache(cached_urls)
     else:
-        print("✅ Tidak ada jadwal baru yang perlu disadap.")
+        print("✅ Tidak ada jadwal baru dalam rentang waktu saat ini yang perlu disadap.")
         
     return urls
 
 async def main():
     print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Standalone Scraper...")
     
-    # Mulai Operasi Scraper
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
         urls = await scrape(browser)
         await browser.close()
         
-    # Perakitan File M3U8
     print("\n🎯 Membangun file M3U8 EmbedHD...")
     ts = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%Y-%m-%d %H:%M WIB")
     header = ['#EXTM3U', f'# Last Updated: {ts}', '']
@@ -216,7 +225,6 @@ async def main():
             if info["url"] == DUMMY_LINK:
                 playlist_lines.append(info["url"])
             else:
-                # Tambahkan Referer agar anti-blokir
                 playlist_lines.append(f'{info["url"]}|Referer={BASE_URL}/')
             
             playlist_lines.append("")
@@ -224,7 +232,7 @@ async def main():
     if playlist_lines:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + playlist_lines))
-        print(f"🏁 SELESAI! Berhasil mengunci {len(playlist_lines)//3} link ke {OUTPUT_FILE}")
+        print(f"🏁 SELESAI! Berhasil mengunci {(len(playlist_lines))//3} link ke {OUTPUT_FILE}")
     else:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + ["# Tidak ada siaran yang aktif saat ini."]))
