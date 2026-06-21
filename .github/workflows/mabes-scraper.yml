@@ -1,4 +1,4 @@
-name: MABES Scraper (StreamsGate, FootyStream & EmbedHD)
+name: MABES Scraper (StreamsGate, FootyStream, EmbedHD & Streamhub)
 
 on:
   workflow_dispatch: # Pemicu manual khusus dari Cron Job pihak ketiga Kapten
@@ -33,13 +33,17 @@ jobs:
       - name: Run EmbedHD Scraper
         run: |
           echo "Memulai eksekusi EmbedHD..."
-          # Tameng || echo dilepas agar jika script crash, log kesalahannya langsung terlihat jelas
-          python embedhd.py
+          python embedhd.py || echo "⚠️ Peringatan: EmbedHD mengalami kendala, tetap melanjutkan proses..."
 
       - name: Run FootyStream Scraper
         run: |
           echo "Memulai eksekusi Tank FootyStream..."
           python footystream.py || echo "⚠️ Peringatan: FootyStream mengalami kendala, tetap melanjutkan proses..."
+
+      - name: Run Streamhub Scraper
+        run: |
+          echo "Memulai eksekusi Streamhub (Fast Async HTTP)..."
+          python streamhub.py || echo "⚠️ Peringatan: Streamhub mengalami kendala, tetap melanjutkan proses..."
 
       - name: Commit & Push safely
         run: |
@@ -62,7 +66,13 @@ jobs:
             git add embedhd.m3u8
             FILE_ADDED=1
           fi
+
+          if [ -f streamhub.m3u8 ]; then
+            git add streamhub.m3u8
+            FILE_ADDED=1
+          fi
           
+          # Mengamankan seluruh file database cache agar tidak scrape ulang dari nol
           git add *.json || true
 
           if [ $FILE_ADDED -eq 0 ]; then
@@ -75,8 +85,9 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update M3U8 playlists (MABES ENTERPRISE) [skip ci]"
+          git commit -m "Update M3U8 playlists (MABES ENTERPRISE V12.1) [skip ci]"
 
+          # Logika anti-tabrakan (rebase) andalan MABES ENTERPRISE
           if ! git push origin main; then
             echo "Push tertahan — melakukan rebase aman..."
             git pull --rebase origin main
