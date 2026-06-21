@@ -1,12 +1,15 @@
+import os
+import sys
 import asyncio
 from functools import partial
 from urllib.parse import urljoin
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-from playwright.async_api import Browser, Page, async_playwright
+# 🛡️ INJEKSI JALUR AMAN: Memaksa Python mengenali file/folder utils di lingkungan GitHub Actions
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-# Memastikan import dari berkas lokal berjalan mulus tanpa tanda titik (.)
+from playwright.async_api import Browser, Page, async_playwright
 from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -97,7 +100,6 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, str]]:
             sport = fix_league(event_league)
             raw_event_name = event["title"]
 
-            # Konversi waktu ke zona lokal WIB dan pasang penanda status siaran
             try:
                 ts_et = int(event["ts_et"])
                 dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
@@ -151,9 +153,8 @@ async def scrape(browser: Browser) -> None:
                 link = ev["link"]
                 status_tag = ev["status_tag"]
                 
-                # Skenario pertandingan mendatang langsung dipasangi dummy link tanpa membebani browser
                 if status_tag == "⏳ UPCOMING":
-                    log.info(f"URL {i}) [UPCOMING] Menanamkan Dummy Link secara otomatis.")
+                    log.info(f"URL {i}) [UPCOMING] Menanamkan Dummy Link.")
                     url = DUMMY_LINK
                 else:
                     async with network.event_page(context) as page:
