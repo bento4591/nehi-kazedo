@@ -1,59 +1,104 @@
 #EXTM3U
-# Last Updated: 21/06/2026 14:25 WIB
+# Last Updated: 21/06/2026 14:31 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Spain.png" group-title="UPCOMING - EmbedHD",[Fifa World Cup] [⏳ UPCOMING] [23:00 WIB 21/06/2026] Spain - Saudi Arabia (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/New%20York%20Yankees.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:35 WIB 22/06/2026] New York Yankees - Cincinnati Reds (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=oBtarhLpaHKI2KXt3GKLXA&expires=1782034262
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Atlanta%20Braves.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:35 WIB 22/06/2026] Atlanta Braves - Milwaukee Brewers (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=Tg_WZbxC40TEAlOAzl91lA&expires=1782034263
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Detroit%20Tigers.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:40 WIB 22/06/2026] Detroit Tigers - Chicago White Sox (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=ZfhCyLAUzpedvmWbD7659g&expires=1782034265
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Miami%20Marlins.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:40 WIB 22/06/2026] Miami Marlins - San Francisco Giants (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=HDOyzcGA9MPwz5UKspzwKg&expires=1782034266
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Tampa%20Bay%20Rays.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:40 WIB 22/06/2026] Tampa Bay Rays - Washington Nationals (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=fOJrPZ2QQvjgucxSryH7JQ&expires=1782034267
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Houston%20Astros.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [01:10 WIB 22/06/2026] Houston Astros - Cleveland Guardians (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=gbGCWRgXzoYzsJvlkEyVDA&expires=1782034268
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Kansas%20City%20Royals.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [01:10 WIB 22/06/2026] Kansas City Royals - St. Louis Cardinals (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn11.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=R6T9RUGKaYxxtDrJjhmUhA&expires=1782034270
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Chicago%20Cubs.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [01:20 WIB 22/06/2026] Chicago Cubs - Toronto Blue Jays (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=icw68ZtnJUwBHq_4wctmug&expires=1782034271
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Texas%20Rangers.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [01:35 WIB 22/06/2026] Texas Rangers - San Diego Padres (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=DUr0Pbles14bx3ivRWH90A&expires=1782034272
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Belgium.png" group-title="UPCOMING - EmbedHD",[Fifa World Cup] [⏳ UPCOMING] [02:00 WIB 22/06/2026] Belgium - Iran (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colorado%20Rockies.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [02:10 WIB 22/06/2026] Colorado Rockies - Pittsburgh Pirates (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=NSe3MLyuXleBrioVCcKNug&expires=1782034273
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Arizona%20Diamondbacks.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [02:15 WIB 22/06/2026] Arizona Diamondbacks - Minnesota Twins (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=amM1hPnn8_2I3PVfo1ksCQ&expires=1782034274
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [03:05 WIB 22/06/2026] Athletics - Los Angeles Angels (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn11.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=xMuH0qqo23ve-pwxuVssIQ&expires=1782034276
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Los%20Angeles%20Dodgers.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [03:10 WIB 22/06/2026] Los Angeles Dodgers - Baltimore Orioles (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mlosangelesdodgers.m3u8?md5=GaWdMTg5GBAuzcYEQ-25Bg&expires=1782034277
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Seattle%20Mariners.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [03:10 WIB 22/06/2026] Seattle Mariners - Boston Red Sox (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=qXTYO1y-3WWQaQlBElnfeQ&expires=1782034278
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Uruguay.png" group-title="UPCOMING - EmbedHD",[Fifa World Cup] [⏳ UPCOMING] [05:00 WIB 22/06/2026] Uruguay - Cape Verde (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Philadelphia%20Phillies.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [06:20 WIB 22/06/2026] Philadelphia Phillies - New York Mets (EMBEDHD)
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=g7YWNXyNTjOaPaNAlDUgGw&expires=1782034279
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/New%20Zealand.png" group-title="UPCOMING - EmbedHD",[Fifa World Cup] [⏳ UPCOMING] [08:00 WIB 22/06/2026] New Zealand - Egypt (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
