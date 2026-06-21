@@ -5,7 +5,7 @@ import asyncio
 import httpx
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, parse_qsl, urlsplit
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
 # --- KONFIGURASI MABES ENTERPRISE: STREAMHUB ENGINE ---
@@ -38,7 +38,6 @@ def save_event_cache(data):
 async def extract_m3u8(client, url, url_num):
     """Taktik Penyadapan Double-Iframe Streamhub"""
     try:
-        # Menyertakan Headers penuh agar tidak diblokir web
         resp1 = await client.get(url, headers={"User-Agent": USER_AGENT, "Referer": BASE_URL}, timeout=15.0)
         if resp1.status_code != 200: return None
         soup1 = BeautifulSoup(resp1.text, 'html.parser')
@@ -69,14 +68,12 @@ async def extract_m3u8(client, url, url_num):
         
     return None
 
-async def get_events(client):
-    """Menyapu bersih jadwal dari halaman depan Streamhub"""
-    print("🔄 Memindai radar utama Streamhub...")
-    events = []
-    now_ts = time.time()
-    
+async def fetch_page_events(client, target_url, now_ts):
+    """Fungsi Pengekstrak Data Per Halaman"""
+    page_events = []
     try:
-        resp = await client.get(BASE_URL, headers={"User-Agent": USER_AGENT}, timeout=15.0)
+        resp = await client.get(target_url, headers={"User-Agent": USER_AGENT}, timeout=15.0)
+        if resp.status_code != 200: return []
         soup = BeautifulSoup(resp.text, 'html.parser')
         
         blocks = soup.find_all('div', class_='upcoming-date-block')
@@ -97,12 +94,15 @@ async def get_events(client):
                 ts_et = int(countdown.get('data-start', 0))
                 if ts_et == 0: continue
                 
+                # Filter Masa Depan: Buang jadwal yang masih lebih dari 36 Jam lagi
+                if ts_et > (now_ts + 129600):
+                    continue
+                
                 teams = row.find_all('span', class_='team-name')
                 if len(teams) < 2: continue
                 home_team = teams[0].text.strip()
                 away_team = teams[1].text.strip()
                 
-                # Tagging Nama Liga
                 league_name = ""
                 league_div = row.find('div', class_='league-name')
                 if league_div:
@@ -126,7 +126,6 @@ async def get_events(client):
                 if not link_elem: continue
                 event_link = urljoin(BASE_URL, link_elem.get('href'))
                 
-                # Konversi Waktu ke WIB
                 dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
                 dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
                 kickoff_tag = dt_wib.strftime("%H:%M WIB %d/%m/%Y")
@@ -138,7 +137,11 @@ async def get_events(client):
                 else:
                     status_tag = "⏳ UPCOMING"
                     
-                events.append({
+                # Gunakan Tuple Unik agar tidak ada jadwal ganda saat menggabungkan halaman
+                unique_key = f"[{sport}] {raw_event_name} {ts_et}"
+                
+                page_events.append({
+                    "unique_key": unique_key,
                     "sport": sport,
                     "raw_title": raw_event_name,
                     "kickoff_tag": kickoff_tag,
@@ -147,21 +150,58 @@ async def get_events(client):
                     "logo": home_logo,
                     "ts_et": ts_et
                 })
-                
     except Exception as e:
-        print(f"❌ Gagal memindai halaman Streamhub: {e}")
+        print(f"❌ Gagal memindai halaman {target_url}: {e}")
         
-    return events
+    return page_events
+
+async def get_all_events(client):
+    """Menyapu bersih jadwal dari 3 hari (Kemarin, Hari Ini, Besok)"""
+    print("🔄 Memindai radar lintas hari Streamhub...")
+    now_ts = time.time()
+    
+    # 1. Mendapatkan URL untuk tab Hari Ini, Besok, dan Lusa (menggunakan penanggalan UTC)
+    now_utc = datetime.now(timezone.utc)
+    date_today = now_utc.strftime("%Y-%m-%d")
+    date_tomorrow = (now_utc + timedelta(days=1)).strftime("%Y-%m-%d")
+    date_after = (now_utc + timedelta(days=2)).strftime("%Y-%m-%d")
+    
+    urls_to_scrape = [
+        f"{BASE_URL}/?date={date_today}",
+        f"{BASE_URL}/?date={date_tomorrow}",
+        f"{BASE_URL}/?date={date_after}"
+    ]
+    
+    print(f"📡 Menerjunkan pasukan ke 3 zona waktu server...")
+    
+    # 2. Gempur 3 halaman sekaligus secara paralel
+    tasks = [fetch_page_events(client, url, now_ts) for url in urls_to_scrape]
+    results = await asyncio.gather(*tasks)
+    
+    # 3. Gabungkan semua hasil tangkapan
+    all_events = []
+    seen_keys = set()
+    
+    for page_result in results:
+        for ev in page_result:
+            if ev["unique_key"] not in seen_keys:
+                seen_keys.add(ev["unique_key"])
+                all_events.append(ev)
+                
+    # 4. Urutkan berdasarkan jam tayang (dari yang paling dekat hingga paling lama)
+    all_events.sort(key=lambda x: x["ts_et"])
+    
+    return all_events
 
 async def scrape():
     cached_urls = load_event_cache()
     current_playlist_urls = {}
     
     async with httpx.AsyncClient(verify=False) as client:
-        events = await get_events(client)
+        events = await get_all_events(client)
         
         if events:
-            print(f"🎯 Ditemukan {len(events)} siaran di beranda Streamhub.")
+            print(f"🎯 Ditemukan {len(events)} siaran gabungan dari radar Streamhub.")
             semaphore = asyncio.Semaphore(5) 
             
             async def process_single_event(i, ev):
@@ -182,14 +222,14 @@ async def scrape():
                 
                 async with semaphore:
                     if status_tag == "⏳ UPCOMING":
-                        print(f"  ⏳ {key} -> Menanam Link Dummy (Masih > 1 Jam dari Kickoff)")
+                        print(f"  ⏳ {key} -> Menanam Link Dummy (Masih > 1 Jam)")
                         url = DUMMY_LINK
                     else:
                         print(f"\n⚡ Meluncurkan operasi penyadapan M3U8: {key}")
                         url = await extract_m3u8(client, link, i)
                         
                         if url:
-                            print(f"      ✅ Sukses mengunci M3U8: {url[:50]}...")
+                            print(f"      ✅ Sukses mengunci: {url[:50]}...")
                         else:
                             print("      ⚠️ Iframe belum memuat stream_key, memasang Link Dummy sebagai cadangan.")
                             url = DUMMY_LINK
@@ -218,7 +258,7 @@ async def scrape():
     return current_playlist_urls
 
 async def main():
-    print("🚀 Memulai Operasi MABES ENTERPRISE: Streamhub Engine V1.2...")
+    print("🚀 Memulai Operasi MABES ENTERPRISE: Streamhub Engine V1.3 (Multi-Day Radar)...")
     
     urls = await scrape()
         
