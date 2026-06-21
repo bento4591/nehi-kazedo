@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 22/06/2026 02:11 WIB
+# Last Updated: 22/06/2026 02:15 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Spain.png" group-title="LIVE - EmbedHD",[Fifa World Cup] [🔴 LIVE] [23:00 WIB 21/06/2026] Spain - Saudi Arabia (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -67,11 +67,11 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn13.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=3zD93Y2U00IrEx3Uw7d3CA&expires=1782076261
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Arizona%20Diamondbacks.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [02:15 WIB 22/06/2026] Arizona Diamondbacks - Minnesota Twins (EMBEDHD)
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Arizona%20Diamondbacks.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [02:15 WIB 22/06/2026] Arizona Diamondbacks - Minnesota Twins (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=amM1hPnn8_2I3PVfo1ksCQ&expires=1782034274
+https://cdn12.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=xy9D_gNAAcceUZvuSNnl5Q&expires=1782076556
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [03:05 WIB 22/06/2026] Athletics - Los Angeles Angels (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
