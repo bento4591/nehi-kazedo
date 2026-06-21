@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
-# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V3.3 (SMART DURATION) ---
+# --- KONFIGURASI MABES ENTERPRISE: EMBEDHD V3.4 (PRE-MATCH EXTRACTION) ---
 TAG = "EMBEDHD"
 OUTPUT_FILE = "embedhd.m3u8"
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
@@ -116,15 +116,13 @@ async def get_events():
             
             # Tentukan batas waktu kedaluwarsa secara dinamis
             if any(k in sport_upper for k in kategori_panjang):
-                batas_waktu = 28800  # 8 Jam (untuk PPV, Balapan, dan Turnamen Maraton)
+                batas_waktu = 28800  # 8 Jam
             else:
-                batas_waktu = 14400  # 4 Jam (untuk Sepak Bola, MLB, Basket, dll)
+                batas_waktu = 14400  # 4 Jam
 
-            # 🛡️ FILTER KEDALUWARSA: Buang pertandingan yang sudah melebihi batas durasinya
+            # 🛡️ FILTER KEDALUWARSA & MASA DEPAN
             if now_ts > (ts_et + batas_waktu):
                 continue
-                
-            # FILTER MASA DEPAN: Buang pertandingan yang jadwalnya masih lebih dari 36 Jam ke depan
             if ts_et > (now_ts + 129600):
                 continue
 
@@ -189,11 +187,16 @@ async def scrape(browser):
                 current_playlist_urls[key] = cached_entry
                 continue
                 
-            if status_tag == "⏳ UPCOMING" or not link:
-                print(f"  ⏳ {key} -> Menanam Link Dummy")
+            # 🛡️ TAKTIK SIAP TEMPUR: Patokan sekarang adalah ketersediaan LINK, bukan WAKTU
+            if not link:
+                print(f"  ⏳ {key} -> Menanam Link Dummy (Bandar belum menyediakan link)")
                 url = DUMMY_LINK
             else:
-                print(f"\n⚡ Meluncurkan operasi penyadapan LIVE: {key}")
+                if status_tag == "⏳ UPCOMING":
+                    print(f"\n⚡ Meluncurkan operasi PRA-PERTANDINGAN (Link sudah aktif lebih awal): {key}")
+                else:
+                    print(f"\n⚡ Meluncurkan operasi penyadapan LIVE: {key}")
+                
                 url = await extract_m3u8(context, link, i)
                 if url:
                     print(f"      ✅ Sukses mengunci M3U8: {url[:50]}...")
@@ -223,7 +226,7 @@ async def scrape(browser):
     return current_playlist_urls
 
 async def main():
-    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V3.3 (Smart Duration)...")
+    print("🚀 Memulai Operasi MABES ENTERPRISE: EmbedHD Engine V3.4 (Pre-Match Extraction)...")
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
@@ -243,6 +246,7 @@ async def main():
             playlist_lines.append(extinf)
             
             if info["url"] == DUMMY_LINK:
+                # Link Dummy dibiarkan normal tanpa injeksi EXTVLCOPT
                 playlist_lines.append(info["url"])
             else:
                 # 🛡️ INJEKSI SPOOFING KELAS BERAT (EXTVLCOPT)
