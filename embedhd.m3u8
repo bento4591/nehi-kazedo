@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 22/06/2026 01:16 WIB
+# Last Updated: 22/06/2026 01:21 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Spain.png" group-title="LIVE - EmbedHD",[Fifa World Cup] [🔴 LIVE] [23:00 WIB 21/06/2026] Spain - Saudi Arabia (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -46,11 +46,11 @@ https://cdn13.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=wQAoRj_h10EHL-ooqo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn13.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=e3YH05H1HeVIlk9O4W759A&expires=1782072657
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Chicago%20Cubs.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [01:20 WIB 22/06/2026] Chicago Cubs - Toronto Blue Jays (EMBEDHD)
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Chicago%20Cubs.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [01:20 WIB 22/06/2026] Chicago Cubs - Toronto Blue Jays (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=icw68ZtnJUwBHq_4wctmug&expires=1782034271
+https://cdn12.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=usBAfwccFHTT04K102Xueg&expires=1782073271
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Texas%20Rangers.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [01:35 WIB 22/06/2026] Texas Rangers - San Diego Padres (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
