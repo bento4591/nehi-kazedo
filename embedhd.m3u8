@@ -1,20 +1,20 @@
 #EXTM3U
-# Last Updated: 22/06/2026 00:31 WIB
+# Last Updated: 22/06/2026 00:35 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Spain.png" group-title="LIVE - EmbedHD",[Fifa World Cup] [🔴 LIVE] [23:00 WIB 21/06/2026] Spain - Saudi Arabia (EMBEDHD)
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/New%20York%20Yankees.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:35 WIB 22/06/2026] New York Yankees - Cincinnati Reds (EMBEDHD)
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/New%20York%20Yankees.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [00:35 WIB 22/06/2026] New York Yankees - Cincinnati Reds (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn15.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=oBtarhLpaHKI2KXt3GKLXA&expires=1782034262
+https://cdn14.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=T4lb8wiCYd1hXa9gUJK7tw&expires=1782070553
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Atlanta%20Braves.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:35 WIB 22/06/2026] Atlanta Braves - Milwaukee Brewers (EMBEDHD)
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Atlanta%20Braves.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [00:35 WIB 22/06/2026] Atlanta Braves - Milwaukee Brewers (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=Tg_WZbxC40TEAlOAzl91lA&expires=1782034263
+https://cdn12.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=Yqqn1VJtQpstgrpEfPsHHw&expires=1782070553
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Detroit%20Tigers.png" group-title="UPCOMING - EmbedHD",[MLB] [⏳ UPCOMING] [00:40 WIB 22/06/2026] Detroit Tigers - Chicago White Sox (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com

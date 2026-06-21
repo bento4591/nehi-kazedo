@@ -1,17 +1,14 @@
 #EXTM3U
-# Last Updated: 2026-06-22 00:31 WIB
+# Last Updated: 2026-06-22 00:36 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 1)
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=t3EaLC4SRRB-E6tV1W5kbg&expires=1782067871&ch=dadoskygo&s=199e88a66d8514d34fe60e17b042394d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 2)
-https://dz5.bhalocast.pro:7059/hls/spch66.m3u8?md5=MXUaZRCZ9-wsE6y34Gt0Pg&expires=1782067874&ch=spch66&s=6773fd5f94120ee1f283b3de3359bcbb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=6Em41qckbS6Z9A1j2hPnlQ&expires=1782068159&ch=dadoskygo&s=6a194ed3aedbeb4d2ce61182b0d8269c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA Tour] PGA Tour [Ft] (Server 3)
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=GPAapxY6vdOSBlNTcMTNiQ&expires=1782067877&ch=dadosky1&s=407192b1ed104a74d6aa85b035eac64e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=WzH0FII6LrbzLmuug7LlVQ&expires=1782068187&ch=dadosky1&s=ad1da6b8088f0390b691990364f34d96|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [MotorSports] MotorSports [Ft]
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=SAdsmuvCd5J2UtfpO5dQ2g&expires=1782067881&ch=dadoskyf17&s=034af35b975e47b25749b16074c33690|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=DfMUYdRBRwTJeVX_yk9MWQ&expires=1782068192&ch=dadoskyf17&s=1a214895afeaa0ef612989bda610a27c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iran/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [Fifa World Cup] Iran vs Belgium [Ft]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
