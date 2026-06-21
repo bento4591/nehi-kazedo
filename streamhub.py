@@ -8,17 +8,15 @@ from urllib.parse import urljoin, parse_qsl, urlsplit
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
-# --- KONFIGURASI MABES ENTERPRISE: STREAMHUB ENGINE V1.4 ---
+# --- KONFIGURASI MABES ENTERPRISE: STREAMHUB ENGINE V1.5 ---
 TAG = "STRMHUB"
 OUTPUT_FILE = "streamhub.m3u8"
 BASE_URL = "https://streamhub.pro"
 M3U8_DOMAIN = "https://obstreamx.click/live/" 
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
 
-# Properti Spoofing MABES
-SPOOF_REFERER = "https://streamhub.pro/"
-SPOOF_ORIGIN = "https://streamhub.pro"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+# User-Agent disamakan dengan Edges sesuai pesanan format
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
 
 EVENT_CACHE_FILE = f"{TAG}_event_cache.json"
 
@@ -35,37 +33,42 @@ def save_event_cache(data):
         json.dump(data, f)
 
 async def extract_m3u8(client, url, url_num):
-    """Taktik Penyadapan Double-Iframe Streamhub"""
+    """Taktik Penyadapan Double-Iframe Streamhub (Mengembalikan M3U8 & URL Iframe Kedua)"""
     try:
         resp1 = await client.get(url, headers={"User-Agent": USER_AGENT, "Referer": BASE_URL}, timeout=15.0)
-        if resp1.status_code != 200: return None
+        if resp1.status_code != 200: return None, None
         soup1 = BeautifulSoup(resp1.text, 'html.parser')
         
         ifr_1 = soup1.find('iframe', id='playerIframe')
-        if not ifr_1 or not ifr_1.get('src'): return None
+        if not ifr_1 or not ifr_1.get('src'): return None, None
         
         ifr_1_src = ifr_1['src']
         if ifr_1_src.startswith('//'):
             ifr_1_src = 'https:' + ifr_1_src
             
         resp2 = await client.get(ifr_1_src, headers={"User-Agent": USER_AGENT, "Referer": url}, timeout=15.0)
-        if resp2.status_code != 200: return None
+        if resp2.status_code != 200: return None, None
         soup2 = BeautifulSoup(resp2.text, 'html.parser')
         
         ifr_2 = soup2.find('iframe')
-        if not ifr_2 or not ifr_2.get('src'): return None
+        if not ifr_2 or not ifr_2.get('src'): return None, None
         ifr_2_src = ifr_2['src']
+        
+        # Standarisasi protokol URL iframe kedua
+        if ifr_2_src.startswith('//'):
+            ifr_2_src = 'https:' + ifr_2_src
         
         params = dict(parse_qsl(urlsplit(ifr_2_src).query))
         stream_key = params.get("stream")
         
         if stream_key:
-            return f"{M3U8_DOMAIN}{stream_key}.m3u8"
+            m3u8_url = f"{M3U8_DOMAIN}{stream_key}.m3u8"
+            return m3u8_url, ifr_2_src
             
     except Exception as e:
         print(f"    ⚠️ URL {url_num} Gagal ditembus: {e}")
         
-    return None
+    return None, None
 
 async def fetch_page_events(client, target_url, now_ts):
     """Mata Sensor Ganda (Live Card & Match Row)"""
@@ -92,28 +95,31 @@ async def fetch_page_events(client, target_url, now_ts):
             
             league_div = card.find('div', class_='live-league')
             league_name = league_div.text.replace('🏆', '').strip() if league_div else "SPORT"
-            sport_kategori = "FOOTBALL" # Default Live Now biasanya bola/sport umum
+            sport_kategori = "FOOTBALL" 
             
             logos = card.find_all('img', class_='small-logo')
             home_logo = logos[0].get('src', '') if logos else ""
             
             raw_event_name = f"[{league_name}] {home_team} - {away_team}"
             
-            # Buat jam simulasi untuk Live Now (karena di web tidak ada jamnya)
             dt_wib_now = datetime.now(ZoneInfo("Asia/Jakarta"))
             kickoff_tag = dt_wib_now.strftime("LIVE %H:%M WIB %d/%m/%Y")
             
+            # Key khusus pencocokan duplikat
+            match_matchup_key = f"{home_team.lower()}-{away_team.lower()}"
             unique_key = f"[LIVE_NOW] {raw_event_name}"
             
             page_events.append({
                 "unique_key": unique_key,
+                "matchup_key": match_matchup_key,
                 "sport": sport_kategori,
                 "raw_title": raw_event_name,
                 "kickoff_tag": kickoff_tag,
                 "link": event_link,
                 "status_tag": "🔴 LIVE",
                 "logo": home_logo,
-                "ts_et": now_ts - 3600 # Taruh di urutan teratas
+                "ts_et": now_ts - 7200, # Prioritas teratas
+                "is_live_now_section": True
             })
 
         # ==========================================
@@ -121,18 +127,14 @@ async def fetch_page_events(client, target_url, now_ts):
         # ==========================================
         rows = soup.find_all('div', class_='match-row')
         for row in rows:
-            # Lewati jika row ini ternyata bagian dari Live Now (untuk hindari duplikat)
             if row.find_parent('section', id='liveNowAjax'): continue
             
             countdown = row.find('span', class_='countdown')
             if not countdown: continue
-            
             if "Live window ended" in countdown.text: continue
                 
             ts_et = int(countdown.get('data-start', 0))
             if ts_et == 0: continue
-            
-            # Filter jadwal yang terlalu jauh (> 36 Jam)
             if ts_et > (now_ts + 129600): continue
             
             teams = row.find_all('span', class_='team-name')
@@ -156,13 +158,11 @@ async def fetch_page_events(client, target_url, now_ts):
             home_logo = logos[0].get('src', '') if logos else ""
             
             link_elem = row.find('a', class_='watch-live')
-            if not link_elem:
-                # Coba ambil href dari div.match-row jika a.watch-live tidak ada
-                if row.has_attr('onclick'):
-                    onclick_txt = row['onclick']
-                    if "location.href='" in onclick_txt:
-                        extracted_link = onclick_txt.split("location.href='")[1].split("'")[0]
-                        link_elem = {'href': extracted_link}
+            if not link_elem and row.has_attr('onclick'):
+                onclick_txt = row['onclick']
+                if "location.href='" in onclick_txt:
+                    extracted_link = onclick_txt.split("location.href='")[1].split("'")[0]
+                    link_elem = {'href': extracted_link}
                         
             if not link_elem: continue
             event_link = urljoin(BASE_URL, link_elem.get('href', ''))
@@ -171,7 +171,6 @@ async def fetch_page_events(client, target_url, now_ts):
             dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
             kickoff_tag = dt_wib.strftime("%H:%M WIB %d/%m/%Y")
             
-            # Deteksi Kategori Olahraga dari blok atasnya
             sport = "SPORT"
             parent_block = row.find_previous('div', class_='upcoming-sport-head')
             if parent_block:
@@ -180,17 +179,20 @@ async def fetch_page_events(client, target_url, now_ts):
             waktu_ke_kickoff = ts_et - now_ts
             status_tag = "🔴 LIVE" if waktu_ke_kickoff <= 3600 else "⏳ UPCOMING"
                 
+            match_matchup_key = f"{home_team.lower()}-{away_team.lower()}"
             unique_key = f"[{sport}] {raw_event_name} {ts_et}"
             
             page_events.append({
                 "unique_key": unique_key,
+                "matchup_key": match_matchup_key,
                 "sport": sport,
                 "raw_title": raw_event_name,
                 "kickoff_tag": kickoff_tag,
                 "link": event_link,
                 "status_tag": status_tag,
                 "logo": home_logo,
-                "ts_et": ts_et
+                "ts_et": ts_et,
+                "is_live_now_section": False
             })
             
     except Exception as e:
@@ -203,7 +205,6 @@ async def get_all_events(client):
     now_ts = time.time()
     now_utc = datetime.now(timezone.utc)
     
-    # URL 3 Hari
     urls = [
         f"{BASE_URL}/?date={now_utc.strftime('%Y-%m-%d')}",
         f"{BASE_URL}/?date={(now_utc + timedelta(days=1)).strftime('%Y-%m-%d')}",
@@ -212,19 +213,29 @@ async def get_all_events(client):
     
     all_events = []
     seen_keys = set()
+    live_now_matchups = set()
     
-    # Taktik Mengendap: Ambil satu per satu dengan jeda istirahat untuk menipu Cloudflare
     for i, url in enumerate(urls):
         print(f"📡 Menyapu Tab Tanggal: {url}")
         page_events = await fetch_page_events(client, url, now_ts)
         
+        # Filter Lapis 1: Ambil semua data LIVE NOW terlebih dahulu
         for ev in page_events:
-            if ev["unique_key"] not in seen_keys:
+            if ev["is_live_now_section"] and ev["unique_key"] not in seen_keys:
+                seen_keys.add(ev["unique_key"])
+                live_now_matchups.add(ev["matchup_key"])
+                all_events.append(ev)
+                
+        # Filter Lapis 2: Masukkan data Match Row dengan proteksi anti-ganda
+        for ev in page_events:
+            if not ev["is_live_now_section"] and ev["unique_key"] not in seen_keys:
+                # 🛡️ JIKA PERTANDINGAN SUDAH ADA DI PANEL LIVE NOW, JANGAN MASUKKAN LAGI
+                if ev["matchup_key"] in live_now_matchups:
+                    continue
                 seen_keys.add(ev["unique_key"])
                 all_events.append(ev)
                 
         if i < len(urls) - 1:
-            print("   ⏳ Menyamar sebagai manusia... (Jeda 2 detik)")
             await asyncio.sleep(2)
                 
     all_events.sort(key=lambda x: x["ts_et"])
@@ -238,8 +249,8 @@ async def scrape():
         events = await get_all_events(client)
         
         if events:
-            print(f"\n🎯 Ditemukan total {len(events)} siaran dari radar.")
-            semaphore = asyncio.Semaphore(3) # Kurangi kecepatan serbu iframe jadi 3 agar aman
+            print(f"\n🎯 Ditemukan total {len(events)} siaran bersih dari duplikat.")
+            semaphore = asyncio.Semaphore(3) 
             
             async def process_single_event(i, ev):
                 sport = ev["sport"]
@@ -253,24 +264,26 @@ async def scrape():
                 
                 cached_entry = cached_urls.get(key)
                 if cached_entry and cached_entry.get("url") and cached_entry["url"] != DUMMY_LINK:
-                    print(f"  ℹ️ {key} -> Menggunakan link dari database cache.")
+                    print(f"  ℹ️ {key} -> Menggunakan link database cache.")
                     current_playlist_urls[key] = cached_entry
                     return
                 
                 async with semaphore:
                     if status_tag == "⏳ UPCOMING":
                         print(f"  ⏳ UPCOMING -> {raw_name}")
-                        url = DUMMY_LINK
+                        url, referer_iframe = DUMMY_LINK, ""
                     else:
                         print(f"  ⚡ SADAP LIVE -> {raw_name}")
-                        url = await extract_m3u8(client, link, i)
-                        if not url: url = DUMMY_LINK
+                        url, referer_iframe = await extract_m3u8(client, link, i)
+                        if not url: 
+                            url, referer_iframe = DUMMY_LINK, ""
                             
                 entry = {
                     "url": url,
                     "logo": home_logo,
                     "id": "Live.Event.us",
-                    "link": link
+                    "link": link,
+                    "referer_iframe": referer_iframe # Mengunci URL Iframe Lapis 2 ke database
                 }
                 
                 cached_urls[key] = entry
@@ -288,7 +301,7 @@ async def scrape():
     return current_playlist_urls
 
 async def main():
-    print("🚀 MABES ENTERPRISE: Streamhub Stealth Engine V1.4 (Live Catcher)")
+    print("🚀 MABES ENTERPRISE: Streamhub Stealth Engine V1.5 (Dynamic Iframe Spoofing)")
     urls = await scrape()
         
     print("\n🎯 Membangun berkas M3U8...")
@@ -302,9 +315,11 @@ async def main():
             extinf = f'#EXTINF:-1 tvg-id="{info["id"]}" tvg-logo="{info["logo"]}" group-title="{group_title}",{key}'
             
             playlist_lines.append(extinf)
-            if info["url"] != DUMMY_LINK:
-                playlist_lines.append(f'#EXTVLCOPT:http-referrer={SPOOF_REFERER}')
-                playlist_lines.append(f'#EXTVLCOPT:http-origin={SPOOF_ORIGIN}')
+            if info["url"] != DUMMY_LINK and info.get("referer_iframe"):
+                # 🛡️ INJEKSI DYNAMIC SPOOFING SESUAI FORMAT KOMANDO KAPTEN
+                iframe_target = info["referer_iframe"]
+                playlist_lines.append(f'#EXTVLCOPT:http-referrer={iframe_target}')
+                playlist_lines.append(f'#EXTVLCOPT:http-origin={iframe_target}')
                 playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
             playlist_lines.append(info["url"])
             playlist_lines.append("")
@@ -312,7 +327,7 @@ async def main():
     if playlist_lines:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + playlist_lines))
-        print(f"🏁 BERHASIL! {len(playlist_lines)//6} Channel (termasuk Live Now) dikunci ke {OUTPUT_FILE}")
+        print(f"🏁 BERHASIL! {len(playlist_lines)//6} Channel dikunci dengan Dynamic Spoofing ke {OUTPUT_FILE}")
     else:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(header + ["# Tidak ada siaran aktif dalam radar saat ini."]))
