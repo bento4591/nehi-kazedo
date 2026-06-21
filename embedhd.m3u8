@@ -1,23 +1,5 @@
 #EXTM3U
-# Last Updated: 22/06/2026 04:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Detroit%20Tigers.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [00:40 WIB 22/06/2026] Detroit Tigers - Chicago White Sox (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=qIYnVYEqrC4qZ2XmXPUrkQ&expires=1782070858
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Miami%20Marlins.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [00:40 WIB 22/06/2026] Miami Marlins - San Francisco Giants (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=LGsUZPDUkDAS2v3pYkUggg&expires=1782070858
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Tampa%20Bay%20Rays.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [00:40 WIB 22/06/2026] Tampa Bay Rays - Washington Nationals (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=TME8iK3e0T47XQEGmDGjBg&expires=1782070860
+# Last Updated: 22/06/2026 04:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Houston%20Astros.png" group-title="LIVE - EmbedHD",[MLB] [🔴 LIVE] [01:10 WIB 22/06/2026] Houston Astros - Cleveland Guardians (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
