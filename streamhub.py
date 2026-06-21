@@ -38,15 +38,19 @@ def save_event_cache(data):
 async def extract_m3u8(client, url, url_num):
     """Taktik Penyadapan Double-Iframe Streamhub"""
     try:
-        resp1 = await client.get(url, timeout=15.0)
+        # Menyertakan Headers penuh agar tidak diblokir web
+        resp1 = await client.get(url, headers={"User-Agent": USER_AGENT, "Referer": BASE_URL}, timeout=15.0)
         if resp1.status_code != 200: return None
         soup1 = BeautifulSoup(resp1.text, 'html.parser')
         
         ifr_1 = soup1.find('iframe', id='playerIframe')
         if not ifr_1 or not ifr_1.get('src'): return None
-        ifr_1_src = ifr_1['src']
         
-        resp2 = await client.get(ifr_1_src, headers={"Referer": BASE_URL}, timeout=15.0)
+        ifr_1_src = ifr_1['src']
+        if ifr_1_src.startswith('//'):
+            ifr_1_src = 'https:' + ifr_1_src
+            
+        resp2 = await client.get(ifr_1_src, headers={"User-Agent": USER_AGENT, "Referer": url}, timeout=15.0)
         if resp2.status_code != 200: return None
         soup2 = BeautifulSoup(resp2.text, 'html.parser')
         
@@ -69,6 +73,7 @@ async def get_events(client):
     """Menyapu bersih jadwal dari halaman depan Streamhub"""
     print("🔄 Memindai radar utama Streamhub...")
     events = []
+    now_ts = time.time()
     
     try:
         resp = await client.get(BASE_URL, headers={"User-Agent": USER_AGENT}, timeout=15.0)
@@ -79,7 +84,6 @@ async def get_events(client):
         for block in blocks:
             sport_elem = block.find('div', class_='upcoming-sport-head')
             if not sport_elem: continue
-            
             sport = sport_elem.contents[0].strip().upper()
             
             rows = block.find_all('div', class_='match-row')
@@ -87,21 +91,18 @@ async def get_events(client):
                 countdown = row.find('span', class_='countdown')
                 if not countdown: continue
                 
-                # 🗑️ TENDANG SAMPAH: Lewati pertandingan yang sudah berakhir
                 if "Live window ended" in countdown.text:
                     continue
                     
                 ts_et = int(countdown.get('data-start', 0))
                 if ts_et == 0: continue
                 
-                # Ekstrak Teks Tim
                 teams = row.find_all('span', class_='team-name')
                 if len(teams) < 2: continue
-                
                 home_team = teams[0].text.strip()
                 away_team = teams[1].text.strip()
                 
-                # 🛡️ PENDETEKSI NAMA LIGA (LEAGUE TAGGING)
+                # Tagging Nama Liga
                 league_name = ""
                 league_div = row.find('div', class_='league-name')
                 if league_div:
@@ -113,13 +114,11 @@ async def get_events(client):
                         if spans:
                             league_name = spans[0].text.strip()
                 
-                # Format penyusunan judul M3U8
                 if league_name and league_name != "•":
                     raw_event_name = f"[{league_name}] {home_team} - {away_team}"
                 else:
                     raw_event_name = f"{home_team} - {away_team}"
                 
-                # Ekstrak Logo
                 logos = row.find_all('img', class_='small-logo')
                 home_logo = logos[0].get('src', '') if logos else ""
                 
@@ -127,12 +126,14 @@ async def get_events(client):
                 if not link_elem: continue
                 event_link = urljoin(BASE_URL, link_elem.get('href'))
                 
-                # Konversi Zona Waktu
+                # Konversi Waktu ke WIB
                 dt_utc = datetime.fromtimestamp(ts_et, tz=timezone.utc)
                 dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
                 kickoff_tag = dt_wib.strftime("%H:%M WIB %d/%m/%Y")
                 
-                if datetime.now(timezone.utc) >= dt_utc:
+                # 🛡️ LOGIKA PRE-MATCH (1 Jam Sebelum Kickoff dianggap LIVE)
+                waktu_ke_kickoff = ts_et - now_ts
+                if waktu_ke_kickoff <= 3600:
                     status_tag = "🔴 LIVE"
                 else:
                     status_tag = "⏳ UPCOMING"
@@ -155,7 +156,6 @@ async def get_events(client):
 async def scrape():
     cached_urls = load_event_cache()
     current_playlist_urls = {}
-    now_ts = time.time()
     
     async with httpx.AsyncClient(verify=False) as client:
         events = await get_events(client)
@@ -182,18 +182,18 @@ async def scrape():
                 
                 async with semaphore:
                     if status_tag == "⏳ UPCOMING":
-                        print(f"\n⚡ Mencoba operasi PRA-PERTANDINGAN: {key}")
-                    else:
-                        print(f"\n⚡ Meluncurkan operasi penyadapan LIVE: {key}")
-                        
-                    url = await extract_m3u8(client, link, i)
-                    
-                    if url:
-                        print(f"      ✅ Sukses mengunci M3U8: {url[:50]}...")
-                    else:
-                        print("      ⚠️ Iframe belum memuat stream_key, memasang Link Dummy sebagai cadangan.")
+                        print(f"  ⏳ {key} -> Menanam Link Dummy (Masih > 1 Jam dari Kickoff)")
                         url = DUMMY_LINK
+                    else:
+                        print(f"\n⚡ Meluncurkan operasi penyadapan M3U8: {key}")
+                        url = await extract_m3u8(client, link, i)
                         
+                        if url:
+                            print(f"      ✅ Sukses mengunci M3U8: {url[:50]}...")
+                        else:
+                            print("      ⚠️ Iframe belum memuat stream_key, memasang Link Dummy sebagai cadangan.")
+                            url = DUMMY_LINK
+                            
                 entry = {
                     "url": url,
                     "logo": home_logo,
@@ -218,7 +218,7 @@ async def scrape():
     return current_playlist_urls
 
 async def main():
-    print("🚀 Memulai Operasi MABES ENTERPRISE: Streamhub Engine (Fast Async HTTP)...")
+    print("🚀 Memulai Operasi MABES ENTERPRISE: Streamhub Engine V1.2...")
     
     urls = await scrape()
         
@@ -237,7 +237,6 @@ async def main():
             if info["url"] == DUMMY_LINK:
                 playlist_lines.append(info["url"])
             else:
-                # 🛡️ INJEKSI SPOOFING STREAMHUB
                 playlist_lines.append(f'#EXTVLCOPT:http-referrer={SPOOF_REFERER}')
                 playlist_lines.append(f'#EXTVLCOPT:http-origin={SPOOF_ORIGIN}')
                 playlist_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
