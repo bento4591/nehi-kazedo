@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 23/06/2026 05:05 WIB
+# Last Updated: 23/06/2026 05:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:00 WIB 23/06/2026] [BOXING] WWE: Monday Night RAW
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -43,14 +43,23 @@ https://cdn6.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=0uc1PKfCP4I7xFQd9W8k
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn15.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=RW_1unTgkr0o0X-vHz-BWw&expires=1782171955
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:07 WIB 23/06/2026] [MLB] Toronto Blue Jays - Houston Astros
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:07 WIB 23/06/2026] [MLB] Toronto Blue Jays - Houston Astros
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn4.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=OE--k4MIttamksXsgO32nA&expires=1782173466
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 23/06/2026] [MLB] New York Mets - Chicago Cubs
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 23/06/2026] [MLB] New York Mets - Chicago Cubs
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=R7kUbGipz665CC9DvUpnEA&expires=1782173468
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 23/06/2026] [MLB] Cincinnati Reds - Milwaukee Brewers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 23/06/2026] [MLB] Cincinnati Reds - Milwaukee Brewers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=URgnD6VHUrU8gwFVaeb66g&expires=1782173469
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:40 WIB 23/06/2026] [MLB] Chicago White Sox - Cleveland Guardians
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
