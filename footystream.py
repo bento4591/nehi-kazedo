@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
-# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V4.2 ---
+# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V4.3 ---
 MAIN_URL = "https://footystream.pk"
 SOCCER_URL = "https://footystream.pk/soccer-streams"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
@@ -26,7 +26,7 @@ def format_title(team1, team2):
     t1_lower, t2_lower = team1.lower(), team2.lower()
     if t1_lower == t2_lower or t1_lower in t2_lower or t2_lower in t1_lower:
         return team1 if len(team1) >= len(team2) else team2
-    return f"{team1} vs {team2}"
+    return f"{team1} - {team2}"
 
 def parse_schedule(html_text):
     """Mengekstrak jadwal dasar dari halaman depan/kategori"""
@@ -109,7 +109,7 @@ async def extract_m3u8(context, url):
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Operasi FootyStream (Dual-Timer Pre-Match V4.2)...")
+    print("🚀 Memulai Operasi FootyStream (Content-Based Titling V4.3)...")
     all_streams = []
     raw_events = []
 
@@ -152,14 +152,6 @@ async def main():
                         
                     time_to_kickoff = (start_dt - now).total_seconds()
                     
-                    # 🛡️ 1. LOGIKA STATUS TAG TAMPILAN (Batas 10 Menit)
-                    if time_to_kickoff <= 600 or now >= start_dt:
-                        status_icon = "🔴 LIVE"
-                        group_title = "LIVE - FootyStream"
-                    else:
-                        status_icon = "⏳ UPCOMING"
-                        group_title = "UPCOMING - FootyStream"
-
                     # Ambil informasi turnamen detail halaman dalam
                     match_res = requests.get(ev['url'], headers={"User-Agent": USER_AGENT}, timeout=10)
                     match_soup = HTMLParser(match_res.text)
@@ -171,9 +163,10 @@ async def main():
                     else:
                         category_tag = ""
 
-                    base_title = f"[{status_icon}] [{ev['kickoff']}] {category_tag}{ev['raw_title']} [Ft]"
+                    # 🛡️ FORMAT BERSIH: Hapus [Ft] dan siapkan nama inti
+                    core_title = f"[{ev['kickoff']}] {category_tag}{ev['raw_title']}"
                     
-                    # 🛡️ 2. LOGIKA RADAR PENYADAPAN (Batas 60 Menit)
+                    # 🛡️ LOGIKA RADAR PENYADAPAN (Batas 60 Menit)
                     if time_to_kickoff <= 3600:
                         watch_links = []
                         for a in match_soup.css("a"):
@@ -186,7 +179,7 @@ async def main():
                         
                         extracted_any = False
                         if watch_links:
-                            print(f"\n⚡ Mencari link asli (Waktu sisa: {int(time_to_kickoff // 60)} menit): {base_title}")
+                            print(f"\n⚡ Mencari link asli (Waktu sisa: {int(time_to_kickoff // 60)} menit): {core_title}")
                             for idx, link in enumerate(watch_links):
                                 server_num = idx + 1
                                 print(f"    📡 Menyadap Server {server_num}...")
@@ -195,28 +188,32 @@ async def main():
                                 if m3u8_url:
                                     print(f"      ✅ Sukses merampas link asli: {m3u8_url[:40]}...")
                                     pipe_headers = f"|Referer={referer}&User-Agent={USER_AGENT}"
-                                    server_label = f" (Server {server_num})" if len(watch_links) > 1 else ""
+                                    server_label = f" [CH {server_num}]" if len(watch_links) > 1 else ""
                                     
+                                    # 🔴 JIKA LINK ASLI DAPAT -> MUTLAK LIVE
                                     all_streams.append([
-                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="{group_title}",{base_title}{server_label}',
+                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="LIVE - FootyStream",[🔴 LIVE] {core_title}{server_label}',
                                         f'{m3u8_url}{pipe_headers}',
                                         ''
                                     ])
                                     extracted_any = True
+                                else:
+                                    print(f"      ⚠️ Server {server_num} gagal diekstrak.")
                         
-                        # Jika sudah masuk waktu berburu tapi bandar belum rilis m3u8 di web
+                        # Jika bandar belum rilis link atau Playwright gagal menembus
                         if not extracted_any:
-                            print(f"  ⏳ {base_title} -> Link belum aktif di server bandar, pasang Dummy.")
+                            print(f"  ⏳ {core_title} -> Link asli belum tayang, menanam Dummy.")
+                            # ⏳ JIKA HANYA DUMMY -> MUTLAK UPCOMING
                             all_streams.append([
-                                f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="{group_title}",{base_title}',
+                                f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] {core_title}',
                                 DUMMY_LINK,
                                 ''
                             ])
                     else:
                         # Di luar batas 1 jam, langsung pasang dummy untuk efisiensi resource
-                        print(f"  ⏳ {base_title} -> Jadwal masih jauh (> 1 Jam), tanam Dummy.")
+                        print(f"  ⏳ {core_title} -> Jadwal masih jauh (> 1 Jam), tanam Dummy.")
                         all_streams.append([
-                            f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="{group_title}",{base_title}',
+                            f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] {core_title}',
                             DUMMY_LINK,
                             ''
                         ])
