@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 22/06/2026 10:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewZealand.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 22/06/2026] [FIFA WORLD CUP] New Zealand - Egypt [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=nGC4_QsOnTHlfEf7mTZCJw&expires=1782093683
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewZealand.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 22/06/2026] [FIFA WORLD CUP] New Zealand - Egypt [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn15.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=H9nAALNw7ElaKuyMSURbGA&expires=1782093684
+# Last Updated: 22/06/2026 10:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 23/06/2026] [FIFA WORLD CUP] Argentina - Austria [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
