@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 23/06/2026 21:56 WIB
+# Last Updated: 23/06/2026 22:06 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pakistan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:30 WIB] [FIH PRO LEAGUE] Pakistan - India [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch35.m3u8?md5=2WbIV-4A_UPNRiyL9EJZ4Q&expires=1782231372&ch=spch35&s=8fa937620349861d89eed0a495f3f8dc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch35.m3u8?md5=WX0zw493lCTranqSZcq1tw&expires=1782231961&ch=spch35&s=b1c94753094dd2daf31323aa8bec043b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pakistan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:30 WIB] [FIH PRO LEAGUE] Pakistan - India [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch36.m3u8?md5=LEfopWq_qok66BqGtNmRBw&expires=1782231376&ch=spch36&s=8c310926b01ebd2c907d57c22a97244b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch36.m3u8?md5=uyHplN6A2BpnpB02de71eA&expires=1782231964&ch=spch36&s=987794503295314e354a37f1d1bf52cf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FIH PRO LEAGUE] Australia - Netherlands
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIH PRO LEAGUE] Australia - Netherlands [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch35.m3u8?md5=CRAqC511zA4o-La9dYc-zw&expires=1782231967&ch=spch35&s=1cbc434ec7d66ad9cda19fd79523c3ce|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIH PRO LEAGUE] Australia - Netherlands [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch36.m3u8?md5=stynvAjWnxsIPw4OSywkxg&expires=1782231971&ch=spch36&s=41c6d10e53edd700990ba23258c6df00|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FIFA WORLD CUP] Portugal - Uzbekistan
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
