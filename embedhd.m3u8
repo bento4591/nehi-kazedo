@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 24/06/2026 06:36 WIB
+# Last Updated: 24/06/2026 06:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:07 WIB 24/06/2026] [MLB] Toronto Blue Jays - Houston Astros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -79,8 +79,11 @@ https://cdn13.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=cDUDEV_6TeYvo7Flq
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn8.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=njO_TkO4j0EyXTBDTUCw0g&expires=1782261980
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 24/06/2026] [MLB] Colorado Rockies - Boston Red Sox
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:40 WIB 24/06/2026] [MLB] Colorado Rockies - Boston Red Sox
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn7.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=yavMMxIiw4xn1J-Lp4D7hw&expires=1782265294
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:38 WIB 24/06/2026] [MLB] Los Angeles Angels - Baltimore Orioles
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
