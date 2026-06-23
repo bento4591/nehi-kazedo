@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 24/06/2026 05:41 WIB
+# Last Updated: 24/06/2026 05:46 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:07 WIB 24/06/2026] [MLB] Toronto Blue Jays - Houston Astros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -73,8 +73,11 @@ https://cdn4.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=RhI7yIxe1HVCs-R6e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn13.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=cDUDEV_6TeYvo7FlqEjjbg&expires=1782261688
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:45 WIB 24/06/2026] [MLB] St. Louis Cardinals - Arizona Diamondbacks
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:45 WIB 24/06/2026] [MLB] St. Louis Cardinals - Arizona Diamondbacks
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn8.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=njO_TkO4j0EyXTBDTUCw0g&expires=1782261980
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 24/06/2026] [MLB] Colorado Rockies - Boston Red Sox
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
