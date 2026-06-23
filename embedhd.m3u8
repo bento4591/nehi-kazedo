@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 24/06/2026 04:56 WIB
+# Last Updated: 24/06/2026 05:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 24/06/2026] [FIFA WORLD CUP] England - Ghana [CH 1]
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -49,11 +49,17 @@ https://cdn7.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=AejaK7Qhi-litXkkiSwD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=zBwBPlOy4k7ff5tmw_1iOg&expires=1782258401
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:00 WIB 24/06/2026] [FIFA WORLD CUP] Panama - Croatia [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:00 WIB 24/06/2026] [FIFA WORLD CUP] Panama - Croatia [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=n-1fYPG2-TAByEdkWrXMcA&expires=1782259278
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:00 WIB 24/06/2026] [FIFA WORLD CUP] Panama - Croatia [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:00 WIB 24/06/2026] [FIFA WORLD CUP] Panama - Croatia [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn7.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=FeZdZgQFWwMj5R0p3851-Q&expires=1782259280
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 24/06/2026] [MLB] New York Mets - Chicago Cubs
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
