@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 23/06/2026 07:55 WIB
+# Last Updated: 23/06/2026 08:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:10 WIB 23/06/2026] [MLB] Detroit Tigers - New York Yankees
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -85,8 +85,11 @@ https://cdn15.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=g79ODSybIWfT9Eot
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn12.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=ivkDccLw-IunAFakiJqSyA&expires=1782182460
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 23/06/2026] [MLB] San Diego Padres - Atlanta Braves
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 23/06/2026] [MLB] San Diego Padres - Atlanta Braves
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=FNiHwG5r3tvONX2bGq4AFA&expires=1782183668
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [10:00 WIB 23/06/2026] [FIFA WORLD CUP] Jordan - Algeria [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
