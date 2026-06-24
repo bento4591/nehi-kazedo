@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 25/06/2026 04:41 WIB
+# Last Updated: 25/06/2026 04:46 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:10 WIB 25/06/2026] [MLB] Chicago White Sox - Cleveland Guardians
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -61,8 +61,11 @@ https://cdn2.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=hsu7s-Wl0Xg4vVIkbIM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn8.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=LoZKJzJcaEMDAZL5sCJ6Qg&expires=1782344474
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:45 WIB 25/06/2026] [MLB] Washington Nationals - Philadelphia Phillies
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:45 WIB 25/06/2026] [MLB] Washington Nationals - Philadelphia Phillies
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=vdFQhDcPEUlwtL8zz5S-2A&expires=1782344772
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:07 WIB 25/06/2026] [MLB] Toronto Blue Jays - Houston Astros
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
