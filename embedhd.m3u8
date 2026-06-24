@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 25/06/2026 00:05 WIB
+# Last Updated: 25/06/2026 00:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MiamiMarlins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:10 WIB 24/06/2026] [MLB] Miami Marlins - Texas Rangers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -13,8 +13,11 @@ https://cdn8.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=uQuMJhpDmruquiRvjlvr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn7.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=fQ5ftQcgnisHoF4nnXGxmg&expires=1782324660
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 25/06/2026] [MLB] Chicago White Sox - Cleveland Guardians
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:10 WIB 25/06/2026] [MLB] Chicago White Sox - Cleveland Guardians
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=_ruo6Jyd8mLUco0FxLoN4w&expires=1782328285
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Bosnia-Herzegovina - Qatar [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
