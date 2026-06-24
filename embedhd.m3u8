@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 25/06/2026 03:56 WIB
+# Last Updated: 25/06/2026 04:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:10 WIB 25/06/2026] [MLB] New York Mets - Chicago Cubs
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -49,17 +49,29 @@ https://cdn13.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=fTVGAYDpNyZK44M5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn13.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=u4U05bkQoiwBFKDWIcxykQ&expires=1782335478
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Morocco.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Morocco - Haiti [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Morocco.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Morocco - Haiti [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn6.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=Lup_QOMOrX_2WjC1byQM-w&expires=1782342076
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Morocco.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Morocco - Haiti [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Morocco.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Morocco - Haiti [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=9XZ9NZ3W4-e-zsFMMfZqeg&expires=1782342078
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Scotland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Scotland - Brazil [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Scotland.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Scotland - Brazil [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=elJ0GsLn6wnbMNiB_BAzfA&expires=1782342079
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Scotland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Scotland - Brazil [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Scotland.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Scotland - Brazil [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=93Urg-crZAJTzQOXFysK2g&expires=1782342080
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 25/06/2026] [MLB] Tampa Bay Rays - Kansas City Royals
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
