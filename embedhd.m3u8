@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 25/06/2026 02:05 WIB
+# Last Updated: 25/06/2026 02:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MiamiMarlins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:10 WIB 24/06/2026] [MLB] Miami Marlins - Texas Rangers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -49,8 +49,11 @@ https://cdn5.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=YPeCzulV76ZJkfm5mIg85w&expi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn13.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=fTVGAYDpNyZK44M5cIjtMg&expires=1782331886
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:07 WIB 25/06/2026] [MLB] Los Angeles Angels - Baltimore Orioles
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:07 WIB 25/06/2026] [MLB] Los Angeles Angels - Baltimore Orioles
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=u4U05bkQoiwBFKDWIcxykQ&expires=1782335478
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Morocco.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 25/06/2026] [FIFA WORLD CUP] Morocco - Haiti [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
