@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 25/06/2026 00:55 WIB
+# Last Updated: 25/06/2026 01:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MiamiMarlins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:10 WIB 24/06/2026] [MLB] Miami Marlins - Texas Rangers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -19,17 +19,29 @@ https://cdn7.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=fQ5ftQcgnisHoF4nnXGxm
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn13.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=_ruo6Jyd8mLUco0FxLoN4w&expires=1782328285
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Bosnia-Herzegovina - Qatar [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Bosnia-Herzegovina - Qatar [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=SAu5-L7xAJhzjtF0UHkJjQ&expires=1782331275
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Bosnia-Herzegovina - Qatar [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Bosnia-Herzegovina - Qatar [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn4.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=lF2SdN9miokEdXGRSU_POA&expires=1782331277
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Switzerland - Canada [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Switzerland - Canada [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=oXy7d4QftGWc8ZsBTFtKUg&expires=1782331278
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Switzerland - Canada [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 25/06/2026] [FIFA WORLD CUP] Switzerland - Canada [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=YPeCzulV76ZJkfm5mIg85w&expires=1782331279
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:10 WIB 25/06/2026] [MLB] Colorado Rockies - Boston Red Sox
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8

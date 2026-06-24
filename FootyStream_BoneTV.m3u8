@@ -1,11 +1,53 @@
 #EXTM3U
-# Last Updated: 25/06/2026 00:56 WIB
+# Last Updated: 25/06/2026 01:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/qatar/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] Qatar - Bosnia and Herzegovina
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/qatar/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Qatar - Bosnia and Herzegovina [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn2ca.m3u8?md5=3-kqDPTGYh6JJliaSS1j7Q&expires=1782328884&ch=tsn2ca&s=6e3c8ed71d6df8a72e982f9e288328ee|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/qatar/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Qatar - Bosnia and Herzegovina [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv444.m3u8?md5=xtgFCsAAA37h1pqnjIbjCQ&expires=1782328886&ch=itv444&s=67a9a07d7cd2194903d1effe69281389|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/qatar/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Qatar - Bosnia and Herzegovina [CH 3]
+https://dz5.bhalocast.pro:7059/hls/foxsp1.m3u8?md5=xIaoHjjlONC7cZDiusRUkA&expires=1782328890&ch=foxsp1&s=b74b9b02c78fd13f662db6b4d1fc807f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/qatar/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Qatar - Bosnia and Herzegovina [CH 4]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga2.m3u8?md5=IgAinsahEO9iMBEmggNf3Q&expires=1782328893&ch=daznlaliga2&s=62347c02f22d9101a300d467a955f49c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/qatar/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Qatar - Bosnia and Herzegovina [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=EjW9UHMZdpGaQOa-T2Fvkw&expires=1782328896&ch=spch41&s=c636581d733be5468eb1b25b14841c74|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=GYHlMK2e3jI8-yKLyz-bmg&expires=1782328900&ch=tsn1ca&s=b9a10ea47534b7d820face6987b4d599|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=LYfkBttHBDWEXk-HEi42cQ&expires=1782328903&ch=itv111&s=b5d9258dcd10d84b40dd51b71ceb0511|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=EfK5IZlz705GOJ4_XUFPjA&expires=1782328906&ch=spch8&s=93d5a9d4c6dba26c75ec65efbe82cf7e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=cLXY6XptuEh2a_y8zweCww&expires=1782328909&ch=spch9&s=1c8d6382d4b3fe619a4986cff48d01f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=Rl-GskVl8qiy5NrGn-ULLQ&expires=1782328913&ch=spch10&s=cdada875c53f730ed4d12d38a8a282cd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn4ca.m3u8?md5=T7czIMxncGD2ha0687G6Gg&expires=1782328916&ch=tsn4ca&s=aefe9772f11aa9e64ec29deefe9a0afb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=D8Y3saqBjgud7Qw1uSPnyA&expires=1782328919&ch=daznlaliga&s=3a8fc51658c77b70b62fb61d6d3eca19|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=8laXlGWlKud0Sd7hXUkTkQ&expires=1782328923&ch=yt39&s=e29b16ef49956e470fc2c49526751e63|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=btv4HKvPkzXyDFYW94Ma1A&expires=1782328926&ch=spch45&s=19963e95c674980d9055485e506fefef|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 10]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=ry0lw7-VLwtNylOnydbBtw&expires=1782328930&ch=bsp1fr&s=6d8a5cd33b940bd56a70ce058ccb37a4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Canada - Switzerland [CH 11]
+https://dz5.bhalocast.pro:7059/hls/yt28.m3u8?md5=0gdPTaMX1QF29aVPAIPNSg&expires=1782328933&ch=yt28&s=fbde336772edefae99acf6ef035d7359|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/morocco/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [FIFA WORLD CUP] Morocco - Haiti
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
