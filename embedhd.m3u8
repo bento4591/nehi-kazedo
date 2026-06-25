@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 25/06/2026 10:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 25/06/2026] [MLB] Minnesota Twins - Los Angeles Dodgers
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn3.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=OXIifcYebxrjuD35xGJ5iA&expires=1782348068
+# Last Updated: 25/06/2026 10:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:45 WIB 25/06/2026] [MLB] St. Louis Cardinals - Arizona Diamondbacks
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -18,30 +12,6 @@ https://cdn1.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=I7aCR1fDh6Nycxb8
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn9.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=jzzX_ZJ3K0RyvoL1LxozdQ&expires=1782351670
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Czechia.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 25/06/2026] [FIFA WORLD CUP] Czechia - Mexico [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn6.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=lR-OjpJN07ysNVntXkOFYw&expires=1782352901
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Czechia.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 25/06/2026] [FIFA WORLD CUP] Czechia - Mexico [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=iZ-SzsDAyvyQAbKOCL0MJw&expires=1782352903
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SouthAfrica.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 25/06/2026] [FIFA WORLD CUP] South Africa - South Korea [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn6.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=P9HLTKij_XP7UkZwEunqpQ&expires=1782352904
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SouthAfrica.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 25/06/2026] [FIFA WORLD CUP] South Africa - South Korea [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=_8bJbrSrwx48zLzJWm3XhQ&expires=1782352905
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:45 WIB 25/06/2026] [MLB] San Francisco Giants - Athletics
 #EXTVLCOPT:http-referrer=https://exposestrat.com
