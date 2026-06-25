@@ -1,8 +1,8 @@
 #EXTM3U
-# Last Updated: 25/06/2026 15:26 WIB
+# Last Updated: 25/06/2026 15:31 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brisbane-lions/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:30 WIB] [AFL] Brisbane Lions - Sydney Swans
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brisbane-lions/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [AFL] Brisbane Lions - Sydney Swans
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=LkD-YMfbUO247Koj32njTQ&expires=1782381067&ch=bbtsip1&s=ca6b2a82c44f88beb475436b60ff36ad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [NRL] South Sydney Rabbitohs - Parramatta Eels
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
