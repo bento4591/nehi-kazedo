@@ -1,14 +1,14 @@
 #EXTM3U
-# Last Updated: 25/06/2026 17:11 WIB
+# Last Updated: 25/06/2026 17:16 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brisbane-lions/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [AFL] Brisbane Lions - Sydney Swans
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=TSK3o06vK96St_35U0gCxA&expires=1782387057&ch=bbtsip1&s=39c4de2cb2e88efe6aaf2cf24674e551|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=UUu7OQcbs2kv70ZiItZvww&expires=1782387357&ch=bbtsip1&s=561978f8ddd7f24d5eedef1a31b62b5b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] South Sydney Rabbitohs - Parramatta Eels [CH 1]
-https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=85zCJxC62WfYh02k7IPwKw&expires=1782387061&ch=fox502&s=052f767f39daab0fc42bcc204303961c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=6nIDjknnSQK5s0vgdEXOWQ&expires=1782387362&ch=fox502&s=c1815f73dca8b44e1dc8505204dabeaa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] South Sydney Rabbitohs - Parramatta Eels [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=d75pEJPB-dLElSbec-oUjQ&expires=1782387064&ch=spch62&s=d272020d5af279409fc2e6feaeb4b852|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=iU5HiT22DMra7kIk0tIfRg&expires=1782387365&ch=spch62&s=c6b7896f7307fedf0f23c2303febe31b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [PGA TOUR] PGA Tour
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -19,7 +19,13 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [FIH PRO LEAGUE] India - England
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pakistan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FIH PRO LEAGUE] Pakistan - India
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/catalans-dragons/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [SUPER LEAGUE] Catalans Dragons - Warrington Wolves
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hull-kr/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [SUPER LEAGUE] Hull KR - Leeds Rhinos
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/curacao/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FIFA WORLD CUP] Curaçao - Côte d'Ivoire
@@ -43,7 +49,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:30 WIB] [MOTOGP] MotoGP
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/gold-coast-titans/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [NRL] Gold Coast Titans - Western Bulldogs
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sydney-roosters/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [NRL] Sydney Roosters - Brisbane Broncos
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [FORMULA 1] Formula 1
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/gws-giants/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:30 WIB] [AFL] GWS GIANTS - Hawthorn Hawks
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] France - Norway
