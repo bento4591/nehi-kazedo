@@ -1,35 +1,11 @@
 #EXTM3U
-# Last Updated: 26/06/2026 05:36 WIB
+# Last Updated: 26/06/2026 05:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:45 WIB 26/06/2026] [MLB] San Francisco Giants - Athletics
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn11.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=grqCwy4bK18t0_c7uaQgiA&expires=1782420368
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Curacao.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 26/06/2026] [FIFA WORLD CUP] Curaçao - Ivory Coast [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=yCJQVa7B0IFjdlSF0lecvQ&expires=1782421268
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Curacao.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 26/06/2026] [FIFA WORLD CUP] Curaçao - Ivory Coast [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=LgQvPJNqi2raazNMbeqE_A&expires=1782421269
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Ecuador.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 26/06/2026] [FIFA WORLD CUP] Ecuador - Germany [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=3at7TU46WvuRKScdu-l97g&expires=1782421270
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Ecuador.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 26/06/2026] [FIFA WORLD CUP] Ecuador - Germany [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=Y_WAL6OFlNaegAfN79PGKw&expires=1782421272
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 26/06/2026] [MLB] Detroit Tigers - Houston Astros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
