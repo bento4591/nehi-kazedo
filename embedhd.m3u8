@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 26/06/2026 08:55 WIB
+# Last Updated: 26/06/2026 09:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 26/06/2026] [MLB] Detroit Tigers - Houston Astros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -149,4 +149,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [17:30 WIB 27/06/2026] [FORMULA 1] Austrian Grand Prix - Practice 3
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [21:00 WIB 27/06/2026] [FORMULA 1] Austrian Grand Prix - Qualifying
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
