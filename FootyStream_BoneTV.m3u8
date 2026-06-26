@@ -1,35 +1,77 @@
 #EXTM3U
-# Last Updated: 27/06/2026 05:56 WIB
+# Last Updated: 27/06/2026 06:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn2ca.m3u8?md5=ooQvWpKz9LDascTuBPb-nA&expires=1782519684&ch=tsn2ca&s=61edc64d0797a1c73576cdf0359555e5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv444.m3u8?md5=rrBaiyxaNGfwMb1f8BhEbw&expires=1782519686&ch=itv444&s=66798c1e2d0f84844065a0a0f2fb87e2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde [CH 3]
+https://dz5.bhalocast.pro:7059/hls/foxsp1.m3u8?md5=G_UU37dtzO9HWuqspuzLJg&expires=1782519689&ch=foxsp1&s=353bce7679ecfd629193c29ab22c6fc4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=7QjzFal_HdX3qnW5XfE55g&expires=1782519693&ch=spch45&s=8b5284d3071b7df5e77911e3ae04f627|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde [CH 5]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga2.m3u8?md5=lS1EUKuYIotnU0VBzTg4zA&expires=1782519696&ch=daznlaliga2&s=d1598dda9e1c515e4c215747e4ac8ca9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=1NbuXYOq-CEtL3YTQrl74w&expires=1782519700&ch=tsn1ca&s=aefac2d1e22bba318830d52d8edf7d0c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=EoUaZZrM42X9BTaCEahsoA&expires=1782519704&ch=itv111&s=955f1f911ff329c404cc1a76ec5016cf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=6MQg8nm2aSRc4mfOQCnfEQ&expires=1782519707&ch=spch8&s=1243cd4d9a7378b95712fac88215205a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=qwliyHi38TVk_oUs1QfsIw&expires=1782519710&ch=spch9&s=30042b01458d0cac8b9de686b7282e82|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=DNkmtOv36gwmUOS_HFAEaQ&expires=1782519714&ch=spch10&s=b6ee23119939bb2eb3a21f2d9c405205|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn4ca.m3u8?md5=CLAac4jpNQTkqPxhpWZahw&expires=1782519717&ch=tsn4ca&s=8b56292ec77374a471d690511f9dde86|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=fRbsAbANbCs5Dqkx-vflUQ&expires=1782519721&ch=daznlaliga&s=07b3865a4472d8c2e797f45acbbd829f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=NlkeyljXljkUWPfB65CC-A&expires=1782519724&ch=yt39&s=24f5c2c8cb1e0cfbeec0cc77e6b15b34|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 9]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=zFOZMxQ8p9oVSV2lc3ahwQ&expires=1782519728&ch=bsp1fr&s=e5b69c8ddea37aad603be1efcb409ee2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 10]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=uGI85S9QUqaqaSmSAspFyA&expires=1782519731&ch=spch45&s=20684f78eb57abd78b7c2d30d4d21cc7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [FIFA WORLD CUP] Spain - Uruguay [CH 11]
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=s_OlUBdKKfPI3KyUGMBjkw&expires=1782519735&ch=yt29&s=ce937204f64615f646ca5bec81c0fb89|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=-4y6oCZWW8JEk-dSWu9W7g&expires=1782519361&ch=dadoskygo&s=58f1ef8e3040bccc4e8a9e855fe268ef|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=TAjcOcI9N0pzEj-pmCerVA&expires=1782519739&ch=dadoskygo&s=eedeca95cec759a317a4d29ec8d53013|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=lTqu-Ib-yDninTJjZw_WOw&expires=1782519364&ch=dadoskymoxo&s=2661525ede2a2fc4b7fff36e8d717b36|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=TiBaO-65sKrk9E2qsiD9gA&expires=1782519742&ch=dadoskymoxo&s=40d8fb8dd14ec09fb0923a0a6b6a3567|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=xzAq-1XaaQdNBHMnTRgNOQ&expires=1782519368&ch=dadoskyare&s=17880ea9074f149080f0acd2dcd21b56|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=bU-o2PDYO1rNhdssEvPfXQ&expires=1782519746&ch=dadoskyare&s=112ea9441596dde507123efb19b5ffba|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=zIWSypXhZEFcorb_tAIHfw&expires=1782519371&ch=dadoskygo&s=3938768f710ceec0728c5cda7c5f8b72|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=hh4HIzaiYQ3ZkSty6Mex-g&expires=1782519749&ch=dadoskygo&s=bb42e208fec73920245418c5d7211253|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:30 WIB] [MOTOGP] MotoGP
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=MXkmJaUqy0jQoGCkVLu3jw&expires=1782519375&ch=bbtsvp2&s=474fc260123cb06ee79285e514bd63f1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=duu3Qc0ukUE2z_ne0DY1wA&expires=1782519753&ch=bbtsvp2&s=79495718dbf148b1bd0ab2e19e03e598|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FORMULA 1] Formula 1 [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=5suKY2eywLJkwJTvJVSt4A&expires=1782519379&ch=dadoskyf17&s=d19b3fa267fa28b9275bcce3bf6bcff5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=fypJlI_vusSWCky4oGIn6A&expires=1782519757&ch=dadoskyf17&s=9b6c73e12aeae4e4f0d4339f93509570|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FORMULA 1] Formula 1 [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=tR1IrYcnqoVG4EZrClROHA&expires=1782519383&ch=spch17&s=d3b30b7547cb7759242e93105b277f2f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=UZU994R4Z4bJZpGIpz95ow&expires=1782519761&ch=spch17&s=be82bd5841316d4a9888e59170ff33fc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FORMULA 1] Formula 1 [CH 3]
-https://dz5.bhalocast.pro:7059/hls/daznf1.m3u8?md5=pAa0nhSoTKNoPNo0kR5-Lg&expires=1782519386&ch=daznf1&s=174bc3074e6d3d01b715c7698968623d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/daznf1.m3u8?md5=dVGThNMqheu5swKN4RUm8Q&expires=1782519764&ch=daznf1&s=28b39314ad0bbadbd241b3b4e83efb22|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iran/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [10:00 WIB] [FIFA WORLD CUP] Iran - Egypt
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
