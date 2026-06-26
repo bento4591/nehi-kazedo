@@ -1,29 +1,5 @@
 #EXTM3U
-# Last Updated: 26/06/2026 11:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 26/06/2026] [FIFA WORLD CUP] Paraguay - Australia [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn7.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=c8aoW_QSlQK4g42sZQjWpg&expires=1782442876
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 26/06/2026] [FIFA WORLD CUP] Paraguay - Australia [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=741AqspVwg6OLpOWSlMARQ&expires=1782442877
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Turkiye.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 26/06/2026] [FIFA WORLD CUP] Türkiye - United States [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=yhG-Wsi27R8rQ3itp5pX0w&expires=1782442878
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Turkiye.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 26/06/2026] [FIFA WORLD CUP] Türkiye - United States [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=U8XwOaRO7v86jxqwHyY-SA&expires=1782442880
+# Last Updated: 26/06/2026 11:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [18:30 WIB 26/06/2026] [FORMULA 1] Austrian Grand Prix - Practice 1
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
