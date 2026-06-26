@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 26/06/2026 21:45 WIB
+# Last Updated: 26/06/2026 21:50 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [18:30 WIB 26/06/2026] [FORMULA 1] Austrian Grand Prix - Practice 1
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -118,10 +118,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:10 WIB 28/06/2026] [MLB] Chicago White Sox - Kansas City Royals
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Croatia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 28/06/2026] [FIFA WORLD CUP] Croatia - Ghana
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Croatia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 28/06/2026] [FIFA WORLD CUP] Croatia - Ghana [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 28/06/2026] [FIFA WORLD CUP] Panama - England
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Croatia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 28/06/2026] [FIFA WORLD CUP] Croatia - Ghana [CH 2]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 28/06/2026] [FIFA WORLD CUP] Panama - England [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Panama.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 28/06/2026] [FIFA WORLD CUP] Panama - England [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:10 WIB 28/06/2026] [MLB] Tampa Bay Rays - Arizona Diamondbacks
@@ -142,10 +148,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:15 WIB 28/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:30 WIB 28/06/2026] [FIFA WORLD CUP] Colombia - Portugal
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:30 WIB 28/06/2026] [FIFA WORLD CUP] Colombia - Portugal [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CongoDR.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:30 WIB 28/06/2026] [FIFA WORLD CUP] Congo DR - Uzbekistan
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:30 WIB 28/06/2026] [FIFA WORLD CUP] Colombia - Portugal [CH 2]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CongoDR.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:30 WIB 28/06/2026] [FIFA WORLD CUP] Congo DR - Uzbekistan [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CongoDR.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:30 WIB 28/06/2026] [FIFA WORLD CUP] Congo DR - Uzbekistan [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 28/06/2026] [MLB] San Diego Padres - Los Angeles Dodgers
@@ -157,8 +169,14 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:38 WIB 28/06/2026] [MLB] Los Angeles Angels - Athletics
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria [CH 2]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
