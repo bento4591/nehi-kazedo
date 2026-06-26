@@ -1,41 +1,83 @@
 #EXTM3U
-# Last Updated: 27/06/2026 00:56 WIB
+# Last Updated: 27/06/2026 01:03 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] France - Norway
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=nwszU0rW-Ek7QbjsFeJknA&expires=1782501700&ch=tsn1ca&s=2fe961c6625ecb217b31dc0d9a389083|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=Ruvr9rsWgwaehYZgSrUyxg&expires=1782501703&ch=itv111&s=e426e9dc1d5367c8bcf221e1f6879210|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=TsZvXAeW0Aq9UBfanPwVUg&expires=1782501707&ch=spch8&s=18f9dfb329955c61f7710e98acfef470|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=nNhsb1oLW_Y53Rwbjg7vow&expires=1782501710&ch=spch9&s=bcbcd04105a2023fc254552ac2726544|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=3f4Qaa8NsMfjww4fd6LNOA&expires=1782501714&ch=spch10&s=265d4b5ed5c92cee766461b89a766d01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 6]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=JMM5WHdsVUXQdH1f_59iSQ&expires=1782501717&ch=bsp1fr&s=09b31c6f7be8b8663b6ab86e62b3f98c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=oUE96F70JoTWEnZG7H7Myg&expires=1782501721&ch=daznlaliga&s=67f9a1fa22b6e675500bf72d945ea75c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=ARoKH5pbFt7oaH4jSWC7SA&expires=1782501724&ch=yt39&s=5e2130903eb995e367a24267f3748a72|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 9]
+https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=wqxBONEQQnN-z9qFo1vMqw&expires=1782501728&ch=yt27&s=346d8b3ac30f466b48dd1fd125f6d03b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] France - Norway [CH 10]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=_TZj-sA34CBw2KRkNiHtzA&expires=1782501731&ch=spch41&s=225b71bd0dab4094a31ac2e49b050f62|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=d1NY4hR5dHtEylA6JuNcag&expires=1782501372&ch=dadoskygo&s=a3bcd18ff454ceafc1dd46d23c9b2cde|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=nH-tUMbMfsByUXkn11KO-A&expires=1782501735&ch=dadoskygo&s=6f760bcbd6e01636db829dfbeb3663bc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=ZPN8A1o6opH_gQljn3kXCQ&expires=1782501375&ch=dadoskymoxo&s=a3c612ceabccc2d8ba6203517de13250|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=XINreT6jn36K2-q4EujgDg&expires=1782501739&ch=dadoskymoxo&s=de59dc983c5aa3dd6a732ea5a9dea1e0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=A0LPFgYlmsK6uKgV5SKkng&expires=1782501379&ch=dadoskyare&s=99cd64eb6237b30da4240aa4840ddd56|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=cnalW0b2qCM-u9Bj3Zndjw&expires=1782501742&ch=dadoskyare&s=77c46e99bca774cb7de52a9bfe15e7c5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=xo7Rst8sbGDBWcAaZWSPxA&expires=1782501382&ch=dadoskygo&s=4ad15589aa7e8c5474eba55127de32a0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=NCH6UuwL6GUtN660wJqkJw&expires=1782501746&ch=dadoskygo&s=1d368a5e3211ef2f4dd2b981d1b25c01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:30 WIB] [MOTOGP] MotoGP
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=CKZ7fbUSJCcB-0o2Q7O_bg&expires=1782501386&ch=bbtsvp2&s=524c92529e839932270425a2ee81a75f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=MT8W-C302gKA3shPnMRruA&expires=1782501750&ch=bbtsvp2&s=0bd9dba2c17ca1397f6a7791e956aac8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FORMULA 1] Formula 1 [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=8-cj5150FHaV5KflRqNBOw&expires=1782501389&ch=dadoskyf17&s=f71f27ac6d8cc90ee723c5f50d27f48a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=duwwsGbCixoqfoK_JujfNQ&expires=1782501754&ch=dadoskyf17&s=9cadec84b90d2674f05881cbff00990c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FORMULA 1] Formula 1 [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=6CmGipKhdyxqU1XWr8CXKw&expires=1782501393&ch=spch17&s=280ffa6f06faa95152aae64585384550|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=FB5F-6HlBc3gUTUVfM7iZw&expires=1782501757&ch=spch17&s=27ec99fbec27c347db14b18f7c96e23a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FORMULA 1] Formula 1 [CH 3]
-https://dz5.bhalocast.pro:7059/hls/daznf1.m3u8?md5=d5wL2OEYBbtt-OhRKTLoug&expires=1782501396&ch=daznf1&s=7e88b92c69226b5bfcb9bb63307199a1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/daznf1.m3u8?md5=Zt-2jsyvlHUsG_Rl_GORyw&expires=1782501761&ch=daznf1&s=56229ac8552854f9ee32e310d5699882|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pakistan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIH PRO LEAGUE] Pakistan - India [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch35.m3u8?md5=bM9DZUYMKWelEBsFYhHC-Q&expires=1782501400&ch=spch35&s=4e6c957ee03d2dc0c6ebacd07e50cf66|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch35.m3u8?md5=uDw0CLE2wab5wALemkxRWw&expires=1782501764&ch=spch35&s=adbb1b77d0f6299bd99cb8a8862b0254|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pakistan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIH PRO LEAGUE] Pakistan - India [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch36.m3u8?md5=0twNiMiqDy854jFrnYZe2A&expires=1782501403&ch=spch36&s=e5cf1fbe67095d068f4fec8bb5fffa8d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch36.m3u8?md5=P_LEGQKmLokMxmULqpARkA&expires=1782501768&ch=spch36&s=20675af3cc1665489ed7b1978fe114f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn2ca.m3u8?md5=8kD1Yux7eFWnhpIlZES5FA&expires=1782501771&ch=tsn2ca&s=cbba8e3e1f4d39e19370dcc1cf5da8f7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv444.m3u8?md5=iahDr6a-a6vuMMYpWq4Mdw&expires=1782501775&ch=itv444&s=64d513ba3896e79cc0980499160be599|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal [CH 3]
+https://dz5.bhalocast.pro:7059/hls/foxsp1.m3u8?md5=BZ2iQgc3-r0k1tYRGLER0g&expires=1782501778&ch=foxsp1&s=0d8d05d0accad9b92c15a93dc6613845|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal [CH 4]
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=ya0WvQRGsoPTEQeXgG1NPw&expires=1782501782&ch=yt29&s=57044bb989229ba7d3abc193181d1d86|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal [CH 5]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga2.m3u8?md5=dRapuBtuzaG1g3SYFXW0XA&expires=1782501785&ch=daznlaliga2&s=d808c1968b4664e1f6c37c8bfe1a2885|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/iraq/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Iraq - Senegal [CH 6]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=7xyNWY90WCBenqIFHVGa_Q&expires=1782501789&ch=spch45&s=8ab5f3307115a22a8d6d69530530db4d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/saudi-arabia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [FIFA WORLD CUP] Saudi Arabia - Cabo Verde
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -52,13 +94,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ghana/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [04:00 WIB] [FIFA WORLD CUP] Ghana - Croatia
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hull-kr/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [SUPER LEAGUE] Hull KR - Leeds Rhinos
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hull-kr/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [SUPER LEAGUE] Hull KR - Leeds Rhinos
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=tRL6ygz2I_Gmgh24OfCRIQ&expires=1782501792&ch=dadosky3&s=bcc3d0cd89d496c4dc67da61cc584692|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/west-coast-eagles/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [10:15 WIB] [AFL] West Coast Eagles - Carlton
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/collingwood/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [AFL] Collingwood - Richmond
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/port-adelaide/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:30 WIB] [AFL] Port Adelaide - Adelaide Crows
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dolphins-nrl/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [12:00 WIB] [NRL] Dolphins - Warriors
