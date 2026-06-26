@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 27/06/2026 06:11 WIB
+# Last Updated: 27/06/2026 06:15 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 27/06/2026] [MLB] Pittsburgh Pirates - Cincinnati Reds
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -91,8 +91,11 @@ https://cdn1.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=0wE4-2UQ8hMB5__fVbiDrQ&expi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn12.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=nwdgqbjflvblTLmGXWUFBA&expires=1782522659
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:15 WIB 27/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:15 WIB 27/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn4.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=myaiu6vjoXeu1bvJlN1_HQ&expires=1782522954
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:38 WIB 27/06/2026] [MLB] Los Angeles Angels - Athletics
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
