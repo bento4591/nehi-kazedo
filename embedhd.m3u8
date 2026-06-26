@@ -1,35 +1,17 @@
 #EXTM3U
-# Last Updated: 27/06/2026 04:35 WIB
+# Last Updated: 27/06/2026 04:41 WIB
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Norway.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 27/06/2026] [FIFA WORLD CUP] Norway - France [CH 1]
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 27/06/2026] [MLB] Pittsburgh Pirates - Cincinnati Reds
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=DsckGZAj0c8qgKHr7GCWmA&expires=1782504092
+https://cdn13.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=mWjcV-x08n-k_ftWqvQa9A&expires=1782517259
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Norway.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 27/06/2026] [FIFA WORLD CUP] Norway - France [CH 2]
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 27/06/2026] [MLB] Detroit Tigers - Houston Astros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn7.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=j6StaZZqM05N5drOVnhUhw&expires=1782504093
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Senegal.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 27/06/2026] [FIFA WORLD CUP] Senegal - Iraq [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=Y1_zFgDE1eYH65IaZ0RUFg&expires=1782504095
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Senegal.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 27/06/2026] [FIFA WORLD CUP] Senegal - Iraq [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=QL8HnWf8lZwWWVxeAsmBIQ&expires=1782504096
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 27/06/2026] [MLB] Pittsburgh Pirates - Cincinnati Reds
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 27/06/2026] [MLB] Detroit Tigers - Houston Astros
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+https://cdn12.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=vx56DmETsd2wGnK6CLOEag&expires=1782517260
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BaltimoreOrioles.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:05 WIB 27/06/2026] [MLB] Baltimore Orioles - Washington Nationals
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
