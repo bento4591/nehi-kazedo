@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 27/06/2026 13:10 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:15 WIB 27/06/2026] [MLB] San Francisco Giants - Atlanta Braves
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn6.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=RPzFIukf4q43_LDIaB3lIA&expires=1782530165
+# Last Updated: 27/06/2026 13:15 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [17:30 WIB 27/06/2026] [FORMULA 1] Austrian Grand Prix - Practice 3
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -134,4 +128,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 29/06/2026] [MLB] Chicago White Sox - Kansas City Royals
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:15 WIB 29/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
