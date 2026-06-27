@@ -1,35 +1,5 @@
 #EXTM3U
-# Last Updated: 27/06/2026 10:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:07 WIB 27/06/2026] [MLB] Toronto Blue Jays - Texas Rangers
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=-UNrY4eAJvloTL1c_1h88A&expires=1782519059
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 27/06/2026] [MLB] Tampa Bay Rays - Arizona Diamondbacks
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn7.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=-s_6ip8fHgClvN5kzlYN4Q&expires=1782519060
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 27/06/2026] [MLB] Boston Red Sox - New York Yankees
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=unHaCnGuNBlUtNZiBCg2Xw&expires=1782519062
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 27/06/2026] [MLB] New York Mets - Philadelphia Phillies
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn15.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=60ZUkI2hGyjeT7xl9g8TVA&expires=1782519063
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 27/06/2026] [MLB] Cleveland Guardians - Seattle Mariners
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=xK-yPEOJqdpYhBlzS1W8-g&expires=1782519064
+# Last Updated: 27/06/2026 10:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 27/06/2026] [MLB] Chicago White Sox - Kansas City Royals
 #EXTVLCOPT:http-referrer=https://exposestrat.com
