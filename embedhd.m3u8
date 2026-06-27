@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 27/06/2026 11:11 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:15 WIB 27/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=myaiu6vjoXeu1bvJlN1_HQ&expires=1782522954
+# Last Updated: 27/06/2026 11:15 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:38 WIB 27/06/2026] [MLB] Los Angeles Angels - Athletics
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -61,7 +55,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 28/06/2026] [MLB] Boston Red Sox - New York Yankees
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 28/06/2026] [WWE] WWE Night of Champions
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 28/06/2026] [WWE] Night of Champions
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:10 WIB 28/06/2026] [MLB] Detroit Tigers - Houston Astros
