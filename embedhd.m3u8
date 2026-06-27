@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 27/06/2026 11:01 WIB
+# Last Updated: 27/06/2026 11:05 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:10 WIB 27/06/2026] [MLB] Minnesota Twins - Colorado Rockies
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -58,10 +58,16 @@ https://cdn3.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=XTH1ijELrOLksZX7lot1yQ&expi
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [17:30 WIB 27/06/2026] [FORMULA 1] Austrian Grand Prix - Practice 3
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [20:00 WIB 27/06/2026] [UFC] UFC Fight Night Fiziev - Torres
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [21:00 WIB 27/06/2026] [FORMULA 1] Austrian Grand Prix - Qualifying
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 28/06/2026] [MLB] Boston Red Sox - New York Yankees
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 28/06/2026] [WWE] WWE Night of Champions
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:10 WIB 28/06/2026] [MLB] Detroit Tigers - Houston Astros
@@ -122,6 +128,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 28/06/2026] [MLB] San Diego Padres - Los Angeles Dodgers
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 28/06/2026] [MMA/PFL/BKFC] BKFC Fight Night Vancamp - Cisneros
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:05 WIB 28/06/2026] [MLB] San Francisco Giants - Atlanta Braves
