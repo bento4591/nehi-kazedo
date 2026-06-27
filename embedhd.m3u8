@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 27/06/2026 18:15 WIB
+# Last Updated: 27/06/2026 18:20 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [17:30 WIB 27/06/2026] [FORMULA 1] Austrian Grand Prix - Practice 3
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -149,4 +149,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:10 WIB 29/06/2026] [MLB] San Diego Padres - Los Angeles Dodgers
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:20 WIB 29/06/2026] [MLB] Boston Red Sox - New York Yankees
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
