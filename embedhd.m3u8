@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 28/06/2026 17:10 WIB
+# Last Updated: 28/06/2026 17:15 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [20:00 WIB 28/06/2026] [FORMULA 1] Austrian Grand Prix - Race
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -55,11 +55,14 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:20 WIB 29/06/2026] [MLB] Boston Red Sox - New York Yankees
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 30/06/2026] [FIFA WORLD CUP] Brazil - Japan
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 30/06/2026] [FIFA WORLD CUP] Brazil - Japan [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Germany.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 30/06/2026] [FIFA WORLD CUP] Germany - Third Place Group A/B/C/D/F
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 30/06/2026] [FIFA WORLD CUP] Brazil - Japan [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Germany.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 30/06/2026] [FIFA WORLD CUP] Germany - Paraguay
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Germany.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 30/06/2026] [FIFA WORLD CUP] Germany - Paraguay [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Germany.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 30/06/2026] [FIFA WORLD CUP] Germany - Paraguay [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
