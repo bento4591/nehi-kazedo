@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 29/06/2026 00:55 WIB
+# Last Updated: 29/06/2026 01:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:35 WIB 29/06/2026] [MLB] Pittsburgh Pirates - Cincinnati Reds
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -67,11 +67,17 @@ https://cdn6.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=XCGlJ61yCFu3NTyCF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn9.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=k8oVl2rvSGF1tQ9D3THruw&expires=1782674168
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SouthAfrica.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 29/06/2026] [FIFA WORLD CUP] South Africa - Canada [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SouthAfrica.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 29/06/2026] [FIFA WORLD CUP] South Africa - Canada [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=C65qRdpo1tQDZCgNRegMoA&expires=1782676877
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SouthAfrica.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 29/06/2026] [FIFA WORLD CUP] South Africa - Canada [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SouthAfrica.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 29/06/2026] [FIFA WORLD CUP] South Africa - Canada [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn9.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=dGN4SjKP0DYNMesd7YDOIA&expires=1782676877
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:15 WIB 29/06/2026] [MLB] Los Angeles Angels - Athletics
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
