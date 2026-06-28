@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 28/06/2026 19:01 WIB
+# Last Updated: 28/06/2026 19:05 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [20:00 WIB 28/06/2026] [FORMULA 1] Austrian Grand Prix - Race
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -89,4 +89,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:40 WIB 30/06/2026] [MLB] Milwaukee Brewers - Cincinnati Reds
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:05 WIB 30/06/2026] [MLB] Chicago Cubs - San Diego Padres
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
