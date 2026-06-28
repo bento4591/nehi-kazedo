@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 28/06/2026 11:55 WIB
+# Last Updated: 28/06/2026 12:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 28/06/2026] [MMA/PFL/BKFC] BKFC Fight Night Vancamp - Cisneros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -71,4 +71,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:20 WIB 29/06/2026] [MLB] Boston Red Sox - New York Yankees
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 30/06/2026] [FIFA WORLD CUP] Brazil - Japan
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
