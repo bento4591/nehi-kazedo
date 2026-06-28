@@ -1,23 +1,5 @@
 #EXTM3U
-# Last Updated: 28/06/2026 10:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 28/06/2026] [MLB] Cleveland Guardians - Seattle Mariners
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=D91Br2Xph5YxKYOkfBVXBg&expires=1782605468
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 28/06/2026] [MLB] Milwaukee Brewers - Chicago Cubs
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=ubMs2l6uInqJT9o71KqTRQ&expires=1782605469
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 28/06/2026] [MLB] Minnesota Twins - Colorado Rockies
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=NPI4KEntFfxZ0gAsjBiCUg&expires=1782605470
+# Last Updated: 28/06/2026 10:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:15 WIB 28/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
 #EXTVLCOPT:http-referrer=https://exposestrat.com
