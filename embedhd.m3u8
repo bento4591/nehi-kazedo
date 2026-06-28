@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 28/06/2026 07:56 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:00 WIB 28/06/2026] [WWE] Night of Champions
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn10.zohanayaan.com:1686/hls/mevent2.m3u8?md5=7RL7eyz_M9sOeiE0IpKwbQ&expires=1782583275
+# Last Updated: 28/06/2026 08:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:10 WIB 28/06/2026] [MLB] Tampa Bay Rays - Arizona Diamondbacks
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -91,17 +85,29 @@ https://cdn12.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=MI07JVQd_hPR5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn4.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=63Ap_-E_eO1kW8ecjRruhg&expires=1782614458
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn7.zohanayaan.com:1686/hls/ntsn2fhd.m3u8?md5=fFaiyjzLF5MvTvaKmPXRqA&expires=1782615678
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Algeria.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Algeria - Austria [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=0rMuuphRBSE30Z-89LwZrQ&expires=1782615680
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=YSx5FMNkq4MLVnT39Xzu0w&expires=1782615681
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Jordan.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 28/06/2026] [FIFA WORLD CUP] Jordan - Argentina [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=M6Rv_88ZwBsW3wdldghKrw&expires=1782615682
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [20:00 WIB 28/06/2026] [FORMULA 1] Austrian Grand Prix - Race
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
