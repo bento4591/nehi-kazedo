@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 29/06/2026 00:05 WIB
+# Last Updated: 29/06/2026 00:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:35 WIB 29/06/2026] [MLB] Pittsburgh Pirates - Cincinnati Reds
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -43,14 +43,23 @@ https://cdn1.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=bZGmi0wafdfM-UNP8kNgD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=VKNYUlqQaONLXosI2Z01PA&expires=1782672070
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 29/06/2026] [MLB] Milwaukee Brewers - Chicago Cubs
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:10 WIB 29/06/2026] [MLB] Milwaukee Brewers - Chicago Cubs
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=SDaVGPquOjVXebTjNHw_OQ&expires=1782673873
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 29/06/2026] [MLB] Minnesota Twins - Colorado Rockies
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:10 WIB 29/06/2026] [MLB] Minnesota Twins - Colorado Rockies
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=jJjeZU5FPvItux_1e97IQg&expires=1782673875
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 29/06/2026] [MLB] Chicago White Sox - Kansas City Royals
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:10 WIB 29/06/2026] [MLB] Chicago White Sox - Kansas City Royals
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn6.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=XCGlJ61yCFu3NTyCFjCZkA&expires=1782673876
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:15 WIB 29/06/2026] [MLB] St. Louis Cardinals - Miami Marlins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
