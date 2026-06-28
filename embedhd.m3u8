@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 28/06/2026 19:55 WIB
+# Last Updated: 28/06/2026 20:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [20:00 WIB 28/06/2026] [FORMULA 1] Austrian Grand Prix - Race
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -98,4 +98,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 30/06/2026] [MLB] Colorado Rockies - Miami Marlins
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
