@@ -1,8 +1,38 @@
 #EXTM3U
-# Last Updated: 29/06/2026 22:55 WIB
+# Last Updated: 29/06/2026 23:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=Yh1FdOXrq_uGFr3t1SlZ-Q&expires=1782753678&ch=tsn1ca&s=d9e8f92d9e7c136fc90d0cb83788cb93|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=s0lHpkkCQhewgLB5QMbncg&expires=1782753682&ch=itv111&s=a7bd80e6f74550d93ac2a64e9f82da90|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=-pKlCjY85BifaET0eJgMBw&expires=1782753686&ch=spch8&s=38998d6d22ab8b65e2859b0c4cf178ec|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=2FmqR3cdg2AgVbQbJugdSA&expires=1782753689&ch=spch9&s=14bcbbb8a2aa7ec50ca35dce67f71463|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=R3gKvQdP8F7fJf2BitDb2Q&expires=1782753693&ch=spch10&s=bf9a897ea38a31bbb2a1f1c5b11c3c14|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=zIGRH69uBMcQIzrgQ5af8Q&expires=1782753696&ch=tsn3ca&s=b910571f5db6f661adc9ce525e57beba|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=XEgmLTCppzBP8epcXj1azA&expires=1782753700&ch=daznlaliga&s=4c135a705635007271200f048faff1b1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=DHA7PkzrMCNfJZprQoX8rg&expires=1782753703&ch=yt29&s=c8a6081135178da15e68fd8b0d949e66|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 9]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=I4NBaDBLFzoWX-V9gDD6Pw&expires=1782753707&ch=bsp1fr&s=52ce61ff3950aa29b69827c6e2540557|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 10]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=Qdrg6Y0WI7evNDFvSGWtxA&expires=1782753710&ch=spch45&s=0b04b939e17f01475672d714257f9fd8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Brazil - Japan [CH 11]
+https://dz5.bhalocast.pro:7059/hls/yt36.m3u8?md5=Rr6MBFhvm78MQ9-EV2Nh2A&expires=1782753713&ch=yt36&s=3a372b74b716fc81bf8fb686043eade8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/germany/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:30 WIB] [FIFA WORLD CUP] Germany - Paraguay
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
