@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 29/06/2026 15:20 WIB
+# Last Updated: 29/06/2026 15:25 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 30/06/2026] [FIFA WORLD CUP] Brazil - Japan [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -43,7 +43,10 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 30/06/2026] [MLB] Colorado Rockies - Miami Marlins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 30/06/2026] [MLB] Seattle Mariners - Los Angeles Angels
@@ -55,5 +58,8 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 30/06/2026] [MLB] Arizona Diamondbacks - San Francisco Giants
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/IvoryCoast.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 01/07/2026] [FIFA WORLD CUP] Ivory Coast - Norway
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/IvoryCoast.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 01/07/2026] [FIFA WORLD CUP] Ivory Coast - Norway [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/IvoryCoast.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 01/07/2026] [FIFA WORLD CUP] Ivory Coast - Norway [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
