@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 29/06/2026 06:56 WIB
+# Last Updated: 29/06/2026 07:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:05 WIB 29/06/2026] [MLB] San Francisco Giants - Atlanta Braves
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -19,8 +19,11 @@ https://cdn11.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=6F-W24ydybByQ4AT6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn8.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=-H31AM_TI8PNy5CDEY3o4w&expires=1782692463
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 29/06/2026] [BOXING] Edwin De Los Santos - Jose Valenzuela
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 29/06/2026] [BOXING] Edwin De Los Santos - Jose Valenzuela
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mevent1.m3u8?md5=lnUn93NcuCZQaDt4Z4g0eA&expires=1782698476
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 30/06/2026] [FIFA WORLD CUP] Brazil - Japan [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
