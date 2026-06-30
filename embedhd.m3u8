@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 30/06/2026 06:55 WIB
+# Last Updated: 30/06/2026 07:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 30/06/2026] [WWE] Monday Night Raw
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -67,11 +67,17 @@ https://cdn8.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=by2FQdJFiYUKjbF8A5I
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn14.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=vwpgJxJqHB79qoH_ITLkrg&expires=1782783656
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn1.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=06wniC_zriCs2V6E-DEffg&expires=1782784872
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Netherlands.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 30/06/2026] [FIFA WORLD CUP] Netherlands - Morocco [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn8.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=awz697jA-W9DBoi_OFnVSw&expires=1782784874
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 30/06/2026] [MLB] Seattle Mariners - Los Angeles Angels
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
