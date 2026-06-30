@@ -1,14 +1,41 @@
 #EXTM3U
-# Last Updated: 30/06/2026 22:56 WIB
+# Last Updated: 30/06/2026 23:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=hzRz9VgCqr87B4hbNvGhbQ&expires=1782839752&ch=bbc1ld&s=6eaabf3372e9e35e284b6a336285c7db|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=tGM4PQf7rHjrPd32lcEIJg&expires=1782840081&ch=bbc1ld&s=58a4e2b8ec8594cfe507bf2123e9572e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=pJ1ilCEei_QR7m_7vKCD2Q&expires=1782839755&ch=bbc2&s=a4a207fb2b93c97f944375a9de25d08a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=ep6yLbzbK0x2ccPz2aLebQ&expires=1782840084&ch=bbc2&s=4694a2ec8b326d7a95541cd82e37446f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=bAgzVRxm4guotkpr502b_A&expires=1782840088&ch=tsn1ca&s=c5833f85e24f9994e01197d895432cad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=tBzsnLhDOi9Di5LgdWgksQ&expires=1782840091&ch=bbc1ld&s=579a4ee8d4d6200da21db8a013770977|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=VKAaoU4ft5_nn8M7f8Yp4g&expires=1782840094&ch=spch8&s=0d0600b8dc048352a8d5fee76c43da25|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=VgojpHFZ6fuYZZig3K9qXA&expires=1782840097&ch=spch9&s=1f2c90b129479f0ffc869df3535fa3bc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=uOTN8_KfHib73PP5BHWamA&expires=1782840101&ch=spch10&s=1912f99e40e74f3d531e7a5fc0a9a242|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=FLRLpkCAOV8ETwK1DJmaVw&expires=1782840104&ch=tsn3ca&s=31dc56728377fe906d06c35f90e914fe|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=HdnSK2NU8jHwrGhvpndLXQ&expires=1782840108&ch=daznlaliga&s=8ce08b71808635d22182bb0c832918c2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 8]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=S2DXxpKyFaugbie-SubbRg&expires=1782840111&ch=bsp1fr&s=cca7473892e67c7c0d688662c6cd8501|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 9]
+https://dz5.bhalocast.pro:7059/hls/yt28.m3u8?md5=h13Sjhn-3MnOpa66tNeTUA&expires=1782840114&ch=yt28&s=1eac38b2a1286b9d18e8b8d898bd9005|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/norway/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [FIFA WORLD CUP] Norway - Côte d'Ivoire [CH 10]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=8TDsl39apTgBOFcim0XbcQ&expires=1782840117&ch=spch45&s=d011c413d0d3f7db6f9af97b4b444bf3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [04:00 WIB] [FIFA WORLD CUP] France - Sweden
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
