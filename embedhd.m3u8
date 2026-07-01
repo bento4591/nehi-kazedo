@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 05:11 WIB
+# Last Updated: 02/07/2026 05:15 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:20 WIB 02/07/2026] [MLB] Chicago Cubs - San Diego Padres
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -31,8 +31,11 @@ https://cdn11.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=LJnZaMEw1YFnJaosc-DDcg&e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn7.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=ttczIU0pxqBBkOH_ObXiJw&expires=1782949258
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:15 WIB 02/07/2026] [MLB] Atlanta Braves - St. Louis Cardinals
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:15 WIB 02/07/2026] [MLB] Atlanta Braves - St. Louis Cardinals
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn4.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=4Fe4ua5pe7XE_CXtQjwXrA&expires=1782951352
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/KansasCityRoyals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:40 WIB 02/07/2026] [MLB] Kansas City Royals - Tampa Bay Rays
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
