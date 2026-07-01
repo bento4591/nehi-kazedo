@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 06:35 WIB
+# Last Updated: 02/07/2026 06:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 02/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -43,8 +43,11 @@ https://cdn3.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=I9IwgvqfUFOpRQ5e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=bv770QCLlMX3eBex3XJDSQ&expires=1782954662
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 02/07/2026] [MLB] Colorado Rockies - Miami Marlins
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:40 WIB 02/07/2026] [MLB] Colorado Rockies - Miami Marlins
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn4.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=APHThnrzbo8vBulbOvSTQw&expires=1782956457
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 02/07/2026] [MLB] Athletics - Los Angeles Dodgers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
