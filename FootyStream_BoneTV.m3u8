@@ -1,14 +1,41 @@
 #EXTM3U
-# Last Updated: 01/07/2026 06:56 WIB
+# Last Updated: 01/07/2026 07:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=A7EsIXJC9KHKGnsKTJ144g&expires=1782868586&ch=bbc1ld&s=0d07cadf58f1b1a2ae4a2c7554797f3d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=zVUe0gws-NX3oQ4u4fN1hg&expires=1782868874&ch=bbc1ld&s=4575804dc6b520305e5d3b37d8cadf7d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=JrizvClV_7iWlZR2rR6Czw&expires=1782868589&ch=bbc2&s=6cd8a3238ead9ed9872b248673083c7c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=M4djSCQy3Q50K53G10KzZA&expires=1782868877&ch=bbc2&s=26c6ea2468984340b5225c7065f9370f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=0Fp4DQwSnxOl8sLMcZy7eA&expires=1782868881&ch=tsn1ca&s=f28d4b42ede5c53d80b2558a8bcfc127|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=ozwIq-UchAyWx53a8tLVOg&expires=1782868884&ch=itv111&s=f06ef8a2ba84881ab100f0b82bf1b0c6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=8yh0u6__lhvbqG4UBNkzZw&expires=1782868887&ch=spch8&s=1ca551ebb6a139ab9d03c24aac690f15|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=5O5NKYwIanBg5KMw_QsLSw&expires=1782868890&ch=spch9&s=a7aa9d7e63b390c5468f863cfceef5fb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=TAai-LXFwgt8zNnDOtDgsg&expires=1782868893&ch=spch10&s=fce09467ef7ef65f2b9a6419dfe12626|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=QYRgULQDHVtALU5O5ExK_Q&expires=1782868897&ch=tsn3ca&s=eaf17446f4a43bc788edbbc8637cfef6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=KT25b-dPtPz7wKu771dR9g&expires=1782868900&ch=daznlaliga&s=870a2aba70ea757d44ce637393515ddc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 8]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=BJspAXA6P8L1vPPSXgdZqQ&expires=1782868903&ch=bsp1fr&s=743156b0b2a3e608be087e1a4a59e8f8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=ro61d0sxsSgXGMXf_zUotw&expires=1782868907&ch=spch45&s=2ffdfa70ec848014753181670409249e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] Mexico - Ecuador [CH 10]
+https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=Z8TpBidPfmkKU3ws46VwRg&expires=1782868910&ch=yt27&s=cd1ddf26261a13abc14545d91fc5d62d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
