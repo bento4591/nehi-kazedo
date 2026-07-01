@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 01/07/2026 09:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 01/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=t_ODf6aSyrGzg3nAr9ZwDg&expires=1782862874
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 01/07/2026] [MLB] Cleveland Guardians - Texas Rangers
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=SwklPsCY8lbptce7tQvGsg&expires=1782862875
+# Last Updated: 01/07/2026 09:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkYankees.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:05 WIB 01/07/2026] [MLB] New York Yankees - Detroit Tigers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
