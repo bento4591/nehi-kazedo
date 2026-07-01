@@ -1,14 +1,35 @@
 #EXTM3U
-# Last Updated: 01/07/2026 21:55 WIB
+# Last Updated: 01/07/2026 22:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=Ewta7tfqBlNJ_tG-XuD2Wg&expires=1782922552&ch=bbc1ld&s=3daf8bcb77f04a46724899b8979221ac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=O6aAap6errwRMl8BrdFC7w&expires=1782922892&ch=bbc1ld&s=2da1f0ed830df6e3022c722f5ec6470a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=mMHDWPRrDyNY2vdFTdAj8w&expires=1782922554&ch=bbc2&s=e3c104709e2fff5f25061fff24c6d807|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=eLAzCw9ZkLD15akpqX87GQ&expires=1782922895&ch=bbc2&s=01e3f2af4d30600d30e731511218647a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=Ow289oTLvTMzX3vnwW1mRQ&expires=1782922899&ch=tsn1ca&s=6c46771eb718225c259a5bb70efcf652|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=TM4v-I_8JHd8ofiajmGDsA&expires=1782922902&ch=bbc1ld&s=df8f25171f9d463de2e41a7e8516d968|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=85q5g5ryNsQgtDVxDgR0sg&expires=1782922906&ch=spch8&s=78685a593f9b3226e0cc8c999be5a177|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=bZ3FJjBmcEi7M8VyoG4u4Q&expires=1782922910&ch=spch9&s=db014286a38ee56c6dad3ca30f1dd2ae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=M2TWP4IfL40uWGu6GF4vKg&expires=1782922913&ch=spch10&s=2ed92abef33343da163aaf38553370a9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn4ca.m3u8?md5=eg6384XDuvNWKHmWIYeB9A&expires=1782922917&ch=tsn4ca&s=f139f80e89dba4ce218eb7c935e260b6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=ocTSKIJ2J2RKqEIiEgZKgA&expires=1782922920&ch=daznlaliga&s=d7fa7c33afc1a0c4d2a3a7b7b6a89015|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] England - DR Congo [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt28.m3u8?md5=RDK2ZA10gD37WkxCV0vfzw&expires=1782922924&ch=yt28&s=05d97c556266c4c6889d8a6c7f05f829|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/belgium/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FIFA WORLD CUP] Belgium - Senegal
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8

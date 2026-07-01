@@ -1,11 +1,17 @@
 #EXTM3U
-# Last Updated: 01/07/2026 21:55 WIB
+# Last Updated: 01/07/2026 22:01 WIB
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:00 WIB 01/07/2026] [FIFA WORLD CUP] England - Congo DR [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:00 WIB 01/07/2026] [FIFA WORLD CUP] England - Congo DR [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn6.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=5i9qBtdn1-kpxpKmBEN_Fg&expires=1782925286
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:00 WIB 01/07/2026] [FIFA WORLD CUP] England - Congo DR [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:00 WIB 01/07/2026] [FIFA WORLD CUP] England - Congo DR [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn9.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=tJBMdHd3tFOlk9ezN90HGA&expires=1782925288
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BaltimoreOrioles.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:35 WIB 01/07/2026] [MLB] Baltimore Orioles - Chicago White Sox
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -98,4 +104,10 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesDodgers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:10 WIB 03/07/2026] [MLB] Los Angeles Dodgers - San Diego Padres
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [10:00 WIB 03/07/2026] [FIFA WORLD CUP] Switzerland - Algeria [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [10:00 WIB 03/07/2026] [FIFA WORLD CUP] Switzerland - Algeria [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
