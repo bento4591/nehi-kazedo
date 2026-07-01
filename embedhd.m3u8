@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 01/07/2026 07:35 WIB
+# Last Updated: 01/07/2026 07:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BaltimoreOrioles.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:35 WIB 01/07/2026] [MLB] Baltimore Orioles - Chicago White Sox
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -85,14 +85,23 @@ https://cdn2.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=qKq3tuF-SV-nDRo_WhO3Aw&ex
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=74Hr29_cPsycbSYygSqkRw&expires=1782871270
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 01/07/2026] [MLB] Seattle Mariners - Los Angeles Angels
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 01/07/2026] [MLB] Seattle Mariners - Los Angeles Angels
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=S8LNE8IxZp2wJnXeaFIkkQ&expires=1782873663
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 01/07/2026] [MLB] Athletics - Los Angeles Dodgers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 01/07/2026] [MLB] Athletics - Los Angeles Dodgers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=01xtvXxlYwXmWHSo69aeNw&expires=1782873663
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 01/07/2026] [MLB] Arizona Diamondbacks - San Francisco Giants
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 01/07/2026] [MLB] Arizona Diamondbacks - San Francisco Giants
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=t5XtW8VuC9AV9zvaUq-hwQ&expires=1782873665
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:00 WIB 01/07/2026] [FIFA WORLD CUP] England - Congo DR [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
