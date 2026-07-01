@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 06:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:07 WIB 02/07/2026] [MLB] Toronto Blue Jays - New York Mets
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn10.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=ubIgFZ0FmiHOhYOMS5Mnxg&expires=1782936670
+# Last Updated: 02/07/2026 06:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 02/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -43,8 +37,11 @@ https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=3guAtXin-MqP5vTbgrSWxA&exp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn3.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=I9IwgvqfUFOpRQ5eFneByw&expires=1782954068
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:10 WIB 02/07/2026] [MLB] Houston Astros - Minnesota Twins
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:10 WIB 02/07/2026] [MLB] Houston Astros - Minnesota Twins
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=bv770QCLlMX3eBex3XJDSQ&expires=1782954662
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:40 WIB 02/07/2026] [MLB] Colorado Rockies - Miami Marlins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
