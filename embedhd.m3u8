@@ -1,23 +1,11 @@
 #EXTM3U
-# Last Updated: 02/07/2026 05:35 WIB
+# Last Updated: 02/07/2026 05:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:07 WIB 02/07/2026] [MLB] Toronto Blue Jays - New York Mets
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn10.zohanayaan.com:1686/hls/mtorontobluejays.m3u8?md5=ubIgFZ0FmiHOhYOMS5Mnxg&expires=1782936670
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Belgium.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 02/07/2026] [FIFA WORLD CUP] Belgium - Senegal [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=WpfUf6JDJanydv2budJjHw&expires=1782939669
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Belgium.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 02/07/2026] [FIFA WORLD CUP] Belgium - Senegal [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=LJnZaMEw1YFnJaosc-DDcg&expires=1782939670
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 02/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -31,8 +19,11 @@ https://cdn7.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=ttczIU0pxqBB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn4.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=4Fe4ua5pe7XE_CXtQjwXrA&expires=1782951352
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/KansasCityRoyals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:40 WIB 02/07/2026] [MLB] Kansas City Royals - Tampa Bay Rays
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/KansasCityRoyals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 02/07/2026] [MLB] Kansas City Royals - Tampa Bay Rays
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn7.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=tX1pLSusVxwHhHNlicc7lQ&expires=1782952865
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:00 WIB 02/07/2026] [FIFA WORLD CUP] United States - Bosnia-Herzegovina [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
