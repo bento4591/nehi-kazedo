@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 00:15 WIB
+# Last Updated: 02/07/2026 00:21 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/England.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:00 WIB 01/07/2026] [FIFA WORLD CUP] England - Congo DR [CH 1]
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -37,8 +37,11 @@ https://cdn3.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=3yuDwGpZgjcasjfGTv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=PkntVEKpPWVmFMQgIgEiiQ&expires=1782930954
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:20 WIB 02/07/2026] [MLB] Chicago Cubs - San Diego Padres
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:20 WIB 02/07/2026] [MLB] Chicago Cubs - San Diego Padres
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn7.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=e239d6XPgVv-2zAd1SAMKw&expires=1782933668
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:07 WIB 02/07/2026] [MLB] Toronto Blue Jays - New York Mets
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
