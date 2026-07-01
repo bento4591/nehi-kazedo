@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 06:25 WIB
+# Last Updated: 02/07/2026 06:31 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 02/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -95,4 +95,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [10:00 WIB 03/07/2026] [FIFA WORLD CUP] Switzerland - Algeria [CH 2]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [18:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 1
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
