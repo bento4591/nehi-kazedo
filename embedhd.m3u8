@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 04:31 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkYankees.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:35 WIB 02/07/2026] [MLB] New York Yankees - Detroit Tigers
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn3.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=3yuDwGpZgjcasjfGTvJIXQ&expires=1782930953
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BostonRedSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:35 WIB 02/07/2026] [MLB] Boston Red Sox - Washington Nationals
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/mbostonredsox.m3u8?md5=PkntVEKpPWVmFMQgIgEiiQ&expires=1782930954
+# Last Updated: 02/07/2026 04:35 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:20 WIB 02/07/2026] [MLB] Chicago Cubs - San Diego Padres
 #EXTVLCOPT:http-referrer=https://exposestrat.com
