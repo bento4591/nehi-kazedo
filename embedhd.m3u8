@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 05:55 WIB
+# Last Updated: 02/07/2026 06:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TorontoBlueJays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:07 WIB 02/07/2026] [MLB] Toronto Blue Jays - New York Mets
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -25,14 +25,23 @@ https://cdn4.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=4Fe4ua5pe7XE_CXtQjw
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn7.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=tX1pLSusVxwHhHNlicc7lQ&expires=1782952865
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:00 WIB 02/07/2026] [FIFA WORLD CUP] United States - Bosnia-Herzegovina [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:00 WIB 02/07/2026] [FIFA WORLD CUP] United States - Bosnia-Herzegovina [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn3.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=towLLC1rybJ0wAfPtLDXDQ&expires=1782954065
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:00 WIB 02/07/2026] [FIFA WORLD CUP] United States - Bosnia-Herzegovina [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:00 WIB 02/07/2026] [FIFA WORLD CUP] United States - Bosnia-Herzegovina [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=3guAtXin-MqP5vTbgrSWxA&expires=1782954067
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:00 WIB 02/07/2026] [MLB] Milwaukee Brewers - Cincinnati Reds
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:00 WIB 02/07/2026] [MLB] Milwaukee Brewers - Cincinnati Reds
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn3.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=I9IwgvqfUFOpRQ5eFneByw&expires=1782954068
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:10 WIB 02/07/2026] [MLB] Houston Astros - Minnesota Twins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
