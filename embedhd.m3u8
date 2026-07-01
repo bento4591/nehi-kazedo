@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 01/07/2026 10:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 01/07/2026] [MLB] Milwaukee Brewers - Cincinnati Reds
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=yngsIBIlkmrOD2w2pwNv-Q&expires=1782866465
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/KansasCityRoyals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 01/07/2026] [MLB] Kansas City Royals - Tampa Bay Rays
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=qSqKunxpQojfEz_288dkkg&expires=1782866466
+# Last Updated: 01/07/2026 10:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:05 WIB 01/07/2026] [MLB] Chicago Cubs - San Diego Padres
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -30,18 +18,6 @@ https://cdn5.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=pA5cd6VOK7vTv0sCGGM
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn1.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=vINp-Gbqp7guW97GDRfTvA&expires=1782870063
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Mexico.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 01/07/2026] [FIFA WORLD CUP] Mexico - Ecuador [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=qKq3tuF-SV-nDRo_WhO3Aw&expires=1782871269
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Mexico.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 01/07/2026] [FIFA WORLD CUP] Mexico - Ecuador [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=74Hr29_cPsycbSYygSqkRw&expires=1782871270
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 01/07/2026] [MLB] Seattle Mariners - Los Angeles Angels
 #EXTVLCOPT:http-referrer=https://exposestrat.com
