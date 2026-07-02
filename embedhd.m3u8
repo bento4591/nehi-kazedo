@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 03/07/2026 06:01 WIB
+# Last Updated: 03/07/2026 06:05 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:10 WIB 03/07/2026] [MLB] Colorado Rockies - Miami Marlins
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -37,8 +37,11 @@ https://cdn7.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=h9QbAvL3S2mN2tWeh5h
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=oqZdf76r2MSM5nsN3sUERQ&expires=1783039253
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:05 WIB 03/07/2026] [MLB] Texas Rangers - Detroit Tigers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:05 WIB 03/07/2026] [MLB] Texas Rangers - Detroit Tigers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=huMXWXP6mPfY80DjhgZsCA&expires=1783040757
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 03/07/2026] [MLB] Seattle Mariners - Los Angeles Angels
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
