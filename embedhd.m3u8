@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 02/07/2026 12:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 02/07/2026] [MLB] Athletics - Los Angeles Dodgers
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=5XcYREKoRmgVOKV43otWQg&expires=1782960055
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 02/07/2026] [MLB] Arizona Diamondbacks - San Francisco Giants
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn7.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=Bu2GiSi7d2tUSIby3-VzQA&expires=1782960056
+# Last Updated: 02/07/2026 12:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:35 WIB 02/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
