@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 03/07/2026 00:05 WIB
+# Last Updated: 03/07/2026 00:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PhiladelphiaPhillies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:35 WIB 02/07/2026] [MLB] Philadelphia Phillies - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -7,8 +7,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn10.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=gBHxFcOXRWYtJ9rU-kFNwQ&expires=1783013753
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 03/07/2026] [MLB] Milwaukee Brewers - Cincinnati Reds
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBrewers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:10 WIB 03/07/2026] [MLB] Milwaukee Brewers - Cincinnati Reds
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mmilwaukeebrewers.m3u8?md5=rB9lttXTQF74tQKJsvZF2g&expires=1783019457
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Spain.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 03/07/2026] [FIFA WORLD CUP] Spain - Austria [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
