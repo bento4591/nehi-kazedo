@@ -1,29 +1,11 @@
 #EXTM3U
-# Last Updated: 03/07/2026 12:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 03/07/2026] [MLB] Seattle Mariners - Los Angeles Angels
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=owAJnFcH6GBt48JPwMyTwg&expires=1783046464
+# Last Updated: 03/07/2026 12:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesDodgers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:10 WIB 03/07/2026] [MLB] Los Angeles Dodgers - San Diego Padres
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn8.zohanayaan.com:1686/hls/mlosangelesdodgers.m3u8?md5=EmkNObB53puCUL_aBkAmIQ&expires=1783048264
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [10:00 WIB 03/07/2026] [FIFA WORLD CUP] Switzerland - Algeria [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=Y5n-_1YVRuGHLWAEP6QYiw&expires=1783051269
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Switzerland.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [10:00 WIB 03/07/2026] [FIFA WORLD CUP] Switzerland - Algeria [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn7.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=g6zAuiuvCX2bkhu0QSQQng&expires=1783051271
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [18:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 1
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
