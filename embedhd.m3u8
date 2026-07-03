@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 05:05 WIB
+# Last Updated: 04/07/2026 05:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:05 WIB 04/07/2026] [MLB] Chicago Cubs - St. Louis Cardinals
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -31,11 +31,17 @@ https://cdn7.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=CklZI1TcV4Nwn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn4.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=Ge4IABMesj6YHLugp6xjBw&expires=1783123552
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 04/07/2026] [MLB] Cincinnati Reds - Baltimore Orioles
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 04/07/2026] [MLB] Cincinnati Reds - Baltimore Orioles
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn8.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=Hr5A-sUEvlDR_77yYRjv2Q&expires=1783123860
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 04/07/2026] [MLB] Cleveland Guardians - Chicago White Sox
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 04/07/2026] [MLB] Cleveland Guardians - Chicago White Sox
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=3w2a-gD7b8WsFlBBTa26TA&expires=1783123862
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:15 WIB 04/07/2026] [MLB] Atlanta Braves - New York Mets
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
