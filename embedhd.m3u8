@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 03/07/2026 19:05 WIB
+# Last Updated: 03/07/2026 19:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [18:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 1
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -104,4 +104,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 05/07/2026] [MLB] Houston Astros - Tampa Bay Rays
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:08 WIB 05/07/2026] [MLB] Atlanta Braves - New York Mets
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:08 WIB 05/07/2026] [MLB] Chicago Cubs - St. Louis Cardinals
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/KansasCityRoyals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:10 WIB 05/07/2026] [MLB] Kansas City Royals - Philadelphia Phillies
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:10 WIB 05/07/2026] [MLB] Colorado Rockies - San Francisco Giants
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
