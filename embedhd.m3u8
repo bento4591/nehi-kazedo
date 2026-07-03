@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 03/07/2026 21:25 WIB
+# Last Updated: 03/07/2026 21:31 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [18:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 1
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -7,8 +7,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn4.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=Uy1-BnpOmYZEsN9CN1P6Og&expires=1783081858
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [22:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 2
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [22:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 2
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn3.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=XK9Utjd294ldVWygW7aerQ&expires=1783096267
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Australia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:00 WIB 04/07/2026] [FIFA WORLD CUP] Australia - Egypt [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
