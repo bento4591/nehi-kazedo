@@ -1,35 +1,50 @@
 #EXTM3U
-# Last Updated: 03/07/2026 09:43 WIB
+# Last Updated: 03/07/2026 09:47 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=qUASQo2yw8Lxz4lxpKckiQ&expires=1783051261&ch=bbc1ld&s=5347e1b7b3f2565eaab035e5c38fddba|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=R-5hdErMtBOK8fwsUAgsww&expires=1783051566&ch=bbc1ld&s=1ad4a2996186adbac052309a4f399692|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=65NT1Ofwwu6WtYPrZSf-Aw&expires=1783051569&ch=bbc2&s=479680f4f36e0325e66a580658d0dc1b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=K77ZRktwoA5mvxIWIH4JBQ&expires=1783051290&ch=dadoskygo&s=4055d68b6a6aff065fa1e2b74ffb6dc9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=gOLaXjcUIW52MQCyk4g2yg&expires=1783051573&ch=dadoskygo&s=04ec6747e92d4687797aabc144e7aade|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:45 WIB] [PGA TOUR] PGA Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=3aE9HL79CzvFuN72VQ1cFQ&expires=1783051294&ch=dadoskygo&s=18088bfa679cbe58383b3c67d2ce9bb9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=5g9hSibe8YCttj9GENeopA&expires=1783051576&ch=dadoskygo&s=336225960c251ac5a1e3c6a242232fcb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:45 WIB] [PGA TOUR] PGA Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=AMz-XwsvZ9CnN5-vcTRgzA&expires=1783051297&ch=dadoskyare&s=4574af0fedac070d5d099845dc29d2ff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=nwr4dktgF6cl5PbLDY0Riw&expires=1783051580&ch=dadoskyare&s=5f277aae3a9285628d9dc69822c9125a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 1]
-https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=rUZyIAPm93YtoguMzxP03Q&expires=1783051301&ch=tsn1ca&s=1b4a0899b262c7f2b772eedaa8cb3b7f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=0HF-WdmV1APQJP9CHOZpNg&expires=1783051583&ch=tsn1ca&s=c536098801e5778ecba0fd65d6dcb476|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=T33QcABW4uNsOMYyYBjGVQ&expires=1783051304&ch=bbc1ld&s=a909979055e09ab6f5381c5d7326ab85|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=MZq83x_BYeJUR3CnYyhgmg&expires=1783051587&ch=bbc1ld&s=9316c3c661c8bbbd5127f37047e0a0a0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 3]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=BZx4LnQTqkyKiQxxL7Xrzw&expires=1783051308&ch=spch8&s=4dd404940fb4ced3184b121ed42a9eab|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=bhBy6-XDiqRB1BWYofHriw&expires=1783051590&ch=spch8&s=1f91e192abb1ad824697f3816afc9cd5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 4]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=eyg7jpXerxN74Ixuq1dRaA&expires=1783051311&ch=spch9&s=755ae5b7517427564f2339d7684762bf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=qAag5Ng_eIFpMtH_bJLVzQ&expires=1783051593&ch=spch9&s=2ca5a58886ac4081c72251ce4bd899c4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 5]
-https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=Hr0HkGXKGQjqYWR__sehzg&expires=1783051315&ch=spch10&s=bbb98d7358fa2fb7901e3adabd426e0a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=DlOLI7qjjFSt1qi7XcL_4Q&expires=1783051597&ch=spch10&s=9e1d605b8314d48500c9596285cd3198|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 6]
-https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=1HtYAQxBnvQ57ze5Tn8Qig&expires=1783051318&ch=tsn3ca&s=e3f836cf69c7d49043d9bc013fd35751|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=ltgy0ArTtzjjXATbDAL1KQ&expires=1783051600&ch=tsn3ca&s=732630f881d41e598e72242291c1df76|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=scrySiypVHlVgaQxF_UHzw&expires=1783051603&ch=daznlaliga&s=07fe7191bd81eb5880eba6c6b3b50d95|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=OZ5O-QEcBuL1bF0RVslYtA&expires=1783051607&ch=yt27&s=48b78315e6d460a223c4ed0bf3610f42|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=WDmuw4ufvKeEuQK-Sqnw0g&expires=1783051610&ch=spch45&s=575b0b2252ea8b51fe2192d51ac9fbc3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/switzerland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [FIFA WORLD CUP] Switzerland - Algeria [CH 10]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=kl_fTfKh58dmr36SVt339g&expires=1783051613&ch=bsp1fr&s=9e7a9adde753a1dc1f9ed8166ed8c107|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [FIFA WORLD CUP] Australia - Egypt
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
