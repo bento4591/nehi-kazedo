@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 03/07/2026 18:06 WIB
+# Last Updated: 03/07/2026 18:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [18:30 WIB 03/07/2026] [FORMULA 1] British Grand Prix - Practice 1
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -95,4 +95,13 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [FIFA WORLD CUP] Paraguay - France [CH 2]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 05/07/2026] [MLB] Cincinnati Reds - Baltimore Orioles
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 05/07/2026] [MLB] Cleveland Guardians - Chicago White Sox
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 05/07/2026] [MLB] Houston Astros - Tampa Bay Rays
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
