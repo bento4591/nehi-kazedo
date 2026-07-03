@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 03:55 WIB
+# Last Updated: 04/07/2026 04:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoCubs.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:05 WIB 04/07/2026] [MLB] Chicago Cubs - St. Louis Cardinals
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -7,11 +7,17 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=7jR1PFk64IJ5AM0LxmyDkQ&expires=1783112757
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=dW3WpkOo7--4EMJlaNsLJg&expires=1783119675
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=h4fhwaXXuDdejWFw2jwqNQ&expires=1783119677
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:45 WIB 04/07/2026] [MLB] Washington Nationals - Pittsburgh Pirates
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
