@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 18:50 WIB
+# Last Updated: 04/07/2026 18:55 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [18:00 WIB 04/07/2026] [FORMULA 1] British Grand Prix - Practice 3
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -100,7 +100,10 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:30 WIB 06/07/2026] [MLB] Houston Astros - Tampa Bay Rays
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:00 WIB 06/07/2026] [FIFA WORLD CUP] Brazil - Norway
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:00 WIB 06/07/2026] [FIFA WORLD CUP] Brazil - Norway [CH 1]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:00 WIB 06/07/2026] [FIFA WORLD CUP] Brazil - Norway [CH 2]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:00 WIB 06/07/2026] [MLB] Colorado Rockies - San Francisco Giants
