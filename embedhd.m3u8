@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 13:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesDodgers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:10 WIB 04/07/2026] [MLB] Los Angeles Dodgers - San Diego Padres
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/mlosangelesdodgers.m3u8?md5=lDRiY4TRb8Yfbq46z6Dcaw&expires=1783134654
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:10 WIB 04/07/2026] [MLB] Seattle Mariners - Toronto Blue Jays
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=Z8SrQaXGs-aOBV2T-D0ZtA&expires=1783134656
+# Last Updated: 04/07/2026 13:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [18:00 WIB 04/07/2026] [FORMULA 1] British Grand Prix - Practice 3
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
