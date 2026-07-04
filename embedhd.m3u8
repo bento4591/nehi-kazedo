@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 22:55 WIB
+# Last Updated: 04/07/2026 23:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [22:00 WIB 04/07/2026] [FORMULA 1] British Grand Prix - Qualifying
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -13,11 +13,17 @@ https://cdn15.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=TnFDbKytaDiwTjiqt4_IMA&e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn11.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=bxLdAIw8jh4a4jIry87JEw&expires=1783181148
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=PTnATFvvzKfrg_mDDBEzCQ&expires=1783188064
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn3.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=sVMs1Q1FHN5VlXUS92DLLA&expires=1783188066
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkYankees.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:35 WIB 05/07/2026] [MLB] New York Yankees - Minnesota Twins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
