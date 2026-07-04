@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 02:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn10.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=PTnATFvvzKfrg_mDDBEzCQ&expires=1783188064
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn3.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=sVMs1Q1FHN5VlXUS92DLLA&expires=1783188066
+# Last Updated: 05/07/2026 02:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkYankees.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:35 WIB 05/07/2026] [MLB] New York Yankees - Minnesota Twins
 #EXTVLCOPT:http-referrer=https://exposestrat.com
