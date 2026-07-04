@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 23:45 WIB
+# Last Updated: 04/07/2026 23:50 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [22:00 WIB 04/07/2026] [FORMULA 1] British Grand Prix - Qualifying
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -31,6 +31,12 @@ https://cdn3.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=sVMs1Q1FHN5VlXUS92DLLA&expi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn6.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=pFAeFWEKgYH9V0484ruaOw&expires=1783190147
 
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Golden State Warriors - Milwaukee Bucks
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/OklahomaCityThunder.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Oklahoma City Thunder - Memphis Grizzlies
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:05 WIB 05/07/2026] [MLB] Texas Rangers - Detroit Tigers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
@@ -41,6 +47,12 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [FIFA WORLD CUP] Paraguay - France [CH 2]
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Sacramento Kings - Brooklyn Nets
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UtahJazz.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Utah Jazz - Atlanta Hawks
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 05/07/2026] [MLB] Cincinnati Reds - Baltimore Orioles
@@ -103,6 +115,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/KansasCityRoyals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 06/07/2026] [MLB] Kansas City Royals - Philadelphia Phillies
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MilwaukeeBucks.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 06/07/2026] [NBA SUMMER LEAGUE] Milwaukee Bucks - Brooklyn Nets
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:30 WIB 06/07/2026] [MLB] Texas Rangers - Detroit Tigers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
@@ -124,7 +139,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 06/07/2026] [MLB] Athletics - Miami Marlins
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesLakers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 06/07/2026] [NBA SUMMER LEAGUE] Los Angeles Lakers - Miami Heat
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 06/07/2026] [MLB] Seattle Mariners - Toronto Blue Jays
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 06/07/2026] [NBA SUMMER LEAGUE] Sacramento Kings - Golden State Warriors
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:00 WIB 06/07/2026] [NBA SUMMER LEAGUE] Golden State Warriors - San Antonio Spurs
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesDodgers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:20 WIB 06/07/2026] [MLB] Los Angeles Dodgers - San Diego Padres
