@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 00:55 WIB
+# Last Updated: 05/07/2026 01:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [22:00 WIB 04/07/2026] [FORMULA 1] British Grand Prix - Qualifying
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -31,11 +31,17 @@ https://cdn3.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=sVMs1Q1FHN5VlXUS92DLLA&expi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn6.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=pFAeFWEKgYH9V0484ruaOw&expires=1783190147
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Golden State Warriors - Milwaukee Bucks
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Golden State Warriors - Milwaukee Bucks
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/mgoldenstatewarriors.m3u8?md5=3aYHv_8nCe17ZA8w1Di3Sw&expires=1783195267
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/OklahomaCityThunder.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Oklahoma City Thunder - Memphis Grizzlies
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/OklahomaCityThunder.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Oklahoma City Thunder - Memphis Grizzlies
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn9.zohanayaan.com:1686/hls/moklahomacitythunder.m3u8?md5=x3Hc3KC6jxcGbngYleZkSA&expires=1783195269
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:05 WIB 05/07/2026] [MLB] Texas Rangers - Detroit Tigers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
