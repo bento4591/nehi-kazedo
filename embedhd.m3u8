@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 02:55 WIB
+# Last Updated: 05/07/2026 03:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkYankees.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:35 WIB 05/07/2026] [MLB] New York Yankees - Minnesota Twins
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -31,17 +31,29 @@ https://cdn6.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=_Rv4Ul4u8_g-MPl7HbUF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn2.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=1BgT65jhy4xFU9OQunLyTQ&expires=1783199456
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [FIFA WORLD CUP] Paraguay - France [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 05/07/2026] [FIFA WORLD CUP] Paraguay - France [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=wd1AfVHtx1oIVFDVG_sdiQ&expires=1783202468
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [FIFA WORLD CUP] Paraguay - France [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Paraguay.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 05/07/2026] [FIFA WORLD CUP] Paraguay - France [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=dbo-M0ZlgGuV9h438Q5rKQ&expires=1783202470
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Sacramento Kings - Brooklyn Nets
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Sacramento Kings - Brooklyn Nets
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/msacramentokings.m3u8?md5=QPUCCKbrDAGZn_fdbrMcGg&expires=1783202472
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UtahJazz.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Utah Jazz - Atlanta Hawks
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UtahJazz.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Utah Jazz - Atlanta Hawks
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn8.zohanayaan.com:1686/hls/mutahjazz.m3u8?md5=NsZQyM3woe00mJEio3Mqeg&expires=1783202473
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 05/07/2026] [MLB] Cincinnati Reds - Baltimore Orioles
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
