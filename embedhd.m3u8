@@ -1,29 +1,11 @@
 #EXTM3U
-# Last Updated: 04/07/2026 11:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:10 WIB 04/07/2026] [MLB] Colorado Rockies - San Francisco Giants
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=cugbtNkkb8HmZVv8x-_37Q&expires=1783127458
+# Last Updated: 04/07/2026 11:10 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:15 WIB 04/07/2026] [MLB] Houston Astros - Tampa Bay Rays
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn3.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=G5ghnfkDG3koMjqN22Y2NA&expires=1783127793
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:30 WIB 04/07/2026] [FIFA WORLD CUP] Colombia - Ghana [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn1.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=IMQ4jakiaJXVc7nQDnAkaQ&expires=1783132273
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:30 WIB 04/07/2026] [FIFA WORLD CUP] Colombia - Ghana [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=Pl6uJwKaOpbVqKaomxH_Kw&expires=1783132275
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:38 WIB 04/07/2026] [MLB] Los Angeles Angels - Boston Red Sox
 #EXTVLCOPT:http-referrer=https://exposestrat.com
