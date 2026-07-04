@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 05:55 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Golden State Warriors - Milwaukee Bucks
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn10.zohanayaan.com:1686/hls/mgoldenstatewarriors.m3u8?md5=3aYHv_8nCe17ZA8w1Di3Sw&expires=1783195267
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/OklahomaCityThunder.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Oklahoma City Thunder - Memphis Grizzlies
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/moklahomacitythunder.m3u8?md5=x3Hc3KC6jxcGbngYleZkSA&expires=1783195269
+# Last Updated: 05/07/2026 06:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:05 WIB 05/07/2026] [MLB] Texas Rangers - Detroit Tigers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
