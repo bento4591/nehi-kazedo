@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 02:01 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [22:05 WIB 04/07/2026] [MLB] Washington Nationals - Pittsburgh Pirates
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=bxLdAIw8jh4a4jIry87JEw&expires=1783181148
+# Last Updated: 05/07/2026 02:05 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Canada.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:00 WIB 05/07/2026] [FIFA WORLD CUP] Canada - Morocco [CH 1]
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -37,8 +31,11 @@ https://cdn10.zohanayaan.com:1686/hls/mgoldenstatewarriors.m3u8?md5=3aYHv_8nCe17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn9.zohanayaan.com:1686/hls/moklahomacitythunder.m3u8?md5=x3Hc3KC6jxcGbngYleZkSA&expires=1783195269
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:05 WIB 05/07/2026] [MLB] Texas Rangers - Detroit Tigers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:05 WIB 05/07/2026] [MLB] Texas Rangers - Detroit Tigers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn6.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=_Rv4Ul4u8_g-MPl7HbUFeA&expires=1783199152
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:10 WIB 05/07/2026] [MLB] Seattle Mariners - Toronto Blue Jays
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
