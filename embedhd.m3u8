@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 07:25 WIB
+# Last Updated: 04/07/2026 07:31 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 1]
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -55,11 +55,17 @@ https://cdn11.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=cugbtNkkb8HmZVv8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn3.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=G5ghnfkDG3koMjqN22Y2NA&expires=1783127793
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:30 WIB 04/07/2026] [FIFA WORLD CUP] Colombia - Ghana [CH 1]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:30 WIB 04/07/2026] [FIFA WORLD CUP] Colombia - Ghana [CH 1]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn1.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=IMQ4jakiaJXVc7nQDnAkaQ&expires=1783132273
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:30 WIB 04/07/2026] [FIFA WORLD CUP] Colombia - Ghana [CH 2]
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Colombia.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:30 WIB 04/07/2026] [FIFA WORLD CUP] Colombia - Ghana [CH 2]
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=Pl6uJwKaOpbVqKaomxH_Kw&expires=1783132275
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:38 WIB 04/07/2026] [MLB] Los Angeles Angels - Boston Red Sox
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
