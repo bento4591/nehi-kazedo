@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 04/07/2026 07:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn5.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=dW3WpkOo7--4EMJlaNsLJg&expires=1783119675
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Argentina.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:00 WIB 04/07/2026] [FIFA WORLD CUP] Argentina - Cape Verde [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=h4fhwaXXuDdejWFw2jwqNQ&expires=1783119677
+# Last Updated: 04/07/2026 07:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:45 WIB 04/07/2026] [MLB] Washington Nationals - Pittsburgh Pirates
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -67,11 +55,17 @@ https://cdn1.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=IMQ4jakiaJXVc7nQDnAkaQ&ex
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=Pl6uJwKaOpbVqKaomxH_Kw&expires=1783132275
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:38 WIB 04/07/2026] [MLB] Los Angeles Angels - Boston Red Sox
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:38 WIB 04/07/2026] [MLB] Los Angeles Angels - Boston Red Sox
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn5.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=Ob3By6pNdlEQMtxYUNUfZA&expires=1783132856
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 04/07/2026] [MLB] Athletics - Miami Marlins
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 04/07/2026] [MLB] Athletics - Miami Marlins
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn6.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=2SrXtfM8SRcHFyP1aXuPPA&expires=1783132858
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:45 WIB 04/07/2026] [MLB] Arizona Diamondbacks - Milwaukee Brewers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
