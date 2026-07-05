@@ -1,8 +1,11 @@
 #EXTM3U
-# Last Updated: 05/07/2026 19:55 WIB
+# Last Updated: 05/07/2026 20:01 WIB
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [21:00 WIB 05/07/2026] [FORMULA 1] British Grand Prix - Race
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [21:00 WIB 05/07/2026] [FORMULA 1] British Grand Prix - Race
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn11.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=uBCbJWznXQX9b0WpkKwtkg&expires=1783263667
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:30 WIB 05/07/2026] [MLB] Atlanta Braves - New York Mets
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -110,4 +113,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BrooklynNets.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:00 WIB 07/07/2026] [NBA SUMMER LEAGUE] Brooklyn Nets - Golden State Warriors Blue
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UtahJazz.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 07/07/2026] [NBA SUMMER LEAGUE] Utah Jazz - Memphis Grizzlies
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
