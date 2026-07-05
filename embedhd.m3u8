@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 07:35 WIB
+# Last Updated: 05/07/2026 07:40 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 05/07/2026] [NBA SUMMER LEAGUE] Sacramento Kings - Brooklyn Nets
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -61,14 +61,23 @@ https://cdn4.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=ylbDFKOK-RYF6Muo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn6.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=8R3k5yc-qPOcN3L1ywjYuw&expires=1783213857
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:38 WIB 05/07/2026] [MLB] Los Angeles Angels - Boston Red Sox
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesAngels.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:38 WIB 05/07/2026] [MLB] Los Angeles Angels - Boston Red Sox
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mlosangelesangels.m3u8?md5=I5gOJyyXO1iFdmO1IYL2xA&expires=1783219251
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 05/07/2026] [MLB] Athletics - Miami Marlins
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 05/07/2026] [MLB] Athletics - Miami Marlins
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=hZDXiXb2HemeTvg8WzHktQ&expires=1783219253
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 05/07/2026] [MLB] Arizona Diamondbacks - Milwaukee Brewers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:40 WIB 05/07/2026] [MLB] Arizona Diamondbacks - Milwaukee Brewers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=2m3wRnrj9ZLGbtX_5WFvTQ&expires=1783219254
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesDodgers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [09:10 WIB 05/07/2026] [MLB] Los Angeles Dodgers - San Diego Padres
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
