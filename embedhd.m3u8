@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 06/07/2026 02:25 WIB
+# Last Updated: 06/07/2026 02:31 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:30 WIB 05/07/2026] [MLB] Atlanta Braves - New York Mets
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -91,11 +91,17 @@ https://cdn8.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=WdV2cT5h3zvjl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn12.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=cGaweOJD0wsn66Rx4jtpcg&expires=1783285860
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 06/07/2026] [MLB] Athletics - Miami Marlins
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Athletics.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:30 WIB 06/07/2026] [MLB] Athletics - Miami Marlins
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=LVxZg7J0CC9VWC-e2iZSVg&expires=1783287067
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesLakers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:30 WIB 06/07/2026] [NBA SUMMER] Los Angeles Lakers - Miami Heat
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesLakers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:30 WIB 06/07/2026] [NBA SUMMER] Los Angeles Lakers - Miami Heat
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn11.zohanayaan.com:1686/hls/mlosangeleslakers.m3u8?md5=uge-V1PcUnFGEhavKvJuJg&expires=1783287069
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 06/07/2026] [MLB] Seattle Mariners - Toronto Blue Jays
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
