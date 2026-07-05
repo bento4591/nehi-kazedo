@@ -1,23 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 10:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 05/07/2026] [MLB] Cincinnati Reds - Baltimore Orioles
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=OHwMAZkdHH9v5sAdfTRasg&expires=1783210254
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ClevelandGuardians.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 05/07/2026] [MLB] Cleveland Guardians - Chicago White Sox
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mclevelandguardians.m3u8?md5=4V_5ZPHC6gyMa4pIA5k_dw&expires=1783210255
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 05/07/2026] [MLB] Houston Astros - Tampa Bay Rays
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=iFw_-yokEqjCSUg_7fMPSQ&expires=1783210256
+# Last Updated: 05/07/2026 10:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:30 WIB 05/07/2026] [BOXING] Abdullah Mason - Albert Bell
 #EXTVLCOPT:http-referrer=https://exposestrat.com
