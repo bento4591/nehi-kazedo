@@ -1,23 +1,56 @@
 #EXTM3U
-# Last Updated: 06/07/2026 01:56 WIB
+# Last Updated: 06/07/2026 02:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=S-GN8uRJgYaP17QG6kWokA&expires=1783282874&ch=tsn1ca&s=8d8243ef8132923196433c1657faea41|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=mjpLLrbFZrmrx8-M4UDgag&expires=1783282877&ch=itv111&s=cd08b93f8a3e153d463a8c4fe39977a5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=yX2HClg9dcKvFbytuaLM4Q&expires=1783282880&ch=spch8&s=d019edf1f4176dfd8c6d5f561b3a55fa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=0RiLOo8AQsNEiooM4eFyqg&expires=1783282884&ch=spch9&s=e5bb66d9519c81d2c99167ee77dc52ec|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=hqkQ_D6_H582jINkpCxZaw&expires=1783282887&ch=spch10&s=c1bebc52b600db9796438630fc3b5ec8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn4ca.m3u8?md5=FxV6SkLbypHGKOrd3v3b5A&expires=1783282891&ch=tsn4ca&s=d44158b5f6217c5359a5bb506141fb53|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 7]
+https://dz5.bhalocast.pro:7059/hls/sptv1br.m3u8?md5=HGvTdNeGQcu2E1YNZxFSvg&expires=1783282895&ch=sptv1br&s=98b1f02890ef5b72a93ae722b40da192|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 8]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=NxepPczQDaaDj8R24D0bLA&expires=1783282898&ch=daznlaliga&s=9b75280c83b97012af95f78d667f3aff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=9dPaBp5ea4Px39DO7EHQ1Q&expires=1783282902&ch=spch45&s=5a5dbf95e3c52527671089b8cfaa6b68|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 10]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=aLRyd2i26vLNcaRNbTFT-w&expires=1783282905&ch=bsp1fr&s=d720ba94ab35c95ac3cb485e5a9e895e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 11]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=HU02mAnmzF6VOWHwGmRLRA&expires=1783282909&ch=spch45&s=cf52c13af880a333361ae3f75b6f2ba6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brazil/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Brazil - Norway [CH 12]
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=2HVDny4c9iNpLjRyNRcxpA&expires=1783282913&ch=yt29&s=47ee1fe898569e6338784c8d218f3e3f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=UbL9uYVwb5KMmJ_cqtP1LA&expires=1783282554&ch=bbc1ld&s=b9afef94294c5c157f17f100dff47638|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=HBIeurL9p4k2WQxsWn9uPg&expires=1783282917&ch=bbc1ld&s=b3b76f373a5c3c7d4c226f4ccbc3d37b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=E5JQn0tJwvVnkb3mXDnhew&expires=1783282557&ch=bbc2&s=9783dbdad28a7e143137458d50f7dc6e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=JQjlKjt3b_8qj8LaWBvVrQ&expires=1783282920&ch=bbc2&s=12728e74a035fafeb185b52619d3f05f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:45 WIB] [PGA TOUR] PGA Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=lhsy-v63F4MhSnfhYLAdGg&expires=1783282561&ch=dadoskygo&s=a03e883dbf3d0a105be382454e19e624|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=2Gw6quYc9F-zquULcF0DfQ&expires=1783282924&ch=dadoskygo&s=6a2662aa09bc19da4a242da305153790|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:45 WIB] [PGA TOUR] PGA Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=MZuyoQx1BklQloqahJZzBA&expires=1783282564&ch=dadoskyare&s=d3d2254093d09a63975f151af85c9034|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=gKPW_217e7Cdt3SqcxYo3Q&expires=1783282928&ch=dadoskyare&s=dbfd3f3f71347a58456cc42c2b80e6b0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [MOTORSPORTS] MotorSports
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [MOTORSPORTS] MotorSports
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=fDxW3Ns8Sgz8TSpOBEhy4A&expires=1783282932&ch=dadoskymoxo&s=7ed834a8b5b934a112aec2b642fe41ed|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [FIFA WORLD CUP] England - Mexico
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
