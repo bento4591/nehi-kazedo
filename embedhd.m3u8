@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 06/07/2026 01:25 WIB
+# Last Updated: 06/07/2026 01:31 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:30 WIB 05/07/2026] [MLB] Atlanta Braves - New York Mets
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -49,11 +49,17 @@ https://cdn10.zohanayaan.com:1686/hls/mkansascityroyals.m3u8?md5=KdcGsh7IBdVM0B6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn3.zohanayaan.com:1686/hls/mmilwaukeebucks.m3u8?md5=o17P1UM5BRE7469lGNShdw&expires=1783281666
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:30 WIB 06/07/2026] [MLB] Texas Rangers - Detroit Tigers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:30 WIB 06/07/2026] [MLB] Texas Rangers - Detroit Tigers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=h22RfrE6GSAQXlWjM3IkrQ&expires=1783283464
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [02:30 WIB 06/07/2026] [MLB] Houston Astros - Tampa Bay Rays
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/HoustonAstros.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:30 WIB 06/07/2026] [MLB] Houston Astros - Tampa Bay Rays
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn10.zohanayaan.com:1686/hls/mhoustonastros.m3u8?md5=F0bXKPCVdwZqMxpHvl2ZWQ&expires=1783283466
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Brazil.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [03:00 WIB 06/07/2026] [FIFA WORLD CUP] Brazil - Norway [CH 1]
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
