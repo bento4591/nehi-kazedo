@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 06/07/2026 02:55 WIB
+# Last Updated: 06/07/2026 03:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaBraves.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:30 WIB 05/07/2026] [MLB] Atlanta Braves - New York Mets
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -103,11 +103,17 @@ https://cdn14.zohanayaan.com:1686/hls/moaklandathletics.m3u8?md5=LVxZg7J0CC9VWC-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn11.zohanayaan.com:1686/hls/mlosangeleslakers.m3u8?md5=uge-V1PcUnFGEhavKvJuJg&expires=1783287069
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 06/07/2026] [MLB] Seattle Mariners - Toronto Blue Jays
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SeattleMariners.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 06/07/2026] [MLB] Seattle Mariners - Toronto Blue Jays
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=X5WenXeb0ZqotYElyLJMYg&expires=1783288870
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [04:00 WIB 06/07/2026] [NBA SUMMER] Sacramento Kings - Golden State Warriors
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:00 WIB 06/07/2026] [NBA SUMMER] Sacramento Kings - Golden State Warriors
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn3.zohanayaan.com:1686/hls/msacramentokings.m3u8?md5=RXVuynZ5fjl-WXGxKLKleg&expires=1783288872
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:00 WIB 06/07/2026] [NBA SUMMER] Golden State Warriors - San Antonio Spurs
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
