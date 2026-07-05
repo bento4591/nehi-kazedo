@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 05/07/2026 20:40 WIB
+# Last Updated: 05/07/2026 20:45 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="" group-title="LIVE - EmbedHD",[🔴 LIVE] [21:00 WIB 05/07/2026] [FORMULA 1] British Grand Prix - Race
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -119,4 +119,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 07/07/2026] [MLB] San Diego Padres - Arizona Diamondbacks
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:45 WIB 07/07/2026] [MLB] San Francisco Giants - Toronto Blue Jays
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
