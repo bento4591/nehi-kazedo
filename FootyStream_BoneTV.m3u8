@@ -1,14 +1,50 @@
 #EXTM3U
-# Last Updated: 07/07/2026 00:56 WIB
+# Last Updated: 07/07/2026 01:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=H_dacdUW2DF5Exn7umZ26A&expires=1783365354&ch=bbc1ld&s=d721429191333831e9b556f8a856bc91|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=OEvVEEMBNHyPRnrewzLMlw&expires=1783365673&ch=bbc1ld&s=0465e3d43f93b63eb98d0a34237bebb6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=t7q2Yrc8UM2r74PvoKLQZw&expires=1783365357&ch=bbc2&s=74201b9734bfbd47e0e3513fb8188ce2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=XNmzRYXxC-3S_8a-gjZANw&expires=1783365676&ch=bbc2&s=861739f3191c3f826637d08f6cdc19a7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=B4xJkuX6TbajGFIcjr2r6A&expires=1783365679&ch=tsn1ca&s=3c4603e299bd386540c8bb7bd05ca95d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=A9hffk0j8o3BmI6WOaNryQ&expires=1783365683&ch=bbc1ld&s=39de9002646a19e0986fdeb657997ff2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=a08L9SQtyhzU828REOoE9g&expires=1783365686&ch=spch8&s=82503b3a4b3b9861487c5b8e4ed3734e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=czbdanrDlg4dQ_aPEhquxw&expires=1783365690&ch=spch9&s=9d1195e019cf83782ed33cb0b29e3bbf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=4ZnNOtlklLRjSe9QPB0Y5w&expires=1783365693&ch=spch10&s=4525e622394a834c129bf6aefcde43d0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn5ca.m3u8?md5=Y1cRQj1FkTXEYDulepPuTg&expires=1783365697&ch=tsn5ca&s=baf502cd72742da4d1a30541ae1a64dd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 7]
+https://dz5.bhalocast.pro:7059/hls/yt26.m3u8?md5=v4THSM3YBtkOl1tz7aKmEw&expires=1783365700&ch=yt26&s=2678a1f6b9c70ad73782f0b1f2d4e5eb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt25.m3u8?md5=TqIfRjkJkae0sk-u2hvHFQ&expires=1783365704&ch=yt25&s=bdc7991fb1d0f7b1cdb736b47a9c9b39|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=WMVTXfIF7hP0537gHmMxow&expires=1783365707&ch=spch41&s=3ca56b4deaa5280b7435ebbafeedbc09|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 10]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=DsysNgxiKSXrfz50wxNuqQ&expires=1783365710&ch=spch45&s=bfe4a71b690b187d6e90c27256b950ff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 11]
+https://dz5.bhalocast.pro:7059/hls/sptv1br.m3u8?md5=nQnfDJd1E7dswngcxBATLA&expires=1783365714&ch=sptv1br&s=e4c1f5d18629ddd08f24ade49b914829|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 12]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=OQ8wsp0K-4Ynj6x-M4XjiQ&expires=1783365718&ch=bsp1fr&s=1f5572c799ae52271dc76ec52567d5bc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain [CH 13]
+https://dz5.bhalocast.pro:7059/hls/zdf.m3u8?md5=hyQtCsTKAPpdK_fAHwveAA&expires=1783365721&ch=zdf&s=04b6da03bd0507be6cc0f70e53d0bafb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/usa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [FIFA WORLD CUP] USA - Belgium
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
