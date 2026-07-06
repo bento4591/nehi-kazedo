@@ -1,20 +1,44 @@
 #EXTM3U
-# Last Updated: 06/07/2026 06:56 WIB
+# Last Updated: 06/07/2026 07:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [08:00 WIB] [FIFA WORLD CUP] England - Mexico
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=9J4odoFFLtpnndpLElansg&expires=1783300865&ch=tsn1ca&s=e0825808c4cf66c65b7ed312deb00db5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=JNZje1vQgXbeQgDwgtAVQg&expires=1783300868&ch=bbc1ld&s=6136fbc91d6d9d5080bd0f2c1243d220|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=9h2jxBsXpsaYAjqIK6mILQ&expires=1783300872&ch=spch8&s=5ee5700a60b1e8e715230e84fff79810|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=HpjUa2wgDFMINfdjVBlfCA&expires=1783300875&ch=spch9&s=4809a078c6c2269927ef5b8910e74342|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=nLixG9_xt-pZMvVz09KJxg&expires=1783300878&ch=spch10&s=c788ba9be1cce3e23d34b2b7b041d5e2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 6]
+https://dz5.bhalocast.pro:7059/hls/spch11.m3u8?md5=Y0j6Ynady1QAbR_EWEti2Q&expires=1783300882&ch=spch11&s=75ea4e84504458c8c6468d12130a5265|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=FNJokN6DX5yA_80qQ0-yCg&expires=1783300885&ch=daznlaliga&s=609f2a5e1a067d6a11ba187840fd8ff0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 8]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=1u-NtyDvy2ocjc73tjaHlw&expires=1783300888&ch=bsp1fr&s=c02249a1384f6f27269384bb9b468866|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=B9WA3sKpVbXWKrrq51IwPQ&expires=1783300892&ch=spch45&s=46f3fa8f0b4f62f21a613e8a49571d7a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 10]
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=XmOuWZZv9Sh6C3KRvSCi-Q&expires=1783300895&ch=yt29&s=521818b2e4cebd428a942a7ddb9946b5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FIFA WORLD CUP] England - Mexico [CH 11]
+https://dz5.bhalocast.pro:7059/hls/yt25.m3u8?md5=K853old60_JjlpH_hpM-OQ&expires=1783300899&ch=yt25&s=83d19d327b616845b16b1424f3acd122|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=dqFqRpxxpaN6_ZCSfL2TuQ&expires=1783300558&ch=bbc1ld&s=0bb0df38fe410a382caeac566ce555b0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=bBHTKyNi-kyy-Ia2131VnA&expires=1783300903&ch=bbc1ld&s=0187c5f0ccd3026f5ccc9029b34486cd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=7NLJnrCnIWO_ZBR2FN1n0A&expires=1783300561&ch=bbc2&s=6313d0ff49c1a25c081291c86d3f61e4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:45 WIB] [PGA TOUR] PGA Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=eiOnwbi63YLBMl5k1dP_KQ&expires=1783300565&ch=dadoskygo&s=357d0aff7ba77b8b90fcba3976671b38|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:45 WIB] [PGA TOUR] PGA Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=u3NKH5tqMoR6zObyskSiMg&expires=1783300569&ch=dadoskyare&s=8b589ec1062db4890ce3f19d412d5f91|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=ki4odHCPTkoKBgv_Oa7DfA&expires=1783300906&ch=bbc2&s=6a6766b8aec172b94a3fb3710e54a1d9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] Portugal - Spain
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8

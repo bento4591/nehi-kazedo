@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 06/07/2026 06:55 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ColoradoRockies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 06/07/2026] [MLB] Colorado Rockies - San Francisco Giants
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn1.zohanayaan.com:1686/hls/mcoloradorockies.m3u8?md5=UIOtoUH5UsEayGraukiE3w&expires=1783285267
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 06/07/2026] [MLB] Arizona Diamondbacks - Milwaukee Brewers
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn8.zohanayaan.com:1686/hls/marizonadiamondbacks.m3u8?md5=WdV2cT5h3zvjlystnjcVyg&expires=1783285269
+# Last Updated: 06/07/2026 07:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ArizonaDiamondbacks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:10 WIB 06/07/2026] [MLB] Arizona Diamondbacks - Milwaukee Brewers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
