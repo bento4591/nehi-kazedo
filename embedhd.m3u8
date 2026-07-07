@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 08/07/2026 04:55 WIB
+# Last Updated: 08/07/2026 05:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:15 WIB 08/07/2026] [MLB] St. Louis Cardinals - Milwaukee Brewers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -55,8 +55,11 @@ https://cdn15.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=YDvmddlIAWI2lcFR40-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn11.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=-TmG6vv8NItL2oMzs-uqFg&expires=1783467957
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MemphisGrizzlies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:00 WIB 08/07/2026] [NBA SUMMER] Memphis Grizzlies - Atlanta Hawks
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MemphisGrizzlies.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:00 WIB 08/07/2026] [NBA SUMMER] Memphis Grizzlies - Atlanta Hawks
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/mmemphisgrizzlies.m3u8?md5=tbyQC04d6EVZ1YfedZ23dw&expires=1783468875
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:10 WIB 08/07/2026] [MLB] New York Mets - Kansas City Royals
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
