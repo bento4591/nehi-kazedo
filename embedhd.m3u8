@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 08/07/2026 04:41 WIB
+# Last Updated: 08/07/2026 04:45 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [01:15 WIB 08/07/2026] [MLB] St. Louis Cardinals - Milwaukee Brewers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -49,8 +49,11 @@ https://cdn12.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=w4JORqiKcvUBhKnPrfh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn15.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=YDvmddlIAWI2lcFR40-KUg&expires=1783467673
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:45 WIB 08/07/2026] [MLB] Washington Nationals - Houston Astros
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:45 WIB 08/07/2026] [MLB] Washington Nationals - Houston Astros
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn11.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=-TmG6vv8NItL2oMzs-uqFg&expires=1783467957
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MemphisGrizzlies.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:00 WIB 08/07/2026] [NBA SUMMER] Memphis Grizzlies - Atlanta Hawks
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
