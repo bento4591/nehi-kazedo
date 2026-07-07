@@ -1,41 +1,44 @@
 #EXTM3U
-# Last Updated: 08/07/2026 04:07 WIB
+# Last Updated: 08/07/2026 04:16 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [ATP TOUR] ATP Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=L9jIx9ZEBkwTMCnP1H94oA&expires=1783463761&ch=bbc1ld&s=80e694218103f05301ada1a402a56082|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=V5lk0Rd-G5OYWWfJppbvTg&expires=1783463764&ch=bbc2&s=9893acdf844554223f854bc2d617f519|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 1]
-https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=qcot90WBgqBHA-lRXo5AtA&expires=1783463202&ch=tsn1ca&s=f9f05c9b44e507b10f210ba94b23c280|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=-WBbDlcwit99kFYzNnx-rw&expires=1783463768&ch=tsn1ca&s=fc198b54f17a1ee45f254ead5d9404df|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 2]
-https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=qoQeAvKZmI5zE-UHyZrX0g&expires=1783463206&ch=itv111&s=91833e5a5f6b9a64e1c61b837a898e29|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=9gwDvHX_4hY13NWDKMvEow&expires=1783463772&ch=itv111&s=efd6f32773cc3c2c86b9451f080552c8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 3]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=omM9oiRdTI5PS2khRsYfjw&expires=1783463208&ch=spch8&s=0654bb98346a3a339e9943444efa8640|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=4EvVLdIgKpaKsL94_gPzMw&expires=1783463775&ch=spch8&s=031b97e807a606e4f79fac54ec257e94|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 4]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=kxuYXnMYrw8XwOaSSP4wvw&expires=1783463212&ch=spch9&s=9871adaae0775a408527ca7dc2d0b9bb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=CLLzJ03wpOh_9svpZWpfmQ&expires=1783463779&ch=spch9&s=15bb9f30cfd925b9c4aafdf3be5631c4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 5]
-https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=su8UpTgXCHC0zxao-Om15w&expires=1783463215&ch=spch10&s=c1ffdaff73333552450ae530d8102a25|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=CEFqlTP2QlyFI-VbrWx1og&expires=1783463782&ch=spch10&s=fcc324885523c6a6ab5ac663f159139f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 6]
-https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=vqmJM4iiQA-AfrQFuFTUYA&expires=1783463218&ch=tsn3ca&s=5d4ac6bc9121689f3f12c0b931f7dc90|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=YD8-_rXKI4Fzf6o0lpLZFw&expires=1783463786&ch=tsn3ca&s=3e365ebf908ddd90c768aeea2e479a46|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 7]
-https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=h9bAB-2LxWzUhCUyeCAYRw&expires=1783463222&ch=daznlaliga&s=63f785b4a895f12efc1b45e2ef6c4bf6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=h0CYwD1XUlprF1vJc0JfRw&expires=1783463789&ch=daznlaliga&s=753d58000c6c643a7fcfdf59d9433c05|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 8]
-https://dz5.bhalocast.pro:7059/hls/yt25.m3u8?md5=BBMJTzKELT7uaxi5IknkJA&expires=1783463225&ch=yt25&s=d88621ee815181cc337592584a13bdd1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt25.m3u8?md5=A0SjTcY5uYCQ51LFALFCEg&expires=1783463793&ch=yt25&s=3bd8dccda95f1b97c9f3671c7df7b75c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 9]
-https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=D7uEcMyY1pvRcGWPStyFPA&expires=1783463229&ch=bsp1fr&s=47768388e0e7f4a3bef903328b79d0a3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=WQdLz_F29AbmaLMRJPRDnQ&expires=1783463796&ch=bsp1fr&s=8f47754c52d749f2bfd1805461aa54f0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 10]
-https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=UeTdkaBwUlQSesOahub7KQ&expires=1783463232&ch=spch45&s=2e81fd5bcc345846cbfd64c369739da6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=1sdECX1iDHKWRUiqYiLkmw&expires=1783463800&ch=spch45&s=98936f35881bc30abaa65ce710271cb3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland [CH 11]
-https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=Pf_xkE1xOabngzwyxIuVWw&expires=1783463236&ch=yt29&s=e6577cc28b37e07de3b711c5e80ea750|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=G2emTnjmgtzomUgY8FoajQ&expires=1783463803&ch=yt29&s=41d5d553e476bfe070bfb6d3783371a3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/queensland-maroons/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [STATE OF ORIGIN] Queensland Maroons - NSW Blues
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
