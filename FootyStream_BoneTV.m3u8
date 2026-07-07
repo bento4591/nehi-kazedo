@@ -1,14 +1,44 @@
 #EXTM3U
-# Last Updated: 07/07/2026 21:56 WIB
+# Last Updated: 07/07/2026 22:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=gLcpkFlfKS0O4FoR0mWYUA&expires=1783440958&ch=bbc1ld&s=1ccd7dc67d9139f4c29018956842e342|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=ympOez52ZyXI2YbYvf3LBg&expires=1783441279&ch=bbc1ld&s=621ac95d4e2c2cc95f01cf7b8160803f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=G7MaMjZkOjRjMicv-ofTNg&expires=1783440962&ch=bbc2&s=b644fd635d9980e18cfad9c90709aa78|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=eR6lEkgjl2UjStWKVKCRFQ&expires=1783441282&ch=bbc2&s=c1d002c6d9c43775e197dd1a3b17bb62|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 1]
+https://dz5.bhalocast.pro:7059/hls/tsn1ca.m3u8?md5=HbrT2gYRqaIKs7SbzHgfVw&expires=1783441285&ch=tsn1ca&s=6e6911f0992f4e684a14f6c03371e009|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=fxSrNgRa7MEmjMLAJPMCfg&expires=1783441289&ch=itv111&s=a5242aa5361a81aa168e3ad433704887|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=2GUO1U-DEJG3s_RX5a6Tsw&expires=1783441292&ch=spch8&s=8ff950f47a340f12e856f1bfbab440d8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=_EIexvv7SwtiNilnGMaZJA&expires=1783441295&ch=spch9&s=f1702c39acbb8ce46c7dabbb9f411c81|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=gsD8e4NzJ_VcbCwyyIAAFQ&expires=1783441299&ch=spch10&s=203e308b686b2d82b9380a3ead12d600|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 6]
+https://dz5.bhalocast.pro:7059/hls/tsn3ca.m3u8?md5=tBnmtY1k3Y5NGDD8Dlxb8A&expires=1783441302&ch=tsn3ca&s=82a438577f7d4f2bbb0f81f198d0fc17|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 7]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=R5KtJQAIq-kqQqe1z_SVkg&expires=1783441306&ch=daznlaliga&s=9261bb09de86f9d50ed976a6be629e36|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 8]
+https://dz5.bhalocast.pro:7059/hls/yt25.m3u8?md5=W8Up3B3PL5qboLfrEqE1JQ&expires=1783441309&ch=yt25&s=9b7181100d0acf4ff3255f9d19547b6b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 9]
+https://dz5.bhalocast.pro:7059/hls/spch45.m3u8?md5=zP8Z7khtSLBZ6UJfKtrNFg&expires=1783441312&ch=spch45&s=2ac13a66831c4da91dc23c6fa71b3b15|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 10]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=yobApXKTZVg104tzzSMEvQ&expires=1783441316&ch=bsp1fr&s=a9068f8558a73450e7a418364e91bbca|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/argentina/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FIFA WORLD CUP] Argentina - Egypt [CH 11]
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=R3o-lF-wty8x9GaJJavVEw&expires=1783441320&ch=yt29&s=7ffd93ceedd074812fc1bb735908d063|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FIFA WORLD CUP] Colombia - Switzerland
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
