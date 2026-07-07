@@ -1,11 +1,5 @@
 #EXTM3U
-# Last Updated: 07/07/2026 09:36 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 07/07/2026] [MLB] Tampa Bay Rays - New York Yankees
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=__Yxl7ZqrQIabnNX4XikJg&expires=1783381264
+# Last Updated: 07/07/2026 09:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:45 WIB 07/07/2026] [MLB] Washington Nationals - Houston Astros
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -36,18 +30,6 @@ https://cdn5.zohanayaan.com:1686/hls/msanantoniospurs.m3u8?md5=T16VHf0g5bVLq67Ta
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn9.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=bTKpFhRE_ZfEG8CBoiHkWA&expires=1783385188
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:00 WIB 07/07/2026] [FIFA WORLD CUP] United States - Belgium [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=s5mveBqFqRYzmpJvVOMyAg&expires=1783386065
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/UnitedStates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:00 WIB 07/07/2026] [FIFA WORLD CUP] United States - Belgium [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn7.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=wouNCUF_wryYGJO3jOG7KA&expires=1783386067
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/BrooklynNets.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [07:00 WIB 07/07/2026] [NBA SUMMER] Brooklyn Nets - Golden State Warriors
 #EXTVLCOPT:http-referrer=https://exposestrat.com
