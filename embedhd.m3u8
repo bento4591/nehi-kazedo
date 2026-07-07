@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 07/07/2026 12:55 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SacramentoKings.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 07/07/2026] [NBA SUMMER] Sacramento Kings - Milwaukee Bucks
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/msacramentokings.m3u8?md5=3ZPdni_Db0rR8qqfAzlMFw&expires=1783393273
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/GoldenStateWarriors.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:00 WIB 07/07/2026] [NBA SUMMER] Golden State Warriors - Miami Heat
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mgoldenstatewarriors.m3u8?md5=6L3W1X6b544TDAe9HpPnZA&expires=1783393275
+# Last Updated: 07/07/2026 13:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LosAngelesDodgers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [09:10 WIB 07/07/2026] [MLB] Los Angeles Dodgers - Colorado Rockies
 #EXTVLCOPT:http-referrer=https://exposestrat.com
