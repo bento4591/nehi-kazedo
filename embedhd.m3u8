@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 08/07/2026 10:05 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 08/07/2026] [MLB] New York Mets - Kansas City Royals
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/mnewyorkmets.m3u8?md5=4UDedXRex-eFdMLO6GDrKw&expires=1783469459
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/CincinnatiReds.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:10 WIB 08/07/2026] [MLB] Cincinnati Reds - Philadelphia Phillies
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=7_u7YO5Mi-aQRlaYM6nYbw&expires=1783469460
+# Last Updated: 08/07/2026 10:11 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 08/07/2026] [MLB] Chicago White Sox - Boston Red Sox
 #EXTVLCOPT:http-referrer=https://exposestrat.com
