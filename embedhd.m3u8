@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 09/07/2026 04:35 WIB
+# Last Updated: 09/07/2026 04:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:45 WIB 09/07/2026] [MLB] San Francisco Giants - Toronto Blue Jays
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -13,17 +13,29 @@ https://cdn13.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=KYG9L8a84KBZq
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn15.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=BTiE9bwVShfYOaeJIe89qQ&expires=1783553747
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 09/07/2026] [MLB] Detroit Tigers - Athletics
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 09/07/2026] [MLB] Detroit Tigers - Athletics
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=gZCw0tLKzQYzZdFmLH6j6g&expires=1783554059
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 09/07/2026] [MLB] Pittsburgh Pirates - Atlanta Braves
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 09/07/2026] [MLB] Pittsburgh Pirates - Atlanta Braves
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=OLgbsQVjzBpFAjkd5852Rw&expires=1783554061
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 09/07/2026] [MLB] Tampa Bay Rays - New York Yankees
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TampaBayRays.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 09/07/2026] [MLB] Tampa Bay Rays - New York Yankees
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=8ZRGbKFHQYCnsIYgWph4Dg&expires=1783554062
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MiamiMarlins.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:40 WIB 09/07/2026] [MLB] Miami Marlins - Seattle Mariners
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MiamiMarlins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 09/07/2026] [MLB] Miami Marlins - Seattle Mariners
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn12.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=pDEe_OZvW4SFaZiHzx4XRg&expires=1783554064
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonNationals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [05:45 WIB 09/07/2026] [MLB] Washington Nationals - Houston Astros
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
