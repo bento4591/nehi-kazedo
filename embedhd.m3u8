@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 08/07/2026 10:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 08/07/2026] [MLB] Chicago White Sox - Boston Red Sox
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=F5noRfO7vWGme8JARzu9IA&expires=1783471260
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:40 WIB 08/07/2026] [MLB] Minnesota Twins - Cleveland Guardians
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=dGmcIEfKIbrEZTRzQUEVcg&expires=1783471262
+# Last Updated: 08/07/2026 10:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:45 WIB 08/07/2026] [MLB] St. Louis Cardinals - Milwaukee Brewers
 #EXTVLCOPT:http-referrer=https://exposestrat.com
