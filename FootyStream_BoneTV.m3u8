@@ -1,11 +1,11 @@
 #EXTM3U
-# Last Updated: 08/07/2026 09:06 WIB
+# Last Updated: 08/07/2026 09:11 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=C2WNL6q8dCuXAyJJAOc-FA&expires=1783481149&ch=bbc1ld&s=16d4af9cabf79e4af29ad2a083e7c3da|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=gG35gXOs8pXDEgs_EPFFQw&expires=1783481473&ch=bbc1ld&s=483ed5e0f69d180ac309f7fd69590cb1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=8DdOyKwN_muIklP1LVwoUA&expires=1783481153&ch=bbc2&s=1667e918b699ccc50612e4e4948e9135|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=Q2aJUyvci2JvQFjC0IxW4A&expires=1783481476&ch=bbc2&s=4c1e4d6324eb9df837e7f8a688fcfcd2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/queensland-maroons/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [STATE OF ORIGIN] Queensland Maroons - NSW Blues
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -17,6 +17,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sydney-swans/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [AFL] Sydney Swans - Fremantle
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hull-fc/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [SUPER LEAGUE] Hull FC - York City Knights
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FIFA WORLD CUP] France - Morocco
