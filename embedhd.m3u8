@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 09/07/2026 23:35 WIB
+# Last Updated: 09/07/2026 23:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:35 WIB 09/07/2026] [MLB] Pittsburgh Pirates - Atlanta Braves
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -25,8 +25,11 @@ https://cdn11.zohanayaan.com:1686/hls/mtampabayrays.m3u8?md5=_N5O0kKqHv_ofcpQHkD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn15.zohanayaan.com:1686/hls/mbaltimoreorioles.m3u8?md5=LdhXIvpe2DWhBGSKhGuaaw&expires=1783622154
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:40 WIB 10/07/2026] [MLB] Minnesota Twins - Cleveland Guardians
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MinnesotaTwins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [00:40 WIB 10/07/2026] [MLB] Minnesota Twins - Cleveland Guardians
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mminnesotatwins.m3u8?md5=AMWPg_V0jW8avRbcDCWQiw&expires=1783622473
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/ChicagoWhiteSox.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [01:10 WIB 10/07/2026] [MLB] Chicago White Sox - Boston Red Sox
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
