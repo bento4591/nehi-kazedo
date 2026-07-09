@@ -1,8 +1,11 @@
 #EXTM3U
-# Last Updated: 09/07/2026 22:31 WIB
+# Last Updated: 09/07/2026 22:36 WIB
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [23:35 WIB 09/07/2026] [MLB] Pittsburgh Pirates - Atlanta Braves
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/PittsburghPirates.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [23:35 WIB 09/07/2026] [MLB] Pittsburgh Pirates - Atlanta Braves
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/mpittsburghpirates.m3u8?md5=FDjvNzHlUph_4JMyPwGN0w&expires=1783618562
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewYorkMets.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [00:10 WIB 10/07/2026] [MLB] New York Mets - Kansas City Royals
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
