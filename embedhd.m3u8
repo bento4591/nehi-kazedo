@@ -1,23 +1,11 @@
 #EXTM3U
-# Last Updated: 10/07/2026 05:35 WIB
+# Last Updated: 10/07/2026 05:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewOrleansPelicans.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:30 WIB 10/07/2026] [NBA SUMMER] New Orleans Pelicans - Minnesota Timberwolves
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn11.zohanayaan.com:1686/hls/mneworleanspelicans.m3u8?md5=x6fneT54vayrqAF-MeoUEg&expires=1783629064
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/France.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 10/07/2026] [FIFA WORLD CUP] France - Morocco [CH 1]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn15.zohanayaan.com:1686/hls/ntsn1fhd.m3u8?md5=Oicibh5L31ez0B8D2bETgQ&expires=1783630885
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/France.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:00 WIB 10/07/2026] [FIFA WORLD CUP] France - Morocco [CH 2]
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/nctvhd.m3u8?md5=tJRJ7lVxhOxCy9Vv4LElRg&expires=1783630887
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaHawks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:30 WIB 10/07/2026] [NBA SUMMER] Atlanta Hawks - San Antonio Spurs
 #EXTVLCOPT:http-referrer=https://exposestrat.com
