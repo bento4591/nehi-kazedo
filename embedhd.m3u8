@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 10/07/2026 05:41 WIB
+# Last Updated: 10/07/2026 05:45 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/NewOrleansPelicans.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [02:30 WIB 10/07/2026] [NBA SUMMER] New Orleans Pelicans - Minnesota Timberwolves
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -55,8 +55,11 @@ https://cdn12.zohanayaan.com:1686/hls/mcincinnatireds.m3u8?md5=qc3psECeWEIerL7Oz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn14.zohanayaan.com:1686/hls/morlandomagic.m3u8?md5=jgCIqFhYCzbgzxcQuKmw_g&expires=1783643464
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [06:45 WIB 10/07/2026] [MLB] St. Louis Cardinals - Milwaukee Brewers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/StLouisCardinals.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:45 WIB 10/07/2026] [MLB] St. Louis Cardinals - Milwaukee Brewers
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn15.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=35Hk5zhjAEtrYQ-gKL755A&expires=1783644353
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/TexasRangers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [07:05 WIB 10/07/2026] [MLB] Texas Rangers - Los Angeles Angels
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
