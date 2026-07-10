@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 10/07/2026 07:41 WIB
+# Last Updated: 10/07/2026 07:46 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/Philadelphia76ers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [04:30 WIB 10/07/2026] [NBA SUMMER] Philadelphia 76ers - Detroit Pistons
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -67,8 +67,11 @@ https://cdn14.zohanayaan.com:1686/hls/mwashingtonwizards.m3u8?md5=5qUnYDDBC61fws
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn15.zohanayaan.com:1686/hls/msandiegopadres.m3u8?md5=ZL1VJzzaF2dj_L-p3c7v2Q&expires=1783651259
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:45 WIB 10/07/2026] [MLB] San Francisco Giants - Colorado Rockies
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanFranciscoGiants.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:45 WIB 10/07/2026] [MLB] San Francisco Giants - Colorado Rockies
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn13.zohanayaan.com:1686/hls/msanfranciscogiants.m3u8?md5=q2Zc3xYvoTisldrhqJJJpg&expires=1783651567
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/LAClippers.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [10:00 WIB 10/07/2026] [NBA SUMMER] LA Clippers - Sacramento Kings
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
