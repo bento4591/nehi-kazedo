@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 10/07/2026 06:55 WIB
+# Last Updated: 10/07/2026 07:01 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/AtlantaHawks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [03:30 WIB 10/07/2026] [NBA SUMMER] Atlanta Hawks - San Antonio Spurs
 #EXTVLCOPT:http-referrer=https://exposestrat.com
@@ -61,8 +61,11 @@ https://cdn15.zohanayaan.com:1686/hls/mstlouiscardinals.m3u8?md5=35Hk5zhjAEtrYQ-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn14.zohanayaan.com:1686/hls/mtexasrangers.m3u8?md5=QEqF-gJhEiP5XEMLcJWyLg&expires=1783645557
 
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonWizards.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:00 WIB 10/07/2026] [NBA SUMMER] Washington Wizards - Utah Jazz
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/WashingtonWizards.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [08:00 WIB 10/07/2026] [NBA SUMMER] Washington Wizards - Utah Jazz
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn14.zohanayaan.com:1686/hls/mwashingtonwizards.m3u8?md5=5qUnYDDBC61fwszGrvAUVA&expires=1783648879
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/SanDiegoPadres.png" group-title="UPCOMING - EmbedHD",[⏳ UPCOMING] [08:40 WIB 10/07/2026] [MLB] San Diego Padres - Arizona Diamondbacks
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
