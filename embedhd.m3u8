@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 10/07/2026 09:35 WIB
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DetroitTigers.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 10/07/2026] [MLB] Detroit Tigers - Athletics
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn11.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=tyv4lna7rbfLWW0ia2V0Jg&expires=1783640465
-
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/MiamiMarlins.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [05:40 WIB 10/07/2026] [MLB] Miami Marlins - Seattle Mariners
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/mmiamimarlins.m3u8?md5=DNUVYw3xOySRx1pdX2-i8g&expires=1783640467
+# Last Updated: 10/07/2026 09:41 WIB
 
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-logo="https://embedhd.org/images/team-logos/DallasMavericks.png" group-title="LIVE - EmbedHD",[🔴 LIVE] [06:00 WIB 10/07/2026] [NBA SUMMER] Dallas Mavericks - Golden State Warriors
 #EXTVLCOPT:http-referrer=https://exposestrat.com
