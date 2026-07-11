@@ -1,14 +1,14 @@
 #EXTM3U
-# Last Updated: 2026-07-11 04:40 WIB
+# Last Updated: 2026-07-12 00:01 WIB
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [02:00 WIB] [SOCCER] Spain vs Belgium (Gate)
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[04:00 WIB] [SOCCER] Norway vs England (Gate)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD2
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://instreams.pro/live/NFLHD2/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [02:00 WIB] [SOCCER] Spain vs Belgium (Gate) [S2]
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD3
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png" tvg-id="UFC.Dummy.us" group-title="BONE TV",[04:00 WIB] [UFC] Cody Durden vs Alessandro Costa (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD30
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live/NFLHD3/mono.m3u8
+https://instreams.pro/live/NFLHD30/mono.m3u8
