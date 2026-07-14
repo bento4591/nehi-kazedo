@@ -1,8 +1,8 @@
 #EXTM3U
-# Last Updated: 15/07/2026 05:26 WIB
+# Last Updated: 15/07/2026 05:31 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/mlb-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [06:30 WIB] [MLB] MLB
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/mlb-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [06:30 WIB] [MLB] MLB
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=GJJM3iclMFihhSdfKBRBUA&expires=1784073074&ch=bbtsip1&s=6a6ba10cd485ff783fc16490e7497700|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/england/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIFA WORLD CUP] England - Argentina
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
