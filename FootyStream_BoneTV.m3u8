@@ -1,11 +1,14 @@
 #EXTM3U
-# Last Updated: 16/07/2026 15:41 WIB
+# Last Updated: 16/07/2026 15:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/st-kilda/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [AFL] St Kilda - Geelong Cats
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=65rLoQ5cdHoQCcTkNao0WQ&expires=1784196093&ch=bbtsvp2&s=f86c3c39139db06eb43d2b45307c8869|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=bqpTjct3PZXXU3W2mwB3vg&expires=1784196350&ch=bbtsvp2&s=5c81b4b3e8e07dbcf96ddd8dae34bcf9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [NRL] Penrith Panthers - Brisbane Broncos
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] Penrith Panthers - Brisbane Broncos [CH 1]
+https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=UWSKftAU2yB3wxjLqlqtwQ&expires=1784196354&ch=fox502&s=cf4d6953cf3d3e228ebaafed20b405ef|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] Penrith Panthers - Brisbane Broncos [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=EWgyX5JFGBwzi8rV2TUerA&expires=1784196357&ch=spch61&s=d4f047b5db574564372f51c8e82767a9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [PGA TOUR] PGA Tour
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
