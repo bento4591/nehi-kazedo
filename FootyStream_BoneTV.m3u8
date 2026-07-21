@@ -1,13 +1,28 @@
 #EXTM3U
-# Last Updated: 22/07/2026 00:11 WIB
+# Last Updated: 22/07/2026 00:16 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [DARTS] Darts
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=_IT8favhZwZZvDSoeKZqzQ&expires=1784658666&ch=dadosky3&s=0f038475d775d5e1249654ab01b48e3f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=zH15NpuEmqdB5iAj8blZEQ&expires=1784658957&ch=dadosky3&s=d69ea3f6a6080820e082e63845712870|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-thun/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [CHAMPIONS LEAGUE] FC Thun - Dinamo Zagreb
-https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=fQqv7uCK5DWMG5l1PneNKA&expires=1784658669&ch=yt27&s=d9ac33d59d5a79d571a0440afb098515|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=XaQClxsAvSGb5c412HTEnw&expires=1784658960&ch=yt27&s=4493b422c5c4c5e1c4f4a7b9c1499431|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hearts/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [CHAMPIONS LEAGUE] Hearts - Sturm Graz
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-miami/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [06:30 WIB] [MLS] Inter Miami - Chicago Fire
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/collingwood/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:30 WIB] [AFL] Collingwood - Adelaide Crows
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [NRL] Penrith Panthers - Parramatta Eels
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [PGA TOUR] PGA Tour
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [PGA TOUR] PGA Tour
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [14:30 WIB] [FORMULA 1] Formula 1
