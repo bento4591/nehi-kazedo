@@ -1,17 +1,17 @@
 #EXTM3U
-# Last Updated: 22/07/2026 00:51 WIB
+# Last Updated: 22/07/2026 00:56 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [DARTS] Darts
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=8eN4s_WmBUnbvhhUF4E2jA&expires=1784661059&ch=dadosky3&s=370b77d834a47eb1438074c3258d0d59|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=BcDQ59mXC44cYiAku-eLFg&expires=1784661352&ch=dadosky3&s=4456056ef5fbe3460d115ec70670ef78|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-thun/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [CHAMPIONS LEAGUE] FC Thun - Dinamo Zagreb
-https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=m0m9DpcKvefm7nG71J8oWw&expires=1784661063&ch=yt27&s=d7825c86764cd920911147fd7748b0f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt27.m3u8?md5=Epb-K7O5o93Bm7WxyGGMEQ&expires=1784661355&ch=yt27&s=18480623130b4cd174c79e37cd367316|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hearts/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [CHAMPIONS LEAGUE] Hearts - Sturm Graz [CH 1]
-https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=W9o03icoD8aUrxlqYxmGCQ&expires=1784661067&ch=viaplaysp1&s=b19ca914338511cb378e74da5909e702|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=2cJkzaVNaKGzdzbYx9s_Mw&expires=1784661359&ch=viaplaysp1&s=3ff9c49f58e2d9400132352caa29e8c2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hearts/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [CHAMPIONS LEAGUE] Hearts - Sturm Graz [CH 2]
-https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=lk-9Rpz_-akJxZ0nKO1NyQ&expires=1784661070&ch=yt29&s=6fcc168a47ad96323a7d530cc804701e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=7IkyaZwk6YbVw940FvJKgQ&expires=1784661362&ch=yt29&s=b8724332b2f5a70487a752ad39149a4d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/napoli/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FRIENDLY] Napoli - Arezzo
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -32,6 +32,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/twente/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [EUROPA LEAGUE] Twente - Ferencváros
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [EUROPA LEAGUE] Benfica - St. Gallen
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [14:30 WIB] [FORMULA 1] Formula 1
