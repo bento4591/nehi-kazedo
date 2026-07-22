@@ -1,26 +1,11 @@
 #EXTM3U
-# Last Updated: 22/07/2026 22:56 WIB
+# Last Updated: 22/07/2026 23:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [DARTS] Darts
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=XTLYEKvSbf9VDLTTX4Noag&expires=1784740560&ch=dadosky3&s=80ab9474afa168081e6e5a7c7f7a3128|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=mSRo0zFF6Wy9mlbQT6yzjA&expires=1784740867&ch=dadosky3&s=8a78ec195bdb3a8243b43e7ffb89d985|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/napoli/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FRIENDLY] Napoli - Arezzo
-https://dz5.bhalocast.pro:7059/hls/yt51.m3u8?md5=RcFc47fYMxQNJ2IFBuDq8g&expires=1784740563&ch=yt51&s=f8d0666e91a8241cec6adf198970b9cb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/afc-bournemouth/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [FRIENDLY] AFC Bournemouth - St. Pauli
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FRIENDLY] Manchester United - Rosenborg
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/juventus/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [FRIENDLY] Juventus - Standard Liège
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [FRIENDLY] Liverpool - Sunderland
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/auckland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [10:00 WIB] [FRIENDLY] Auckland - Tottenham Hotspur
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+https://dz5.bhalocast.pro:7059/hls/yt51.m3u8?md5=beqrQtjUxAb9YPzvwKpQyQ&expires=1784740870&ch=yt51&s=37fefec21be385d0aec6d630bdf53129|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-miami/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [06:30 WIB] [MLS] Inter Miami - Chicago Fire
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -59,6 +44,21 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/afc-bournemouth/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [FRIENDLY] AFC Bournemouth - St. Pauli
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FRIENDLY] Manchester United - Rosenborg
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/juventus/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [FRIENDLY] Juventus - Standard Liège
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [FRIENDLY] Liverpool - Sunderland
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/auckland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [10:00 WIB] [FRIENDLY] Auckland - Tottenham Hotspur
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/ufc-streams-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [UFC] Rountree Jr.
