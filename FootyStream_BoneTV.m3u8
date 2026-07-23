@@ -1,11 +1,11 @@
 #EXTM3U
-# Last Updated: 23/07/2026 15:41 WIB
+# Last Updated: 23/07/2026 15:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [DARTS] Darts
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=069_7q0pSI2WX7ZokhF7OQ&expires=1784800858&ch=dadosky3&s=00fd94cb4dd372ba6965beed09173cc8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=NFcgSAesNYWOXAZQ3ym2Ag&expires=1784801149&ch=dadosky3&s=2c279384513bf7e0b7723a0b60ffd247|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/collingwood/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [AFL] Collingwood - Adelaide Crows
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=jh-qnpl3GPjhHTzwiD-yAw&expires=1784800863&ch=bbtsip3&s=1e4ec39694731361021b3f334f399030|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=S96UdpaTX6udOD5KQSqgHQ&expires=1784801152&ch=bbtsip3&s=ea3dc7348e695960f7b792969f3d2117|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/melbourne/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:30 WIB] [AFL] Melbourne - Geelong Cats
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -13,8 +13,11 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/west-coast-eagles/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [AFL] West Coast Eagles - Fremantle
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [NRL] Penrith Panthers - Parramatta Eels
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] Penrith Panthers - Parramatta Eels [CH 1]
+https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=GKbFe_cjB71EWLN9zfu78w&expires=1784801157&ch=fox502&s=d7c85c7403148ab54626ea9c2933f726|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/penrith-panthers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] Penrith Panthers - Parramatta Eels [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=Qzy6sChES_qJxgB5UDWvHA&expires=1784801161&ch=spch61&s=542d9e89f546520754d2fbbebb4fa95a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-knights/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [NRL] Newcastle Knights - Sydney Roosters
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
