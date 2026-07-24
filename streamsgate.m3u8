@@ -1,26 +1,8 @@
 #EXTM3U
-# Last Updated: 2026-07-23 12:25 WIB
+# Last Updated: 2026-07-24 19:16 WIB
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [09:30 WIB] [SOCCER] LA Galaxy vs St. Louis CITY SC (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD11
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/33/1/formula-1-logo-png_seeklogo-330361.png" tvg-id="F1.Dummy.us" group-title="BONE TV",[🔴 LIVE] [18:30 WIB] [F1] Charles Leclerc vs ALL wekkend (Gate)
+#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD28
 #EXTVLCOPT:http-origin=https://instream.click
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live/NFLHD11/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [09:30 WIB] [SOCCER] LAFC vs Real Salt Lake (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD6
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live/NFLHD6/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [09:30 WIB] [SOCCER] Portland Timbers vs FC Dallas (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD12
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live/NFLHD12/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.Dummy.us" group-title="BONE TV",[🔴 LIVE] [09:30 WIB] [SOCCER] San Jose Earthquakes vs Orlando City SC (Gate)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD13
-#EXTVLCOPT:http-origin=https://instream.click
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live/NFLHD13/mono.m3u8
+https://instreams.live/live/NFLHD28/mono.m3u8
