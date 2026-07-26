@@ -1,14 +1,20 @@
 #EXTM3U
-# Last Updated: 27/07/2026 01:34 WIB
+# Last Updated: 27/07/2026 01:36 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [DARTS] Darts
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/darts-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [DARTS] Darts
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=THUgEmnKnc6PJDglHI55xQ&expires=1785095763&ch=dadosky3&s=137028f35de4bcdcf8a2899bbfbd0aad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [PGA TOUR] PGA Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=TgpZ5IxTTHIyYecqDHRALA&expires=1785095766&ch=dadoskygo&s=04d304ba49cebd479fad4468cfe94cbd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=XxhjhNB5uZSOxhfc1JYiSQ&expires=1785095770&ch=dadoskyare&s=ccc9ed59e535c517ecd5aa3d29062a49|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=QhFPBOUwdBqGsejTEEAKgw&expires=1785095776&ch=spch4&s=9ab5dcbe5c793e04b9efedbb734efb89|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=vjbFmCcA4gdn5keg4OlS9w&expires=1785095598&ch=bbtsip3&s=bcd11d7eea548646325a9f0b8b90da9c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=ISoPntsks369XMro4BR3hw&expires=1785095781&ch=bbtsip3&s=a837004e48be96d2c6858aa556118453|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [FRIENDLY] Chelsea - Western Sydney Wanderers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -53,6 +59,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [FRIENDLY] Chelsea - Juventus
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] Bayern München - Aston Villa
