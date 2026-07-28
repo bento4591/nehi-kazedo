@@ -1,20 +1,26 @@
 #EXTM3U
-# Last Updated: 28/07/2026 09:07 WIB
+# Last Updated: 28/07/2026 09:11 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=7M6mgrRNHqQFxwmMh9ZpoA&expires=1785209460&ch=bbtsip3&s=4cfaaaff8f36fa7ce9410e00d46447ee|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=jDZOz1hWtk4LZsPGicYLHA&expires=1785209462&ch=spch72&s=3dc532ca2bf4b769cf8015dccca9fa62|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=Khfm-oBYKfk5TYKawUByVw&expires=1785209466&ch=spch64&s=42e9c4609e7c2c3420575f7d631bca75|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=WGI550M7K8xJIrZJ-XT2AA&expires=1785209235&ch=bbtsip1&s=ab70a6b0b03962f107e7da1c6b4d3190|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=G72d3n7bgczcs13S5zVVtg&expires=1785209470&ch=bbtsip1&s=2e49011514ee3bcd6838a253b7e681b6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=OBA9_g2odXL6ckakYZBpZQ&expires=1785209238&ch=bbtsip4a&s=cb70196f21fa75a10889e1e9d91b3998|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=AIE-hs6meZHoyz7G56BbGA&expires=1785209473&ch=bbtsip4a&s=def7c391ff221ebfee612b28a03e5610|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=IgKrtyvbSbQUdlB6-l3JUw&expires=1785209242&ch=dadoskyten&s=db4e011dc920ef1c9482c2efb46dc73f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=-wvhjUk9cVpJXUruwdHiXQ&expires=1785209477&ch=dadoskyten&s=df8837820e14eaa2fd72832d51914fc5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=J9iodJ6q11an8tVLKzUYwA&expires=1785209247&ch=spch4&s=4e6926de9dff2cf408c4dd05accec664|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=1klbldDiuZC6YQ7tNW_QtA&expires=1785209480&ch=spch4&s=bae228d4909e45d561274ac470c9325c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [FRIENDLY] Chelsea - Western Sydney Wanderers
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
