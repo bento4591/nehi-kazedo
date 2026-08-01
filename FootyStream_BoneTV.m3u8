@@ -1,32 +1,41 @@
 #EXTM3U
-# Last Updated: 01/08/2026 10:18 WIB
+# Last Updated: 01/08/2026 10:21 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=s54VEepwMaSyRa2K80XF8A&expires=1785558976&ch=bbtsip3&s=9630cf9d5e4f627a3ff489d87f9a608f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=21ogv_2RHXp0EYzDya2Utw&expires=1785559250&ch=bbtsip3&s=03b174e622c1a2c18f716dd114527332|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=8VIl7KI0OnmomYa3Dd0n_Q&expires=1785559253&ch=spch72&s=8d8bc8c301f490d929a6f9b297b1a71b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 3]
-https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=eZYxxbSwiaLg5qbkoE1fVQ&expires=1785559004&ch=spch64&s=d208f5cf6d3f380fcc9ad34f0381338c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=bzYLsoAx2QDouCtNHqDyGQ&expires=1785559256&ch=spch64&s=5113da13386ede40c1b79aa306fc271d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 4]
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=lNoBiovIhXXjlGMfWy4Ptg&expires=1785559259&ch=bbtsvp2&s=4f880d562ac8f345211925133055fb1e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=8zSt9y1kwAoOO37Roc5tvA&expires=1785559034&ch=bbtsip4a&s=c1eb4f96577c43e207f19efc1ee1f3b6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=m-MK-y-4dgQo5lkQ_CGDqQ&expires=1785559263&ch=bbtsip4a&s=d52929a57140a36a39b130780b5156dd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [ATP TOUR] ATP Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=a8oYtVd_ejEpLlIzhf3Cig&expires=1785559266&ch=dadoskyten&s=9a53fe8303afde05597a53674403a35e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=BBXjgDoN4VNug7MjbjsDfw&expires=1785559270&ch=spch4&s=0913f317d9f67477514c7edef59ea00a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=iqKnjp4GpMPODLscDM9d5A&expires=1785559088&ch=dadoskygo&s=2445de7d79b5411afb7b4cb2633fa704|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=hZ032ZShbzduZAvVfg6WrA&expires=1785559273&ch=dadoskygo&s=9c29a382fd26863e07339a6af9c975de|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/st-kilda/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [AFL] St Kilda - Sydney Swans [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=ZwoNMC61MBvHxTL5lfFfTQ&expires=1785559092&ch=bbtsip4a&s=17dc79f6fa740002133c4d23ec4335ff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=NfyVjd414HBYYout5XM4yA&expires=1785559277&ch=bbtsip4a&s=e4f1fa4f75ba717c03135c5cdd776c77|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/st-kilda/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [AFL] St Kilda - Sydney Swans [CH 2]
-https://dz5.bhalocast.pro:7059/hls/tsn2ca.m3u8?md5=SsV5BKO6a3R4G6XqtenoeQ&expires=1785559096&ch=tsn2ca&s=46f78ce8e1bae63b96729b83b040671c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/tsn2ca.m3u8?md5=Ths2c63GAjNwB0bxk9gZOQ&expires=1785559280&ch=tsn2ca&s=4476248e54f99f2a53f1de53e366e5c2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/north-melbourne/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:30 WIB] [AFL] North Melbourne - Hawthorn Hawks [CH 1]
-https://dz5.bhalocast.pro:7059/hls/fox503.m3u8?md5=yPzVhnzMgpYML4OF1VL1aQ&expires=1785559100&ch=fox503&s=5d79dc8adc29cf3108f19bc73d6fc106|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/fox503.m3u8?md5=ERv-z2V4hHI_REmCMHXEuw&expires=1785559284&ch=fox503&s=c8d6d8d108fb020416522fad510e5753|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/north-melbourne/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:30 WIB] [AFL] North Melbourne - Hawthorn Hawks [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch69.m3u8?md5=dy6So5TWhvujNy8mg56eMQ&expires=1785559103&ch=spch69&s=2e10e96ebef81c532b7bbfef3d22f04c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch69.m3u8?md5=LaNYjxSW3jx-_LyRGuHC4g&expires=1785559287&ch=spch69&s=4ad93d609ccf3e67db53cefee895559c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/gws-giants/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:30 WIB] [AFL] GWS GIANTS - Port Adelaide
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
