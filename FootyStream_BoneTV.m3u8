@@ -1,29 +1,38 @@
 #EXTM3U
-# Last Updated: 03/08/2026 01:56 WIB
+# Last Updated: 03/08/2026 02:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FRIENDLY] Leeds United - Liverpool
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FRIENDLY] Leeds United - Liverpool [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch5.m3u8?md5=S-Xeowb1Ts32jpaIwu_tbA&expires=1785702078&ch=spch5&s=83b9066471e3bba0037bfd2c4503d3f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FRIENDLY] Leeds United - Liverpool [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=wwGMRNe1ZGsOd8Y_idYfuw&expires=1785702080&ch=spch1&s=19b67973bab7c98bdff79ac6f0c9256d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FRIENDLY] Leeds United - Liverpool [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt34.m3u8?md5=58nFJdlx8A7rmAkza1_p8Q&expires=1785702083&ch=yt34&s=40e1116692a887161e7c16c830eae5f1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:00 WIB] [FRIENDLY] Leeds United - Liverpool [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=vEH2YY_M_vG1ReTW-9l8lw&expires=1785702087&ch=spch41&s=120b965aead23a83ecb6035373ea7acf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=2dBb9hOd47vFRYmDi6LVjw&expires=1785701768&ch=bbtsip3&s=4fda886ee0c4de6a9afe178ab136b814|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=BIOYQkqLqYNslqEwEKNU-w&expires=1785702090&ch=bbtsip3&s=162015af2c08697bde48a5cfe8b12f58|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=tpHJ-LUfgHHfTwTHeMrA4Q&expires=1785701771&ch=spch72&s=8e9ed5cd857ac75ad6f449b7a95fa462|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=67G95vHvJz5T5RtQyKARtg&expires=1785702094&ch=spch72&s=f7735fe547a4efbb30ab1d425bc7e568|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 3]
-https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=50jVoYB1zYeIt5_e4aW-vw&expires=1785701774&ch=spch64&s=9278297b7ad75a1435fb4b37b2ccc241|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch64.m3u8?md5=MBLfdkmytKnzYlPmslxFdQ&expires=1785702097&ch=spch64&s=50cf9ed66b3d632d4840454471a9084f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/commonwealth-games-2026/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [COMMONWEALTH GAMES 2026] Commonwealth Games 2026 [CH 4]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=dhc-DxuFNgfxzqLWm3Bv7Q&expires=1785701778&ch=bbtsvp2&s=ae13623a3a13d0b9d35cd0dba4cf5274|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=f1HHu1-0RkUMPzZ1u_45pw&expires=1785702101&ch=bbtsvp2&s=9c96d76731983103a4b130cf3e9d23f4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=b0BCohDUhUghs2kc3_pr4w&expires=1785701782&ch=dadoskyten&s=ebdadd9249fe390eaaa70d1366cf93e6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=Jk3JEuJFzCh-14fYWKSsKA&expires=1785702105&ch=dadoskyten&s=72ff90ddfe190f05ac517d54fea1cf5a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=4DqWeUiL7BIoh3vndMwCLg&expires=1785701786&ch=spch4&s=aefe567ac0ee22da2d30bc9ee8e89f5a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=Rj8C_7atSq6Ev7WIrlJIGA&expires=1785702108&ch=spch4&s=0113004a6fa520bb1c79f2ca7ef97085|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=ffh2HO5yC3ohyLtmDCFVwQ&expires=1785701789&ch=dadoskygo&s=bacc802ca2e77acd0cb7fabc8dc86bde|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=ajGM2UofJd8pUFkku-Rf-A&expires=1785702112&ch=dadoskygo&s=2a9134e14398b9d942ae3e59af1d0f87|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/wwe-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:00 WIB] [WWE] WWE
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
