@@ -1,23 +1,26 @@
 #EXTM3U
-# Last Updated: 03/08/2026 07:27 WIB
+# Last Updated: 03/08/2026 07:31 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=uvKpg1yNpyW7kftcH1OFwQ&expires=1785721549&ch=dadoskyten&s=56020d9735cd4126a9d854ced055f32a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=X_zt7_Im4n5Q8ByyyRrhXw&expires=1785721856&ch=dadoskyten&s=0368dd80e00fc6b646afc8a790c6b424|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [PGA TOUR] PGA Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:00 WIB] [ATP TOUR] ATP Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=DZUy1F0gI82jv0H1SxZGbg&expires=1785721859&ch=spch4&s=f07ecf4c6c6f6bc974813c82c6744b79|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [PGA TOUR] PGA Tour
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=h7qYaM_N8c2kT1MWq5sa8w&expires=1785721863&ch=dadoskygo&s=3dff6896f07e412c4bf7c6607579ff19|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/wwe-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [WWE] WWE [CH 1]
-https://dz5.bhalocast.pro:7059/hls/espn.m3u8?md5=ft-CIKwkAWINesWYpfhK_g&expires=1785721602&ch=espn&s=7af756dfb48754e88ef23291d746ed28|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/espn.m3u8?md5=3ny4qrCYMqELcNT1SEu1Ug&expires=1785721867&ch=espn&s=d536b3a5c2f02f2af82c14f1bb1e3f43|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/wwe-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [WWE] WWE [CH 2]
-https://lb8.strmd.st/secure/uXUdWTFvtXkahahbriJBcPRDIyUaNPUb/rtmp/stream/5RECA8V_Yw532htZKksJU1bsd2zo1UzTTA1TD1_YHm6D8YonAfYwZq8zVuxXuoCjuYWiEJA/1/playlist.m3u8|Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb1.strmd.st/secure/GEOHBlsjYpIiJpIVbNCpANwmNDoeoBwC/rtmp/stream/LqPdKJBBFbgdlIRVsgx5jJFekE6HGcEoG3rQgimXl6ztIuUNDBm4I5pgbYfFXrsDmnOOCYU/1/playlist.m3u8|Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/wwe-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [WWE] WWE [CH 3]
-https://lb9.strmd.st/secure/VJyTZeTwnSRuIaSKuWLHukNNUGeCqbbd/rtmp/stream/pJsrIxmQ5_c24Fg6S-XmYUkGrGJAOb7kbo1ec1ZYmofWLm2ZVYlt4Esu5o4AFKceb-v7KFGIKYu6/1/playlist.m3u8|Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/qaLOrUmTjkOuOwllkiIVSmIYomuHRBLC/rtmp/stream/VqPuZFlcgm7QsNah7ZkAx8EnAiP52g950SBYbihryYOeamLe8eupS_teSAvSC8DTHAKalcv_0N6T/1/playlist.m3u8|Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/wwe-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:00 WIB] [WWE] WWE [CH 4]
-https://lb9.strmd.st/secure/aPYHMAdNbNmqzRhzmjNlPemuoRowMiUW/rtmp/stream/W6Spf1Oy-XuDgh4NlXv9xk-mWFcaXA9l6t5-QqR03INrqOy1U9qBTBDYlwvjeHlitdmPHDjZ-RI/1/playlist.m3u8|Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/PcKXwnFBrRyuVwoEccyeXhZBytxZUuyZ/rtmp/stream/vs_Pl8rVAiOMevsuwNhz09G8fSE5PiHceZDn-P1taUz9fCfO8n_QjOKcajTQ3GCWp6o6wvRH1MU/1/playlist.m3u8|Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] Manchester City - K-League Stars
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
