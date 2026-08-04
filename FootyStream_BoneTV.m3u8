@@ -1,8 +1,8 @@
 #EXTM3U
-# Last Updated: 04/08/2026 16:55 WIB
+# Last Updated: 04/08/2026 17:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/jeju-sk/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] Jeju SK - Bayern München
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/jeju-sk/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] Jeju SK - Bayern München
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=6PSaExUvhx5-bOCN29u0ig&expires=1785842478&ch=spch41&s=47103bd72c342a22febfc9b6c67e49ac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] Manchester City - K-League Stars
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
