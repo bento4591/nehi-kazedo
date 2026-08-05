@@ -1,14 +1,23 @@
 #EXTM3U
-# Last Updated: 05/08/2026 16:55 WIB
+# Last Updated: 05/08/2026 17:06 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levante/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FRIENDLY] Levante - Villarreal
-https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=1DLm07otlsi6YeJpzJLEUg&expires=1785928548&ch=spch41&s=fc2bc39e7855f7e50a83b76291d43e1b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=GFiWQ0SqYn2fVfCpfNk5Yw&expires=1785929155&ch=spch41&s=f6f4e4ad8eda18d05b63d0954d0b5a49|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] AC Milan - Inter Milan
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] AC Milan - Inter Milan [CH 1]
+https://dz5.bhalocast.pro:7059/hls/sky3it.m3u8?md5=KNfHN_ngZMT1fUoNN5c03Q&expires=1785929158&ch=sky3it&s=50e7879c83d8c1a42844cd0bc178f2b9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] Manchester City - K-League Stars
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] AC Milan - Inter Milan [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch53.m3u8?md5=u9Ofedktld6DFc3dVvna5w&expires=1785929162&ch=spch53&s=9ae1d3e7149706c4d87c512270bbeb2a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] AC Milan - Inter Milan [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt2.m3u8?md5=jbF4g2RktFGe0GqP0DPvzQ&expires=1785929165&ch=yt2&s=51fc22e87acdb263dec8ffc9b2e2f248|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] Manchester City - K-League Stars [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=Jyyy93UnV0Xmz7J2Cc4GVQ&expires=1785929169&ch=spch79&s=f83dac354735b6bbb9cf10f0f3428b14|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] Manchester City - K-League Stars [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=DRB5_p8eU0ebfMaTDsIkkQ&expires=1785929172&ch=spch41&s=45f6ae4c8861c94adb719192f126ffda|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [FRIENDLY] Chelsea - Juventus
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
