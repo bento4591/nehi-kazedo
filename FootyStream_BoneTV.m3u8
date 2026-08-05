@@ -1,8 +1,11 @@
 #EXTM3U
-# Last Updated: 06/08/2026 04:06 WIB
+# Last Updated: 06/08/2026 04:11 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FRIENDLY] PSG - Mallorca
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FRIENDLY] PSG - Mallorca [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=kBfXn7lDW3Ox5WhqbarfcQ&expires=1785969063&ch=bsp1fr&s=8fb22d1bb433985792dc812116c2f32e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FRIENDLY] PSG - Mallorca [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=nFQI-B7fZnzvjze8d_FVHg&expires=1785969067&ch=yt39&s=a44e695ab05151e69846286386c3269b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] Benfica - Hearts
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
