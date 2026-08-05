@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 05/08/2026 20:41 WIB
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [FRIENDLY] Chelsea - Juventus [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=fcXNqliUt81EugFlQuR79w&expires=1785942060&ch=spch1&s=10b4d577f58f62f94214fb53f1bbdb3c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [FRIENDLY] Chelsea - Juventus [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=v690ttL-LO9B9UDvKJ_s7Q&expires=1785942063&ch=spch40&s=294e6f2163e40f94e0312da011d4e5e7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [FRIENDLY] Chelsea - Juventus [CH 3]
-https://dz5.bhalocast.pro:7059/hls/sky1it.m3u8?md5=2DvSySB9wWcvd8Gi4JWIoA&expires=1785942066&ch=sky1it&s=92a98ab8cddedff2cef3757a0717768f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [FRIENDLY] Chelsea - Juventus [CH 4]
-https://dz5.bhalocast.pro:7059/hls/spch42.m3u8?md5=0fgdbHathOE0Zm0aoMiQeA&expires=1785942069&ch=spch42&s=d93529f790ca2d6f84ef2c9fb1f993e1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+# Last Updated: 05/08/2026 20:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/napoli/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [FRIENDLY] Napoli - Osasuna
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
