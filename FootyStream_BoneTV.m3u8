@@ -1,13 +1,7 @@
 #EXTM3U
-# Last Updated: 05/08/2026 14:26 WIB
+# Last Updated: 05/08/2026 14:32 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levante/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FRIENDLY] Levante - Villarreal
-https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=pQpdF8Oqq59rcUSMBEe6XA&expires=1785919568&ch=spch41&s=f45974841f6dbae292187231747c0035|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] AC Milan - Inter Milan
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] Manchester City - K-League Stars
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levante/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [FRIENDLY] Levante - Villarreal
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [FRIENDLY] Chelsea - Juventus
@@ -20,9 +14,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fenerbahce/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [CHAMPIONS LEAGUE] Fenerbahçe - Sturm Graz
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] Bayern München - Aston Villa
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan
