@@ -1,14 +1,29 @@
 #EXTM3U
-# Last Updated: 06/08/2026 03:08 WIB
+# Last Updated: 06/08/2026 03:11 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fenerbahce/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [CHAMPIONS LEAGUE] Fenerbahçe - Sturm Graz
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fenerbahce/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [CHAMPIONS LEAGUE] Fenerbahçe - Sturm Graz
+https://dz5.bhalocast.pro:7059/hls/yt29.m3u8?md5=Ps-t_fTxXdZvpzQWlRs3Vg&expires=1785965463&ch=yt29&s=322caf033c056f4c4b3e138c70440eee|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=KaPiMeMW6UYQ-7IdNK8MCQ&expires=1785965465&ch=spch1&s=825d738c1c73a1cad55ff879a44766a0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FRIENDLY] PSG - Mallorca
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis [CH 2]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=HhLQ6oAPejxIeEKEPqHzyQ&expires=1785965469&ch=viaplaysp1&s=8e824ab05363f957172c4e9718f30247|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=YNG7OYTC6KCC05Yb-5G5tQ&expires=1785965472&ch=spch79&s=63964e5efc06155087fdd9dbae25d8a2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis [CH 4]
+https://dz5.bhalocast.pro:7059/hls/yt33.m3u8?md5=bkKa7AppoBmzSqRXirOUHw&expires=1785965475&ch=yt33&s=039977fa525b93c92053239547058d8b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Arsenal - Real Betis [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=Paj-XfWpr7xN7Mgd-oAzAg&expires=1785965479&ch=spch41&s=d942d0b9526cbb3b04c9ad3d958157db|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FRIENDLY] PSG - Mallorca [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bsp1fr.m3u8?md5=tXbOHKPR3y9V2HHi-8mS3g&expires=1785965481&ch=bsp1fr&s=24e030e72cb5e6eff5c8d5c9147eed60|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [FRIENDLY] PSG - Mallorca [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt39.m3u8?md5=Q4o8fkxP_1YcU4Y7BA3g8Q&expires=1785965484&ch=yt39&s=228e9c9d8d9cf04be1a7ae190275bed9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] Benfica - Hearts
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
