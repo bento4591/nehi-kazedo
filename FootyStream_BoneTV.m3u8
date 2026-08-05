@@ -1,8 +1,8 @@
 #EXTM3U
-# Last Updated: 05/08/2026 15:10 WIB
+# Last Updated: 05/08/2026 15:17 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levante/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FRIENDLY] Levante - Villarreal
-https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=LvVHICB0rK7hr3Iui7JO8w&expires=1785922249&ch=spch41&s=540b787b4a4db476790c53a5dc11de8e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levante/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [FRIENDLY] Levante - Villarreal
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] AC Milan - Inter Milan
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -22,15 +22,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] Bayern München - Aston Villa
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fenerbahce/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [CHAMPIONS LEAGUE] Fenerbahçe - Sturm Graz
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [FRIENDLY] Manchester United - PSG
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FRIENDLY] Manchester City - Atlético Madrid
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
@@ -44,9 +35,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [FRIENDLY] Manchester City - Leeds United
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/aston-villa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FRIENDLY] Aston Villa - PSG
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [FRIENDLY] Manchester United - AC Milan
