@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 07/08/2026 19:49 WIB
+# Last Updated: 07/08/2026 19:54 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [ATP TOUR] ATP Tour
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -16,8 +16,8 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:00 WIB] [MOTOGP] MotoGP
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [FRIENDLY] Bayern München - Aston Villa
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FRIENDLY] Bayern München - Aston Villa [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt33.m3u8?md5=2dG-AStXUp9rPvYoQxhG5g&expires=1786112037&ch=yt33&s=6489627a7c8f6531fed6f85ced3533e3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/stormers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [RUGBY UNION] Stormers - New Zealand
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
