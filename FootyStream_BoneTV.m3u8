@@ -1,59 +1,68 @@
 #EXTM3U
-# Last Updated: 08/08/2026 17:56 WIB
+# Last Updated: 08/08/2026 18:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/juventus/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] Juventus - Inter Milan [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=2L2sBgnauYOudXwDJdiExg&expires=1786191356&ch=spch40&s=4e714611e9fe62ea6b3f057aaaa931c8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=VrYveUamRrTJtmmG8u4WBw&expires=1786191686&ch=spch40&s=4920e237298e8d33ccf713413ea2e649|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/juventus/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [FRIENDLY] Juventus - Inter Milan [CH 2]
-https://dz5.bhalocast.pro:7059/hls/sky3it.m3u8?md5=Brib4lA_L6GsvtBs9xljig&expires=1786191359&ch=sky3it&s=385e5c74f5e203d2f70d1efad9cf1b33|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/sky3it.m3u8?md5=1KjDEnQWGjWyWkaNm_YaDQ&expires=1786191689&ch=sky3it&s=b8480cd6cc3bb2584f69923cd0a0a08f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=qUr8g7MJyuwbyWeuKLqFuQ&expires=1786191692&ch=spch1&s=d2323ee7046ff584a6f26bff73187f59|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=zZgYXL2vGTUuq1VL-hUgMg&expires=1786191696&ch=spch79&s=850216a8318475209a161bc86a411431|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan [CH 3]
+https://dz5.bhalocast.pro:7059/hls/sky1it.m3u8?md5=yoY_2mS4B2-FdqPjiHnDhg&expires=1786191699&ch=sky1it&s=761a91433cda0e3f86029112adb21317|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FRIENDLY] Chelsea - AC Milan [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch42.m3u8?md5=Y0dRFwWwjyBfxUJR5CqBCg&expires=1786191703&ch=spch42&s=21bcee9c6756874b3072a7dbeff37a93|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [ATP TOUR] ATP Tour
-https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=55jcaq-uO1K3tqYEz5ttWg&expires=1786191362&ch=bbtsip4a&s=cee03efbb7d687707657f096c0ffb162|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=lf3MDWsNLH1lCVh0PO4o_Q&expires=1786191706&ch=bbtsip4a&s=3cc7ecf7e3c46f0220bd477a53b38680|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=W6EnI1vV0WmFo3BZU7ovww&expires=1786191366&ch=dadoskygo&s=4a9c68ac21e3ef3feb063a851057a196|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=1kDMyttuewlu-JUQaQaFdw&expires=1786191710&ch=dadoskygo&s=3c4004dfda8e0bd3ef2d661f96d0419f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=rIle17n6x6o25Av18AlDaQ&expires=1786191369&ch=dadoskyten&s=7930118cd445f7c85781dce2290a40ad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=Y2OdKlyqZOn8sBBanPprug&expires=1786191713&ch=dadoskyten&s=c81493e43af914c9194a87dc1a480d53|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch6.m3u8?md5=WR-E8xTzfS9XZlwnZ8c9bQ&expires=1786191372&ch=spch6&s=54ef39158e31d8b83dbc29393c2b8cd4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch6.m3u8?md5=L8W1j2I3oFSQBpInaGiIPQ&expires=1786191717&ch=spch6&s=4032599937cc8a20deb5a3f05e27ba0f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:15 WIB] [PGA TOUR] PGA Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=XjNOmKzc6ZEk-PX2u7iKkQ&expires=1786191375&ch=bbtsip3&s=6041007b9b8762c66678cc1033fcfb15|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=BpJDUvrAf2ajAuuor8TedA&expires=1786191720&ch=bbtsip3&s=d07cec6873d31964a443939dec5f06de|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:15 WIB] [PGA TOUR] PGA Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=twG8R1URMGfCiJLLtAeFrA&expires=1786191378&ch=bbtsvp2&s=6d6720998ddfbb6f4eadfb465d39f19c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=-fwpLzOwSP9yIfS-leL0fw&expires=1786191723&ch=bbtsvp2&s=67bd52c3d5e2ff1918ad714926087b7c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:00 WIB] [MOTOGP] MotoGP
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=1PAOzggMQov4rvSXe6FYXQ&expires=1786191381&ch=bbtsvp2&s=22be523d4df9c24f9f71fe63357692bd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=Dd9oJP-wwjUDFtrAhWtJmA&expires=1786191726&ch=bbtsvp2&s=73decff4295948d58a55e0f542614b64|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [04:30 WIB] [MOTORSPORTS] MotorSports
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=BWsN15bYlW22kRUZI4kMAg&expires=1786191385&ch=dadoskyf17&s=b1c4c4c68ed24589147304c6660c3f43|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=G_0dIu6VlHyATvhjhpsNPQ&expires=1786191729&ch=dadoskyf17&s=1835a9b843cbf03c35bfd9ce2de902f3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=8_Mwf9Q68ol7Hm-D5-Fbtg&expires=1786191388&ch=bbtsip1&s=0036b896523f0c53d172f577465c5248|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=UByw83XG3CQNPRk7jbS26g&expires=1786191733&ch=bbtsip1&s=2b175b30e3bcabace6b6ae62cbdd9a06|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/richmond/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [AFL] Richmond - Adelaide Crows [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=iGohoihf8HY9HwJdM9di9A&expires=1786191391&ch=bbtsip1&s=5b924ff9ad2633382b97fc8b3ddd479d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=2HYKPpjnrNmrN8d3Xr4Oqg&expires=1786191737&ch=bbtsip1&s=cf73495083887ea2f93d78c70f027503|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/richmond/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [AFL] Richmond - Adelaide Crows [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch65.m3u8?md5=moHaekfcC4AAugUd-VHa1g&expires=1786191394&ch=spch65&s=ab3d2b92a3510f51d0b11ba6a1a3b95e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch65.m3u8?md5=wL4dTdAHVfrqcfXwkh1wZA&expires=1786191740&ch=spch65&s=4880e386c74a070e928d7051048b11f4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [NRL] South Sydney Rabbitohs - Parramatta Eels [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=2TD3HZlhACwelRe9Ccrzug&expires=1786191398&ch=dadosky3&s=d6db1f717541dca59dc920325669627a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=anVb0Y0BAKV4OB7iN1J4dw&expires=1786191744&ch=dadosky3&s=fb3e39637bccde848b4e7cfb72c81c68|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [NRL] South Sydney Rabbitohs - Parramatta Eels [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=YgmI1eZKjoCKVEPsItJu3g&expires=1786191401&ch=spch62&s=f8ccaf16b267da02cdc2346fdd3ac0ab|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=0uwOZC_gUtG2wKYt9RaJXw&expires=1786191747&ch=spch62&s=6d3e854e64a2a0cefdbfefebdf393fd8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:30 WIB] [NRL] South Sydney Rabbitohs - Parramatta Eels [CH 3]
-https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=XkrJgbZ3x3zpTZzvexMH8g&expires=1786191404&ch=fox502&s=6343940b873a048c34a59edc2dd03fae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=Dnh1-Xh8VbkFbmjVkt_WMQ&expires=1786191751&ch=fox502&s=6278c5d780bb0d34ef32c3095bca586a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [RUGBY UNION] Australia - Japan
-https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=UHWkuZ0Ddby5HE4WTXvfFA&expires=1786191407&ch=spch61&s=45749320e599d775dddb23dc46e7c79e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=LGrAmIg8zSFag5Y8brLg4w&expires=1786191754&ch=spch61&s=817cc88e87d05845e77b3fbf606e8816|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [20:00 WIB] [FRIENDLY] Leeds United - RB Leipzig
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
