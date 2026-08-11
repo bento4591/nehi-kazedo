@@ -1,8 +1,8 @@
 #EXTM3U
-# Last Updated: 12/08/2026 02:46 WIB
+# Last Updated: 12/08/2026 02:51 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=Vpn8DTLX2eYusP7_x5Sv6Q&expires=1786482357&ch=bbtsip1&s=db9abe0eacda09be579d169dca3964cb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=hk4nbWtW4SxTBpe4g2VrTA&expires=1786482664&ch=bbtsip1&s=d5f7a6719538f41df8ad411714520954|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:15 WIB] [FRIENDLY] Newcastle United - Everton
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -97,6 +97,12 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:00 WIB] [FIH HOCKEY WORLD CUP] India - Wales
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/germany/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:30 WIB] [FIH HOCKEY WORLD CUP] Germany - Malaysia
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [FIH HOCKEY WORLD CUP] France - Belgium
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/deportivo-alaves/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:30 WIB] [LALIGA] Deportivo Alavés - Getafe
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
@@ -107,9 +113,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [LALIGA] Espanyol - Levante
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celta-de-vigo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:30 WIB] [LALIGA] Celta de Vigo - Osasuna
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [FA CUP] Manchester City - Arsenal
@@ -146,4 +149,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FRIENDLY] Liverpool - Como
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celta-de-vigo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:30 WIB] [LALIGA] Celta de Vigo - Osasuna
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
