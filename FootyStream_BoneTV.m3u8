@@ -1,20 +1,32 @@
 #EXTM3U
-# Last Updated: 13/08/2026 00:26 WIB
+# Last Updated: 13/08/2026 00:31 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/aston-villa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [UEFA SUPER CUP] Aston Villa - PSG
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=dXK9g6Rhhr_hnDSq9pbf9w&expires=1786560357&ch=bbtsip1&s=44d296f94278a7167e6850ececfad5de|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=nA2KUh1L-sXDl-2bmfpJvg&expires=1786560660&ch=bbtsip1&s=276b2689c877e95ba3afe1cf8ed41946|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:15 WIB] [FRIENDLY] Newcastle United - Everton [CH 1]
-https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=JmYkUK_4ea5I2jM3f3D64g&expires=1786560360&ch=viaplaysp1&s=ecd9d55eb5448be8fe25d57caaec008f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=PMjJHlHcwk_730FOpSp-bg&expires=1786560663&ch=viaplaysp1&s=b3eb1e9c94fe036307e410d862def705|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:15 WIB] [FRIENDLY] Newcastle United - Everton [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=-Owo0cr0IWLCn1IH2xyDtA&expires=1786560364&ch=spch40&s=b976ffd9971abb101db55ac85d7d91b2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=y9J25s-wF7P_kivfb8uvAw&expires=1786560667&ch=spch40&s=669c78df891d2ccfb7e2aaf562ff3346|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [FRIENDLY] Manchester United - Leeds United
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Manchester United - Leeds United [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch5.m3u8?md5=NVXST8JgYz6j9Wpt-yREcg&expires=1786560670&ch=spch5&s=ed9b645e17ba81bf272c3c65f3e5f2b9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Manchester United - Leeds United [CH 2]
+https://dz5.bhalocast.pro:7059/hls/itv111.m3u8?md5=dHYceNfs56Qg78pGCYhaLg&expires=1786560674&ch=itv111&s=f0da99832a609a3acc2fc77fbece975c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Manchester United - Leeds United [CH 3]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp2.m3u8?md5=9plLGIT_PcTJGhWODpWcmA&expires=1786560677&ch=viaplaysp2&s=3d0aa7bd764610a5f315ebea5a98ad7d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Manchester United - Leeds United [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=tfP2wQDxex1ibVTTeLpGDw&expires=1786560681&ch=spch40&s=907706182f180d9ee19e1b9d90686159|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [FRIENDLY] Manchester United - Leeds United [CH 5]
+https://dz5.bhalocast.pro:7059/hls/spch41.m3u8?md5=DCajkDhUeo3pggjC0x8eiw&expires=1786560684&ch=spch41&s=c702a071e23bba89c1dd20a0a9092ba8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [FRIENDLY] Arsenal - Como
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
