@@ -1,17 +1,17 @@
 #EXTM3U
-# Last Updated: 14/08/2026 00:41 WIB
+# Last Updated: 14/08/2026 00:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=IggZM2c2PaD7WVuER0013Q&expires=1786647664&ch=bbtsip1&s=63d2eb264f33ad416cd2d7ba4e2e3794|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=1Hk56emVCH6rtc6NCf4wSg&expires=1786647960&ch=bbtsip1&s=eb5df546d2435b2098e32d240b2221d7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=qE88wDZDghGJ0u9SaWqVjQ&expires=1786647667&ch=dadoskygo&s=ed1b678ab70a0462404fa72b3d391ae1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=KMN_AbVca6JNwXr0m6m1pw&expires=1786647965&ch=dadoskygo&s=0ce7baf69c965ef33572e5f07d4d0d12|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=d3XOFmZLIn2icSLP8-OI7A&expires=1786647672&ch=dadoskygo&s=b51e5ed8d155bf9605c650f45659dac2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=CKfqi1D4l7CstzSEmYOLcw&expires=1786647969&ch=dadoskygo&s=b574a7804538863635de913b20e25d76|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ajax/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [CONFERENCE LEAGUE] Ajax - Shelbourne
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ajax/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [CONFERENCE LEAGUE] Ajax - Shelbourne
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=SYvPPWvhMl6nwYO1YfKiTQ&expires=1786647973&ch=viaplaysp1&s=612bc7b99f390a4d66981ee5da03889e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leeds-rhinos/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [SUPER LEAGUE] Leeds Rhinos - Leigh Leopards
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
