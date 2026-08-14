@@ -1,17 +1,23 @@
 #EXTM3U
-# Last Updated: 14/08/2026 21:56 WIB
+# Last Updated: 14/08/2026 22:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=2m48CnUl_hla1Chv3UmSfA&expires=1786724150&ch=bbtsip1&s=482e4ecc9f31814e0cd8fe5e95d8cfff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=Rg6l3pB1NnP7CccKc3_07w&expires=1786724468&ch=bbtsip1&s=a85ac8e74f33feb016a84d11f5f3c2e0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=ahB5BpYlmbXvKb45fi-EFQ&expires=1786724154&ch=dadoskygo&s=9030e8b048347738dc9338e2b18946b0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=d0j1oNKFA1bznaccDr1xhA&expires=1786724471&ch=dadoskygo&s=dc897e28e0f864975dc2e3826c0a805b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=qIUodP-9Lvg_-JuHaivCOQ&expires=1786724157&ch=dadoskygo&s=57afeadd7eba990280b46f6234b302b8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=ijagEnk4xXub_EjriCKIHg&expires=1786724474&ch=dadoskygo&s=24c0f93a6822225ad312b03d712272ad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/parma/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [COPPA ITALIA] Parma - Catania
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/parma/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Parma - Catania [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=IB-UEHKhYyA9ZOp0RPf6kw&expires=1786724478&ch=spch40&s=c150912239dd39970b54edef6e623bb3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/parma/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Parma - Catania [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch42.m3u8?md5=oemBURr5EvekXrZ0esacmg&expires=1786724482&ch=spch42&s=f4040e5ac71e85cf3d1703686cce5e2f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/parma/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Parma - Catania [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt53.m3u8?md5=xbUvJ7ll1-n1sF5BZN8exA&expires=1786724485&ch=yt53&s=63e1a97a83dfbd38c547b4b4f64a88d7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cagliari/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [COPPA ITALIA] Cagliari - Arezzo
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
