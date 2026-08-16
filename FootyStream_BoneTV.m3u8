@@ -1,29 +1,35 @@
 #EXTM3U
-# Last Updated: 16/08/2026 20:02 WIB
+# Last Updated: 16/08/2026 20:06 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [FA CUP] Manchester City - Arsenal [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=u76MtwErJiSG6634gQMmAw&expires=1786890069&ch=bbtsip1&s=43dddb73f575bdd4b60da1588f49c475|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=x5GAdI75up--aL6zUc5lng&expires=1786890349&ch=bbtsip1&s=3c97ab86c241d0abd39950c726c711f7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [FA CUP] Manchester City - Arsenal [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=GC9Rr2ZGZlB_c_TYBYZW2A&expires=1786890351&ch=spch71&s=d95b83c1e41534a185d83598ef46cd37|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [FA CUP] Manchester City - Arsenal [CH 3]
-https://dz5.bhalocast.pro:7059/hls/espn.m3u8?md5=LEL4wNWmhBRPzArX_v7z4A&expires=1786890096&ch=espn&s=3fbcb05d75f9e34d14c0c846918f2925|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/espn.m3u8?md5=LKGiZR3sNgfwE33YOoQoKg&expires=1786890355&ch=espn&s=c8272ebab400ef59f2bb7db3fc8b82b2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [FA CUP] Manchester City - Arsenal [CH 4]
+https://dz5.bhalocast.pro:7059/hls/yt34.m3u8?md5=NcsDqoNday0CMrHShGVajA&expires=1786890358&ch=yt34&s=c31b9202f1d7392812dcabff5d1966f8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=mLu4hEusfs0HXQtGkIMgJg&expires=1786890125&ch=bbtsip1&s=fe47ab8dbb7197c37afc7f6e7dd1b682|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=A1_p9eD3-a7KsqD_6ZYOQg&expires=1786890362&ch=bbtsip1&s=06df7abdedb94a292fb6d9d6b53925ae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=sD_utkYUzeKc5xOBQRp-ew&expires=1786890129&ch=dadoskygo&s=dc142ee629fe35c96c95551b25499aac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=6TgeIWWtOXlnky8w8cxH5w&expires=1786890366&ch=dadoskygo&s=1be70b744f22fdedc541b857344264f6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=uDQnbbDKTAAkVqadUIfPBw&expires=1786890133&ch=dadoskygo&s=750e2d6f6335fb8e2327ef38fca4a7ac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=bvpKGzvBhChzHmRpR6Y6zw&expires=1786890370&ch=dadoskygo&s=579de5e7742a447b6b129282461463ac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [MOTORSPORTS] MotorSports
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=o6B1fKINrCWq3AQCU3FIsQ&expires=1786890137&ch=dadoskyf17&s=5e1e3998cfaa562265a0b8f16b636d6f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=AkCvA0Ts24FeiMIQoMMySg&expires=1786890374&ch=dadoskyf17&s=7221371b88eb7385b955397b3f678550|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:30 WIB] [FIH HOCKEY WORLD CUP] Spain - South Africa [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=-ru8HU6Wh51dKVjj4OLxOg&expires=1786890141&ch=spch8&s=4b2c09392eea25da1506dd0a8877b7d0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=pque6HBcTSCyk3UJZcKkKQ&expires=1786890378&ch=spch8&s=b97e42384083f5826baff6e2d97142da|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:30 WIB] [FIH HOCKEY WORLD CUP] Spain - South Africa [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=lmo4p8dz3Gi4l0x76vo6Nw&expires=1786890145&ch=spch9&s=58b7df48eb599e062d85341100fb7919|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=fBAFqtoY_RBwLZS52FpeOw&expires=1786890382&ch=spch9&s=db637fc0459d8da466c9c5d64d5bfc69|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [FIH HOCKEY WORLD CUP] Netherlands - New Zealand
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
