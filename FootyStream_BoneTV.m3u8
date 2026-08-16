@@ -1,17 +1,14 @@
 #EXTM3U
-# Last Updated: 17/08/2026 02:56 WIB
+# Last Updated: 17/08/2026 03:01 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [TROPHÉE DES CHAMPIONS] PSG - Lens [CH 1]
-https://dz5.bhalocast.pro:7059/hls/itv444.m3u8?md5=5tBRItgZRJQ9PV1tkyiIRQ&expires=1786914949&ch=itv444&s=c65d53fa91c4564a9424e26bd789ae3e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/itv444.m3u8?md5=0Eq2NEaB4t05tAfFlNVT7A&expires=1786915270&ch=itv444&s=5743c2dc61ca87818b1023e447afcb91|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/psg/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [TROPHÉE DES CHAMPIONS] PSG - Lens [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch31.m3u8?md5=ckAgA8hE77yzlRkC_JhL0Q&expires=1786914952&ch=spch31&s=bbac2285305af68ed951d2fce3c7659a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch31.m3u8?md5=Gf-dl78XiSvNu2-CJkxEqw&expires=1786915273&ch=spch31&s=265efdadeb8569a1f7ac2487bd150922|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:45 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=1U1sMthNP541Jc8NvUaQbg&expires=1786914956&ch=dadoskygo&s=e6e30a99aa52ed3ed1d5aa4ac0cf3394|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [MOTORSPORTS] MotorSports
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=bLwl5v1M4T9TRCn-pZHolA&expires=1786914959&ch=dadoskyf17&s=37c679cb300f015bde133cf4880bb8a9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=A8b5XNFq-V9OOL9uYe8nyg&expires=1786915276&ch=dadoskygo&s=6d872a97415d94dc3a649a77e1f2a6e4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celta-de-vigo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:30 WIB] [LALIGA] Celta de Vigo - Osasuna
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
