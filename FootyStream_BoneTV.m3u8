@@ -1,14 +1,11 @@
 #EXTM3U
-# Last Updated: 17/08/2026 21:51 WIB
+# Last Updated: 17/08/2026 22:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:00 WIB] [FIH HOCKEY WORLD CUP] India - England [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=r5YaVhQN-a055qcnw4v9Bg&expires=1786983052&ch=spch8&s=d229c2d97ed625f694f2a58867d395ff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Pisa - Empoli [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=CI8NCVucDC5sQQ-txc_O8Q&expires=1786983670&ch=viaplaysp1&s=dfc32870208d4c0760e981fad8d8ccbc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:00 WIB] [FIH HOCKEY WORLD CUP] India - England [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=9yKFX77T0eq02zWNlQ3pYw&expires=1786983055&ch=spch9&s=4802033dd15164943f87a33bbb06e12f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [COPPA ITALIA] Pisa - Empoli
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Pisa - Empoli [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt53.m3u8?md5=1a9mzI1f-Zx8G60qkCAJ1w&expires=1786983674&ch=yt53&s=f32706bd8030f2cd6d06464384418fb6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sassuolo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [COPPA ITALIA] Sassuolo - Cesena
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
