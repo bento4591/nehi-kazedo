@@ -1,20 +1,32 @@
 #EXTM3U
-# Last Updated: 17/08/2026 19:46 WIB
+# Last Updated: 17/08/2026 19:51 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FIH HOCKEY WORLD CUP] France - Malaysia [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=JX8MO6aC1Uw5XitGt_15kg&expires=1786975554&ch=spch8&s=470a3de107485f95be72fed9a17d9a26|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=OHHMvS8D44f96g46-hCbOw&expires=1786975854&ch=spch8&s=387f8a2f7b0e72192cef592e5c30b39c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [FIH HOCKEY WORLD CUP] France - Malaysia [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=HKkLkk-Vokdw8c166w670w&expires=1786975557&ch=spch9&s=439855f931ac9726def72a672ff6542d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=Jak89J3SmwfXPLRYRV460A&expires=1786975857&ch=spch9&s=99dcd31924f0fce292a99f60b31941f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:00 WIB] [FIH HOCKEY WORLD CUP] India - England [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=HHgvoGWGgsUiMMQ0xYBMQw&expires=1786975561&ch=spch8&s=f368b25533906bf5572a018c8e188161|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=SxUtNeUlpcTYIQpNsd8DkA&expires=1786975860&ch=spch8&s=bc1037295323135b88bbd58d77a0a578|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:00 WIB] [FIH HOCKEY WORLD CUP] India - England [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=GmmNLQO2RAImFKIqXTV57g&expires=1786975564&ch=spch9&s=7e6c6b85c157bb2da6201e8da041383c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=qm0WILla-sVKk6Ll79I9Ug&expires=1786975864&ch=spch9&s=eefce5b1c24535e930ee9924ff89156f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [COPPA ITALIA] Pisa - Empoli
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [COPPA ITALIA] Pisa - Empoli
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:15 WIB] [LIGA PORTUGAL] Benfica - Casa Pia
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sassuolo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [COPPA ITALIA] Sassuolo - Cesena
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cremonese/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [COPPA ITALIA] Cremonese - Sampdoria
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/palermo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:15 WIB] [COPPA ITALIA] Palermo - Lecce
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cardiff-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EFL] Cardiff City - Wrexham
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:15 WIB] [LIGA PORTUGAL] Benfica - Casa Pia
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
