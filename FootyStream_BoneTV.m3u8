@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 17/08/2026 22:26 WIB
+# Last Updated: 17/08/2026 22:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Pisa - Empoli [CH 1]
-https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=EsFOunYw3CxqsXFfmYSZag&expires=1786985152&ch=viaplaysp1&s=f7095a329ed08dfc1e625fa5f0117d0a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=CyOSoRfAUd3jKyFEgXP8DA&expires=1786986350&ch=viaplaysp1&s=615ee41f0b25af61f4a81c8de5c739e8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Pisa - Empoli [CH 2]
-https://dz5.bhalocast.pro:7059/hls/yt53.m3u8?md5=brA0gCMzVMuY4EcyHuvnnA&expires=1786985155&ch=yt53&s=88b2a2c4633325ad89e5dcffdca2e123|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt53.m3u8?md5=-XaApdvmFAI3D1WjLd0UdA&expires=1786986352&ch=yt53&s=e10632e4794fc83d9fa25ac473f56daa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sassuolo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [COPPA ITALIA] Sassuolo - Cesena
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sassuolo/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [COPPA ITALIA] Sassuolo - Cesena [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp2.m3u8?md5=3w3D1XMpSsRl7h5HjtDPrQ&expires=1786986356&ch=viaplaysp2&s=bef39afaacb48d6579a0d731a5eccacf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sassuolo/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [COPPA ITALIA] Sassuolo - Cesena [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt54.m3u8?md5=P0eM75uoBeoPqe6wEjdViw&expires=1786986359&ch=yt54&s=58225fc7105dad98e3c48857518eae5f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cremonese/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [COPPA ITALIA] Cremonese - Sampdoria
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
