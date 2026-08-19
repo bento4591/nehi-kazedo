@@ -1,11 +1,11 @@
 #EXTM3U
-# Last Updated: 20/08/2026 00:56 WIB
+# Last Updated: 20/08/2026 01:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fih-hockey-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIH HOCKEY WORLD CUP] FIH Hockey World Cup [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=m2GBa0DKtXBaGxu9qqTk_g&expires=1787166953&ch=spch8&s=752fa02d80efaa0e7dd0c4afea545747|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=skE0zuS-svK1rGwT19CWlQ&expires=1787167274&ch=spch8&s=6f07d98923d2a8e26b99029ccb443365|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fih-hockey-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIH HOCKEY WORLD CUP] FIH Hockey World Cup [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=IM0Exke58IhC8V2V-GQR3w&expires=1787166956&ch=spch9&s=d9c61249265856dc4d328a4d7122ace4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=q0A7jkj0rOFlSC13qPAOAA&expires=1787167278&ch=spch9&s=8aa32cff2598fc90d1abfdabdf607aad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [FRIENDLY] FC Barcelona - Al Ahly
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -13,17 +13,26 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/slovan-bratislava/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Slovan Bratislava - Celje
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nec/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] NEC - FK Bodo Glimt
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nec/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [CHAMPIONS LEAGUE] NEC - FK Bodo Glimt
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=aXNvyo5E3EiVh0dOdZ2XsA&expires=1787167307&ch=bbtsvp2&s=9955ce4fc72dfcd991fef44fadd586a8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sabah-baku/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Sabah Baku - Hapoel Be'er Sheva
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celtic/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Celtic - LASK
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celtic/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [CHAMPIONS LEAGUE] Celtic - LASK
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=sWWIB7LszbGzZI5jy2mHfA&expires=1787167311&ch=bbtsip1&s=945d8d52ad8595278634d533744cd752|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atletico-madrid/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [LALIGA] Atlético Madrid - Málaga
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atletico-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Atlético Madrid - Málaga [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=GPcBqdieHvhRapV3q90sCw&expires=1787167315&ch=viaplaysp1&s=e01ba979d07805af66ef98185efd9ef5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atletico-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Atlético Madrid - Málaga [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=zS5dSZf_1LNRDHEgA1D26g&expires=1787167319&ch=spch1&s=77f0399d2d1f7699edc55c9dc7026e01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atletico-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Atlético Madrid - Málaga [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt19.m3u8?md5=iBJLewuOHJJl5T-D187aTg&expires=1787167322&ch=yt19&s=3f76847864a0b22769049aacb145cb69|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atletico-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Atlético Madrid - Málaga [CH 4]
+https://dz5.bhalocast.pro:7059/hls/yt34.m3u8?md5=ANNjS9qR7yYSnDeBd0JVKA&expires=1787167326&ch=yt34&s=323c02c9e8b297fbdb69ff2efcfac350|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/deportivo-alaves/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [LALIGA] Deportivo Alavés - Rayo Vallecano
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
