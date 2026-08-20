@@ -1,11 +1,8 @@
 #EXTM3U
-# Last Updated: 20/08/2026 08:36 WIB
+# Last Updated: 20/08/2026 08:41 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fih-hockey-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIH HOCKEY WORLD CUP] FIH Hockey World Cup [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=1_4VfWuu1b9T80y6iIZicA&expires=1787194555&ch=spch8&s=946df12fe83d479b553a42b2245f646b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fih-hockey-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIH HOCKEY WORLD CUP] FIH Hockey World Cup [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=uYilG9aPTkMwkL6zCGQn0Q&expires=1787194558&ch=spch9&s=805ef46d962845c87af7ee682a4ebd03|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=acmIjix7sI9iuS8fQFSaog&expires=1787194856&ch=spch8&s=c4bd302409bc47ea615c24e4e9a3163a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sheffield-wednesday/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EFL] Sheffield Wednesday - Bradford City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
