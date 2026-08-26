@@ -1,29 +1,32 @@
 #EXTM3U
-# Last Updated: 26/08/2026 22:58 WIB
+# Last Updated: 26/08/2026 23:02 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [LALIGA] Real Madrid - Real Sociedad
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fih-hockey-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIH HOCKEY WORLD CUP] FIH Hockey World Cup [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=rgpiMSNN9hTdpU_RwUEcdA&expires=1787764667&ch=spch8&s=4bffb105c2173f7ec414a21d1bc862e8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch8.m3u8?md5=P2P-BiVQTf3D_xt91olUJw&expires=1787764928&ch=spch8&s=5bd4830f4de0b6d3fabf6fb85c7a6563|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/fih-hockey-world-cup/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIH HOCKEY WORLD CUP] FIH Hockey World Cup [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=uZvsQCX8eKWZGURVqsWL4g&expires=1787764670&ch=spch9&s=620c3fa39b589c498ae172278ba91d3f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch9.m3u8?md5=wQ6tm53PONMgsRW1LgpppA&expires=1787764932&ch=spch9&s=4dc72b53b4db1c943fb49e33b0b4fb42|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=2KL_-9dLk5j94_HdGgt2Mg&expires=1787764674&ch=bbtsvp2&s=f07b845debe9a0c5aa9583becd01652a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=_NN0MUFtgp1wridV5Imkuw&expires=1787764936&ch=bbtsvp2&s=988cd93f6c4948d754ae996369b4bdac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=rkJyxxaboXfYasuSBV_p2Q&expires=1787764678&ch=bbtsip1&s=1399464a9d8c77606663e71aa769f9d6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=h-hP8x8V_ktn95_njFctvg&expires=1787764939&ch=bbtsip1&s=279b0b689f6ca61e2fe208e3c741b9b6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=Q3NnzsLwM6HDMYgSx-Hd4A&expires=1787764682&ch=dadoskyten&s=11b41e9029e99ab966d36f655c2113de|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=7nZpETqY3CiocCmE7o-fog&expires=1787764943&ch=dadoskyten&s=d6ae50d3121adcacc3705dcb23117a92|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch11.m3u8?md5=DzVDi0A1Cll7zBxESLBoow&expires=1787764685&ch=spch11&s=2378578952dee1a0779a57270b95abd9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch11.m3u8?md5=CF9ehoN25fJCpVWubLt-fQ&expires=1787764947&ch=spch11&s=993dd4d2aed1916e4ad110c06be2d2f0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=amvBpWC0frUOr-cZJf8AWw&expires=1787764689&ch=dadoskymoxo&s=e9915bc21c1706de6a8856b2991a8f56|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=ZZNPZQlmkIv8MM_bDHL2PA&expires=1787764950&ch=dadoskymoxo&s=60948b9c038c6b519726b8206dd73fd7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 4]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=on3zrFbrW6PcxjmI9EqVkA&expires=1787764692&ch=dadosky1&s=0727e31d8173d6873cfd3b3a50d274e6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=jjUbqQrdjDBxIcAaNg7xww&expires=1787764954&ch=dadosky1&s=a8544b346090acb180d63cbf0cbd99df|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/tottenham-hotspur/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [EFL] Tottenham Hotspur - Charlton Athletic
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -43,7 +46,19 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/birmingham-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EFL] Birmingham City - Wrexham
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [LALIGA] Real Madrid - Real Sociedad
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levski-sofia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Levski Sofia - AEK Athens
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dinamo-zagreb/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Dinamo Zagreb - Viking
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/slovan-bratislava/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Slovan Bratislava - Celje
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fenerbahce/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Fenerbahçe - Olympique Lyonnais
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/ucl-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [CHAMPIONS LEAGUE] Champions League
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celta-de-vigo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [LALIGA] Celta de Vigo - Osasuna
@@ -61,19 +76,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-betis/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:00 WIB] [LALIGA] Real Betis - Levante
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levski-sofia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Levski Sofia - AEK Athens
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dinamo-zagreb/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Dinamo Zagreb - Viking
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/slovan-bratislava/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Slovan Bratislava - Celje
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fenerbahce/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [CHAMPIONS LEAGUE] Fenerbahçe - Olympique Lyonnais
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/ucl-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [CHAMPIONS LEAGUE] Champions League
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [LALIGA] Espanyol - Real Sociedad
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [14:00 WIB] [MOTOGP] MotoGP
@@ -116,9 +119,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sporting-cp/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:15 WIB] [LIGA PORTUGAL] Sporting CP - Rio Ave
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [LALIGA] Espanyol - Real Sociedad
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sevilla/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:30 WIB] [LALIGA] Sevilla - Atlético Madrid
