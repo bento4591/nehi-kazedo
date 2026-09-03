@@ -1,17 +1,32 @@
 #EXTM3U
-# Last Updated: 03/09/2026 15:44 WIB
+# Last Updated: 03/09/2026 15:47 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [ATP TOUR] ATP Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=8FJkcuhxDPpszYzpo5er2g&expires=1788429985&ch=dadoskyten&s=f076d7fc37a8fef5d7f88c1f540e728b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [SNOOKER] Snooker
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch11.m3u8?md5=QUqKoUgfc_ymzn2vWwbOyQ&expires=1788429988&ch=spch11&s=cc3641eb41675e7d71d4344cc803cb54|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dolphins-nrl/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [NRL] Dolphins - Gold Coast Titans
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 3]
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=VsLya2IwyEODptnCUStN0w&expires=1788429991&ch=dadoskymoxo&s=b9ad165687691dfeaa2e466a14862b27|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canterbury-bulldogs/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [NRL] Canterbury Bulldogs - Brisbane Broncos
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [ATP TOUR] ATP Tour [CH 4]
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=e2yY_HKHyaxduRZc3vU8rA&expires=1788429995&ch=dadosky1&s=30554660395e9cf4179f706b21ed4055|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [SNOOKER] Snooker
+https://dz5.bhalocast.pro:7059/hls/spch6.m3u8?md5=opiyKeAu2k-xeHzStdOkAA&expires=1788429998&ch=spch6&s=58d2a95bbc76815000fb899f1178c29c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dolphins-nrl/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [NRL] Dolphins - Gold Coast Titans [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=zl1wK-kvVHwOjiTgVwkh9Q&expires=1788430002&ch=spch62&s=f8a979f1526a3e82e733ed64b260e883|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dolphins-nrl/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [NRL] Dolphins - Gold Coast Titans [CH 2]
+https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=rJdAtIbkVOswl-fzkDFIhw&expires=1788430006&ch=fox502&s=52daeda752cfbf47c136749d35320ba7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canterbury-bulldogs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] Canterbury Bulldogs - Brisbane Broncos [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=ZExAl1pVGZpmEKjxR2347Q&expires=1788430010&ch=spch62&s=974a2beb693605cddd7433b239de2ad0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canterbury-bulldogs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [NRL] Canterbury Bulldogs - Brisbane Broncos [CH 2]
+https://dz5.bhalocast.pro:7059/hls/fox502.m3u8?md5=tZZJ5aH0THna4ErHuQ4WIQ&expires=1788430013&ch=fox502&s=22090aa2862d5e1ae13c275eea1564e2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-sydney-rabbitohs/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [NRL] South Sydney Rabbitohs - Sydney Roosters
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
