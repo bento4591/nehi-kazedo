@@ -1,14 +1,14 @@
 #EXTM3U
-# Last Updated: 14/09/2026 23:41 WIB
+# Last Updated: 14/09/2026 23:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/as-roma/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [SERIE A] AS Roma - Torino
-https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=d0DyAPEdUQci8qyW4Sqthg&expires=1789408871&ch=spch10&s=71317120e232b5deaac2a6f1057ecbda|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=i4ELU-MiKL5BYaw82vq1nA&expires=1789409156&ch=spch10&s=b04def44f19a64ab716456acaa903f40|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/parma/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [SERIE A] Parma - Como
-https://dz5.bhalocast.pro:7059/hls/spch43.m3u8?md5=c47w32LbfknQRa3oX6HEcw&expires=1789408874&ch=spch43&s=ea26799b2225ec1ad113b57749496f90|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch43.m3u8?md5=NDdD56HPeuUXn4hWGQbU7A&expires=1789409159&ch=spch43&s=cfac0e253928c0d4b5af36a326fcf036|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rio-ave/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:45 WIB] [LIGA PORTUGAL] Rio Ave - Estrela
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rio-ave/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:45 WIB] [LIGA PORTUGAL] Rio Ave - Estrela
+https://dz5.bhalocast.pro:7059/hls/spch42.m3u8?md5=3FVAekpLUgkGB3gVK7fPdw&expires=1789409163&ch=spch42&s=2c15d09c8576982606cc77a2698366d1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sporting-braga/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:45 WIB] [LIGA PORTUGAL] Sporting Braga - Estoril
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -94,7 +94,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/juventus/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] Juventus - NEC
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celtic/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] Celtic - Ferencváros
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celtic/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] Celtic - Ferencváros
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/crystal-palace/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] Crystal Palace - Lech Poznan
