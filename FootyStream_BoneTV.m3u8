@@ -1,8 +1,14 @@
 #EXTM3U
-# Last Updated: 15/09/2026 21:56 WIB
+# Last Updated: 15/09/2026 22:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp2.m3u8?md5=edDD1ymIH9h40Q1uX8TfQw&expires=1789489277&ch=viaplaysp2&s=2877cb8a5f68bc833151f2f7cded576d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=YSlXpo3ECo_7mgBi7LxY5A&expires=1789489282&ch=spch10&s=a898cf8f9184d1cf0d4913385093a6c3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt54.m3u8?md5=anZAF-zAW8xgPsgPfM_T3A&expires=1789489285&ch=yt54&s=ee125d3d525ca2d5da53c4864112e542|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [COPPA ITALIA] Pisa - Fiorentina
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
