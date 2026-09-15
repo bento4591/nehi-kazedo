@@ -1,20 +1,23 @@
 #EXTM3U
-# Last Updated: 15/09/2026 22:56 WIB
+# Last Updated: 15/09/2026 23:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol [CH 1]
-https://dz5.bhalocast.pro:7059/hls/viaplaysp2.m3u8?md5=v4F9v6q0fD8LkliPY-R_cg&expires=1789492561&ch=viaplaysp2&s=73159d7804a62f282635dde8d03983ec|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/viaplaysp2.m3u8?md5=JokwQn3zbx-hqjFyGqs82w&expires=1789492901&ch=viaplaysp2&s=ae3c923b82a243c71e250dc93f3f55ff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=T70npL7ZuPIqAQWYNoINvg&expires=1789492564&ch=spch10&s=c4e0a60ec3522e425a52924b24b1df78|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=k5DHHtFk_aRufe9dZFvCxQ&expires=1789492904&ch=spch10&s=4bb684b37aa0819526d30a9ec3cd9b63|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/genoa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [COPPA ITALIA] Genoa - Südtirol [CH 3]
-https://dz5.bhalocast.pro:7059/hls/yt54.m3u8?md5=VgXjVC1ktkxsyW8XZsYzPg&expires=1789492567&ch=yt54&s=d250423783e7065c4dbdb3ae53b37e79|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt54.m3u8?md5=biqyF--hlrFJZaGfvEqJLw&expires=1789492907&ch=yt54&s=268ff35694e2a7d3976228b4e9dc1e49|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [COPPA ITALIA] Pisa - Fiorentina
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rayo-vallecano/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Rayo Vallecano - Espanyol [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=xQzqqL2hZsXrKRD5_WB8Ng&expires=1789492910&ch=viaplaysp1&s=54f8e845d2b5c86332be54ac247e4856|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rayo-vallecano/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [LALIGA] Rayo Vallecano - Espanyol
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rayo-vallecano/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Rayo Vallecano - Espanyol [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=HApIz_A80JqSmD3Xj_6jsw&expires=1789492914&ch=spch1&s=0d66933ceebcf5e47520b905759b2ff7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rayo-vallecano/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Rayo Vallecano - Espanyol [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt19.m3u8?md5=_C8m2im49spZtg81LYMm1A&expires=1789492916&ch=yt19&s=a113891c5ee895714c25d8aa3ab30f7d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/valencia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [LALIGA] Valencia - Deportivo Alavés
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -47,6 +50,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/everton/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [EFL] Everton - Wolverhampton Wanderers
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/pisa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [COPPA ITALIA] Pisa - Fiorentina
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ararat-armenia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:45 WIB] [CHAMPIONS LEAGUE] Ararat-Armenia - Sparta Praha
