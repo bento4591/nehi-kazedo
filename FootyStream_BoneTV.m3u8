@@ -1,11 +1,11 @@
 #EXTM3U
-# Last Updated: 16/09/2026 22:56 WIB
+# Last Updated: 16/09/2026 23:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ararat-armenia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [EUROPA LEAGUE] Ararat-Armenia - Sparta Praha
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=B1-y2HQbXBSaRd8ZNeSygg&expires=1789578974&ch=bbtsip3&s=16be12c8aa2b78af6f04c68fbb220bff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=fRso4lvZ8ihEzGnidXdBAg&expires=1789579302&ch=bbtsip3&s=c7096d0e8e398c1211585eba0b3c8d1c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/celta-de-vigo/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [EUROPA LEAGUE] Celta de Vigo - Omonia Nicosia
-https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=pMuAQ0ltKijmU3uJGWIK0g&expires=1789578977&ch=bbtsip4a&s=e4507b571c48314fe989410c37428707|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip4a.m3u8?md5=4ltjCU3t_hqDM3RBWBsbpg&expires=1789579307&ch=bbtsip4a&s=6822d147a314693705032c51090b21a2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ac-milan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] AC Milan - Benfica
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -19,11 +19,23 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/olympique-lyonnais/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EUROPA LEAGUE] Olympique Lyonnais - Anderlecht
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/osasuna/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [LALIGA] Osasuna - Atlético Madrid
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/osasuna/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Osasuna - Atlético Madrid [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=Bcx_szFecFqOae0QI6VpAA&expires=1789579313&ch=viaplaysp1&s=2802d1c2679b62a860b19171505a659a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sevilla/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [LALIGA] Sevilla - Deportivo La Coruña
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/osasuna/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Osasuna - Atlético Madrid [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=nfhDEjsxsXupTrLmsyHwBw&expires=1789579317&ch=spch1&s=7fd3525b17bcecc9922a34551ecd7943|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/osasuna/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Osasuna - Atlético Madrid [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt19.m3u8?md5=RGCBFdVFIfbE1RBSrDG__A&expires=1789579321&ch=yt19&s=190b7ac3109484be8f7d4034cea4671c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/osasuna/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Osasuna - Atlético Madrid [CH 4]
+https://dz5.bhalocast.pro:7059/hls/yt34.m3u8?md5=WypuJfP2srQbXteeFdAUpA&expires=1789579324&ch=yt34&s=574d83ad8b8d6f93cf11b23d0d3a0eff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sevilla/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Sevilla - Deportivo La Coruña [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=75zFe11Jo9sdFGf4abJaaQ&expires=1789579328&ch=spch2&s=6291b70b2b8dfdc1e3afe6e611f51a51|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sevilla/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [LALIGA] Sevilla - Deportivo La Coruña [CH 2]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=0un-0usay6f9H04gggmW5Q&expires=1789579333&ch=daznlaliga&s=6debcc7197020dfdc6abfee3d0e64c7c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/levante/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:30 WIB] [LALIGA] Levante - Athletic Club
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
