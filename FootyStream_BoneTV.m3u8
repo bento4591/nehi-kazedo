@@ -1,8 +1,8 @@
 #EXTM3U
-# Last Updated: 17/09/2026 19:11 WIB
+# Last Updated: 17/09/2026 19:15 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=KIL0Meu90K6mQSxrTyUh0w&expires=1789651888&ch=dadoskygo&s=7f5f11abaf68e9667ab6d78a3fca1322|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=8STKR62jZCTiZRra7_3FHQ&expires=1789652155&ch=dadoskygo&s=3a615a08fe427f9c8278e878dfb534cc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [PGA TOUR] PGA Tour
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -32,6 +32,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [LALIGA] Espanyol - Elche CF
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:30 WIB] [EFL] Manchester City - Norwich City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/milton-keynes-dons/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EFL] Milton Keynes Dons - AFC Wimbledon
