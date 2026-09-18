@@ -1,32 +1,41 @@
 #EXTM3U
-# Last Updated: 19/09/2026 00:56 WIB
+# Last Updated: 19/09/2026 01:02 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskypormi.m3u8?md5=DhkWqzepGkt5a-flfRq1vQ&expires=1789759280&ch=dadoskypormi&s=c669b5fa3b5627cdd8d671634be0ec9d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch78.m3u8?md5=fmqGRgSjcV7P9BHH8KUNyg&expires=1789759284&ch=spch78&s=24c08408823cf849d5d817bee87dbb04|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford [CH 3]
+https://dz5.bhalocast.pro:7059/hls/epl01.m3u8?md5=v9M8xd1cKkbzMHgaTSSEvA&expires=1789759288&ch=epl01&s=fdc2ae343f4ab45ff6c0fde290f16bf0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford [CH 4]
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=u7SyWWf7Y28xFm7x4pWiNQ&expires=1789759291&ch=dadosky1&s=d77d242d37daebd2d32c570705864849|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford [CH 5]
+https://dz5.bhalocast.pro:7059/hls/dazn1.m3u8?md5=dEuD-_7_jekL-bxhI2P1tg&expires=1789759295&ch=dazn1&s=919ff0e581327692c7b1fb248b64ad0a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [PREMIER LEAGUE] Chelsea - Brentford [CH 6]
+https://dz5.bhalocast.pro:7059/hls/dazn1pt.m3u8?md5=ERiakb5vjQjUrBicnNbEQQ&expires=1789759298&ch=dazn1pt&s=cb48cdfca99d6a3cbfb027b8980404a9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=p8Te-hFgUJcRt9YvQWedbQ&expires=1789758971&ch=dadoskygo&s=36252db25cec6cdd2912b63dc4809d10|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=rGuGv3KSYB5BY5ZoMnuxbg&expires=1789759302&ch=dadoskygo&s=c7fdce22cb4b89cc1af19b6c6bd401b9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=afubXgnzxlp0AdzWF_URNw&expires=1789758975&ch=dadoskygo&s=73a11c8acd2362f0158eae28c05ddc82|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=P4bO3jC4os0TbwP6piSCmw&expires=1789759306&ch=dadoskygo&s=5ddabc2eb9e4db6c54a56cb0aa3bc9bb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:00 WIB] [MOTOGP] MotoGP
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=9FvKoKS2qjLqOzlLO7LQKw&expires=1789758979&ch=bbtsvp2&s=cec66f9c13116e8ad16a2ec0fc72e050|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=CUxXN9d7qqFACIjo7FKC0A&expires=1789759310&ch=bbtsvp2&s=501fa81404000c543fc405e136879794|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:30 WIB] [MOTORSPORTS] MotorSports
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=6JUQzb3Yw4X__FRcXsAAIw&expires=1789758983&ch=dadoskyf17&s=55aaa43257bd90ce59a8666202bdff6e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=diDPgvWJ-b017bvs1SjCbQ&expires=1789759314&ch=dadoskyf17&s=8d2615e6e3c6c4ac294ff6a2496b5d7a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [WSL] Liverpool - Manchester City
-https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=0alH314b7YNIgxsI6LFoFg&expires=1789758987&ch=spch2&s=48c04a6d68f91fd0b404adeaa6605539|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/charlton-athletic/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [WSL] Charlton Athletic - London City Lionesses
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:45 WIB] [WSL] Chelsea - Birmingham City
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=h5vixP1BzPpoeV5di9WCvw&expires=1789759318&ch=spch2&s=4f43ca695a964ad3a2a8ab24361587df|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:30 WIB] [BUNDESLIGA] Bayern München - Union Berlin
-https://dz5.bhalocast.pro:7059/hls/spch11.m3u8?md5=6YD6PJ3ZsnZdPlU7zQ5CVA&expires=1789758992&ch=spch11&s=47a02194d1d1890c0553cfa8ab161a01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch11.m3u8?md5=0921Yw7OBYg5ph1V0okngA&expires=1789759322&ch=spch11&s=860cf515fa726f31971bec4900726733|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/eintracht-frankfurt/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [20:30 WIB] [BUNDESLIGA] Eintracht Frankfurt - Freiburg
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -35,16 +44,16 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/lens/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [FRENCH LIGUE 1] Lens - AS Monaco [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch31.m3u8?md5=gs6QiE4iVkLfBlqdVSGJaQ&expires=1789758997&ch=spch31&s=0d5b23fdc7e9373c8796ee2582d7eceb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch31.m3u8?md5=RQyFlNcrQGX4rBh29mvAAw&expires=1789759326&ch=spch31&s=71bca8fef16d37c307cfec0988bd82ce|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/lens/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [FRENCH LIGUE 1] Lens - AS Monaco [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch32.m3u8?md5=EmBvICUJbtNUBF1nd9lH4w&expires=1789759001&ch=spch32&s=55ad688743423cb357d905679b9ae7b3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch32.m3u8?md5=omij61SvXzFr111WcsOeVw&expires=1789759330&ch=spch32&s=495f538e98add28649145b3ec9d409e0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/paris-fc/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [22:15 WIB] [FRENCH LIGUE 1] Paris FC - Strasbourg
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/monza/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [SERIE A] Monza - Sassuolo
-https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=_3BxN08Suwi-V-WnrTxlFw&expires=1789759005&ch=spch10&s=0a940153c25e28822739e2a96558047f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch10.m3u8?md5=cQq0r3sSFePhjNCl_iwSNQ&expires=1789759334&ch=spch10&s=88350a861c3346c4eb0524cca3ddfa7c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bologna/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [20:00 WIB] [SERIE A] Bologna - Torino
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -58,11 +67,11 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/lazio/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [SERIE A] Lazio - Venezia
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leigh-leopards/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [SUPER LEAGUE] Leigh Leopards - Wakefield Trinity
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leigh-leopards/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [SUPER LEAGUE] Leigh Leopards - Wakefield Trinity
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=rUYa5LFFJDyk851jzIK6OQ&expires=1789759340&ch=dadoskymoxo&s=207dc5b07e830d323a3351a16f124d26|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bristol-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [EFL] Bristol City - Watford
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bristol-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [EFL] Bristol City - Watford
+https://dz5.bhalocast.pro:7059/hls/dadoskyfob.m3u8?md5=sCYf7NoYGprEwlTMXNTgaA&expires=1789759343&ch=dadoskyfob&s=5b241a1971515a4d41387bd365d24fa3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/west-ham-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [EFL] West Ham United - Millwall FC
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -70,8 +79,14 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/barnsley/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [EFL] Barnsley - Leicester City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [LALIGA] Espanyol - Elche CF
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Espanyol - Elche CF [CH 1]
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=a5jqdBYLThYgpdGJg5bpRA&expires=1789759348&ch=viaplaysp1&s=a688ace4842ed09fd9ff0ee96cdfd233|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Espanyol - Elche CF [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=j-WSDQJrNEe4Nz1cdDREjg&expires=1789759352&ch=spch1&s=d0cd766938300dae1bdc5f066942223f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/espanyol/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [LALIGA] Espanyol - Elche CF [CH 3]
+https://dz5.bhalocast.pro:7059/hls/daznlaliga.m3u8?md5=1XQoFNGSVYRcBP3T8NgFyg&expires=1789759355&ch=daznlaliga&s=9f712e3989e7691ebb69ed80403a2632|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/osasuna/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [LALIGA] Osasuna - Rayo Vallecano
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -110,4 +125,10 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/nottingham-forest/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PREMIER LEAGUE] Nottingham Forest - Coventry City
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/charlton-athletic/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [WSL] Charlton Athletic - London City Lionesses
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:45 WIB] [WSL] Chelsea - Birmingham City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
