@@ -1,17 +1,17 @@
 #EXTM3U
-# Last Updated: 18/09/2026 20:26 WIB
+# Last Updated: 18/09/2026 20:32 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=fNszXmWCCiTz1kYsPd6gQg&expires=1789742766&ch=dadoskygo&s=1613adaca132fb6d20c32679d109ed3b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=yXpqtoetHjl65b7VRMw6IQ&expires=1789743074&ch=dadoskygo&s=70ce4b8403d76b9244292083912847fe|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=kf9gr7RWedhAbBq989CHTQ&expires=1789742770&ch=dadoskygo&s=06e202b071299301c13939eada9cb73c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=sokbDv8U0m1yAoFa2mA50A&expires=1789743077&ch=dadoskygo&s=d56aeabc6ba741747c164e8a22db4b5a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motogp-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:00 WIB] [MOTOGP] MotoGP
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=d8yZxAHa2KM6j0b0I3NwGw&expires=1789742774&ch=bbtsvp2&s=e52cfd4532295e2ba00457797272518e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=z7askziqopE7hFgKFB3_ZA&expires=1789743081&ch=bbtsvp2&s=14789b906f8ad23e5eccc6be81160d37|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [14:30 WIB] [MOTORSPORTS] MotorSports
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=R53St9gHgryZogsjjAWclA&expires=1789742778&ch=dadoskyf17&s=7c2de6748d0049237daad30184843df6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/motorsports-streams-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [14:30 WIB] [MOTORSPORTS] MotorSports
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [WSL] Liverpool - Manchester City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
