@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 21/09/2026 06:16 WIB
+# Last Updated: 21/09/2026 06:21 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/miami-dolphins/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Miami Dolphins - San Francisco 49ers
-https://dz5.bhalocast.pro:7059/hls/nfl06.m3u8?md5=nnQkdwPTfSXJyt56GssTYg&expires=1789950969&ch=nfl06&s=eb45eed5d280c587e20001c3485921a4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl06.m3u8?md5=ZkiA3Usw3ZOQmwF6UBrHoA&expires=1789951260&ch=nfl06&s=ce3b8135833905186266abfd57068f8a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/dallas-cowboys/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Dallas Cowboys - Washington Commanders
-https://dz5.bhalocast.pro:7059/hls/dadoskyfob.m3u8?md5=11cyId5AS3ZUp2k9kEe-1A&expires=1789950972&ch=dadoskyfob&s=b093b5c9a294e80eee5e3480a0bd02db|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyfob.m3u8?md5=GkAtvI0pQ-69tV1uD2B_JQ&expires=1789951263&ch=dadoskyfob&s=da8f95658a38e17c06def5f306147586|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/seattle-seahawks/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Seattle Seahawks - Arizona Cardinals
-https://dz5.bhalocast.pro:7059/hls/nfl07.m3u8?md5=Or6agahilKs6R-SgkD7ECA&expires=1789950976&ch=nfl07&s=44c68a2c556bee38d926a6bb03e68f4b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl07.m3u8?md5=aWCm_VBOGzr7CXN5G2CWag&expires=1789951267&ch=nfl07&s=d442b1a2aceaf54459f00c3eaee54cdd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kansas-city-chiefs/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:20 WIB] [NFL] Kansas City Chiefs - Indianapolis Colts
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kansas-city-chiefs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Kansas City Chiefs - Indianapolis Colts [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=WIjpuysn54UeR5Lh0AJp8g&expires=1789951270&ch=dadosky3&s=75fc60f50d2d84d8eebafe55a8c53bf1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kansas-city-chiefs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Kansas City Chiefs - Indianapolis Colts [CH 2]
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=e296zCNdvJmmRG21pAuU7w&expires=1789951274&ch=dadosky1&s=c75c91f5e4308b7e2be2f96c8e9e6c68|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
