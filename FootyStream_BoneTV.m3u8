@@ -1,23 +1,17 @@
 #EXTM3U
-# Last Updated: 23/09/2026 03:06 WIB
+# Last Updated: 23/09/2026 03:12 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/salford-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [EFL] Salford City - Sheffield Wednesday
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=bZurtxeDEc7t2t8uaS_8oA&expires=1790112363&ch=dadoskyare&s=9a62ed4f2b01d7f64558380aac13a1cb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Arsenal - Køge [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=SyY65SzCWt-VJk1xywsAzw&expires=1790112367&ch=spch79&s=5992deb7339c7ae2ce7e44252fcd8f63|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=1CJdofERyvxN7zudvfhYDw&expires=1790112656&ch=dadoskyare&s=a448dcc1874a880895644e3ce6ad8c02|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Arsenal - Køge [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=cVJqpk14355xFhidqs7hcg&expires=1790112370&ch=spch2&s=783e2c7e008cd04e3dcaa646201cdcab|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=bWHRSCX-dtlWQFQiHOBdxg&expires=1790112679&ch=spch2&s=f4849c0f7375a5dae7daa4c1175ebc52|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Real Madrid - PSG [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=uWnC4xhnPd7MG_IDnxo0qA&expires=1790112375&ch=spch40&s=64f3861ca48f7aaa7c830c52090f73cd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Real Madrid - PSG
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Real Madrid - PSG [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=zJQ6NqFcLtvdUNCCvC-44A&expires=1790112379&ch=spch4&s=8881c19a957da390d03fc0b89c65734f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Benfica - Juventus
-https://dz5.bhalocast.pro:7059/hls/spch5.m3u8?md5=hsFn8fPHRTfsagBd2qLSnQ&expires=1790112383&ch=spch5&s=8c65ed4d2d0cb480babc7994a6fc47a8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Benfica - Juventus
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/boston-red-sox/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:45 WIB] [MLB] Boston Red Sox - Cleveland Guardians
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
