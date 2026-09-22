@@ -1,8 +1,11 @@
 #EXTM3U
-# Last Updated: 23/09/2026 04:41 WIB
+# Last Updated: 23/09/2026 04:46 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/boston-red-sox/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:45 WIB] [MLB] Boston Red Sox - Cleveland Guardians
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/boston-red-sox/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:45 WIB] [MLB] Boston Red Sox - Cleveland Guardians [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=cjsr28qtDzTuhRLz12pSbQ&expires=1790118350&ch=bbtsip1&s=1c9c125c1eaa0439ac35e4999db53c7d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/boston-red-sox/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [05:45 WIB] [MLB] Boston Red Sox - Cleveland Guardians [CH 2]
+https://dz5.bhalocast.pro:7059/hls/tsn2ca.m3u8?md5=bXrSnO5O6dJlKNKquowMNw&expires=1790118353&ch=tsn2ca&s=240073b7ede8089459dd68110a805c01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/houston-astros/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [08:40 WIB] [MLB] Houston Astros - Central Coast Mariners
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
