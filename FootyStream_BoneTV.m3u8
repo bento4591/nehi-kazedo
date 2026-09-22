@@ -1,17 +1,20 @@
 #EXTM3U
-# Last Updated: 23/09/2026 03:12 WIB
+# Last Updated: 23/09/2026 03:16 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/salford-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [EFL] Salford City - Sheffield Wednesday
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=1CJdofERyvxN7zudvfhYDw&expires=1790112656&ch=dadoskyare&s=a448dcc1874a880895644e3ce6ad8c02|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Arsenal - Køge [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=ZXXA2ybcEXbi3hGz5nngzg&expires=1790112958&ch=spch79&s=3960e7fc2c791922869fa9ed15066d36|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Arsenal - Køge [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=bWHRSCX-dtlWQFQiHOBdxg&expires=1790112679&ch=spch2&s=f4849c0f7375a5dae7daa4c1175ebc52|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=nk-uYeYUYk-qPr75HXUl-A&expires=1790112961&ch=spch2&s=d1393159ae4c1aaf09be4a1a8229e900|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Real Madrid - PSG
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Real Madrid - PSG [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=35d_10UbXFae6IvkuHG7BA&expires=1790112965&ch=spch40&s=9e32a2f80981b17147c702d24135fac4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Benfica - Juventus
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/real-madrid/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Real Madrid - PSG [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=BsGC3eihqzVjD-qN7pWuVw&expires=1790112970&ch=spch4&s=fbfffdaa8755f88e89ce92f753beb92c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Benfica - Juventus
+https://dz5.bhalocast.pro:7059/hls/spch5.m3u8?md5=Yb_ALg1lbCBgy__9wzxPtA&expires=1790112974&ch=spch5&s=036a0bb4be264a617f617ae3474eea2d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/boston-red-sox/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [05:45 WIB] [MLB] Boston Red Sox - Cleveland Guardians
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
