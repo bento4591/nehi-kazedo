@@ -1,17 +1,20 @@
 #EXTM3U
-# Last Updated: 22/09/2026 23:46 WIB
+# Last Updated: 22/09/2026 23:51 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Manchester City - Bayern München [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=Yyn2PuqW4kI0HGX8XuQZmg&expires=1790100382&ch=spch1&s=426da23fa6f7619c359d0c841378449f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=VARhWCVzvSfh9FM1jyB5Kg&expires=1790100664&ch=spch1&s=f591bda15256fbca93b603acc6704aec|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Manchester City - Bayern München [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=-pLMX1-ODT8UR4KYbw1JsQ&expires=1790100387&ch=spch79&s=ccf3ee1bbe6586dd73389b0cc941bf83|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=ymH_f9AnO0Ie1FgGquHeNA&expires=1790100668&ch=spch79&s=713761b49393601bdf287415e38cab0f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan - Häcken [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=8jhVV3vqqhc_JZQAHl60cQ&expires=1790100390&ch=spch40&s=f1ddedc4ce4c33d4434883c744b8014c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=h1-FO7euySgyayAW5jxYmQ&expires=1790100672&ch=spch40&s=ab5d99b557cd92bfa5db438ffbe3df07|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan - Häcken [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch3.m3u8?md5=2p4oTXOQ75LRru7eti5oeQ&expires=1790100393&ch=spch3&s=510fdf3ac7a2b5a9087e498e0ae7487c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch3.m3u8?md5=JOK_kmd3AnQJSTy6pEVzcg&expires=1790100676&ch=spch3&s=b4af19a9a1ee93db8f025d2da7320280|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/salford-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [EFL] Salford City - Sheffield Wednesday
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Arsenal - Køge
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -25,7 +28,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona - Paris FC
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/salford-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [EFL] Salford City - Sheffield Wednesday
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea - Austria Wien
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FRIENDLY] Azerbaijan - Tajikistan
@@ -35,7 +38,4 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] India - Panama
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea - Austria Wien
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
