@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 22/09/2026 23:02 WIB
+# Last Updated: 22/09/2026 23:06 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Manchester City - Bayern München [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=zlYbYDWsFJEsbkHUuu3r2g&expires=1790097695&ch=spch1&s=6d4a64d028cce8bd95deb395c9df7dbb|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=cL1kkalUO9vR99towgRhEw&expires=1790097948&ch=spch1&s=0812ec30ae28a3102fc8542ccc8971e9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Manchester City - Bayern München [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=Fyd_JST3JZz6O6nW93_glg&expires=1790097701&ch=spch79&s=fc506c02f21118820ab99cf705d7652f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=cvG2bzuoqroae90b_QJD2w&expires=1790097951&ch=spch79&s=73fe812d5062c3f47968b02ef89541d7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan - Häcken [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=TpnZm_anTjc-8itnbKrSOQ&expires=1790097703&ch=spch40&s=2d9d235955214b92e252f7501483c0f9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=u6lyhaEXoxVcb7lO92dJAg&expires=1790097955&ch=spch40&s=4b90d371c983c02c8d7ec9327046b9b2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan - Häcken [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch3.m3u8?md5=vW4UY5Lllb5L99IpfxDSDw&expires=1790097958&ch=spch3&s=202b615150b28793c3b0a4ebaa124f88|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/arsenal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Arsenal - Køge
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
