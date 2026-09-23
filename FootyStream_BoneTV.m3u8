@@ -1,17 +1,5 @@
 #EXTM3U
-# Last Updated: 24/09/2026 04:11 WIB
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona - Paris FC [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=zihie2XvaLx-xD5_7bOiJQ&expires=1790202652&ch=spch40&s=a933503a673fe88c91cdf44720bc1c8e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona - Paris FC [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=HzOoBpO7EfBvf-IzAO77VQ&expires=1790202655&ch=spch1&s=d5f1377e8424f616bd6b1ab1a46d4b56|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea - Austria Wien [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=H2bf0cKT1mqEwafRaickhQ&expires=1790202660&ch=spch79&s=378508f0438e267594ed4771805cf71b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea - Austria Wien [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=V362OaZNzHOKZxPutKaGnA&expires=1790202663&ch=spch2&s=1dc6ee3784d0e9c3a84f179c04215bea|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+# Last Updated: 24/09/2026 04:15 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [FORMULA 1] Formula 1
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
