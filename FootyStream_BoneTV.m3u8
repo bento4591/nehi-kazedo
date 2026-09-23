@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 24/09/2026 02:32 WIB
+# Last Updated: 24/09/2026 02:36 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona - Paris FC [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=utKziWoUtjR2eMGtfRlL7A&expires=1790196947&ch=spch40&s=ae86c5d6315508a29c5f9d544016c688|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona - Paris FC [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=gBhrU3hcyhyq1I9lOxPwHQ&expires=1790196732&ch=spch1&s=74a3d7db607020930be3c4705113f7f0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=yLp8n7i7d-T3-r580A7hyA&expires=1790196952&ch=spch1&s=21b85e5054a873e8d0afc5ae6447b5d6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea - Austria Wien [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=wdeHtlNr61n_FU0w4e31DQ&expires=1790196736&ch=spch79&s=d918b12fced07189d07e512b76e871db|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=-1HPHHkd3M36CaKpB8B2dA&expires=1790196957&ch=spch79&s=da54c4d91475e5258e7682eaac1b0dee|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea - Austria Wien [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=6xmxVlIYpvIRULjRuC8Aqw&expires=1790196741&ch=spch2&s=9fbbceac7265c5ea1ec706b49016a66d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=TRFADK-7p2NFodZGQM8n7A&expires=1790196960&ch=spch2&s=2c2682064a5c36046d27a48388e2bb24|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [FORMULA 1] Formula 1
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
