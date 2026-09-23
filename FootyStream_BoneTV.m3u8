@@ -1,26 +1,11 @@
 #EXTM3U
-# Last Updated: 23/09/2026 22:56 WIB
+# Last Updated: 23/09/2026 23:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FRIENDLY] Azerbaijan - Tajikistan [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=-iq4BKMisugRscChcyFS8w&expires=1790183751&ch=spch89&s=86706fb1e2ce2c0cca53280d382e3405|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=9TZ9bVRmy5GQfxaC3Vjw5w&expires=1790184083&ch=spch89&s=50f3c916ba05a67508c8d0e714b9cca0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FRIENDLY] Azerbaijan - Tajikistan [CH 2]
-https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=HCwonQ28-TULm-1Xid_uMA&expires=1790183755&ch=yt6&s=e3f1f23cced24344311039c923ead086|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] Australia - Brazil
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] India - Panama
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FRIENDLY] Colombia - Mexico
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/usa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:30 WIB] [FRIENDLY] USA - Peru
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [06:00 WIB] [FRIENDLY] Canada - Chile
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=gtMOhhEi_X4N3LtvdouHXw&expires=1790184111&ch=yt6&s=27cf3c8ecd425aa3eb9d3b555d8e9f5d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona - Paris FC
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -37,9 +22,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PGA TOUR] PGA Tour
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/malta/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Malta - Andorra
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Portugal - Wales
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
@@ -53,4 +35,19 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/serbia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Serbia - Greece
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] Australia - Brazil
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] India - Panama
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/colombia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [FRIENDLY] Colombia - Mexico
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/usa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:30 WIB] [FRIENDLY] USA - Peru
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/canada/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [06:00 WIB] [FRIENDLY] Canada - Chile
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
