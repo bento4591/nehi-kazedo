@@ -1,8 +1,11 @@
 #EXTM3U
-# Last Updated: 23/09/2026 21:56 WIB
+# Last Updated: 23/09/2026 22:01 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [FRIENDLY] Azerbaijan - Tajikistan
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FRIENDLY] Azerbaijan - Tajikistan [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=7RvVXfy-ZM6f9mvv7oRadA&expires=1790180482&ch=spch89&s=52fa5d9315f72614f16a2665c50d840e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [FRIENDLY] Azerbaijan - Tajikistan [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=Nop3X0L7n-N7tvwnseVk5g&expires=1790180487&ch=yt6&s=8fb65d893106783d418a5633d793613a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [17:00 WIB] [FRIENDLY] Australia - Brazil
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
