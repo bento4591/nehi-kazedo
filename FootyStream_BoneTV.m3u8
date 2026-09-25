@@ -1,35 +1,38 @@
 #EXTM3U
-# Last Updated: 25/09/2026 23:02 WIB
+# Last Updated: 25/09/2026 23:06 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=mHwosrTEirklS9cpcy8znw&expires=1790356871&ch=dadoskyf17&s=bca1f18307b33653d87b673e66af0268|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=TEOuuAxLKUDdR8wTW-FOgg&expires=1790357149&ch=dadoskyf17&s=6c4dccfde33081e6d1655fcf7c22752f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=0w6ss68qkswqeMaU5CdkqA&expires=1790356877&ch=spch17&s=4c726e5eaebbb1cef93203f520aeef2e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=YmmPyu9UqbqcWPKbKFVsXg&expires=1790357153&ch=spch17&s=9b7a8fe09e6fce67c9f7f616c5e4f12d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 3]
+https://dz5.bhalocast.pro:7059/hls/daznf1.m3u8?md5=gXyjC7I18PsZCqGdsaMcyA&expires=1790357157&ch=daznf1&s=a21c62d580a20c6ce430c5436bb8feae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=bD2PCg7rTy0cG7LW_WV_Fg&expires=1790356901&ch=dadoskygo&s=a54940ce1a07e25642683d14498be64c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=eb6-JwwBSuXEG90aQTYAcg&expires=1790357162&ch=dadoskygo&s=ff5597e1936cd92f71b76c42de0f24b5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PGA TOUR] PGA Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA TOUR] PGA Tour
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=ZkQ5JEuGmW_tdnFRczlpyA&expires=1790357166&ch=dadoskygo&s=f63557a2bcaa0666189aad19fa562e97|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [FRIENDLY] India - Panama [CH 1]
-https://dz5.bhalocast.pro:7059/hls/yt7.m3u8?md5=Z6zQ0mPqGFAjXOKwuyr5Jg&expires=1790356926&ch=yt7&s=affeb89ae8139c381b22dd00029d903d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt7.m3u8?md5=5-W164ca0vzbuPzgHe8S-Q&expires=1790357170&ch=yt7&s=e5269638449ca117970c4d07e7ffcc62|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/india/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [FRIENDLY] India - Panama [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=zkxYYhu-CMsHwnU2aFJ9qA&expires=1790356930&ch=spch73&s=f0dd832e13ec705bbd8f74a944930356|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=fj8Fid2SWPrydMAkJUQrHQ&expires=1790357174&ch=spch73&s=8fc95257c05e9b38db573ae2213fc2d4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Georgia - Northern Ireland [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=9byIt34FcZL84EEgTsBOTQ&expires=1790356935&ch=spch89&s=9e28fdd2178c71e53f05d8a404430465|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=qn33qGmWz2boaIasmemAlA&expires=1790357178&ch=spch89&s=ba2663230e628c524573d10afdfdd77d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Georgia - Northern Ireland [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=ZXh6625fAySicKh10WuCDg&expires=1790356939&ch=spch72&s=7b007b896d32de3ed2a14f9648483c46|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=PHqsQXFsymqJtVMz8f8Elw&expires=1790357182&ch=spch72&s=babb31315ae202291e24dd8cb8679ffc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Armenia - Latvia [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=etsEqvCQN6toN57iTgsBEA&expires=1790356943&ch=spch82&s=5acedf5b735ba31205d9153b607d6d0e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=lDCkCuicv1ySN2mDpXprmA&expires=1790357186&ch=spch82&s=bc803ae7fc930b8ee4955dbed5dd27f0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Armenia - Latvia [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=VNVDcHHHDLJjFlHMIePWFg&expires=1790356949&ch=spch71&s=b2e7aa2ec99a915797b21ac9ce2e6454|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=QvA0MHHVYY3d11xs5izLAw&expires=1790357190&ch=spch71&s=8b1bf67aa63c4bd3070de134c1b1b0aa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/turkiye/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Turkiye - France
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
