@@ -1,47 +1,38 @@
 #EXTM3U
-# Last Updated: 26/09/2026 20:11 WIB
+# Last Updated: 26/09/2026 20:18 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyf17.m3u8?md5=dpyvAMKTGLsH9hylLu83_w&expires=1790433051&ch=dadoskyf17&s=ba04388500344ec09bf991ee67b2acbf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [FORMULA 1] Formula 1
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch17.m3u8?md5=aCt3NTqKyHc82F1tgC3Fqg&expires=1790433057&ch=spch17&s=abcc0905260336a207236f9cb3366924|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [PGA TOUR] PGA Tour
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 3]
-https://dz5.bhalocast.pro:7059/hls/daznf1.m3u8?md5=ZBmzLUMUCNjU3W5MY7R8Gw&expires=1790433061&ch=daznf1&s=7f03caf3978263e306fd92c1ca0d2986|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [FORMULA 1] Formula 1 [CH 4]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=9fm09-Y9F5S11u-QPvLOJg&expires=1790433064&ch=spch1&s=f95576c51870eabeb921175934c59a92|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=GEA7JJCkJHNw6a1wSkD9xg&expires=1790433069&ch=dadoskygo&s=9934b75620a7c23f328ea8e07adc276a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=HmYjSVsjGEjLwiadNg_a0g&expires=1790433073&ch=dadoskygo&s=32d68e0161e774d5925a4802d693b606|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PGA TOUR] PGA Tour
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/lions/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [UNITED RUGBY] Lions - Leinster
-https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=kNokhAU6HxR4U-edjavfKQ&expires=1790433077&ch=viaplaysp1&s=3710eda9fd7812a610972e64a36092fc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=bto5chY-s0oKr04Ck5Hgcg&expires=1790433476&ch=viaplaysp1&s=725bd1749ef622e37f2e1a1afb205397|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/scotland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:00 WIB] [NATIONS LEAGUE] Scotland - Slovenia [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=YESxfjM2v7LbCM6QcC1aJA&expires=1790433082&ch=bbc1ld&s=516606231987351825d547ac06173d51|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=bPTw1RZ6HnVdJHL8RBuIHw&expires=1790433481&ch=bbc1ld&s=c1c4ae48fd6b9d7c7b6df8df31ed98e9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/scotland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [20:00 WIB] [NATIONS LEAGUE] Scotland - Slovenia [CH 2]
-https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=x6YqlBJKsNe0q3Srzhb7jw&expires=1790433085&ch=yt6&s=d575f2e1a032f0ae01802374f277c7f6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=SQ6977K1nFm2yONdl8UaJQ&expires=1790433485&ch=yt6&s=54fc6f939ae8b080180f3a180519f06b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/gloucester-rugby/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [PREMIERSHIP RUGBY] Gloucester Rugby - Exeter Chiefs
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=DflCx-wPuCrpcJdum5wMrw&expires=1790433090&ch=bbtsip1&s=b05881d79210fbca986e34aaf2fdc62c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=mL9-nByRj0VeX_TnNOPdHA&expires=1790433489&ch=bbtsip1&s=72f63d0124ed1e224f206be453c77e36|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bristol-bears/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PREMIERSHIP RUGBY] Bristol Bears - Sale Sharks
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/cambridge-united/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [EFL] Cambridge United - AFC Wimbledon
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=UD7az-I6MLmCK016Eb_qvg&expires=1790433095&ch=spch40&s=0b5a73b3b570ae4519fba04d0429422b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=SMKdt1nL0fWFjZQTDG_BDA&expires=1790433493&ch=spch40&s=6aef7c4008a0b5380fdaa2ffe23e01c2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/oldham-athletic/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [EFL] Oldham Athletic - Salford City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ospreys/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [UNITED RUGBY] Ospreys - Sale Sharks
-https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=aBIev68gi-GupTeJoKzIlg&expires=1790433099&ch=viaplaysp1&s=9fca3c8a1ea979db2aed39a43d17d7b4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/viaplaysp1.m3u8?md5=gGU0Gdz-JWIhu6UmfxEuGQ&expires=1790433498&ch=viaplaysp1&s=a376812a524a93cac3734d61c3f117df|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/glasgow-warriors/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [UNITED RUGBY] Glasgow Warriors - Munster
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
