@@ -26,7 +26,7 @@ def format_title(team1, team2):
     t1_lower, t2_lower = team1.lower(), team2.lower()
     if t1_lower == t2_lower or t1_lower in t2_lower or t2_lower in t1_lower:
         return team1 if len(team1) >= len(team2) else team2
-    return f"{team1} - {team2}"
+    return f"{team1} vs {team2}"
 
 def parse_schedule(html_text):
     """Mengekstrak jadwal dasar dari halaman depan/kategori"""
