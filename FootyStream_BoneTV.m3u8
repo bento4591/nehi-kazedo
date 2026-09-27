@@ -1,23 +1,20 @@
 #EXTM3U
-# Last Updated: 27/09/2026 14:06 WIB
+# Last Updated: 27/09/2026 14:13 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=VlFuibnKhBPF_9AtXrAWhQ&expires=1790497548&ch=dadoskygo&s=c6ad3f1fffe82aac17dcf06dabf32f3a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [18:30 WIB] [PGA TOUR] PGA Tour
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=Foz8ZQZwSR85OIgA5R-lYQ&expires=1790497553&ch=dadoskygo&s=c640831c3a38162771f6399ce113617c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=NH75UOS_54bha-dAPXr5-A&expires=1790497896&ch=dadoskygo&s=1e04fe569501b9fa6dece211b55ebcbe|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=3raAaVfcvlcmP43Slwu3uA&expires=1790497556&ch=dadoskyten&s=9af9c5f6d5042816b76506305df97fe9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=wibBF_ZJ5tBQW_VEChD7tA&expires=1790497923&ch=dadoskyten&s=3977b55799a6af22d6cb43ba9722635a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=f9oCG-TJW6zoKqIj7mLdCQ&expires=1790497559&ch=bbtsvp2&s=ede1840975e2a1495bc888cef287ffac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=POTrgmrJEuUawuzBnZg7Tw&expires=1790497930&ch=bbtsvp2&s=637163cb97d2600fa96ef51759fc4ed4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-knights/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [NRL] Newcastle Knights - Penrith Panthers [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch62.m3u8?md5=uANbO6XmGNcZ-X1rY4pREQ&expires=1790497563&ch=spch62&s=2149005ca02966672ceef436cfa04391|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-knights/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [NRL] Newcastle Knights - Penrith Panthers [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=Y0r4v58n81yD9YjyRwUtQA&expires=1790497566&ch=dadoskyare&s=fd29764dc88df25af2732cd9c78facd1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/newcastle-knights/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [NRL] Newcastle Knights - Penrith Panthers
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-africa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [16:45 WIB] [RUGBY UNION] South Africa - Australia
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
