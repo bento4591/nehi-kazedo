@@ -1,31 +1,19 @@
 #EXTM3U
-# Last Updated: 28/09/2026 04:56 WIB
+# Last Updated: 28/09/2026 05:03 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=bdUfCXrWYsR_p73BecwqtA&expires=1790550950&ch=dadoskygo&s=4e638a2f9be2af65fd9d8a8ed56f1a95|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/nfl-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [NFL] NFL
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=LS1nCCjamKVr1-KuhWYm7Q&expires=1790550954&ch=dadoskymoxo&s=67ee8d5ffe9aee5bfb2e90fc20fc8558|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/tampa-bay-buccaneers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:05 WIB] [NFL] Tampa Bay Buccaneers vs Minnesota Vikings
-https://dz5.bhalocast.pro:7059/hls/nfl08.m3u8?md5=_Ie1X0eJ16eXthLNlKqTmg&expires=1790550958&ch=nfl08&s=54ab665f192ba165202041de1c627616|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/san-francisco-49ers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:05 WIB] [NFL] San Francisco 49ers vs Arizona Cardinals
-https://dz5.bhalocast.pro:7059/hls/dadoskyfob.m3u8?md5=Mq3ytJCpl8VZS4Tmsl0hNQ&expires=1790550962&ch=dadoskyfob&s=9348c6478411f4388460968af880199d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/baltimore-ravens/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Baltimore Ravens vs Dallas Cowboys [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=-JUSnIYZDxZhxI5yPiE3jQ&expires=1790550967&ch=dadosky3&s=15f2e748f178c22dbd06011e56e17ed4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/baltimore-ravens/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Baltimore Ravens vs Dallas Cowboys [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=Rbd2n2kUdOg5ezsTASe0lg&expires=1790550970&ch=dadosky1&s=de5da1a43be215e7e2de2e1a91ef7dd5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-orleans-saints/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] New Orleans Saints vs Las Vegas Raiders
-https://dz5.bhalocast.pro:7059/hls/nfl09.m3u8?md5=kooXqsoTVc6EPS8AKCNdCw&expires=1790550975&ch=nfl09&s=dbfc682237ccfc41dcf015417d7c20d0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/nfl-streams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [NFL] NFL
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/tampa-bay-buccaneers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:05 WIB] [NFL] Tampa Bay Buccaneers vs Minnesota Vikings
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/san-francisco-49ers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:05 WIB] [NFL] San Francisco 49ers vs Arizona Cardinals
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-orleans-saints/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:25 WIB] [NFL] New Orleans Saints vs Las Vegas Raiders
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bangladesh/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [FIFA ASEAN CUP] Bangladesh vs Singapore
