@@ -1,17 +1,20 @@
 #EXTM3U
-# Last Updated: 28/09/2026 06:02 WIB
+# Last Updated: 28/09/2026 06:07 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/nfl-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [NFL] NFL
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=l97ckpZIibGXa-HdzEmZfQ&expires=1790555156&ch=dadoskymoxo&s=57f0eb253f71b55b6884a1b69a89329f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/tampa-bay-buccaneers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:05 WIB] [NFL] Tampa Bay Buccaneers vs Minnesota Vikings
+https://dz5.bhalocast.pro:7059/hls/nfl08.m3u8?md5=_woI4Bxw_UYqGBlYB9M3Pg&expires=1790555169&ch=nfl08&s=ba862e6e7713719186d81d57bcfa6838|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/san-francisco-49ers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:05 WIB] [NFL] San Francisco 49ers vs Arizona Cardinals
-https://dz5.bhalocast.pro:7059/hls/dadoskyfob.m3u8?md5=uLCMuAXC6rmTyJC6q7T2sA&expires=1790554897&ch=dadoskyfob&s=5aac8e2c2f765b964c5cb09e09abdac3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyfob.m3u8?md5=XrQZKO2VVEbrDnNWb5pShA&expires=1790555176&ch=dadoskyfob&s=73d3906aec6e11f9830830639a13361c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/baltimore-ravens/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Baltimore Ravens vs Dallas Cowboys [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=wzkalthKcICSLMpyBDV1vA&expires=1790554905&ch=dadosky3&s=25cac64e35a8a51c93a1abbfc49ca3fa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/baltimore-ravens/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] Baltimore Ravens vs Dallas Cowboys [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=pRKasj4QL7o5PL09SCWCGg&expires=1790554909&ch=dadosky1&s=0ab73c7438f2f05e341d9b890c05dd09|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/baltimore-ravens/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:25 WIB] [NFL] Baltimore Ravens vs Dallas Cowboys
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-orleans-saints/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [03:25 WIB] [NFL] New Orleans Saints vs Las Vegas Raiders
-https://dz5.bhalocast.pro:7059/hls/nfl09.m3u8?md5=DO5Likk-xpBknzLsnhj5Yg&expires=1790554916&ch=nfl09&s=dd0764d87b73c08f4d85a517b018f073|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl09.m3u8?md5=W85vYYfiO7S1MSY8ttgt5w&expires=1790555228&ch=nfl09&s=0bf5a793f70e4750ef25fc52835c400e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
