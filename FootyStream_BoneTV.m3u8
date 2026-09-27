@@ -1,65 +1,68 @@
 #EXTM3U
-# Last Updated: 27/09/2026 23:04 WIB
+# Last Updated: 27/09/2026 23:10 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=aT2NmUGlu0pUSRwkp_26FQ&expires=1790529683&ch=dadoskygo&s=c14f7697fa12f1a72068ed3d4761d78f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=l9_V3HyXQMPjivuv-teN-Q&expires=1790529967&ch=dadoskygo&s=7eddfd0a96527a456edf49aa581296de|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=ADqb6MyzkrocVjgS59Lp-A&expires=1790529689&ch=dadoskygo&s=3371a7cc678c2904bf568747deaf9bd5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=cXmyxoLe9xvM4W7RMjPn7g&expires=1790529975&ch=dadoskygo&s=d4592888435e95d7bcd3f5c4339871c8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [19:00 WIB] [ATP TOUR] ATP Tour
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [ATP TOUR] ATP Tour [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=xjeOCquj5wk-i1do6ikPog&expires=1790529985&ch=dadoskyten&s=e1c86b7d45de1eab9dc20df825e14af4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [ATP TOUR] ATP Tour [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=45bkmaHxS6rDOKPX5ls4jA&expires=1790529988&ch=bbtsvp2&s=931d364cf05fd46557c895561a177e1e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leicester-tigers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [21:00 WIB] [PREMIERSHIP RUGBY] Leicester Tigers vs Saracens
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=nSnBI50L6529SNB-G5Ppcg&expires=1790529754&ch=bbtsip1&s=f558eb0c12f7f2664f547784a69c8d88|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=I8bhuSlWVOf8O5ges6QBBw&expires=1790529998&ch=bbtsip1&s=28cd9bc820bc228a886e99e324e34a13|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:30 WIB] [WSL] Chelsea vs Arsenal [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskypormi.m3u8?md5=RkVQRM3-SJB5JyuQdFwEgQ&expires=1790529767&ch=dadoskypormi&s=52c7990923c591d151ca290f0cc50758|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskypormi.m3u8?md5=v-eUw7B8LY5uG1iRVTZAgQ&expires=1790530003&ch=dadoskypormi&s=08b22869dd4545bebf9958d786f5b126|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [22:30 WIB] [WSL] Chelsea vs Arsenal [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=PvMW8pl9IXUYYeob03LqFQ&expires=1790529771&ch=dadosky1&s=7f4d20cd539e902ee036dff3a5f0519a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=PTMaiICIGSrJO3bRijQsDg&expires=1790530005&ch=dadosky1&s=865bd59b50517afd532ad51ea53fa99b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Wales vs Denmark [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=rGKEdwjM6gPmjwz87K0Ksg&expires=1790529775&ch=bbc1ld&s=b33bd4692b96f59496c65a22a0c4e7d3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbc1ld.m3u8?md5=1zpfXdZ__noYm7ApUeBVnQ&expires=1790530023&ch=bbc1ld&s=d4c7dc4c48bf18414ce4c0abe0f07b25|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Wales vs Denmark [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=0TgnhU528Vq7KpUhyVVvLw&expires=1790529779&ch=spch72&s=0d9e9136845d22735b287afef288cec8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=eYkQZg6ImKzSFtWIK0M3uQ&expires=1790530028&ch=spch72&s=18d6e09e9bf2694f74152e08ec74ee2a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Wales vs Denmark [CH 3]
-https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=Qku-yQd-8cBmiz4dmgQBPA&expires=1790529789&ch=spch82&s=a424cb488fba79302a6ce3f92c6e3110|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=qGnocj0fMou8068ZA_gT4w&expires=1790530037&ch=spch82&s=71a10afa3fc021e19cd567b902282c2b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Netherlands vs Serbia [CH 1]
-https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=G5TvwtnvgovfZLE25tnTKQ&expires=1790529795&ch=foxsp2&s=083921c3dfb63c66cad14fb51978e0a3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=P0GWccgjgzqwbeGMfpLlaQ&expires=1790530043&ch=foxsp2&s=a7526feef9b9aa0aa14ae9da8c518016|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Netherlands vs Serbia [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=CVZWVfkZrVtLz57HLCRy8w&expires=1790529799&ch=spch71&s=1e4239302778d1545e57421bb17f56d6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=nONdxw5DrfWskpePeaMzjQ&expires=1790530051&ch=spch71&s=30eea6352d6ce6216ce565dd88853fc9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Netherlands vs Serbia [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dazn1de.m3u8?md5=SdrsL3968fXgNzkZKhujEg&expires=1790529806&ch=dazn1de&s=a4e0e6404c29a6b33f0fb8f3638ba709|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dazn1de.m3u8?md5=4mt0nIKMCRf9blCNYZtcQg&expires=1790530057&ch=dazn1de&s=2a6fce6d3c54e0ffca7c27d4dda04c4d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kosovo/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Kosovo vs Austria
-https://dz5.bhalocast.pro:7059/hls/yt7.m3u8?md5=r0NehfFopLVH9zWYMIm2ZA&expires=1790529813&ch=yt7&s=55be16bc4caaeafca505db8e6e8a672a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt7.m3u8?md5=Eqarl1fdcKXVV4vHXTI9QQ&expires=1790530069&ch=yt7&s=f72142187671af9d02d3ec64c2577eb3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/gibraltar/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Gibraltar vs Andorra
+https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=YqnzRS7OXwlJZYlE4jwR6w&expires=1790530102&ch=spch73&s=9fbf3c7fdb1eb929042fc88fb23a1754|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/nfl-streams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [NFL] NFL
-https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=CPrmoSjZ1hmyFX-k2CfnKA&expires=1790529826&ch=dadoskymoxo&s=106f86b2c1d1947d3cc710f3f73ccc2e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskymoxo.m3u8?md5=FNrJYVe4oz2bAhx-oY330A&expires=1790530115&ch=dadoskymoxo&s=a48a951513df1af0845de911f7ab3e4e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/indianapolis-colts/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [NFL] Indianapolis Colts vs Houston Texans
-https://dz5.bhalocast.pro:7059/hls/nfl07.m3u8?md5=smtY7H0tjERShKVYv-4okw&expires=1790529832&ch=nfl07&s=6ad3864c5d5bc19482adb06d25f9cc23|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl07.m3u8?md5=UEA50xSDuEBSlICUnumICQ&expires=1790530129&ch=nfl07&s=f98fa9d31467281ed4493dcec3f9a971|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/carolina-panthers/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [NFL] Carolina Panthers vs Cleveland Browns
-https://dz5.bhalocast.pro:7059/hls/nfl02.m3u8?md5=iB9zBIC9Oe7pmwpu-2Ljpw&expires=1790529836&ch=nfl02&s=56f7e91a5bb457968428ddcfc74b5a3c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl02.m3u8?md5=B7HiBKrOuKaP9SGQiRfaxQ&expires=1790530136&ch=nfl02&s=2e85487bddbc4ea69bf44c9b7d2c5ed7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-york-giants/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [NFL] New York Giants vs Tennessee Titans
-https://dz5.bhalocast.pro:7059/hls/nfl03.m3u8?md5=xy8alLjMFXn6pj6X5uYBqQ&expires=1790529842&ch=nfl03&s=32f5c0787fa985eb54379f5207b81041|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-york-giants/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [NFL] New York Giants vs Tennessee Titans
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/buffalo-bills/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [NFL] Buffalo Bills vs Los Angeles Chargers [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=7fBKq_tWgNw_yvMr3Dcgww&expires=1790529850&ch=dadosky3&s=e7afc6d52a0163082391bf3b73d8e757|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/buffalo-bills/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [NFL] Buffalo Bills vs Los Angeles Chargers [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=T502Z7YG-dz2mOG4Bf1W-g&expires=1790529854&ch=dadosky1&s=ac32d40d8143c036f2298a8759cb59ac|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=dhs-lNyDEqq7ndnr1FIw6Q&expires=1790530165&ch=dadosky3&s=3771f9cec70b12441f119785c286c22e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/miami-dolphins/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [00:00 WIB] [NFL] Miami Dolphins vs Kansas City Chiefs
-https://dz5.bhalocast.pro:7059/hls/nfl04.m3u8?md5=8tvGV6Ws0cV0d-skd0SVFg&expires=1790529858&ch=nfl04&s=d8766ea693b643c40aead39b1370e978|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl04.m3u8?md5=nUEvrRnVpdJ9Dwbz_AulYA&expires=1790530196&ch=nfl04&s=684ba0986e8efd70e737e2eaceb2a2c8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Portugal vs Norway
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
