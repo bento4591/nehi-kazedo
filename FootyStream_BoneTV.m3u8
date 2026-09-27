@@ -1,14 +1,20 @@
 #EXTM3U
-# Last Updated: 27/09/2026 17:06 WIB
+# Last Updated: 27/09/2026 17:13 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [18:30 WIB] [PGA TOUR] PGA Tour
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=4ud7IBs9aYSjlCCUOllK8Q&expires=1790508658&ch=dadoskygo&s=0e86df8ac144d2386c6c407c976741e7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:30 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=0br83_ryKnxFYokze39kkQ&expires=1790508357&ch=dadoskygo&s=1c6fec0ede379b23e899b6994e78b487|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=RFDD6JUhnZtZVyptDQJY6A&expires=1790508667&ch=dadoskygo&s=5f6e1422b59f547f8fdfcacd35dabc4d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=PTTA41iOXW1I8mB65cPWNg&expires=1790508379&ch=bbtsvp2&s=10efbe34defc346dcff4f4525ab01eab|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [19:00 WIB] [ATP TOUR] ATP Tour [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=qeGSQFWnwy8-lU5X6BDiLg&expires=1790508683&ch=dadoskyten&s=a0b1225fe93677c08f45a1dda615c7a2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-africa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [RUGBY UNION] South Africa vs Australia [CH 1]
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=7W40q5zkSEpCyes1lCvWJQ&expires=1790508721&ch=dadoskyare&s=3f53bda17e48c83ded0e5dc357b6cca9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/south-africa/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [16:45 WIB] [RUGBY UNION] South Africa vs Australia [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=BtFn4AHgAQRZw2BvjIbhHQ&expires=1790508401&ch=spch61&s=3109a23d13eda9795e2c53ca96bcf7f1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch61.m3u8?md5=JyWPSP0EYdJbbLCrv_Wi2w&expires=1790508727&ch=spch61&s=61f506b329724c6eb12628aa1781e21c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [20:00 WIB] [NATIONS LEAGUE] Azerbaijan vs Lithuania
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -23,9 +29,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/gibraltar/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Gibraltar vs Andorra
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/portugal/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Portugal vs Norway
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/leicester-tigers/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIERSHIP RUGBY] Leicester Tigers vs Saracens
@@ -44,9 +47,6 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/buffalo-bills/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [NFL] Buffalo Bills vs Los Angeles Chargers
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/miami-dolphins/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [NFL] Miami Dolphins vs Kansas City Chiefs
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/jacksonville-jaguars/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [NFL] Jacksonville Jaguars vs New England Patriots
