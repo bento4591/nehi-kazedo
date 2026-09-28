@@ -1,23 +1,44 @@
 #EXTM3U
-# Last Updated: 28/09/2026 21:56 WIB
+# Last Updated: 28/09/2026 22:02 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=qC0codxyYZKC__l0PpY8ew&expires=1790612147&ch=bbtsip1&s=112c1bed3ce4880b05558d047513daae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=nZI3P7PNqbAhOaweTyNmIw&expires=1790612470&ch=bbtsip1&s=d978456bcbbf9fc30a15b1c03ba3daff|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=2z7xyC2JGzL3PtVclR7EDw&expires=1790612150&ch=bbtsvp2&s=d9e50c2e86bffc867a0c70a3eb36b754|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=3dFV0GyKZ9NaRR1x0xaIPw&expires=1790612474&ch=bbtsvp2&s=8f725d4e4ea8871ff8123542adbd6f01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=dGo5k1cK1ZK_UTQBwgD2RQ&expires=1790612154&ch=bbtsip3&s=7b68515c823eece37282c3808c183c17|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=nOBlSqjeonkljsaA6Ohi3Q&expires=1790612478&ch=bbtsip3&s=7236763b992ff3ee19320c989e111337|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro [CH 1]
+https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=whChEF4pEizLITsl7uvzCA&expires=1790612482&ch=foxsp2&s=576a01db7e3a5ff5903875e291051dc6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/latvia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Latvia vs Cyprus
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=W4fzgA9LGPC_qxnWbZfT5w&expires=1790612486&ch=yt6&s=a85a1f4551565e85abf71d8c830c508f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Georgia vs Ukraine
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=SKGG4mIFUvQArkCROPerqA&expires=1790612489&ch=spch72&s=35c3a45a82f4f2000695b8e428023a1c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/latvia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Latvia vs Cyprus [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=KH8CH5rZt0RdQ9KW4zYhsw&expires=1790612494&ch=spch89&s=e72939705847935434cf0ca5a9124f81|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/latvia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Latvia vs Cyprus [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt10.m3u8?md5=xKAsrt3AqmHE7GIlWQVZ8A&expires=1790612498&ch=yt10&s=e95e6bd61a16a86f5837f8183be42043|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/latvia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Latvia vs Cyprus [CH 3]
+https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=kH-WOkVcz6twa9D29bc4CA&expires=1790612501&ch=spch73&s=d7aaa04ca57857b61687d699ecd74417|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Georgia vs Ukraine [CH 1]
+https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=1kAZTBK4BGgAwhSFSGTe7Q&expires=1790612506&ch=spch82&s=e2885d15d827a45ee0bf6ee837c2451a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Georgia vs Ukraine [CH 2]
+https://dz5.bhalocast.pro:7059/hls/yt7.m3u8?md5=qqb6vnDiiyU71HNpGF8ZPA&expires=1790612510&ch=yt7&s=8e7924904d480dcf680ae5a24a069c97|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Georgia vs Ukraine [CH 3]
+https://dz5.bhalocast.pro:7059/hls/dazn1de.m3u8?md5=1o7gEcp8Ri-vbFtUhEfs7A&expires=1790612514&ch=dazn1de&s=46d30206c0e899e2c50d6cb8f11c8caf|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Georgia vs Ukraine [CH 4]
+https://dz5.bhalocast.pro:7059/hls/spch71.m3u8?md5=IRPRB_A182Dc7Rta1R_DEA&expires=1790612517&ch=spch71&s=5721a9659178f8f554c2aabe6406d5f9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/france/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] France vs Belgium
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
