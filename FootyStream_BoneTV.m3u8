@@ -1,14 +1,17 @@
 #EXTM3U
-# Last Updated: 28/09/2026 15:22 WIB
+# Last Updated: 28/09/2026 15:26 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=bq-fHEktEFf0UHeeBw1pWQ&expires=1790588753&ch=bbtsip1&s=db332db8b620d759fcf0762284f0fd49|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=080xj8V3pQwe1xwkiW5yzQ&expires=1790588503&ch=bbtsvp2&s=4dd047f4ecd8384d8ccb7f865fa568ba|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=DQjuxvjTxPxLsvNDVyn4Hw&expires=1790588757&ch=bbtsvp2&s=9525366186d54a61f12d0e78fc177c1e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=8b9eoqqnFX6GB6mXqK_y9A&expires=1790588511&ch=bbtsip3&s=489fd33f971600a2b2326ffb191a8ebd|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=e8MW8t7iC5i9ZllGKSeJSw&expires=1790588761&ch=bbtsip3&s=4259db2955fe2bd418378b514232c013|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bangladesh/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIFA ASEAN CUP] Bangladesh vs Singapore
-https://dz5.bhalocast.pro:7059/hls/spch14.m3u8?md5=e8xyTfSLt28k4_5VZBQFHw&expires=1790588527&ch=spch14&s=55b96e4f6033232917daa336e7f8cd6a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch14.m3u8?md5=2vjjNwmMr4fgom60Lb9smQ&expires=1790588765&ch=spch14&s=5a4cedd07ba49deecde181078d0142f9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
