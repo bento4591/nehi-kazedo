@@ -1,17 +1,17 @@
 #EXTM3U
-# Last Updated: 28/09/2026 16:12 WIB
+# Last Updated: 28/09/2026 16:16 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=AKl_pC76-ig_fwIw1BRurA&expires=1790591475&ch=bbtsip1&s=ac28406ee6fae078cf6c7973a21ad3dc|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=fK1sgbiNDCMsF7KsDjXRow&expires=1790591774&ch=bbtsip1&s=d4109c65b28d848c239cb8d12db12ee2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=59ZTn2l-yLybiYg6ykZSLg&expires=1790591487&ch=bbtsvp2&s=b45dc2f4f18ff221b5ecd591db4fcb83|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=2PogT-YRDQmhMqgH153t_g&expires=1790591782&ch=bbtsvp2&s=184df51010b145a89a08c97b836bf750|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=HSRjbZu0SsCUULQMZfaXBw&expires=1790591490&ch=bbtsip3&s=edc32d6049c250d1c6e193ddec5609a8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=r4O0Ye236D3BjyUg90yBNQ&expires=1790591791&ch=bbtsip3&s=057e464fd16f6fc87db39dcb69fe6283|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bangladesh/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIFA ASEAN CUP] Bangladesh vs Singapore
-https://dz5.bhalocast.pro:7059/hls/spch14.m3u8?md5=e8_cQK59ZUD7_T2q85FVcA&expires=1790591494&ch=spch14&s=817415e1f5d3085a2a78e9fdc083f871|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch14.m3u8?md5=uWGwcrq804blIVHnw7kQeA&expires=1790591794&ch=spch14&s=b034338a649ed4101a72a0e1448728e5|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -20,6 +20,9 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/georgia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Georgia vs Ukraine
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/turkiye/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Turkiye vs Italy
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/northern-ireland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Northern Ireland vs Hungary
