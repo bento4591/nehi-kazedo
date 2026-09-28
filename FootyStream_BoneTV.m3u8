@@ -1,17 +1,11 @@
 #EXTM3U
-# Last Updated: 28/09/2026 16:56 WIB
+# Last Updated: 28/09/2026 17:03 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=W-oR9BTj8BY9apMchfyrlw&expires=1790594146&ch=bbtsip1&s=a409370c4b099d97ce173404019abe01|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=-DorOnMb5MsCw2f7yd7p0w&expires=1790594149&ch=bbtsvp2&s=3a1cea339d5a50329eefc5e00fffc494|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=mqgOs_fBArkNtFEX5Pz99A&expires=1790594153&ch=bbtsip3&s=f2fdd7aa12cb3a9c1898d30b96f4da28|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bangladesh/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [15:00 WIB] [FIFA ASEAN CUP] Bangladesh vs Singapore
-https://dz5.bhalocast.pro:7059/hls/spch14.m3u8?md5=Jr8s55T0xChJ-YHem6WWZg&expires=1790594157&ch=spch14&s=1e5ab361cd62adb954660e67ba72bb06|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bangladesh/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [15:00 WIB] [FIFA ASEAN CUP] Bangladesh vs Singapore
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/armenia/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Armenia vs Montenegro
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
