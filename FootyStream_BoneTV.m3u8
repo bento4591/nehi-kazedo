@@ -1,11 +1,14 @@
 #EXTM3U
-# Last Updated: 28/09/2026 09:31 WIB
+# Last Updated: 28/09/2026 09:36 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=xYp-cIWQqzuc107NizI1jg&expires=1790567477&ch=dadosky3&s=761ebed567540830c8d890a7202a92b1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=7Tp1NxXvHZZuDxuAfpEopA&expires=1790567760&ch=dadosky3&s=48cbd54e9f92eae3444501fc1be65894|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos [CH 2]
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=8kCz5p6pf1ltJLjd_dG_5A&expires=1790567762&ch=dadosky1&s=66520e678ec61d9f8238350ee6da56e3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos [CH 3]
-https://dz5.bhalocast.pro:7059/hls/nfl10.m3u8?md5=tadN-s_X05Ag9h0yGRXJdg&expires=1790567505&ch=nfl10&s=8e675575da4c4cc4bef38b704057671f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/nfl10.m3u8?md5=LUtyvWu63aYvhme9KaMQSw&expires=1790567766&ch=nfl10&s=92daa7a85ca93bea94f38977616a2c03|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
