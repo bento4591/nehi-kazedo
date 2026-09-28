@@ -1,14 +1,8 @@
 #EXTM3U
-# Last Updated: 28/09/2026 07:41 WIB
+# Last Updated: 28/09/2026 07:46 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=lhYhfC2bAoE-XN7ZzQFlTA&expires=1790560867&ch=dadosky3&s=2e61efe22a70578207278d2e51224c03|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=kypmZYGP0kaVoZoDFbjmDA&expires=1790560878&ch=dadosky1&s=04bf01703bf1f3e645b15a79b01d0591|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/los-angeles-rams/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:20 WIB] [NFL] Los Angeles Rams vs Denver Broncos [CH 3]
-https://dz5.bhalocast.pro:7059/hls/nfl10.m3u8?md5=sRlGyD7vaBzdjQG82AQsuA&expires=1790560886&ch=nfl10&s=abaececa24ae35767a28a0039f946d03|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky3.m3u8?md5=mc5CmE5Cf4uNcfPsVLTrVQ&expires=1790561153&ch=dadosky3&s=b7795ac7be27f525f94e7cb8fa6d7eef|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
