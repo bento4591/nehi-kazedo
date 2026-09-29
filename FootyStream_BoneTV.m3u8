@@ -1,17 +1,26 @@
 #EXTM3U
-# Last Updated: 29/09/2026 22:07 WIB
+# Last Updated: 29/09/2026 22:11 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=kUY-T_pXystMI11GvK5rIA&expires=1790699454&ch=bbtsip1&s=0ed826b20a5fa848ffd10399b1812d6e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=MbIlqtpEe2c1ET6ZIs2TcA&expires=1790699459&ch=bbtsvp2&s=12c789218d2ec3b319b905d7771b093f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=kR5sj_g3kf3hDdyixsLLOA&expires=1790699463&ch=bbtsip3&s=91897c27390e78ca0d0e5be2efeae159|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/finland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Finland vs Belarus [CH 1]
+https://dz5.bhalocast.pro:7059/hls/yt7.m3u8?md5=ndEAL49w-ZiN9M2AyrSSJw&expires=1790699467&ch=yt7&s=7c81b268d98fa769d552074e1c5b8da6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/finland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Finland vs Belarus [CH 2]
-https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=OxANPmJa0aegg1pMqt6Mvw&expires=1790699243&ch=foxsp2&s=722ed377a8331c5eb9edc658c2de227f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/foxsp2.m3u8?md5=D7PSOZ8ysrcF8DzSohgLfA&expires=1790699471&ch=foxsp2&s=e3536ada6a9a8e4aa80f856cd925dba2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/moldova/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Moldova vs Faroe Islands [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=Ok_mtCFx1vbviip4O9Av9w&expires=1790699247&ch=spch89&s=9fa42cf08edaae05c352fd9e46b8f17e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=nhrqDPiKR-ovSG4BMB9H3A&expires=1790699475&ch=spch89&s=ca886b715adeb0ff1913b17d66bd0126|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/moldova/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Moldova vs Faroe Islands [CH 2]
-https://dz5.bhalocast.pro:7059/hls/yt10.m3u8?md5=xWLbL-v6NkdCOfYAFg7Y8w&expires=1790699251&ch=yt10&s=98aae10778fb61a35e4a814e6f2e3a7d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt10.m3u8?md5=v-6oVoOxl_6iwsU27d3IWw&expires=1790699478&ch=yt10&s=1cdc2fac54bfdfcfc252aee994a40e3f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/spain/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Spain vs Croatia
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
