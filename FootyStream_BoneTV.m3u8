@@ -1,11 +1,20 @@
 #EXTM3U
-# Last Updated: 30/09/2026 04:17 WIB
+# Last Updated: 30/09/2026 04:21 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=8m50B3fk27yw2QKx7jzNzw&expires=1790721654&ch=bbtsip1&s=6a24c473db32eb7cc9e35c42e60391e6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=T9KRJv2A0sjVMAFtgn3iKA&expires=1790721657&ch=bbtsvp2&s=e77d6952e9140af88c3126f104ea14db|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=eXHMxoiSIdoB2AwIxZEoyA&expires=1790721660&ch=bbtsip3&s=c40d1e4bd3fe2b23a164a8ba2dd60bb9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/houston-astros/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [04:00 WIB] [MLB] Houston Astros vs Chicago White Sox [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=tdaRVrfhzEhsG6LqBprVVA&expires=1790721664&ch=bbtsip1&s=2e7d793306ce0a675e4406e6a3ca3128|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/houston-astros/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [04:00 WIB] [MLB] Houston Astros vs Chicago White Sox [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=Q5bL12P5-v1GitqYaVJeWw&expires=1790721441&ch=bbtsvp2&s=0cd0611fe96ca38b2ae21f0e0057849f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=SFDAb1Xlsxx5Vt3WxZb4MQ&expires=1790721668&ch=bbtsvp2&s=a0b3616e0021fe0eb5dfd3e5d43fe5f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/usa/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [FRIENDLY] USA vs Chile
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
