@@ -1,17 +1,14 @@
 #EXTM3U
-# Last Updated: 29/09/2026 19:11 WIB
+# Last Updated: 29/09/2026 19:16 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=mlvr_3DJyhtbGrOL77LgdQ&expires=1790688653&ch=bbtsip1&s=9e10afdc2baaae732798a8f12fbeb578|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=zviMQLe0tpQ4Mhwg6MM9Ag&expires=1790688950&ch=bbtsip1&s=2a855bb9aca7c9f92e508edce42e1f0d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=3VUOKznN_PlLbykJdf1-ZQ&expires=1790688656&ch=bbtsvp2&s=149e1e0f9ffdc54282edb4f486a7be5d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=TrsHjPm6lh4biDnk6v1dHA&expires=1790688953&ch=bbtsvp2&s=927731fd92a7995cb136b29fd1d70f6c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=JgseDnET7XXAkDkn406yFQ&expires=1790688659&ch=bbtsip3&s=6b672fef9b4bebae7828cf2b4b17a38b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/australia/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [17:00 WIB] [FRIENDLY] Australia vs Brazil
-https://dz5.bhalocast.pro:7059/hls/sptv1br.m3u8?md5=DlLfwC9rBOVGFGf5hLCT2Q&expires=1790688664&ch=sptv1br&s=3263a737feebd3d95ad947b1676fdc4e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=AEhDjfIRCnoej2o2kwuwag&expires=1790688957&ch=bbtsip3&s=efee644e4347e8b5245e969802b8b617|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/finland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:00 WIB] [NATIONS LEAGUE] Finland vs Belarus
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
