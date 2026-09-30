@@ -1,29 +1,35 @@
 #EXTM3U
-# Last Updated: 30/09/2026 09:52 WIB
+# Last Updated: 30/09/2026 09:56 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=ZUA71Ip5vuyelhBabwC30w&expires=1790741747&ch=bbtsip1&s=ffda296542fedbcc219b646b0519cc7d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-york-yankees/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [07:00 WIB] [MLB] New York Yankees vs Boston Red Sox
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=dKhNr8lHH06ULbtQBysGQg&expires=1790741750&ch=bbtsvp2&s=7f1c4ee5b80354579322c17fac676927|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
+https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=v6VBhMEQ3-avrMegkpfI5A&expires=1790741754&ch=bbtsip3&s=08e45f46a1cf436a7c74814a5489be60|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/new-york-yankees/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [07:00 WIB] [MLB] New York Yankees vs Boston Red Sox
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=8MV5xp7mjC12jvSy-vr5cg&expires=1790741758&ch=bbtsip1&s=17504011288d4e26982600da5fc31d85|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/mexico/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [08:00 WIB] [FRIENDLY] Mexico vs Peru
-https://dz5.bhalocast.pro:7059/hls/spch20.m3u8?md5=HE7gHDvkmkWnt_AF2lNYMQ&expires=1790741533&ch=spch20&s=99095a224aef46412ce169c301db52ae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch20.m3u8?md5=hlQ8JQ0yFARbL19KbGgOVg&expires=1790741762&ch=spch20&s=0b2eabccf297a052bb28a2c9cea5f9e7|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=f1zesYRhVUDo4pEdzGR9wg&expires=1790741537&ch=dadoskyten&s=ac8f7d451fa40fd5d1d1fc75b340290a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=mQjbgUhVZRzk9yKjjdqOQw&expires=1790741766&ch=dadoskyten&s=ba5e67439e5a38fa7f0ee2b4eaee3759|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=OW42ArvoWHCPCUjPoGBJTA&expires=1790741541&ch=dadoskyare&s=a24840a7d41d9bfec56d38e2a724c078|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=pHVv3uGa3YGZGyNVAtQqhA&expires=1790741770&ch=dadoskyare&s=27f8176411c88c68af19aec8d727919f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=Jvpbauo1aMpTKemT26vHlA&expires=1790741544&ch=dadosky1&s=b246dd3bf8d09c34531280e8acd30461|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=0Lbq0feF0oApKgApQaNj0A&expires=1790741774&ch=dadosky1&s=0a2507175f29844d352b34ab2d8ae0e2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chicago-cubs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [MLB] Chicago Cubs vs San Diego Padres [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=7KlA0HKCoqfAG8v4hQekyA&expires=1790741548&ch=bbtsip1&s=cdeb3741e179a29d8f9270d05e976dc3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=PXVK94HUhYYcz8YysPF_ug&expires=1790741777&ch=bbtsip1&s=fe7459ec246bfbf68850dc13713a1095|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chicago-cubs/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [10:00 WIB] [MLB] Chicago Cubs vs San Diego Padres [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=hl5uviUWPtrG6fRpyaC4Kw&expires=1790741552&ch=bbtsvp2&s=55f62775fc8af7a862fd09dee521c5c8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=1y8VDOwxFaMLy9xKcJcBjw&expires=1790741781&ch=bbtsvp2&s=94fed04eb07105f7c7b2b217094a7a6a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atlanta-braves/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:00 WIB] [MLB] Atlanta Braves vs Philadelphia Phillies
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
