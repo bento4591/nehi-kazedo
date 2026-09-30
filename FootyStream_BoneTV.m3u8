@@ -1,50 +1,41 @@
 #EXTM3U
-# Last Updated: 01/10/2026 01:17 WIB
+# Last Updated: 01/10/2026 01:23 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=gEkDsGVtBOcBBO1-OTVdtw&expires=1790796958&ch=bbtsip1&s=e34181d898316a9cda141008575a9c5f|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsvp2.m3u8?md5=_OcbhLcmzCx4WL-uvZr4Lw&expires=1790796962&ch=bbtsvp2&s=c5977b26142fc81b02a8eeee3f9fc735|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 3]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=ExV_B4s_K7fj41IGl8_amg&expires=1790796966&ch=bbtsip3&s=c958b20c589b53cbc61e8e047e4c87b3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=JpcLquJjPQuK0ulu-2UlAw&expires=1790796972&ch=dadoskyten&s=ffc4f96435418c4d90317dad458961c4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=EyKj-KDnDpuktJ0mH6fDBg&expires=1790796976&ch=dadoskyare&s=f8e12429129ea0a140835a4612c5bd95|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=MxP_4OxMqplmpvYdWVzyLQ&expires=1790797344&ch=dadoskyare&s=02c173e2a2ff2eb87a28932268863855|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=fA2ndG8avGIvLmVjB6_OdQ&expires=1790796981&ch=dadosky1&s=137110785eaa54bd46973845c6269a86|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=O8RCyYpRwaMUEaNZy3bmMA&expires=1790797348&ch=dadosky1&s=443d51284d753748c4260bb557d04896|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona vs AS Roma [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=zBbhRAOz1ntdjzV2ZRY6hw&expires=1790796986&ch=spch79&s=d606b3bee98d95ddc46163828c308c9c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=Dvxii0L4g3DoX2e7-lq3Kw&expires=1790797352&ch=spch79&s=db745777f2e34730442e9bc5fee2eed0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/fc-barcelona/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] FC Barcelona vs AS Roma [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=qBZI9UkmrhLgMsqUr-Z60w&expires=1790796990&ch=spch1&s=435e4c77bccb50f919775d157477b92e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=3rvA3VNl1p5kN6JUCjVZJg&expires=1790797356&ch=spch1&s=e7133ee5ab9ac16259c98e73810109e8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/paris-fc/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Paris FC vs Arsenal
-https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=yL3trvfwPlEWSL7HZyo6iQ&expires=1790796995&ch=spch2&s=3d14b6cab197b28cdb000760b1159daa|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch2.m3u8?md5=o-wU29Zvd8nf-Fo1dg4_HA&expires=1790797361&ch=spch2&s=076c2dcf62e04c7aa400395d6716caad|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/hacken/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Häcken vs Juventus
-https://dz5.bhalocast.pro:7059/hls/spch3.m3u8?md5=Fx82Hd4OdBFkpE4fvRcNAw&expires=1790797000&ch=spch3&s=c8c600a1975a5b1a7bbb859d02d58f1e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch3.m3u8?md5=MIXyapslmaMYOW5ERnrdXQ&expires=1790797366&ch=spch3&s=2e544ed18869f3ba6b79708190f5fb56|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atlanta-braves/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [MLB] Atlanta Braves vs Philadelphia Phillies
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=WEfQE2C1bRjqU-iBhA7D5Q&expires=1790797006&ch=bbtsip1&s=92a7146a158b6f76e9d025e19959ede1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=t6_Ep0zp1obvMtIIZmD-UQ&expires=1790797371&ch=bbtsip1&s=b29e939732195abbcc4efa37dd17e947|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Benfica vs Bayern München [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=U6SwMCai0j_UaaM7_IzRdw&expires=1790797011&ch=spch79&s=6df147950c1f520876ee744ff992b0e1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=4BnQha_cUas78zLNnTey2A&expires=1790797375&ch=spch79&s=3b68f244b683bb15bb5a07b6efacaae1|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/benfica/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Benfica vs Bayern München [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=8vaqZ4eycadK-75jOgabyQ&expires=1790797015&ch=spch4&s=28e15fe0b36dbff59416240e1654a59d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch4.m3u8?md5=iiPmEFmCKr_h9U9JoERu0w&expires=1790797379&ch=spch4&s=9e60e9637d4d522ead4827ef6a1f28c9|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea vs Olympique Lyonnais [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=zTXcxl3ZJkkvKySJQxKEBw&expires=1790797020&ch=spch40&s=8f931544ca9e2edf6aa14d3d086e5179|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch40.m3u8?md5=ootzF1l_CfNNP-B6eMscYA&expires=1790797384&ch=spch40&s=b9d0130864e35b03bd8da08b4d8a37f2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chelsea/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [02:00 WIB] [WOMENS CHAMPIONS LEAGUE] Chelsea vs Olympique Lyonnais [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch5.m3u8?md5=TljvnjiI_rWyuLLOx7jpTA&expires=1790797025&ch=spch5&s=03a47804d0cd7b76d482db38027b895b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch5.m3u8?md5=TRQw5yMjqFvhYbf5ZhaZeA&expires=1790797388&ch=spch5&s=47fdfc43d696494c29f1ecb18f8e3cc2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan vs Austria Wien
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
