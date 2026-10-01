@@ -1,38 +1,29 @@
 #EXTM3U
-# Last Updated: 02/10/2026 00:53 WIB
+# Last Updated: 02/10/2026 00:59 WIB
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 1]
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=-1VzI_yeJZfQJv5QrcPmdg&expires=1790881864&ch=bbtsip1&s=483ead9d377de6d7331cc6f152f9eb7a|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [13:00 WIB] [SNOOKER] Snooker [CH 2]
-https://dz5.bhalocast.pro:7059/hls/bbtsip3.m3u8?md5=78Ff6RYSHuPT76a4dahKXg&expires=1790881867&ch=bbtsip3&s=6a5f25313655b35d1be36739c40ca54c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 1]
-https://dz5.bhalocast.pro:7059/hls/dadoskyten.m3u8?md5=SzlE7mrsoffqJXZbXbanLw&expires=1790881871&ch=dadoskyten&s=9eb6f259acabe70b6d476d7b1fd71750|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 2]
-https://dz5.bhalocast.pro:7059/hls/dadoskyare.m3u8?md5=hJ0qoZ7gqikzjPdd7ECy7Q&expires=1790881875&ch=dadoskyare&s=7e38f5db75b80a70f1554b1d695d498b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/snooker/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [13:00 WIB] [SNOOKER] Snooker
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/atp-tour-live-stream-free/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [09:00 WIB] [ATP TOUR] ATP Tour [CH 3]
-https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=KKxhBcixEU3pbnT-LaoViw&expires=1790881878&ch=dadosky1&s=e62ded23f343c0c32f4e84f9c2bb50d4|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadosky1.m3u8?md5=DOMA8uu2rEw9_k5ik_evWQ&expires=1790882285&ch=dadosky1&s=9a5453cafeffea5bbe511e2349191fd3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Azerbaijan vs Liechtenstein [CH 1]
-https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=6Tf7JL0e9sN6_dxXo3ii3w&expires=1790881883&ch=yt6&s=687d3ea0d47093b315041ec14ad9ffc2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt6.m3u8?md5=LvSU4LPxVIpLvGR82-kVhA&expires=1790882290&ch=yt6&s=7af1768795fc230f35bc89fc197e40e8|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/azerbaijan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [NATIONS LEAGUE] Azerbaijan vs Liechtenstein [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=KsdJOG4ad7E4TaZRXh_skw&expires=1790881886&ch=spch89&s=1fc00ccb1af215409e00fc876e0a4a2d|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=RT9PiIUB1KJdLbsf_dRrwA&expires=1790882293&ch=spch89&s=2a778513bc6038eece6f4b60f835f043|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:00 WIB] [PGA TOUR] PGA Tour
-https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=o2ceV7P4Bw8tfJHKm130fA&expires=1790881890&ch=dadoskygo&s=96954736b340e3d8cd18035b550d1d0c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/dadoskygo.m3u8?md5=tKGliOkSR5NzJkWjG-myGA&expires=1790882298&ch=dadoskygo&s=b3d4c933f130870e1f2ebf5ba09f2272|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan vs Austria Wien [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=4kixPLwqWBTdnvaV7ujETQ&expires=1790881895&ch=spch79&s=dd50c94e104580c2f228a5e5d2e80488|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch79.m3u8?md5=67hjTpBDSaxdG5SBnYs_GA&expires=1790882302&ch=spch79&s=26347902f247f95d04eeb1827288f04c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/inter-milan/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [23:45 WIB] [WOMENS CHAMPIONS LEAGUE] Inter Milan vs Austria Wien [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=QlHunlrz41ow9qxv3Gcw4w&expires=1790881898&ch=spch1&s=9ea4257a0ad77ffcb515b4ba6b33c590|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch1.m3u8?md5=_K6m3_Z1CPuY5K5nehjn2A&expires=1790882306&ch=spch1&s=c954a91bd0aa5142dbddf6005a71ad5b|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/atlanta-braves/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:00 WIB] [MLB] Atlanta Braves vs Philadelphia Phillies
-https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=AJHdmXaFVT7pN2QuTGgooQ&expires=1790881902&ch=bbtsip1&s=99860df1a6fedfd9967161222960a38e|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/bbtsip1.m3u8?md5=Z54N6hzMA81VpKz1O8GP-g&expires=1790882310&ch=bbtsip1&s=c6c85bf9111f6ab375b5d6dd83f1ff20|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/chicago-white-sox/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [04:00 WIB] [MLB] Chicago White Sox vs Houston Astros
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -44,28 +35,34 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/germany/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Germany vs Serbia [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=jLJGGelWG7YsBgUDh5Q4Fw&expires=1790881908&ch=spch82&s=57c85a8e16ff4fa6120a659ce00dc8ae|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch82.m3u8?md5=lY7O_LJGoVf5N0aMTzlOqg&expires=1790882316&ch=spch82&s=7843ffdaa7dcfae8cef9dc7e50b51fa0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/germany/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Germany vs Serbia [CH 2]
-https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=59IuxP2ziCA8oBQz1cw26A&expires=1790881912&ch=spch72&s=37a4af1bc8d0ecdc0f04c1956e46dab2|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch72.m3u8?md5=-o6ncTmfCNyCPuy2uPHJOw&expires=1790882320&ch=spch72&s=8c4ad302819c4d00a2d03560f6bc1904|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/germany/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Germany vs Serbia [CH 3]
-https://dz5.bhalocast.pro:7059/hls/zdf.m3u8?md5=4J-zONleVK1-LUTQolg77g&expires=1790881915&ch=zdf&s=a6ae17332c00d3bfb0d0d4bff17b76a0|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/zdf.m3u8?md5=jAg85f9QUfnY3TEFT-w8XQ&expires=1790882324&ch=zdf&s=cad0c3e446606f98b03505cbe2dce951|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Netherlands vs Greece [CH 1]
-https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=m_u7b5aZPKhmfeogDKDH3w&expires=1790881919&ch=spch89&s=2f851ce87e6a8c7a8d1342946d491a09|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch89.m3u8?md5=ckErA3XPlGCoDL78OdBsZQ&expires=1790882328&ch=spch89&s=882d1ddd9bbabed422aa1e5da791d438|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Netherlands vs Greece [CH 2]
-https://dz5.bhalocast.pro:7059/hls/yt10.m3u8?md5=fjKQXzauZCNhX-S-3HV4Uw&expires=1790881922&ch=yt10&s=9c6a2dd218dc096802f1bdc33353fbd6|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/yt10.m3u8?md5=HzJPPPr8iZxtyXeKtwmy8Q&expires=1790882332&ch=yt10&s=5b3c3f734813ff7f9057b1dc81d0b548|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/netherlands/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Netherlands vs Greece [CH 3]
-https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=GxCRj6d_pw1WDkSCQxiPcA&expires=1790881926&ch=spch73&s=465cfa2ad5c9a8c6c42cf94095705435|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch73.m3u8?md5=dScp6pdpwTuhe4LgFQECqQ&expires=1790882335&ch=spch73&s=f63fe95b13be9b0fa11fb031d1e65d53|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Wales vs Norway
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Wales vs Norway [CH 1]
+https://dz5.bhalocast.pro:7059/hls/bbc2.m3u8?md5=TNc_1qTs-97vr55HiPv_ng&expires=1790882340&ch=bbc2&s=c7554f9db8664122a67c24260d3cc5b3|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Wales vs Norway [CH 2]
+https://dz5.bhalocast.pro:7059/hls/spch7.m3u8?md5=e3Ah68Cm7z1Z8iKSQQTeXg&expires=1790882343&ch=spch7&s=1cab4dd9c9e8ab9813bdc5412aca5687|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/wales/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Wales vs Norway [CH 3]
+https://dz5.bhalocast.pro:7059/hls/yt8.m3u8?md5=NqgZVc8XFgY8mNvy8GOwYg&expires=1790882347&ch=yt8&s=5adbad8629a28de40deef199add05a77|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/ireland/logo.webp" group-title="LIVE - FootyStream",[🔴 LIVE] [01:45 WIB] [NATIONS LEAGUE] Ireland vs Austria
-https://dz5.bhalocast.pro:7059/hls/spch74.m3u8?md5=bhHyxy6Qhqc1_NxCZ0v37A&expires=1790882006&ch=spch74&s=d03a297fe994235b6e07f6d0f65c728c|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://dz5.bhalocast.pro:7059/hls/spch74.m3u8?md5=UWmNKbcYqfxEEQOnOXIOew&expires=1790882352&ch=spch74&s=c599fd1053bbec60ce8b1798a5149529|Referer=https://bhalocast.pro/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/kosovo/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [01:45 WIB] [NATIONS LEAGUE] Kosovo vs Israel
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
