@@ -6,8 +6,8 @@ from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
 
 # --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V4.3 ---
-MAIN_URL = "https://footystream.pk"
-SOCCER_URL = "https://footystream.pk/soccer-streams"
+MAIN_URL = "https://pogo.pk"
+SOCCER_URL = "https://pogo.pk/soccer-streams"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
 OUTPUT_FILE = "FootyStream_BoneTV.m3u8"
 DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
@@ -68,7 +68,7 @@ async def extract_m3u8(context, url):
     """Menyusup ke Player Video dan mengambil M3U8 + Referer"""
     page = await context.new_page()
     m3u8_link = None
-    dynamic_referer = "https://footystream.pk/"
+    dynamic_referer = "https://pogo.pk/"
 
     await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
