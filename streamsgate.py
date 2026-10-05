@@ -1,37 +1,53 @@
+"""
+streamsgate.py (V2 - Playwright Edition)
+─────────────────────────────────────────────────────────────────────────────
+MABES ENTERPRISE - StreamsGate Scraper
+
+PERUBAHAN DARI V1:
+- API /data/{sport}.json sudah 404. Data sekarang di-render dinamis via JS.
+- Menggunakan Playwright untuk membuka homepage dan mengambil semua link game.
+- Mengunjungi setiap halaman game dan menangkap URL m3u8 dari network request.
+─────────────────────────────────────────────────────────────────────────────
+"""
+
 import asyncio
 import re
-import httpx
-from urllib.parse import urljoin
+import json
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 from zoneinfo import ZoneInfo
-from bs4 import BeautifulSoup
 from collections import defaultdict
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
-# --- KONFIGURASI DASAR ---
-TAG = "STRMSGATE"
-BASE_URL = "https://streamsgates.io"
+# ─── KONFIGURASI ─────────────────────────────────────────────────────────────
+
+BASE_URL    = "https://streamsgates.io"
 OUTPUT_FILE = Path("streamsgate.m3u8")
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+USER_AGENT  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
-# Kategori Olahraga yang dirampok
-SPORTS_TO_SCRAPE = ["soccer", "nfl", "nba", "mlb", "nhl", "ufc", "box", "f1"]
+# Regex untuk menangkap URL m3u8 yang valid dari network
+M3U8_REGEX  = re.compile(r'https?://[^\s"\']+\.m3u8[^\s"\']*')
 
-# --- KAMUS LOGO BONE TV ---
-# Logo Bawaan Olahraga (Jika tim tidak ada di database)
+# Timeout per halaman game (detik)
+PAGE_TIMEOUT_MS = 20000
+
+# Berapa banyak halaman game dibuka secara paralel
+CONCURRENCY = 3
+
+# ─── KAMUS LOGO ──────────────────────────────────────────────────────────────
+
 SPORT_FALLBACK_LOGOS = {
     "soccer": "https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png",
-    "mlb": "https://images.seeklogo.com/logo-png/28/1/mlb-com-logo-png_seeklogo-288672.png",
-    "nba": "https://images.seeklogo.com/logo-png/24/1/nba-logo-png_seeklogo-247736.png",
-    "nfl": "https://images.seeklogo.com/logo-png/37/1/nfl-logo-png_seeklogo-375127.png",
-    "nhl": "https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png",
-    "ufc": "https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png",
-    "box": "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png",
-    "f1": "https://images.seeklogo.com/logo-png/33/1/formula-1-logo-png_seeklogo-330361.png",
-    "misc": "https://i.postimg.cc/qMm0rc3L/247.png"
+    "mlb":    "https://images.seeklogo.com/logo-png/28/1/mlb-com-logo-png_seeklogo-288672.png",
+    "nba":    "https://images.seeklogo.com/logo-png/24/1/nba-logo-png_seeklogo-247736.png",
+    "nfl":    "https://images.seeklogo.com/logo-png/37/1/nfl-logo-png_seeklogo-375127.png",
+    "nhl":    "https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png",
+    "ufc":    "https://images.seeklogo.com/logo-png/27/1/ufc-logo-png_seeklogo-272931.png",
+    "box":    "https://i.postimg.cc/59Sb7W9D/Combat-Sports2.png",
+    "f1":     "https://images.seeklogo.com/logo-png/33/1/formula-1-logo-png_seeklogo-330361.png",
+    "misc":   "https://i.postimg.cc/qMm0rc3L/247.png",
 }
 
-# Kamus Logo Tim Raksasa (Silakan Kapten tambahkan sendiri ke depannya)
 TEAM_LOGOS = {
     # NBA
     "los angeles lakers": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
@@ -40,21 +56,16 @@ TEAM_LOGOS = {
     "miami heat": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
     "chicago bulls": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
     "atlanta hawks": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-    "boston celtics": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
     "brooklyn nets": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
     "charlotte hornets": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-    "chicago bulls": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
     "cleveland cavaliers": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
     "dallas mavericks": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
     "denver nuggets": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
     "detroit pistons": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-    "golden state warriors": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
     "houston rockets": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
     "indiana pacers": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
     "la clippers": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
-    "los angeles lakers": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
     "memphis grizzlies": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-    "miami heat": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
     "milwaukee bucks": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
     "minnesota timberwolves": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
     "new orleans pelicans": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
@@ -69,104 +80,7 @@ TEAM_LOGOS = {
     "toronto raptors": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
     "utah jazz": "https://a.espncdn.com/i/teamlogos/nba/500/uta.png",
     "washington wizards": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-    # Soccer - EPL
-    "arsenal": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-    "chelsea": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-    "aston villa": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-    "bournemouth": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-    "brentford": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-    "brighton & hove albion": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-    "crystal palace": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-    "everton": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-    "fulham": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-    "ipswich town": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
-    "leicester city": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
-    "liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-    "manchester city": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-    "manchester united": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-    "newcastle united": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-    "nottingham forest": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-    "southampton": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
-    "tottenham hotspur": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-    "west ham united": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
-    "wolverhampton wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
-    
-    # Soccer - La Liga
-    "alaves": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "athletic club": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-    "atletico madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "celta vigo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-    "elche": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-    "espanyol": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-    "getafe": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-    "girona": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-    "levante": "https://a.espncdn.com/i/teamlogos/soccer/500/3142.png",
-    "mallorca": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-    "osasuna": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-    "rayo vallecano": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-    "real betis": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-    "real madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-    "real oviedo": "https://a.espncdn.com/i/teamlogos/soccer/500/3146.png",
-    "real sociedad": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-    "sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-    "valencia": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-    "villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-
-    "ac milan": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-    "atalanta": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-    "bologna": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-    "cagliari": "https://a.espncdn.com/i/teamlogos/soccer/500/106.png",
-    "como": "https://a.espncdn.com/i/teamlogos/soccer/500/3514.png",
-    "cremonese": "https://a.espncdn.com/i/teamlogos/soccer/500/3341.png",
-    "fiorentina": "https://a.espncdn.com/i/teamlogos/soccer/500/108.png",
-    "genoa": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-    "hellas verona": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-    "inter milan": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-    "juventus": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-    "lazio": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-    "lecce": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "napoli": "https://a.espncdn.com/i/teamlogos/soccer/500/116.png",
-    "parma": "https://a.espncdn.com/i/teamlogos/soccer/500/117.png",
-    "pisa": "https://a.espncdn.com/i/teamlogos/soccer/500/3345.png",
-    "roma": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-    "sassuolo": "https://a.espncdn.com/i/teamlogos/soccer/500/2886.png",
-    "torino": "https://a.espncdn.com/i/teamlogos/soccer/500/119.png",
-    "udinese": "https://a.espncdn.com/i/teamlogos/soccer/500/120.png",
-   
-    #MLB
-    "arizona diamondbacks": "https://a.espncdn.com/i/teamlogos/mlb/500/ari.png",
-    "atlanta braves": "https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",
-    "baltimore orioles": "https://a.espncdn.com/i/teamlogos/mlb/500/bal.png",
-    "boston red sox": "https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
-    "chicago cubs": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
-    "chicago white sox": "https://a.espncdn.com/i/teamlogos/mlb/500/chw.png",
-    "cincinnati reds": "https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
-    "cleveland guardians": "https://a.espncdn.com/i/teamlogos/mlb/500/cle.png",
-    "colorado rockies": "https://a.espncdn.com/i/teamlogos/mlb/500/col.png",
-    "detroit tigers": "https://a.espncdn.com/i/teamlogos/mlb/500/det.png",
-    "houston astros": "https://a.espncdn.com/i/teamlogos/mlb/500/hou.png",
-    "kansas city royals": "https://a.espncdn.com/i/teamlogos/mlb/500/kc.png",
-    "los angeles angels": "https://a.espncdn.com/i/teamlogos/mlb/500/laa.png",
-    "los angeles dodgers": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
-    "miami marlins": "https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
-    "milwaukee brewers": "https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",
-    "minnesota twins": "https://a.espncdn.com/i/teamlogos/mlb/500/min.png",
-    "new york mets": "https://a.espncdn.com/i/teamlogos/mlb/500/nym.png",
-    "new york yankees": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",
-    "oakland athletics": "https://a.espncdn.com/i/teamlogos/mlb/500/oak.png",
-    "philadelphia phillies": "https://a.espncdn.com/i/teamlogos/mlb/500/phi.png",
-    "pittsburgh pirates": "https://a.espncdn.com/i/teamlogos/mlb/500/pit.png",
-    "san diego padres": "https://a.espncdn.com/i/teamlogos/mlb/500/sd.png",
-    "san francisco giants": "https://a.espncdn.com/i/teamlogos/mlb/500/sf.png",
-    "seattle mariners": "https://a.espncdn.com/i/teamlogos/mlb/500/sea.png",
-    "st. louis cardinals": "https://a.espncdn.com/i/teamlogos/mlb/500/stl.png",
-    "tampa bay rays": "https://a.espncdn.com/i/teamlogos/mlb/500/tb.png",
-    "texas rangers": "https://a.espncdn.com/i/teamlogos/mlb/500/tex.png",
-    "toronto blue jays": "https://a.espncdn.com/i/teamlogos/mlb/500/tor.png",
-    "washington nationals": "https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png",
-
-    #NHL
+    # NHL
     "anaheim ducks": "https://a.espncdn.com/i/teamlogos/nhl/500/ana.png",
     "boston bruins": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
     "buffalo sabres": "https://a.espncdn.com/i/teamlogos/nhl/500/buf.png",
@@ -199,179 +113,332 @@ TEAM_LOGOS = {
     "vegas golden knights": "https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png",
     "washington capitals": "https://a.espncdn.com/i/teamlogos/nhl/500/wsh.png",
     "winnipeg jets": "https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png",
-
-    # Soccer - Others
+    # MLB
+    "arizona diamondbacks": "https://a.espncdn.com/i/teamlogos/mlb/500/ari.png",
+    "atlanta braves": "https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",
+    "baltimore orioles": "https://a.espncdn.com/i/teamlogos/mlb/500/bal.png",
+    "boston red sox": "https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
+    "chicago cubs": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
+    "chicago white sox": "https://a.espncdn.com/i/teamlogos/mlb/500/chw.png",
+    "cincinnati reds": "https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
+    "cleveland guardians": "https://a.espncdn.com/i/teamlogos/mlb/500/cle.png",
+    "colorado rockies": "https://a.espncdn.com/i/teamlogos/mlb/500/col.png",
+    "detroit tigers": "https://a.espncdn.com/i/teamlogos/mlb/500/det.png",
+    "houston astros": "https://a.espncdn.com/i/teamlogos/mlb/500/hou.png",
+    "kansas city royals": "https://a.espncdn.com/i/teamlogos/mlb/500/kc.png",
+    "los angeles angels": "https://a.espncdn.com/i/teamlogos/mlb/500/laa.png",
+    "los angeles dodgers": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
+    "miami marlins": "https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
+    "milwaukee brewers": "https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",
+    "minnesota twins": "https://a.espncdn.com/i/teamlogos/mlb/500/min.png",
+    "new york mets": "https://a.espncdn.com/i/teamlogos/mlb/500/nym.png",
+    "new york yankees": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",
+    "oakland athletics": "https://a.espncdn.com/i/teamlogos/mlb/500/oak.png",
+    "philadelphia phillies": "https://a.espncdn.com/i/teamlogos/mlb/500/phi.png",
+    "pittsburgh pirates": "https://a.espncdn.com/i/teamlogos/mlb/500/pit.png",
+    "san diego padres": "https://a.espncdn.com/i/teamlogos/mlb/500/sd.png",
+    "san francisco giants": "https://a.espncdn.com/i/teamlogos/mlb/500/sf.png",
+    "seattle mariners": "https://a.espncdn.com/i/teamlogos/mlb/500/sea.png",
+    "st. louis cardinals": "https://a.espncdn.com/i/teamlogos/mlb/500/stl.png",
+    "tampa bay rays": "https://a.espncdn.com/i/teamlogos/mlb/500/tb.png",
+    "texas rangers": "https://a.espncdn.com/i/teamlogos/mlb/500/tex.png",
+    "toronto blue jays": "https://a.espncdn.com/i/teamlogos/mlb/500/tor.png",
+    "washington nationals": "https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png",
+    # Soccer - EPL
+    "arsenal": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "chelsea": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "aston villa": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "bournemouth": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "brentford": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+    "brighton & hove albion": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "crystal palace": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+    "everton": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "fulham": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+    "ipswich town": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
+    "leicester city": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
+    "liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "manchester city": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "manchester united": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "newcastle united": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+    "nottingham forest": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "southampton": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+    "tottenham hotspur": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "west ham united": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+    "wolverhampton wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+    # Soccer - La Liga
+    "atletico madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "real madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "real betis": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "real sociedad": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "valencia": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    # Soccer - Serie A
+    "ac milan": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+    "atalanta": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "fiorentina": "https://a.espncdn.com/i/teamlogos/soccer/500/108.png",
+    "inter milan": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+    "juventus": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+    "lazio": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+    "napoli": "https://a.espncdn.com/i/teamlogos/soccer/500/116.png",
+    "roma": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+    # Others
     "bayern munich": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-    "paris saint-germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
+    "paris saint-germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
 }
 
-def get_logo(team_name, sport):
-    """Pencari Logo Otomatis: Cek kamus tim dulu, jika tidak ada pakai logo default olahraga"""
-    clean_name = str(team_name).lower().strip()
-    return TEAM_LOGOS.get(clean_name, SPORT_FALLBACK_LOGOS.get(sport, SPORT_FALLBACK_LOGOS["misc"]))
+def get_logo(team_name: str, sport: str) -> str:
+    clean = str(team_name).lower().strip()
+    return TEAM_LOGOS.get(clean, SPORT_FALLBACK_LOGOS.get(sport, SPORT_FALLBACK_LOGOS["misc"]))
 
-def format_event_name(t1: str, t2: str) -> str:
-    if t1 == "RED ZONE": return "NFL RedZone"
-    if t1 == "TBD": return "TBD"
-    return f"{t1.strip()} vs {t2.strip()}"
+def detect_sport_from_url(url: str) -> str:
+    """Deteksi jenis olahraga dari slug URL game."""
+    url_lower = url.lower()
+    if any(k in url_lower for k in ["-nhl-", "-hockey-", "kraken", "canucks", "knights", "flames", "rangers-", "bruins", "ducks", "panthers-nhl"]):
+        return "nhl"
+    if any(k in url_lower for k in ["-nba-", "-basketball-", "lakers", "celtics", "warriors-", "nuggets", "clippers", "raptors"]):
+        return "nba"
+    if any(k in url_lower for k in ["-mlb-", "-baseball-", "dodgers", "yankees", "braves", "astros", "padres"]):
+        return "mlb"
+    if any(k in url_lower for k in ["-nfl-", "-football-", "patriots", "cowboys", "chiefs", "eagles-", "lions-", "panthers-nfl"]):
+        return "nfl"
+    if any(k in url_lower for k in ["-ufc-", "-mma-"]):
+        return "ufc"
+    if any(k in url_lower for k in ["-f1-", "-formula"]):
+        return "f1"
+    if any(k in url_lower for k in ["-boxing-", "-box-"]):
+        return "box"
+    return "soccer"
 
-async def process_event(client: httpx.AsyncClient, url: str, url_num: int):
-    """Mengekstrak iframe dan M3U8"""
+# ─── TAHAP 1: Ambil Semua Link Game dari Homepage ─────────────────────────────
+
+async def get_game_links(browser) -> list[dict]:
+    """
+    Membuka homepage streamsgates.io menggunakan Playwright.
+    Menunggu semua kartu game ter-render, lalu mengambil semua link /watch.php?game=
+    beserta judul pertandingan dan status LIVE.
+    """
+    page = await browser.new_page()
+    games = []
     try:
-        resp = await client.get(url, timeout=15)
-        resp.raise_for_status()
-        
-        soup = BeautifulSoup(resp.text, "html.parser")
-        ifr = soup.find("iframe")
-        
-        if not ifr or not ifr.get("src"): return None, None
-            
-        ifr_src = urljoin(url, ifr.get("src"))
-        
-        ifr_resp = await client.get(ifr_src, headers={"Referer": url}, timeout=15)
-        ifr_resp.raise_for_status()
-        
-        valid_m3u8 = re.compile(r"(?:file|source)\s*:\s*['\"]([^'\"]+)['\"]", re.IGNORECASE)
-        match = valid_m3u8.search(ifr_resp.text)
-        
-        if match:
-            return match.group(1), ifr_src
+        await page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
+        # Tunggu kartu game muncul
+        await page.wait_for_selector("a.game-tile", timeout=15000)
+
+        # Ambil semua link kartu game
+        cards = await page.query_selector_all("a.game-tile")
+        for card in cards:
+            href  = await card.get_attribute("href") or ""
+            title = await card.inner_text()
+            # Cek apakah statusnya LIVE
+            is_live = "LIVE" in (title.upper())
+
+            if "/watch.php?game=" in href:
+                full_url  = BASE_URL + href if href.startswith("/") else href
+                game_slug = href.split("game=")[-1]
+                # Ambil nama tim dari judul kartu (biasanya "Tim A vs Tim B")
+                clean_title = re.sub(r'[\n\r]+', ' ', title).strip()
+                games.append({
+                    "url":    full_url,
+                    "slug":   game_slug,
+                    "title":  clean_title,
+                    "is_live": is_live,
+                })
+        print(f"  📋 Ditemukan {len(games)} game di homepage ({sum(1 for g in games if g['is_live'])} LIVE)")
+    except Exception as e:
+        print(f"  ⚠️  Gagal membuka homepage: {e}")
+    finally:
+        await page.close()
+    return games
+
+# ─── TAHAP 2: Buka Tiap Halaman Game & Tangkap M3U8 ─────────────────────────
+
+async def extract_m3u8_from_game(browser, game: dict) -> list[str]:
+    """
+    Membuka halaman watch game menggunakan Playwright.
+    Menangkap semua URL m3u8 dari network request.
+    Mengembalikan list URL m3u8 unik yang berhasil ditangkap.
+    """
+    page = await browser.new_page()
+    captured = []
+    seen     = set()
+
+    async def on_request(request):
+        url = request.url
+        if ".m3u8" in url and url not in seen:
+            seen.add(url)
+            captured.append(url)
+
+    page.on("request", on_request)
+
+    try:
+        # Blokir iklan dan tracker agar loading lebih cepat
+        await page.route(
+            "**/*",
+            lambda route: route.abort()
+            if any(x in route.request.url for x in [
+                "histats.com", "aclib.net", "popunder", "adnxs", "doubleclick",
+                "googlesyndication", "adsystem", ".woff", ".woff2", ".ttf",
+            ])
+            else route.continue_()
+        )
+
+        await page.goto(game["url"], wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
+
+        # Tunggu m3u8 muncul (max 15 detik)
+        for _ in range(15):
+            if captured:
+                break
+            await asyncio.sleep(1)
+
+    except PlaywrightTimeout:
+        print(f"  ⏱️  Timeout: {game['title'][:50]}")
+    except Exception as e:
+        print(f"  ⚠️  Error [{game['title'][:40]}]: {e}")
+    finally:
+        await page.close()
+
+    # Deduplikasi: buang token dari URL untuk perbandingan
+    unique = []
+    seen_base = set()
+    for url in captured:
+        base = url.split("?")[0]
+        if base not in seen_base:
+            seen_base.add(base)
+            unique.append(url)
+
+    return unique
+
+# ─── PEMROSESAN PARALEL ───────────────────────────────────────────────────────
+
+async def process_games_parallel(browser, games: list[dict]) -> list[dict]:
+    """Proses semua game secara paralel dengan batas CONCURRENCY."""
+    semaphore = asyncio.Semaphore(CONCURRENCY)
+    results   = []
+
+    async def process_one(game):
+        async with semaphore:
+            m3u8_list = await extract_m3u8_from_game(browser, game)
+            return game, m3u8_list
+
+    tasks    = [process_one(g) for g in games]
+    settled  = await asyncio.gather(*tasks, return_exceptions=True)
+
+    for result in settled:
+        if isinstance(result, Exception):
+            continue
+        game, m3u8_list = result
+        if m3u8_list:
+            results.append({"game": game, "m3u8_list": m3u8_list})
+            print(f"  ✅ {len(m3u8_list)} URL | {game['title'][:60]}")
         else:
-            return None, None
-            
-    except Exception:
-        return None, None
+            print(f"  ❌ Nihil | {game['title'][:60]}")
 
-async def scrape():
-    print("🚀 Memulai Scraper StreamsGate MABES ENTERPRISE...")
+    return results
+
+# ─── MAIN ─────────────────────────────────────────────────────────────────────
+
+async def main():
+    print("🚀 StreamsGate Scraper V2 (Playwright) starting...")
     now_wib = datetime.now(ZoneInfo("Asia/Jakarta"))
-    
-    # Menentukan Jendela Waktu (-3 Jam sampai +4 Jam)
-    window_start = now_wib - timedelta(hours=3)
-    window_end = now_wib + timedelta(hours=4)
-    print(f"🕒 Acuan Server: {now_wib.strftime('%H:%M WIB')}")
-    print(f"🎯 Filter Jendela Tayang: {window_start.strftime('%H:%M WIB')} s/d {window_end.strftime('%H:%M WIB')}")
+    ts_str  = now_wib.strftime("%Y-%m-%d %H:%M WIB")
 
-    headers = { "User-Agent": USER_AGENT, "Accept": "application/json" }
-    all_streams = []
-    
-    async with httpx.AsyncClient(headers=headers, follow_redirects=True) as client:
-        # TAHAP 1: Bongkar JSON dengan Acuan UNIX Timestamp
-        for sport in SPORTS_TO_SCRAPE:
-            # Gunakan timestamp cache-busting agar tidak mendapat data usang
-            cache_buster = int(datetime.now().timestamp() * 1000)
-            api_url = f"{BASE_URL}/data/{sport}.json?_={cache_buster}"
-            
-            try:
-                resp = await client.get(api_url, timeout=10)
-                if resp.status_code != 200: continue
-                events_data = resp.json()
-            except Exception:
-                continue
-                
-            if not events_data: continue
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-gpu",
+                "--autoplay-policy=no-user-gesture-required",
+                "--mute-audio",
+            ]
+        )
 
-            for item in events_data:
-                ts_unix = item.get("timestamp")
-                t1_home = item.get("home")
-                t2_away = item.get("away")
-                streams = item.get("streams")
-                
-                if not all([ts_unix, t1_home, t2_away, streams]): continue
-                
-                # --- MESIN WAKTU UNIX ---
-                try:
-                    dt_utc = datetime.fromtimestamp(int(ts_unix), tz=ZoneInfo("UTC"))
-                    dt_wib = dt_utc.astimezone(ZoneInfo("Asia/Jakarta"))
-                except Exception:
-                    continue # Lewati jika gagal konversi angka
-                
-                # --- FILTER JENDELA WAKTU KETAT (7 JAM) ---
-                if dt_wib < window_start or dt_wib > window_end:
-                    continue
-                
-                # --- STATUS LIVE ---
-                if dt_wib <= now_wib:
-                    time_tag = f"[🔴 LIVE] [{dt_wib.strftime('%H:%M WIB')}]"
-                else:
-                    time_tag = f"[{dt_wib.strftime('%H:%M WIB')}]"
-                    
-                event_name = format_event_name(t1_home, t2_away)
-                
-                # FORMAT BARU YANG LEBIH RAMPING DAN ELEGAN
-                base_title = f"{time_tag} [{sport.upper()}] {event_name}"
-                
-                # Cari Logo Tuan Rumah
-                team_logo = get_logo(t1_home, sport)
-                
-                # Ambil SEMUA URL dari array "streams"
-                for stream_item in streams:
-                    match_url = stream_item.get("url")
-                    if match_url:
-                        all_streams.append({
-                            "sport": sport,
-                            "base_title": base_title,
-                            "url": match_url,
-                            "logo": team_logo,
-                            "tvg_id": f"{sport.upper()}.Dummy.us"
-                        })
+        # ── TAHAP 1: Ambil daftar game dari homepage ──────────────────────────
+        print("\n📡 TAHAP 1: Membaca daftar game dari homepage...")
+        games = await get_game_links(browser)
 
-        if not all_streams:
-            print("\n💀 Tidak ada pertandingan di dalam Jendela Waktu 7 Jam saat ini.")
+        if not games:
+            print("💀 Tidak ada game yang ditemukan di homepage.")
+            await browser.close()
             return
 
-        print(f"\n🎯 Terkumpul {len(all_streams)} link potensial. Memulai ekstraksi M3U8...")
-        
-        # TAHAP 2: Ekstrak M3U8 & Gerbang Anti-Duplikat
-        playlist_entries = []
-        seen_m3u8 = set()
-        server_counts = defaultdict(int)
-        
-        for i, ev in enumerate(all_streams, start=1):
-            m3u8_link, iframe_src = await process_event(client, ev["url"], i)
-            
-            if m3u8_link and iframe_src:
-                clean_m3u8 = m3u8_link.split("?st")[0].strip()
-                
-                # BUANG LINK SPAM (SAMA PERSIS)
-                if clean_m3u8 in seen_m3u8:
-                    continue
-                
-                seen_m3u8.add(clean_m3u8)
-                
-                # LOGIKA PENAMAAN SERVER CADANGAN [S2], [S3]
-                base_title = ev["base_title"]
-                server_counts[base_title] += 1
-                count = server_counts[base_title]
-                
-                final_title = f"{base_title} (Gate)"
-                if count > 1:
-                    final_title += f" [S{count}]"
-                    
-                print(f"✅ Harta diamankan: {final_title}")
-                
-                origin_match = re.search(r'(https?://[^/]+)', iframe_src)
-                origin = origin_match.group(1) if origin_match else BASE_URL
-                
-                # FORMAT OUTPUT BARU (TANPA EMBEL-EMBEL BERLEBIHAN)
-                entry = [
-                    f'#EXTINF:-1 tvg-logo="{ev["logo"]}" tvg-id="{ev["tvg_id"]}" group-title="BONE TV",{final_title}',
-                    f'#EXTVLCOPT:http-referrer={iframe_src}',
-                    f'#EXTVLCOPT:http-origin={origin}',
-                    f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
-                    clean_m3u8,
-                    ''
-                ]
-                playlist_entries.extend(entry)
-                
-        # TAHAP 3: Tulis File
-        if playlist_entries:
-            ts = now_wib.strftime("%Y-%m-%d %H:%M WIB")
-            header = ['#EXTM3U', f'# Last Updated: {ts}', '']
-            OUTPUT_FILE.write_text("\n".join(header + playlist_entries), encoding="utf-8")
-            print(f"\n🏁 SELESAI! {len(seen_m3u8)} tayangan unik berhasil disimpan ke {OUTPUT_FILE}.")
-        else:
-            print("\n❌ Ekstraksi selesai, tapi nihil. M3U8 mungkin diblokir oleh server web.")
+        # Prioritaskan game yang LIVE
+        live_games     = [g for g in games if g["is_live"]]
+        upcoming_games = [g for g in games if not g["is_live"]]
+        ordered_games  = live_games + upcoming_games
+
+        print(f"\n🎯 TAHAP 2: Mengekstrak M3U8 dari {len(ordered_games)} game...")
+
+        # ── TAHAP 2: Buka tiap halaman & tangkap M3U8 ─────────────────────────
+        results = await process_games_parallel(browser, ordered_games)
+        await browser.close()
+
+    # ── TAHAP 3: Tulis M3U8 ───────────────────────────────────────────────────
+    if not results:
+        print("\n❌ Tidak ada M3U8 yang berhasil ditangkap.")
+        return
+
+    playlist_lines = [
+        "#EXTM3U",
+        f"# StreamsGate - MABES ENTERPRISE V2",
+        f"# Last Updated: {ts_str}",
+        "",
+    ]
+
+    seen_m3u8      = set()
+    server_counts  = defaultdict(int)
+    total_channels = 0
+
+    for item in results:
+        game       = item["game"]
+        m3u8_list  = item["m3u8_list"]
+        title      = game["title"]
+        sport      = detect_sport_from_url(game["url"])
+
+        # Cari nama tim dari judul (format: "Tim A VS Tim B [LIVE]")
+        team_match = re.search(r'^(.+?)\s+(?:vs|VS|v)\s+(.+?)(?:\s+\[|\s*$)', title, re.IGNORECASE)
+        home_team  = team_match.group(1).strip() if team_match else title
+        logo       = get_logo(home_team, sport)
+        status_tag = "[🔴 LIVE]" if game["is_live"] else "[⏰ UPCOMING]"
+        group      = sport.upper()
+
+        for i, m3u8_url in enumerate(m3u8_list, start=1):
+            base_url = m3u8_url.split("?")[0]
+            if base_url in seen_m3u8:
+                continue
+            seen_m3u8.add(base_url)
+
+            server_counts[title] += 1
+            count = server_counts[title]
+            server_label = f" [S{count}]" if count > 1 else ""
+            channel_name = f"{status_tag} [{group}] {title}{server_label}"
+
+            # Ambil origin dari URL m3u8 (untuk Referer)
+            try:
+                from urllib.parse import urlparse
+                parsed   = urlparse(m3u8_url)
+                origin   = f"{parsed.scheme}://{parsed.netloc}"
+                referer  = origin + "/"
+            except Exception:
+                origin  = BASE_URL
+                referer = BASE_URL + "/"
+
+            playlist_lines.extend([
+                f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{sport.upper()}.sg.tv" group-title="BONE TV - StreamsGate",{channel_name}',
+                f'#EXTVLCOPT:http-referrer={referer}',
+                f'#EXTVLCOPT:http-origin={origin}',
+                f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
+                m3u8_url,
+                "",
+            ])
+            total_channels += 1
+
+    OUTPUT_FILE.write_text("\n".join(playlist_lines), encoding="utf-8")
+    print(f"\n🏁 SELESAI! {total_channels} channel unik disimpan ke {OUTPUT_FILE}")
+    print(f"   ({len(results)} game berhasil | {len(games) - len(results)} game nihil)")
 
 if __name__ == "__main__":
-    asyncio.run(scrape())
+    asyncio.run(main())
