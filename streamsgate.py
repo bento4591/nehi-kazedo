@@ -1,22 +1,24 @@
 """
-streamsgate.py (V2 - Playwright Edition)
+streamsgate.py (V3 - Smart Referer Capture)
 ─────────────────────────────────────────────────────────────────────────────
 MABES ENTERPRISE - StreamsGate Scraper
 
-PERUBAHAN DARI V1:
-- API /data/{sport}.json sudah 404. Data sekarang di-render dinamis via JS.
-- Menggunakan Playwright untuk membuka homepage dan mengambil semua link game.
-- Mengunjungi setiap halaman game dan menangkap URL m3u8 dari network request.
+PERUBAHAN DARI V2:
+- Referer sekarang diambil dari header request m3u8 yang asli (bukan dari domain CDN).
+  Sehingga Referer yang disimpan (misal xstream.st / grandemx.org) adalah yang
+  benar-benar dipakai player saat meminta CDN.
+- Filter domain analytics/sampah (jwpltx.com, histats, dll) agar tidak ikut ditangkap.
+- Nama channel dibersihkan dari teks ikutan kartu homepage.
 ─────────────────────────────────────────────────────────────────────────────
 """
 
 import asyncio
 import re
-import json
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from collections import defaultdict
+from urllib.parse import urlparse
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
 # ─── KONFIGURASI ─────────────────────────────────────────────────────────────
@@ -25,14 +27,42 @@ BASE_URL    = "https://streamsgates.io"
 OUTPUT_FILE = Path("streamsgate.m3u8")
 USER_AGENT  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
-# Regex untuk menangkap URL m3u8 yang valid dari network
-M3U8_REGEX  = re.compile(r'https?://[^\s"\']+\.m3u8[^\s"\']*')
+# Timeout per halaman game (ms)
+PAGE_TIMEOUT_MS = 25000
 
-# Timeout per halaman game (detik)
-PAGE_TIMEOUT_MS = 20000
-
-# Berapa banyak halaman game dibuka secara paralel
+# Berapa banyak halaman dibuka paralel
 CONCURRENCY = 3
+
+# Domain CDN yang valid untuk m3u8 stream (Whitelist)
+# Hanya URL dari domain-domain ini yang akan disimpan
+CDN_WHITELIST = [
+    "instreams.online",
+    "instreams.live",
+    "instreams.pro",
+    "instreams.net",
+    "junksonus.party",
+    "streamed.su",
+    "vipstreams.in",
+    "strmd.st",
+    "lb1.", "lb2.", "lb3.", "lb4.", "lb5.", "lb6.", "lb7.", "lb8.", "lb9.",
+    "lb10.", "lb11.", "lb12.", "lb13.", "lb14.", "lb15.", "lb16.", "lb17.",
+    "lb18.", "lb19.", "lb20.", "lb21.", "lb22.", "lb23.", "lb24.", "lb25.",
+    "lb26.", "lb27.", "lb28.", "lb29.", "lb30.", "lb31.", "lb32.",
+]
+
+# Domain analytics/sampah yang DIBLOKIR (tidak disimpan sebagai stream)
+CDN_BLACKLIST = [
+    "jwpltx.com",
+    "histats.com",
+    "googletagmanager",
+    "doubleclick",
+    "googlesyndication",
+    "adnxs",
+    "analytics",
+    "ping.gif",
+    "metrics",
+    "tracking",
+]
 
 # ─── KAMUS LOGO ──────────────────────────────────────────────────────────────
 
@@ -194,153 +224,206 @@ def get_logo(team_name: str, sport: str) -> str:
 
 def detect_sport_from_url(url: str) -> str:
     """Deteksi jenis olahraga dari slug URL game."""
-    url_lower = url.lower()
-    if any(k in url_lower for k in ["-nhl-", "-hockey-", "kraken", "canucks", "knights", "flames", "rangers-", "bruins", "ducks", "panthers-nhl"]):
+    u = url.lower()
+    if any(k in u for k in ["-nhl-", "kraken", "canucks", "knights-vs", "flames-vs", "bruins", "ducks-vs", "panthers-nhl", "rangers-vs-", "penguins", "lightning-vs", "leafs", "oilers", "capitals-vs", "jets-vs"]):
         return "nhl"
-    if any(k in url_lower for k in ["-nba-", "-basketball-", "lakers", "celtics", "warriors-", "nuggets", "clippers", "raptors"]):
+    if any(k in u for k in ["-nba-", "lakers", "celtics", "warriors-vs", "nuggets", "clippers-vs", "raptors", "bucks", "bulls-vs", "knicks", "jazz-vs", "heat-vs"]):
         return "nba"
-    if any(k in url_lower for k in ["-mlb-", "-baseball-", "dodgers", "yankees", "braves", "astros", "padres"]):
+    if any(k in u for k in ["-mlb-", "dodgers", "yankees", "braves-vs", "astros", "padres", "red-sox", "cubs-vs"]):
         return "mlb"
-    if any(k in url_lower for k in ["-nfl-", "-football-", "patriots", "cowboys", "chiefs", "eagles-", "lions-", "panthers-nfl"]):
+    if any(k in u for k in ["-nfl-", "patriots", "cowboys", "chiefs-vs", "eagles-vs", "lions-vs", "panthers-nfl", "packers", "ravens-vs"]):
         return "nfl"
-    if any(k in url_lower for k in ["-ufc-", "-mma-"]):
+    if any(k in u for k in ["-ufc-", "-mma-"]):
         return "ufc"
-    if any(k in url_lower for k in ["-f1-", "-formula"]):
+    if any(k in u for k in ["-f1-", "formula"]):
         return "f1"
-    if any(k in url_lower for k in ["-boxing-", "-box-"]):
+    if any(k in u for k in ["-boxing-", "-box-"]):
         return "box"
     return "soccer"
+
+def is_valid_stream_url(url: str) -> bool:
+    """
+    Validasi apakah URL adalah stream m3u8 yang asli (bukan analytics/tracking).
+    Cek whitelist domain CDN, dan blacklist domain sampah.
+    """
+    # Blacklist: Tolak jika URL mengandung kata kunci analytics/tracking
+    for bad in CDN_BLACKLIST:
+        if bad in url:
+            return False
+
+    # Whitelist: Izinkan hanya dari domain CDN yang dikenal
+    for good in CDN_WHITELIST:
+        if good in url:
+            return True
+
+    # Jika tidak ada di whitelist maupun blacklist: tetap izinkan
+    # (supaya tidak ketinggalan CDN baru yang belum kita kenal)
+    return ".m3u8" in url
+
+def clean_channel_title(raw_text: str) -> str:
+    """
+    Bersihkan teks mentah dari kartu homepage.
+    Input contoh: "● LIVE VS NBA Utah Jazz vs Denver Nuggets NBA 11:00 PM · EN"
+    Output      : "Utah Jazz vs Denver Nuggets"
+    """
+    # Hilangkan karakter khusus dan label berlebih
+    text = re.sub(r'[●•]', '', raw_text)
+    text = re.sub(r'\bLIVE\b', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'\b(NBA|NFL|NHL|MLB|UFC|F1|BOX|SOCCER|FOOTBALL|BASKETBALL|HOCKEY|BASEBALL)\b', '', text)
+    text = re.sub(r'\d{1,2}:\d{2}\s*(?:AM|PM)', '', text)
+    text = re.sub(r'·\s*EN', '', text)
+    text = re.sub(r'\bVS\b', 'vs', text, flags=re.IGNORECASE)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
 
 # ─── TAHAP 1: Ambil Semua Link Game dari Homepage ─────────────────────────────
 
 async def get_game_links(browser) -> list[dict]:
     """
-    Membuka homepage streamsgates.io menggunakan Playwright.
-    Menunggu semua kartu game ter-render, lalu mengambil semua link /watch.php?game=
-    beserta judul pertandingan dan status LIVE.
+    Membuka homepage menggunakan Playwright, menunggu kartu game,
+    lalu mengambil semua link /watch.php?game= beserta info pertandingan.
     """
     page = await browser.new_page()
     games = []
     try:
         await page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
-        # Tunggu kartu game muncul
         await page.wait_for_selector("a.game-tile", timeout=15000)
 
-        # Ambil semua link kartu game
         cards = await page.query_selector_all("a.game-tile")
         for card in cards:
-            href  = await card.get_attribute("href") or ""
-            title = await card.inner_text()
-            # Cek apakah statusnya LIVE
-            is_live = "LIVE" in (title.upper())
+            href      = await card.get_attribute("href") or ""
+            raw_title = await card.inner_text()
+            is_live   = "LIVE" in raw_title.upper()
 
             if "/watch.php?game=" in href:
-                full_url  = BASE_URL + href if href.startswith("/") else href
-                game_slug = href.split("game=")[-1]
-                # Ambil nama tim dari judul kartu (biasanya "Tim A vs Tim B")
-                clean_title = re.sub(r'[\n\r]+', ' ', title).strip()
+                full_url    = BASE_URL + href if href.startswith("/") else href
+                clean_title = clean_channel_title(raw_title)
                 games.append({
-                    "url":    full_url,
-                    "slug":   game_slug,
-                    "title":  clean_title,
+                    "url":     full_url,
+                    "slug":    href.split("game=")[-1],
+                    "title":   clean_title,
                     "is_live": is_live,
                 })
-        print(f"  📋 Ditemukan {len(games)} game di homepage ({sum(1 for g in games if g['is_live'])} LIVE)")
+
+        print(f"  📋 Ditemukan {len(games)} game ({sum(1 for g in games if g['is_live'])} LIVE)")
     except Exception as e:
         print(f"  ⚠️  Gagal membuka homepage: {e}")
     finally:
         await page.close()
     return games
 
-# ─── TAHAP 2: Buka Tiap Halaman Game & Tangkap M3U8 ─────────────────────────
+# ─── TAHAP 2: Buka Tiap Halaman Game & Tangkap M3U8 + Referer Asli ───────────
 
-async def extract_m3u8_from_game(browser, game: dict) -> list[str]:
+async def extract_m3u8_from_game(browser, game: dict) -> list[dict]:
     """
     Membuka halaman watch game menggunakan Playwright.
-    Menangkap semua URL m3u8 dari network request.
-    Mengembalikan list URL m3u8 unik yang berhasil ditangkap.
+    Menangkap URL m3u8 BESERTA Referer asli dari header request.
+    Mengembalikan list dict berisi {"m3u8": url, "referer": ..., "origin": ...}
     """
-    page = await browser.new_page()
-    captured = []
-    seen     = set()
+    page    = await browser.new_page()
+    results = []
+    seen    = set()
 
     async def on_request(request):
         url = request.url
-        if ".m3u8" in url and url not in seen:
-            seen.add(url)
-            captured.append(url)
+        if ".m3u8" not in url:
+            return
+        if not is_valid_stream_url(url):
+            return
+
+        base = url.split("?")[0]
+        if base in seen:
+            return
+        seen.add(base)
+
+        # ── KUNCI UTAMA: Ambil Referer dari header request itu sendiri ──────
+        headers = request.headers
+        referer = headers.get("referer", "")
+        origin  = headers.get("origin", "")
+
+        # Jika Referer kosong, bangun dari URL halaman saat ini
+        if not referer:
+            try:
+                parsed  = urlparse(url)
+                referer = f"{parsed.scheme}://{parsed.netloc}/"
+            except Exception:
+                referer = BASE_URL + "/"
+
+        # Jika Origin kosong, bangun dari Referer
+        if not origin:
+            try:
+                parsed = urlparse(referer)
+                origin = f"{parsed.scheme}://{parsed.netloc}"
+            except Exception:
+                origin = BASE_URL
+
+        results.append({
+            "m3u8":    url,
+            "referer": referer,
+            "origin":  origin,
+        })
 
     page.on("request", on_request)
 
     try:
-        # Blokir iklan dan tracker agar loading lebih cepat
+        # Blokir domain sampah agar loading lebih cepat
         await page.route(
             "**/*",
             lambda route: route.abort()
             if any(x in route.request.url for x in [
-                "histats.com", "aclib.net", "popunder", "adnxs", "doubleclick",
-                "googlesyndication", "adsystem", ".woff", ".woff2", ".ttf",
+                "histats.com", "aclib.net", "googlesyndication",
+                "doubleclick", "adnxs", ".woff", ".woff2", ".ttf", ".otf",
             ])
             else route.continue_()
         )
 
         await page.goto(game["url"], wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
 
-        # Tunggu m3u8 muncul (max 15 detik)
-        for _ in range(15):
-            if captured:
+        # Tunggu m3u8 muncul (maks 18 detik)
+        for _ in range(18):
+            if results:
                 break
             await asyncio.sleep(1)
 
     except PlaywrightTimeout:
-        print(f"  ⏱️  Timeout: {game['title'][:50]}")
+        print(f"  ⏱️  Timeout: {game['title'][:55]}")
     except Exception as e:
         print(f"  ⚠️  Error [{game['title'][:40]}]: {e}")
     finally:
         await page.close()
 
-    # Deduplikasi: buang token dari URL untuk perbandingan
-    unique = []
-    seen_base = set()
-    for url in captured:
-        base = url.split("?")[0]
-        if base not in seen_base:
-            seen_base.add(base)
-            unique.append(url)
-
-    return unique
+    return results
 
 # ─── PEMROSESAN PARALEL ───────────────────────────────────────────────────────
 
 async def process_games_parallel(browser, games: list[dict]) -> list[dict]:
-    """Proses semua game secara paralel dengan batas CONCURRENCY."""
     semaphore = asyncio.Semaphore(CONCURRENCY)
-    results   = []
+    output    = []
 
     async def process_one(game):
         async with semaphore:
-            m3u8_list = await extract_m3u8_from_game(browser, game)
-            return game, m3u8_list
+            streams = await extract_m3u8_from_game(browser, game)
+            return game, streams
 
-    tasks    = [process_one(g) for g in games]
-    settled  = await asyncio.gather(*tasks, return_exceptions=True)
+    tasks   = [process_one(g) for g in games]
+    settled = await asyncio.gather(*tasks, return_exceptions=True)
 
     for result in settled:
         if isinstance(result, Exception):
             continue
-        game, m3u8_list = result
-        if m3u8_list:
-            results.append({"game": game, "m3u8_list": m3u8_list})
-            print(f"  ✅ {len(m3u8_list)} URL | {game['title'][:60]}")
+        game, streams = result
+        if streams:
+            output.append({"game": game, "streams": streams})
+            print(f"  ✅ {len(streams)} URL | {game['title'][:60]}")
         else:
-            print(f"  ❌ Nihil | {game['title'][:60]}")
+            print(f"  ❌ Nihil    | {game['title'][:60]}")
 
-    return results
+    return output
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 async def main():
-    print("🚀 StreamsGate Scraper V2 (Playwright) starting...")
+    print("🚀 StreamsGate Scraper V3 (Smart Referer) starting...")
     now_wib = datetime.now(ZoneInfo("Asia/Jakarta"))
     ts_str  = now_wib.strftime("%Y-%m-%d %H:%M WIB")
 
@@ -356,78 +439,71 @@ async def main():
             ]
         )
 
-        # ── TAHAP 1: Ambil daftar game dari homepage ──────────────────────────
+        # TAHAP 1: Kumpulkan daftar game dari homepage
         print("\n📡 TAHAP 1: Membaca daftar game dari homepage...")
         games = await get_game_links(browser)
 
         if not games:
-            print("💀 Tidak ada game yang ditemukan di homepage.")
+            print("💀 Tidak ada game ditemukan di homepage.")
             await browser.close()
             return
 
-        # Prioritaskan game yang LIVE
+        # Prioritaskan LIVE, baru UPCOMING
         live_games     = [g for g in games if g["is_live"]]
         upcoming_games = [g for g in games if not g["is_live"]]
         ordered_games  = live_games + upcoming_games
 
-        print(f"\n🎯 TAHAP 2: Mengekstrak M3U8 dari {len(ordered_games)} game...")
-
-        # ── TAHAP 2: Buka tiap halaman & tangkap M3U8 ─────────────────────────
+        print(f"\n🎯 TAHAP 2: Mengekstrak stream dari {len(ordered_games)} game...")
         results = await process_games_parallel(browser, ordered_games)
         await browser.close()
 
-    # ── TAHAP 3: Tulis M3U8 ───────────────────────────────────────────────────
+    # TAHAP 3: Tulis M3U8
     if not results:
-        print("\n❌ Tidak ada M3U8 yang berhasil ditangkap.")
+        print("\n❌ Tidak ada stream yang berhasil ditangkap.")
         return
 
     playlist_lines = [
         "#EXTM3U",
-        f"# StreamsGate - MABES ENTERPRISE V2",
+        f"# StreamsGate - MABES ENTERPRISE V3 (Smart Referer)",
         f"# Last Updated: {ts_str}",
         "",
     ]
 
-    seen_m3u8      = set()
+    seen_base      = set()
     server_counts  = defaultdict(int)
     total_channels = 0
 
     for item in results:
-        game       = item["game"]
-        m3u8_list  = item["m3u8_list"]
-        title      = game["title"]
-        sport      = detect_sport_from_url(game["url"])
+        game    = item["game"]
+        streams = item["streams"]
+        title   = game["title"]
+        sport   = detect_sport_from_url(game["url"])
 
-        # Cari nama tim dari judul (format: "Tim A VS Tim B [LIVE]")
-        team_match = re.search(r'^(.+?)\s+(?:vs|VS|v)\s+(.+?)(?:\s+\[|\s*$)', title, re.IGNORECASE)
+        # Ambil nama tim pertama untuk pencarian logo
+        team_match = re.search(r'^(.+?)\s+vs\s+', title, re.IGNORECASE)
         home_team  = team_match.group(1).strip() if team_match else title
         logo       = get_logo(home_team, sport)
         status_tag = "[🔴 LIVE]" if game["is_live"] else "[⏰ UPCOMING]"
         group      = sport.upper()
 
-        for i, m3u8_url in enumerate(m3u8_list, start=1):
+        for stream in streams:
+            m3u8_url = stream["m3u8"]
+            referer  = stream["referer"]
+            origin   = stream["origin"]
+
+            # Deduplikasi berdasarkan base URL (tanpa token query)
             base_url = m3u8_url.split("?")[0]
-            if base_url in seen_m3u8:
+            if base_url in seen_base:
                 continue
-            seen_m3u8.add(base_url)
+            seen_base.add(base_url)
 
             server_counts[title] += 1
-            count = server_counts[title]
+            count        = server_counts[title]
             server_label = f" [S{count}]" if count > 1 else ""
             channel_name = f"{status_tag} [{group}] {title}{server_label}"
 
-            # Ambil origin dari URL m3u8 (untuk Referer)
-            try:
-                from urllib.parse import urlparse
-                parsed   = urlparse(m3u8_url)
-                origin   = f"{parsed.scheme}://{parsed.netloc}"
-                referer  = origin + "/"
-            except Exception:
-                origin  = BASE_URL
-                referer = BASE_URL + "/"
-
             playlist_lines.extend([
-                f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{sport.upper()}.sg.tv" group-title="BONE TV - StreamsGate",{channel_name}',
+                f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{sport}.sg.tv" group-title="BONE TV - StreamsGate",{channel_name}',
                 f'#EXTVLCOPT:http-referrer={referer}',
                 f'#EXTVLCOPT:http-origin={origin}',
                 f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
