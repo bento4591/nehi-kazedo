@@ -1,12 +1,15 @@
 """
-streamsgate.py (V6 - SMART BLACKLIST EDITION)
+streamsgate.py (V7 - PERFECT NAMING EDITION)
 ─────────────────────────────────────────────────────────────────────────────
 MABES ENTERPRISE - StreamsGate Scraper
 
-PERUBAHAN DARI V5:
-- Instreams (?st=...&e=...) KEMBALI DIIZINKAN karena terbukti hanya Time-Lock.
-- Domain grandemx.org (Referer) dan junksonus.party (URL) dimasukkan ke BLACKLIST 
-  karena terbukti menggunakan IP-Lock yang membuat stream gagal diputar.
+PERUBAHAN DARI V6:
+- Mengubah cara scraping judul: langsung menarget class .tile-title agar 
+  nama bersih dari duplikasi "vs" dan pernak-pernik HTML lainnya.
+- Membuka halaman dengan Timezone Jakarta (Asia/Jakarta) & Format 24 Jam.
+- Menangkap jam otomatis dan menaruhnya di tag status [🔴 LIVE 20:00 WIB].
+- Menangkap nama Liga/Kategori dan menaruhnya di kurung siku [Liga].
+- Menambahkan suffix [SG] atau [SG S2] di akhir nama channel.
 ─────────────────────────────────────────────────────────────────────────────
 """
 
@@ -36,7 +39,6 @@ CDN_WHITELIST = [
     "lb26.", "lb27.", "lb28.", "lb29.", "lb30.", "lb31.", "lb32.",
 ]
 
-# MASUKKAN TARGET IP-LOCK KE DAFTAR HITAM
 CDN_BLACKLIST = [
     "grandemx.org", "junksonus.party", # ⬅️ TARGET UTAMA IP-LOCK
     "jwpltx.com", "histats.com", "googletagmanager", "doubleclick",
@@ -205,35 +207,21 @@ def detect_sport_from_url(url: str) -> str:
     return "soccer"
 
 def is_valid_stream(url: str, referer: str) -> bool:
-    """Filter berdasar Blacklist dan Whitelist."""
     url_lower = url.lower()
     ref_lower = referer.lower()
-    
-    # Blokir jika URL atau Referer ada di Blacklist (termasuk grandemx & junksonus)
     for bad in CDN_BLACKLIST:
-        if bad in url_lower or bad in ref_lower:
-            return False
-            
-    # Izinkan jika ada di Whitelist
+        if bad in url_lower or bad in ref_lower: return False
     for good in CDN_WHITELIST:
-        if good in url_lower:
-            return True
-            
+        if good in url_lower: return True
     return ".m3u8" in url_lower
-
-def clean_channel_title(raw_text: str) -> str:
-    text = re.sub(r'[●•]', '', raw_text)
-    text = re.sub(r'\bLIVE\b', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'\b(NBA|NFL|NHL|MLB|UFC|F1|BOX|SOCCER|FOOTBALL|BASKETBALL|HOCKEY|BASEBALL)\b', '', text)
-    text = re.sub(r'\d{1,2}:\d{2}\s*(?:AM|PM)', '', text)
-    text = re.sub(r'·\s*EN', '', text)
-    text = re.sub(r'\bVS\b', 'vs', text, flags=re.IGNORECASE)
-    return re.sub(r'\s+', ' ', text).strip()
 
 # ─── TAHAP 1 ─────────────────────────────────────────────────────────────
 async def get_game_links(browser) -> list[dict]:
-    page = await browser.new_page()
+    # Set Timezone Jakarta & Format waktu 24-jam (en-GB)
+    context = await browser.new_context(timezone_id="Asia/Jakarta", locale="en-GB")
+    page = await context.new_page()
     games = []
+    
     try:
         await page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "stylesheet", "font", "media"] else route.continue_())
         
@@ -242,22 +230,41 @@ async def get_game_links(browser) -> list[dict]:
 
         cards = await page.query_selector_all("a.game-tile")
         for card in cards:
-            href      = await card.get_attribute("href") or ""
-            raw_title = await card.inner_text()
-            is_live   = "LIVE" in raw_title.upper()
+            href = await card.get_attribute("href") or ""
+            if "/watch.php?game=" not in href:
+                continue
 
-            if "/watch.php?game=" in href:
-                games.append({
-                    "url":     BASE_URL + href if href.startswith("/") else href,
-                    "slug":    href.split("game=")[-1],
-                    "title":   clean_channel_title(raw_title),
-                    "is_live": is_live,
-                })
+            # Ambil elemen secara spesifik agar teks rapi
+            title_el  = await card.query_selector('.tile-title')
+            league_el = await card.query_selector('.tile-meta')
+            time_el   = await card.query_selector('.tile-details')
+            live_el   = await card.query_selector('.poster-time.is-live')
+
+            title  = await title_el.inner_text() if title_el else "Unknown Match"
+            league = await league_el.inner_text() if league_el else "SPORT"
+            
+            # Ambil waktu, lalu gunakan regex cari pola HH:MM
+            raw_time = await time_el.inner_text() if time_el else "TBD"
+            time_match = re.search(r'\d{1,2}:\d{2}', raw_time)
+            match_time = time_match.group(0) if time_match else "TBD"
+            
+            time_str = f"{match_time} WIB" if match_time != "TBD" else "TBD"
+            is_live = live_el is not None
+
+            games.append({
+                "url":     BASE_URL + href if href.startswith("/") else href,
+                "slug":    href.split("game=")[-1],
+                "title":   title.strip(),
+                "league":  league.strip(),
+                "time":    time_str,
+                "is_live": is_live,
+            })
+            
         print(f"  📋 Ditemukan {len(games)} game ({sum(1 for g in games if g['is_live'])} LIVE)")
     except Exception as e:
         print(f"  ⚠️  Gagal membuka homepage: {e}")
     finally:
-        await page.close()
+        await context.close()
     return games
 
 # ─── TAHAP 2 ─────────────────────────────────────────────────────────────
@@ -277,7 +284,6 @@ async def extract_m3u8_from_game(browser, game: dict) -> list[dict]:
             try: referer = f"{urlparse(url).scheme}://{urlparse(url).netloc}/"
             except: referer = BASE_URL + "/"
         
-        # CEK FILTER SMART BLACKLIST
         if not is_valid_stream(url, referer):
             return
         
@@ -338,7 +344,7 @@ async def process_games_parallel(browser, games: list[dict]) -> list[dict]:
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 async def main():
-    print("🚀 StreamsGate Scraper V6 (SMART BLACKLIST Edition) starting...")
+    print("🚀 StreamsGate Scraper V7 (PERFECT NAMING Edition) starting...")
     now_wib = datetime.now(ZoneInfo("Asia/Jakarta"))
     ts_str  = now_wib.strftime("%Y-%m-%d %H:%M WIB")
 
@@ -366,7 +372,7 @@ async def main():
 
     playlist_lines = [
         "#EXTM3U",
-        f"# StreamsGate - MABES ENTERPRISE V6",
+        f"# StreamsGate - MABES ENTERPRISE V7",
         f"# Last Updated: {ts_str}",
         "",
     ]
@@ -376,25 +382,33 @@ async def main():
     total_channels = 0
 
     for item in results:
-        game    = item["game"]
-        streams = item["streams"]
-        title   = game["title"]
-        sport   = detect_sport_from_url(game["url"])
+        game     = item["game"]
+        streams  = item["streams"]
+        title    = game["title"]
+        league   = game["league"]
+        time_wib = game["time"]
+        sport    = detect_sport_from_url(game["url"])
 
         team_match = re.search(r'^(.+?)\s+vs\s+', title, re.IGNORECASE)
         home_team  = team_match.group(1).strip() if team_match else title
         logo       = get_logo(home_team, sport)
-        status_tag = "[🔴 LIVE]" if game["is_live"] else "[⏰ UPCOMING]"
+        
+        # Format Status + Waktu (Misal: [🔴 LIVE 20:00 WIB])
+        status_tag = f"[🔴 LIVE {time_wib}]" if game["is_live"] else f"[⏰ UPCOMING {time_wib}]"
         
         for stream in streams:
             if stream["m3u8"].split("?")[0] in seen_base: continue
             seen_base.add(stream["m3u8"].split("?")[0])
 
             server_counts[title] += 1
-            lbl = f" [S{server_counts[title]}]" if server_counts[title] > 1 else ""
+            count = server_counts[title]
+            suffix = "[SG]" if count == 1 else f"[SG S{count}]"
+            
+            # FORMAT FINAL: [🔴 LIVE 20:00 WIB] [Liga] Team A vs Team B [SG]
+            channel_name = f"{status_tag} [{league}] {title} {suffix}"
             
             playlist_lines.extend([
-                f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{sport.upper()}.sg.tv" group-title="BONE TV - StreamsGate",{status_tag} [{sport.upper()}] {title}{lbl}',
+                f'#EXTINF:-1 tvg-logo="{logo}" tvg-id="{sport.upper()}.sg.tv" group-title="BONE TV - StreamsGate",{channel_name}',
                 f'#EXTVLCOPT:http-referrer={stream["referer"]}',
                 f'#EXTVLCOPT:http-origin={stream["origin"]}',
                 f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
