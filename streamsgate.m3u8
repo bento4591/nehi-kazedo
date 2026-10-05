@@ -1,51 +1,39 @@
 #EXTM3U
 # StreamsGate - MABES ENTERPRISE V2
-# Last Updated: 2026-10-05 10:55 WIB
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/24/1/nba-logo-png_seeklogo-247736.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NBA] ● LIVE VS NBA Utah Jazz vs Denver Nuggets NBA 11:00 PM · EN
-#EXTVLCOPT:http-referrer=https://instreams.live/
-#EXTVLCOPT:http-origin=https://instreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401914127/index.m3u8?st=L4OaGV-nYqSlrq8KAqmYVw&e=1791183348
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/24/1/nba-logo-png_seeklogo-247736.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NBA] ● LIVE VS NBA Utah Jazz vs Denver Nuggets NBA 11:00 PM · EN [S2]
-#EXTVLCOPT:http-referrer=https://prd.jwpltx.com/
-#EXTVLCOPT:http-origin=https://prd.jwpltx.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=636212318&e=pa&n=2802621896392335&aid=gz_FBsVMEeWiQBKCk4Wcgw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=1gx8v8d1hj3b&et=classic&i=1&lid=cz5fp91inwle&lsa=set&mt=1&pbd=1&pbr=1&pgi=bx179m3hrfn5&ph=1&pid=KB5zFt7A&pii=0&pl=598&plc=1&pli=htefj11ufc20&pp=hola%2Fhls&prc=1&ps=4&pss=1&pt=tv401914127%20-%20Live%20Stream%20LIVETV&pu=https%3A%2F%2Fembedme.st%2F&pv=8.51.8&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=0.79&vl=90&wd=982&ab=0&cme=0&flc=0&mu=https%3A%2F%2Finstreams.live%2Flive3%2Ftv401914127%2Findex.m3u8%3Fst%3DL4OaGV-nYqSlrq8KAqmYVw%26e%3D1791183348&pd=3&plng=en-US&pni=0&pr=2&tb=0&vd=0&sa=1791172549731
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/24/1/nba-logo-png_seeklogo-247736.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NBA] ● LIVE VS NBA Golden State Warriors vs LA Clippers NBA 11:00 PM · EN
-#EXTVLCOPT:http-referrer=https://instreams.live/
-#EXTVLCOPT:http-origin=https://instreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401918010/index.m3u8?st=rJupT9uqkhFcwHKKLLA38w&e=1791183348
+# Last Updated: 2026-10-05 11:00 WIB
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/37/1/nfl-logo-png_seeklogo-375127.png" tvg-id="NFL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NFL] ● LIVE VS NFL Detroit Lions vs Carolina Panthers NFL 12:20 AM · EN
 #EXTVLCOPT:http-referrer=https://justkidding.junksonus.party/
 #EXTVLCOPT:http-origin=https://justkidding.junksonus.party
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://justkidding.junksonus.party/main/secure/760e3990c4396dca3ccb49148baae53fb55d967525c5de6ef8977cd6d9739f30/1791181547/nbc-usa.m3u8
+https://justkidding.junksonus.party/main/secure/c2c83f44f993f9452be851289d9e3e79f0db0c2c0c791479107fcb4082ccbbd7/1791181861/nbc-usa.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NHL] ● LIVE VS NHL Florida Panthers vs Anaheim Ducks NHL 12:00 AM · EN
-#EXTVLCOPT:http-referrer=https://instreams.online/
-#EXTVLCOPT:http-origin=https://instreams.online
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/37/1/nfl-logo-png_seeklogo-375127.png" tvg-id="NFL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NFL] ● LIVE VS NFL Detroit Lions vs Carolina Panthers NFL 12:20 AM · EN [S2]
+#EXTVLCOPT:http-referrer=https://prd.jwpltx.com/
+#EXTVLCOPT:http-origin=https://prd.jwpltx.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.online/live3/tv401891778/index.m3u8?st=ILzTGQiqOQwK-NW1mGDrLA&e=1791183350
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NHL] ● LIVE VS NHL Calgary Flames vs Seattle Kraken NHL 12:00 AM · EN
-#EXTVLCOPT:http-referrer=https://instreams.live/
-#EXTVLCOPT:http-origin=https://instreams.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401891824/index.m3u8?st=w-II96u6wNUl47CG5AmNGw&e=1791183351
+https://prd.jwpltx.com/v1/jwplayer6/ping.gif?h=1112174734&e=pa&n=9404988446702721&aid=gz_FBsVMEeWiQBKCk4Wcgw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=t3ex1414fksv&et=classic&i=1&lid=wvf9rebvwo42&lsa=set&mt=1&pbd=1&pbr=1&pgi=q5qfv61bxmqf&ph=1&pid=IDzF9Zmk&pii=0&pl=598&plc=1&pli=qrjwh31z0a5r&pp=hlsjs&prc=1&ps=4&pss=1&pt=&pu=https%3A%2F%2Fembedme.st%2F&pv=8.51.8&pyc=0&s=0&sdk=0&stc=1&stpe=0&tv=4.0.17&vb=1&vi=0.79&vl=90&wd=982&ab=0&cme=0&flc=0&lng=en&mu=https%3A%2F%2Fjustkidding.junksonus.party%2Fmain%2Fsecure%2Fc2c83f44f993f9452be851289d9e3e79f0db0c2c0c791479107fcb4082ccbbd7%2F1791181861%2Fnbc-usa.m3u8&pd=2&plng=en&pni=0&pr=2&tb=0&vd=0&sa=1791172862097
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [NHL] ● LIVE VS NHL Vegas Golden Knights vs Vancouver Canucks NHL 01:00 AM · EN
 #EXTVLCOPT:http-referrer=https://instreams.pro/
 #EXTVLCOPT:http-origin=https://instreams.pro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live3/tv401892444/index.m3u8?st=uxeXFUTDLJFVbU4TawCodg&e=1791183351
+https://instreams.pro/live3/tv401892444/index.m3u8?st=4Fm4rrG_76SuQmCe5lU9Zg&e=1791183660
 
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/28/1/mlb-com-logo-png_seeklogo-288672.png" tvg-id="MLB.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE] [MLB] ● LIVE VS MLB Atlanta Braves vs Los Angeles Dodgers MLB 12:00 AM · EN
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING] [NHL] FINAL VS NHL Florida Panthers vs Anaheim Ducks NHL 12:00 AM · EN
 #EXTVLCOPT:http-referrer=https://instreams.online/
 #EXTVLCOPT:http-origin=https://instreams.online
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.online/live3/tv401908014/index.m3u8?st=89uqXx1IZEAA08n_TV561A&e=1791183354
+https://instreams.online/live3/tv401891778/index.m3u8?st=0xwqaR_mookjmyz9mLZeiA&e=1791183660
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING] [NHL] FINAL VS NHL Calgary Flames vs Seattle Kraken NHL 12:00 AM · EN
+#EXTVLCOPT:http-referrer=https://instreams.online/
+#EXTVLCOPT:http-origin=https://instreams.online
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://instreams.online/live3/tv401891824/index.m3u8?st=pa5bIp-Q2fS4CSQgf1GkGg&e=1791183664
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/28/1/mlb-com-logo-png_seeklogo-288672.png" tvg-id="MLB.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING] [MLB] FINAL VS MLB Atlanta Braves vs Los Angeles Dodgers MLB 12:00 AM · EN
+#EXTVLCOPT:http-referrer=https://instreams.online/
+#EXTVLCOPT:http-origin=https://instreams.online
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://instreams.online/live3/tv401908014/index.m3u8?st=k6iPDSMNZnsDIIqR9fFfvg&e=1791183664
