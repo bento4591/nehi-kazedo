@@ -1,10 +1,13 @@
-name: MABES FootyStream Debugger
+name: MABES FootyStream (ISOLATED)
 
 on:
   workflow_dispatch: # Pemicu manual khusus dari Kapten
 
+permissions:
+  contents: write
+
 jobs:
-  investigasi_pogo:
+  debug_footy:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,11 +21,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "Memasang amunisi investigasi..."
-          pip install playwright selectolax
+          echo "Memasang amunisi KHUSUS FootyStream..."
+          pip install playwright selectolax playwright-stealth
           python -m playwright install --with-deps chromium
 
       - name: Run FootyStream Debugger
         run: |
-          echo "🚀 Memulai Operasi Penyadapan Cloudflare (Playerdee)..."
+          echo "🚀 Menjalankan Operasi Penyadapan Cloudflare (Playerdee)..."
           python debug_footy.py
