@@ -21,8 +21,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "Memasang amunisi KHUSUS FootyStream..."
-          pip install playwright selectolax playwright-stealth
+          echo "Memasang amunisi KHUSUS FootyStream (Bebas Error)..."
+          pip install playwright selectolax
           python -m playwright install --with-deps chromium
 
       - name: Run FootyStream Debugger
