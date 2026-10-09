@@ -1,13 +1,13 @@
 name: MABES FootyStream (ISOLATED)
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Pemicu manual khusus dari Kapten
 
 permissions:
   contents: write
 
 jobs:
-  debug_footy:
+  scrape_footy:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,11 +24,34 @@ jobs:
           echo "Memasang amunisi KHUSUS FootyStream..."
           pip install playwright selectolax
           python -m playwright install --with-deps chromium
-          # Instal Monitor Virtual
+          # Memasang Monitor Virtual (Xvfb)
+          sudo apt-get update
           sudo apt-get install -y xvfb
 
-      - name: Run FootyStream Debugger (Headed Mode)
+      - name: Run FootyStream Scraper (Headed Mode)
         run: |
           echo "🚀 Menjalankan Operasi Penyadapan dengan Layar Virtual (Xvfb)..."
-          # Mengeksekusi Python di dalam monitor virtual beresolusi 1280x1024
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" python debug_footy.py
+          # Pastikan nama file python di bawah ini sesuai dengan file Kapten (footystream.py atau debug_footy.py)
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" python footystream.py
+
+      - name: Commit & Push safely
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          # Hanya mengamankan hasil FootyStream (Anti-Gagal)
+          git add FootyStream_BoneTV.m3u8 || true
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan hasil M3U8, skip commit."
+            exit 0
+          fi
+
+          git commit -m "Update FootyStream playlist (MABES ENTERPRISE V8) [skip ci]"
+
+          # Logika anti-tabrakan (rebase) andalan MABES
+          if ! git push origin main; then
+            echo "Push tertahan — melakukan rebase aman..."
+            git pull --rebase origin main
+            git push origin main
+          fi
