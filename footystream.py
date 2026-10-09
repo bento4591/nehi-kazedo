@@ -2,9 +2,10 @@ import asyncio
 from selectolax.lexbor import LexborHTMLParser 
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
+from urllib.parse import urlparse
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
-# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V6 (ANTI-REDIRECT SHIELD) ---
+# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V7 (STEALTH & KARANTINA) ---
 MAIN_URL = "https://pogo.pk"
 SOCCER_URL = "https://pogo.pk/soccer-streams"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
@@ -66,36 +67,24 @@ async def extract_m3u8(context, url):
     dynamic_referer = url
     m3u8_found_event = asyncio.Event()
 
-    # Injeksi Anti-Popup di tingkat Browser
-    await page.add_init_script("""
-        window.open = function() { return null; };
-        window.alert = function() { return null; };
-        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-    """)
+    # Bypass deteksi webdriver dasar
+    await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
-    # Tutup paksa jika ada tab baru yang berhasil lolos
+    # Cegah popup window.open langsung dimatikan
     page.on("popup", lambda p: asyncio.create_task(p.close()))
 
-    # 🛡️ TAMENG ANTI-REDIRECT MILITER
+    # 🛡️ TAMENG KARANTINA DOMAIN
     async def route_interceptor(route):
         req = route.request
         
-        # 1. CEGAH TAB-UNDER (Jika web mencoba mengalihkan halaman utama ke web judi)
+        # HANYA blokir jika ini adalah usaha pindah halaman utama (Redirect Tab-Under)
         if req.is_navigation_request() and req.frame == page.main_frame:
-            # Izinkan hanya navigasi awal ke playerdee atau pogo
-            if req.url != url and "playerdee.top" not in req.url and "pogo.pk" not in req.url:
-                # print(f"🛑 DIBLOKIR: Redirect Iklan ke -> {req.url}")
+            url_host = urlparse(req.url).hostname or ""
+            # Izinkan hanya ekosistem Pogo, Playerdee, dan Cloudflare
+            if not any(valid in url_host for valid in ["playerdee.top", "pogo.pk", "cloudflare.com"]):
                 return await route.abort()
-
-        # 2. Blokir aset berat untuk mempercepat loading
-        if req.resource_type in ["image", "stylesheet", "font"]:
-            return await route.abort()
-            
-        # 3. Blokir script pelacak / iklan umum
-        url_lower = req.url.lower()
-        if any(bad in url_lower for bad in ["pop", "ads", "tracker", "analytics", "banner", "bet", "casino"]):
-            return await route.abort()
-            
+        
+        # Biarkan CSS, gambar, dan JS lewat agar Cloudflare berhasil ditembus
         return await route.continue_()
 
     async def handle_request(request):
@@ -112,20 +101,25 @@ async def extract_m3u8(context, url):
     try:
         await page.route("**/*", route_interceptor)
         
-        # Menggunakan wait_until="commit" karena skrip iklan ditahan, jadi "load" mungkin lama
-        await page.goto(url, wait_until="commit", timeout=15000)
+        # Batas waktu diperpanjang ke 25 detik karena Cloudflare butuh waktu
+        await page.goto(url, wait_until="domcontentloaded", timeout=25000)
         
         try:
-            # Karena video langsung muncul, kita tunggu saja 8 detik tanpa klik apapun!
+            # Tunggu 8 detik untuk melihat apakah M3U8 termuat otomatis
             await asyncio.wait_for(m3u8_found_event.wait(), timeout=8.0)
         except asyncio.TimeoutError:
-            # Jika 8 detik tidak muncul, paksa putar via injeksi JS (tanpa sentuh layar)
+            # Jika tidak jalan otomatis, kita paksa jalan via Injeksi JS (TIDAK ADA KLIK FISIK)
             try:
                 await page.evaluate("""
+                    // Hapus elemen pelindung (overlay iklan transparan)
+                    document.querySelectorAll('div').forEach(d => {
+                        if (window.getComputedStyle(d).zIndex > 999) { d.remove(); }
+                    });
+                    // Paksa putar video jika ada
                     var vids = document.getElementsByTagName('video');
                     if(vids.length > 0) { vids[0].play(); }
                 """)
-                await asyncio.wait_for(m3u8_found_event.wait(), timeout=4.0)
+                await asyncio.wait_for(m3u8_found_event.wait(), timeout=6.0)
             except:
                 pass
 
@@ -140,26 +134,24 @@ async def extract_m3u8(context, url):
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Operasi FootyStream (V6 ANTI-REDIRECT SHIELD)...")
+    print("🚀 Memulai Operasi FootyStream (V7 STEALTH & KARANTINA)...")
     all_streams = []
     raw_events = []
 
     async with async_playwright() as p:
+        # Gunakan resolusi standar dan mode headless standar
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
         context = await browser.new_context(viewport={'width': 1280, 'height': 720}, user_agent=USER_AGENT)
         
         try:
             print("\n🔍 Memindai Halaman Utama (Bypass Cloudflare)...")
             scanner_page = await context.new_page()
-            
-            # Matikan gambar/css di homepage agar cepat
-            await scanner_page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "stylesheet", "font"] else route.continue_())
-            await scanner_page.goto(MAIN_URL, wait_until="domcontentloaded", timeout=20000)
+            await scanner_page.goto(MAIN_URL, wait_until="domcontentloaded", timeout=25000)
             html_main = await scanner_page.content()
             raw_events.extend(parse_schedule(html_main))
 
             print("🔍 Memindai Halaman Soccer-Streams...")
-            await scanner_page.goto(SOCCER_URL, wait_until="domcontentloaded", timeout=20000)
+            await scanner_page.goto(SOCCER_URL, wait_until="domcontentloaded", timeout=25000)
             html_soc = await scanner_page.content()
             raw_events.extend(parse_schedule(html_soc))
             await scanner_page.close()
@@ -188,16 +180,13 @@ async def main():
                     start_dt = datetime.strptime(ev['start_str'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
                     end_dt = datetime.strptime(ev['end_str'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
                     
-                    # Jangan abaikan match yang telat, asalkan masih berjalan
-                    # Tapi jika sudah lebih dari 4 jam setelah end_dt, abaikan (mungkin channel mati)
                     if (now - end_dt).total_seconds() > 14400:
                         continue
                         
                     time_to_kickoff = (start_dt - now).total_seconds()
                     
                     detail_page = await context.new_page()
-                    await detail_page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "stylesheet", "font"] else route.continue_())
-                    await detail_page.goto(ev['url'], wait_until="domcontentloaded", timeout=15000)
+                    await detail_page.goto(ev['url'], wait_until="domcontentloaded", timeout=20000)
                     detail_html = await detail_page.content()
                     await detail_page.close()
                     
@@ -209,12 +198,13 @@ async def main():
                     
                     if time_to_kickoff <= 3600:
                         watch_links = []
-                        # Cari tag <a> yang memiliki href playerdee, alpha, footystream, atau bertuliskan Watch
+                        # Radar: Sapu semua elemen a href
                         for a in match_soup.css("a"):
                             href = a.attributes.get("href")
                             text = a.text(strip=True).lower()
+                            # Ekstraksi tangguh (menangani nama web baru 'playerdee')
                             if href and (
-                                text == "watch" or "stream" in text or
+                                text == "watch" or "stream" in text or "play" in text or
                                 "/alpha/" in href or "playerdee.top" in href or "footystream" in href
                             ):
                                 full_watch_link = f"{MAIN_URL}{href}" if href.startswith("/") else href
@@ -241,10 +231,10 @@ async def main():
                                     ])
                                     extracted_any = True
                                 else:
-                                    print(f"      ⚠️ Server {server_num} ditahan / diblokir.")
+                                    print(f"      ⚠️ Server {server_num} gagal dipenetrasi.")
                         
                         if not extracted_any:
-                            print(f"  ⏳ {core_title} -> Link diblokir/belum tayang, menanam Dummy.")
+                            print(f"  ⏳ {core_title} -> Link belum tayang, menanam Dummy.")
                             all_streams.append([
                                 f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] {core_title}',
                                 DUMMY_LINK,
@@ -263,7 +253,6 @@ async def main():
 
         await browser.close()
 
-    # SIMPAN DAN BANGUN BERKAS M3U8
     ts = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%d/%m/%Y %H:%M WIB")
     header = ['#EXTM3U', f'# Last Updated: {ts}', '']
     
