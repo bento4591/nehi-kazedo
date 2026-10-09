@@ -3,9 +3,9 @@ import asyncio
 from selectolax.lexbor import LexborHTMLParser 
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
-# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V4.5 (PLAYWRIGHT FULL + LEXBOR) ---
+# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V5 (ANTI-AD & SMART RADAR) ---
 MAIN_URL = "https://pogo.pk"
 SOCCER_URL = "https://pogo.pk/soccer-streams"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
@@ -27,7 +27,6 @@ def format_title(team1, team2):
     return f"{team1} vs {team2}"
 
 def parse_schedule(html_text):
-    # 🛠️ Menggunakan LexborHTMLParser
     soup = LexborHTMLParser(html_text)
     events = []
     
@@ -62,13 +61,23 @@ def parse_schedule(html_text):
             
     return events
 
+# 🛡️ Fungsi pemblokir iklan & sampah
+def route_interceptor(route):
+    bad_types = ["image", "stylesheet", "font", "media"]
+    url = route.request.url.lower()
+    if route.request.resource_type in bad_types or any(bad in url for bad in ["pop", "ads", "tracker", "analytics", "banner"]):
+        return route.abort()
+    return route.continue_()
+
 async def extract_m3u8(context, url):
     page = await context.new_page()
     m3u8_link = None
     dynamic_referer = "https://pogo.pk/"
+    m3u8_found_event = asyncio.Event()
 
     await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
+    # Cegah popup baru muncul ke permukaan
     async def handle_popup(popup):
         try: await popup.close()
         except: pass
@@ -81,22 +90,38 @@ async def extract_m3u8(context, url):
                 m3u8_link = request.url
                 if "referer" in request.headers:
                     dynamic_referer = request.headers["referer"]
+                m3u8_found_event.set() # Set trigger secepatnya
 
     page.on("request", handle_request)
 
     try:
-        await page.goto(url, wait_until="domcontentloaded", timeout=25000)
-        await page.wait_for_timeout(3000) 
+        # Aktifkan tameng Ad-Blocker
+        await page.route("**/*", route_interceptor)
         
-        for _ in range(3):
-            if m3u8_link: break
-            await page.mouse.click(640, 360)
-            await page.wait_for_timeout(2000)
+        await page.goto(url, wait_until="domcontentloaded", timeout=20000)
+        
+        # Eksekusi Trigger Play (Cari iframe atau elemen video dan klik langsung)
+        try:
+            # Berikan waktu 2 detik agar iframe player termuat
+            await asyncio.sleep(2)
+            frames = page.frames
+            if len(frames) > 1:
+                # Mengetuk frame pemutar langsung
+                await page.mouse.click(640, 360) 
+                await page.keyboard.press("Space")
+        except:
+            pass
+            
+        # Tunggu sampai event ditangkap, max 10 detik agar tidak buang waktu
+        try:
+            await asyncio.wait_for(m3u8_found_event.wait(), timeout=10.0)
+            await asyncio.sleep(0.5)
+        except asyncio.TimeoutError:
+            pass
 
-        for _ in range(10):
-            if m3u8_link: break
-            await page.wait_for_timeout(1000)
-    except:
+    except PlaywrightTimeout:
+        pass
+    except Exception:
         pass
     finally:
         page.remove_listener("request", handle_request)
@@ -106,7 +131,7 @@ async def extract_m3u8(context, url):
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Operasi FootyStream (Playwright Edition V4.5)...")
+    print("🚀 Memulai Operasi FootyStream (V5 Anti-Ad & Smart Radar)...")
     all_streams = []
     raw_events = []
 
@@ -117,6 +142,7 @@ async def main():
         try:
             print("\n🔍 Memindai Halaman Utama (Bypass Cloudflare)...")
             scanner_page = await context.new_page()
+            await scanner_page.route("**/*", route_interceptor)
             await scanner_page.goto(MAIN_URL, wait_until="domcontentloaded", timeout=20000)
             html_main = await scanner_page.content()
             raw_events.extend(parse_schedule(html_main))
@@ -129,7 +155,6 @@ async def main():
             
         except Exception as e:
             print(f"❌ Gagal memindai web pogo.pk: {e}")
-            # 🛡️ JARING PENGAMAN
             ts_fail = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%d/%m/%Y %H:%M WIB")
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 f.write(f"#EXTM3U\n# Last Updated: {ts_fail}\n#EXTINF:-1, [ERROR] Cloudflare Menahan Pogo.pk\n{DUMMY_LINK}\n")
@@ -157,13 +182,12 @@ async def main():
                         
                     time_to_kickoff = (start_dt - now).total_seconds()
                     
-                    # Menggunakan Playwright untuk mengambil detail pertandingan (menghindari requests.get)
                     detail_page = await context.new_page()
+                    await detail_page.route("**/*", route_interceptor)
                     await detail_page.goto(ev['url'], wait_until="domcontentloaded", timeout=15000)
                     detail_html = await detail_page.content()
                     await detail_page.close()
                     
-                    # 🛠️ Menggunakan LexborHTMLParser
                     match_soup = LexborHTMLParser(detail_html)
                     
                     tour_elem = match_soup.css_first("div.text-white.font-semibold.text-sm")
@@ -172,10 +196,22 @@ async def main():
                     
                     if time_to_kickoff <= 3600:
                         watch_links = []
-                        for a in match_soup.css("a"):
-                            if a.text(strip=True) == "Watch":
+                        
+                        # 📡 SMART RADAR TAHAP 1: Cari iframe yang mencurigakan secara langsung
+                        for iframe in match_soup.css("iframe"):
+                            src = iframe.attributes.get("src")
+                            if src and ("pogo.pk" in src or "embed" in src or "stream" in src or "live" in src):
+                                watch_links.append(src)
+                                
+                        # 📡 SMART RADAR TAHAP 2: Jika iframe tidak ada, sapu semua link a href
+                        if not watch_links:
+                            for a in match_soup.css("a"):
                                 href = a.attributes.get("href")
-                                if href and ("/alpha/" in href or "footystream" in href):
+                                text = a.text(strip=True).lower()
+                                if href and (
+                                    "watch" in text or "stream" in text or "play" in text or
+                                    "/alpha/" in href or "/embed/" in href or "footystream" in href or "/live/" in href
+                                ):
                                     full_watch_link = f"{MAIN_URL}{href}" if href.startswith("/") else href
                                     if full_watch_link not in watch_links:
                                         watch_links.append(full_watch_link)
@@ -185,7 +221,7 @@ async def main():
                             print(f"\n⚡ Mengeksekusi (Sisa {int(time_to_kickoff // 60)} menit): {core_title}")
                             for idx, link in enumerate(watch_links):
                                 server_num = idx + 1
-                                print(f"    📡 Menyadap Server {server_num}...")
+                                print(f"    📡 Menyadap Tautan {server_num}...")
                                 m3u8_url, referer = await extract_m3u8(context, link)
                                 
                                 if m3u8_url:
@@ -200,10 +236,10 @@ async def main():
                                     ])
                                     extracted_any = True
                                 else:
-                                    print(f"      ⚠️ Server {server_num} gagal.")
+                                    print(f"      ⚠️ Tautan {server_num} gagal dipenetrasi.")
                         
                         if not extracted_any:
-                            print(f"  ⏳ {core_title} -> Link belum tayang, menanam Dummy.")
+                            print(f"  ⏳ {core_title} -> Link diblokir/belum tayang, menanam Dummy.")
                             all_streams.append([
                                 f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] {core_title}',
                                 DUMMY_LINK,
