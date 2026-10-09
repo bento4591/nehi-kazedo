@@ -1,11 +1,10 @@
 import asyncio
-# 🛠️ PERBAIKAN FATAL: Menggunakan LexborHTMLParser sesuai aturan selectolax 1.0+
 from selectolax.lexbor import LexborHTMLParser 
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 
-# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V5 (ANTI-AD & SMART RADAR) ---
+# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V6 (ANTI-REDIRECT SHIELD) ---
 MAIN_URL = "https://pogo.pk"
 SOCCER_URL = "https://pogo.pk/soccer-streams"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
@@ -61,27 +60,43 @@ def parse_schedule(html_text):
             
     return events
 
-# 🛡️ Fungsi pemblokir iklan & sampah
-def route_interceptor(route):
-    bad_types = ["image", "stylesheet", "font", "media"]
-    url = route.request.url.lower()
-    if route.request.resource_type in bad_types or any(bad in url for bad in ["pop", "ads", "tracker", "analytics", "banner"]):
-        return route.abort()
-    return route.continue_()
-
 async def extract_m3u8(context, url):
     page = await context.new_page()
     m3u8_link = None
-    dynamic_referer = "https://pogo.pk/"
+    dynamic_referer = url
     m3u8_found_event = asyncio.Event()
 
-    await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    # Injeksi Anti-Popup di tingkat Browser
+    await page.add_init_script("""
+        window.open = function() { return null; };
+        window.alert = function() { return null; };
+        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+    """)
 
-    # Cegah popup baru muncul ke permukaan
-    async def handle_popup(popup):
-        try: await popup.close()
-        except: pass
-    page.on("popup", handle_popup)
+    # Tutup paksa jika ada tab baru yang berhasil lolos
+    page.on("popup", lambda p: asyncio.create_task(p.close()))
+
+    # 🛡️ TAMENG ANTI-REDIRECT MILITER
+    async def route_interceptor(route):
+        req = route.request
+        
+        # 1. CEGAH TAB-UNDER (Jika web mencoba mengalihkan halaman utama ke web judi)
+        if req.is_navigation_request() and req.frame == page.main_frame:
+            # Izinkan hanya navigasi awal ke playerdee atau pogo
+            if req.url != url and "playerdee.top" not in req.url and "pogo.pk" not in req.url:
+                # print(f"🛑 DIBLOKIR: Redirect Iklan ke -> {req.url}")
+                return await route.abort()
+
+        # 2. Blokir aset berat untuk mempercepat loading
+        if req.resource_type in ["image", "stylesheet", "font"]:
+            return await route.abort()
+            
+        # 3. Blokir script pelacak / iklan umum
+        url_lower = req.url.lower()
+        if any(bad in url_lower for bad in ["pop", "ads", "tracker", "analytics", "banner", "bet", "casino"]):
+            return await route.abort()
+            
+        return await route.continue_()
 
     async def handle_request(request):
         nonlocal m3u8_link, dynamic_referer
@@ -90,34 +105,29 @@ async def extract_m3u8(context, url):
                 m3u8_link = request.url
                 if "referer" in request.headers:
                     dynamic_referer = request.headers["referer"]
-                m3u8_found_event.set() # Set trigger secepatnya
+                m3u8_found_event.set()
 
     page.on("request", handle_request)
 
     try:
-        # Aktifkan tameng Ad-Blocker
         await page.route("**/*", route_interceptor)
         
-        await page.goto(url, wait_until="domcontentloaded", timeout=20000)
+        # Menggunakan wait_until="commit" karena skrip iklan ditahan, jadi "load" mungkin lama
+        await page.goto(url, wait_until="commit", timeout=15000)
         
-        # Eksekusi Trigger Play (Cari iframe atau elemen video dan klik langsung)
         try:
-            # Berikan waktu 2 detik agar iframe player termuat
-            await asyncio.sleep(2)
-            frames = page.frames
-            if len(frames) > 1:
-                # Mengetuk frame pemutar langsung
-                await page.mouse.click(640, 360) 
-                await page.keyboard.press("Space")
-        except:
-            pass
-            
-        # Tunggu sampai event ditangkap, max 10 detik agar tidak buang waktu
-        try:
-            await asyncio.wait_for(m3u8_found_event.wait(), timeout=10.0)
-            await asyncio.sleep(0.5)
+            # Karena video langsung muncul, kita tunggu saja 8 detik tanpa klik apapun!
+            await asyncio.wait_for(m3u8_found_event.wait(), timeout=8.0)
         except asyncio.TimeoutError:
-            pass
+            # Jika 8 detik tidak muncul, paksa putar via injeksi JS (tanpa sentuh layar)
+            try:
+                await page.evaluate("""
+                    var vids = document.getElementsByTagName('video');
+                    if(vids.length > 0) { vids[0].play(); }
+                """)
+                await asyncio.wait_for(m3u8_found_event.wait(), timeout=4.0)
+            except:
+                pass
 
     except PlaywrightTimeout:
         pass
@@ -125,13 +135,12 @@ async def extract_m3u8(context, url):
         pass
     finally:
         page.remove_listener("request", handle_request)
-        page.remove_listener("popup", handle_popup)
         await page.close()
 
     return m3u8_link, dynamic_referer
 
 async def main():
-    print("🚀 Memulai Operasi FootyStream (V5 Anti-Ad & Smart Radar)...")
+    print("🚀 Memulai Operasi FootyStream (V6 ANTI-REDIRECT SHIELD)...")
     all_streams = []
     raw_events = []
 
@@ -142,7 +151,9 @@ async def main():
         try:
             print("\n🔍 Memindai Halaman Utama (Bypass Cloudflare)...")
             scanner_page = await context.new_page()
-            await scanner_page.route("**/*", route_interceptor)
+            
+            # Matikan gambar/css di homepage agar cepat
+            await scanner_page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "stylesheet", "font"] else route.continue_())
             await scanner_page.goto(MAIN_URL, wait_until="domcontentloaded", timeout=20000)
             html_main = await scanner_page.content()
             raw_events.extend(parse_schedule(html_main))
@@ -177,13 +188,15 @@ async def main():
                     start_dt = datetime.strptime(ev['start_str'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
                     end_dt = datetime.strptime(ev['end_str'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
                     
-                    if now > end_dt:
+                    # Jangan abaikan match yang telat, asalkan masih berjalan
+                    # Tapi jika sudah lebih dari 4 jam setelah end_dt, abaikan (mungkin channel mati)
+                    if (now - end_dt).total_seconds() > 14400:
                         continue
                         
                     time_to_kickoff = (start_dt - now).total_seconds()
                     
                     detail_page = await context.new_page()
-                    await detail_page.route("**/*", route_interceptor)
+                    await detail_page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "stylesheet", "font"] else route.continue_())
                     await detail_page.goto(ev['url'], wait_until="domcontentloaded", timeout=15000)
                     detail_html = await detail_page.content()
                     await detail_page.close()
@@ -196,36 +209,28 @@ async def main():
                     
                     if time_to_kickoff <= 3600:
                         watch_links = []
-                        
-                        # 📡 SMART RADAR TAHAP 1: Cari iframe yang mencurigakan secara langsung
-                        for iframe in match_soup.css("iframe"):
-                            src = iframe.attributes.get("src")
-                            if src and ("pogo.pk" in src or "embed" in src or "stream" in src or "live" in src):
-                                watch_links.append(src)
-                                
-                        # 📡 SMART RADAR TAHAP 2: Jika iframe tidak ada, sapu semua link a href
-                        if not watch_links:
-                            for a in match_soup.css("a"):
-                                href = a.attributes.get("href")
-                                text = a.text(strip=True).lower()
-                                if href and (
-                                    "watch" in text or "stream" in text or "play" in text or
-                                    "/alpha/" in href or "/embed/" in href or "footystream" in href or "/live/" in href
-                                ):
-                                    full_watch_link = f"{MAIN_URL}{href}" if href.startswith("/") else href
-                                    if full_watch_link not in watch_links:
-                                        watch_links.append(full_watch_link)
+                        # Cari tag <a> yang memiliki href playerdee, alpha, footystream, atau bertuliskan Watch
+                        for a in match_soup.css("a"):
+                            href = a.attributes.get("href")
+                            text = a.text(strip=True).lower()
+                            if href and (
+                                text == "watch" or "stream" in text or
+                                "/alpha/" in href or "playerdee.top" in href or "footystream" in href
+                            ):
+                                full_watch_link = f"{MAIN_URL}{href}" if href.startswith("/") else href
+                                if full_watch_link not in watch_links:
+                                    watch_links.append(full_watch_link)
                         
                         extracted_any = False
                         if watch_links:
                             print(f"\n⚡ Mengeksekusi (Sisa {int(time_to_kickoff // 60)} menit): {core_title}")
                             for idx, link in enumerate(watch_links):
                                 server_num = idx + 1
-                                print(f"    📡 Menyadap Tautan {server_num}...")
+                                print(f"    📡 Menyadap Server {server_num}...")
                                 m3u8_url, referer = await extract_m3u8(context, link)
                                 
                                 if m3u8_url:
-                                    print(f"      ✅ Sukses: {m3u8_url[:40]}...")
+                                    print(f"      ✅ Sukses: {m3u8_url[:50]}...")
                                     pipe_headers = f"|Referer={referer}&User-Agent={USER_AGENT}"
                                     server_label = f" [CH {server_num}]" if len(watch_links) > 1 else ""
                                     
@@ -236,7 +241,7 @@ async def main():
                                     ])
                                     extracted_any = True
                                 else:
-                                    print(f"      ⚠️ Tautan {server_num} gagal dipenetrasi.")
+                                    print(f"      ⚠️ Server {server_num} ditahan / diblokir.")
                         
                         if not extracted_any:
                             print(f"  ⏳ {core_title} -> Link diblokir/belum tayang, menanam Dummy.")
