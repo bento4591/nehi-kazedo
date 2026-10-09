@@ -1,7 +1,7 @@
 name: MABES FootyStream (ISOLATED)
 
 on:
-  workflow_dispatch: # Pemicu manual khusus dari Kapten
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,11 +21,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "Memasang amunisi KHUSUS FootyStream (Bebas Error)..."
+          echo "Memasang amunisi KHUSUS FootyStream..."
           pip install playwright selectolax
           python -m playwright install --with-deps chromium
+          # Instal Monitor Virtual
+          sudo apt-get install -y xvfb
 
-      - name: Run FootyStream Debugger
+      - name: Run FootyStream Debugger (Headed Mode)
         run: |
-          echo "🚀 Menjalankan Operasi Penyadapan Cloudflare (Playerdee)..."
-          python debug_footy.py
+          echo "🚀 Menjalankan Operasi Penyadapan dengan Layar Virtual (Xvfb)..."
+          # Mengeksekusi Python di dalam monitor virtual beresolusi 1280x1024
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" python debug_footy.py
