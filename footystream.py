@@ -1,55 +1,270 @@
-# debug_footy.py - JALANKAN DI GITHUB ACTIONS DULU, LAPOR HASILNYA
 import asyncio
-from playwright.async_api import async_playwright
+from selectolax.lexbor import LexborHTMLParser 
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+from urllib.parse import urlparse
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
+
+# --- KONFIGURASI MABES ENTERPRISE: FOOTYSTREAM V7 (STEALTH & KARANTINA) ---
+MAIN_URL = "https://pogo.pk"
+SOCCER_URL = "https://pogo.pk/soccer-streams"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+OUTPUT_FILE = "FootyStream_BoneTV.m3u8"
+DUMMY_LINK = "https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8"
+
+def convert_time_to_wib(utc_time_str):
+    if not utc_time_str: return "UNKNOWN"
+    try:
+        start_utc = datetime.strptime(utc_time_str, "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
+        return start_utc.astimezone(ZoneInfo("Asia/Jakarta")).strftime("%H:%M WIB")
+    except:
+        return "UNKNOWN"
+
+def format_title(team1, team2):
+    t1_lower, t2_lower = team1.lower(), team2.lower()
+    if t1_lower == t2_lower or t1_lower in t2_lower or t2_lower in t1_lower:
+        return team1 if len(team1) >= len(team2) else team2
+    return f"{team1} vs {team2}"
+
+def parse_schedule(html_text):
+    soup = LexborHTMLParser(html_text)
+    events = []
+    
+    for a_tag in soup.css("a[href*='/events/']"):
+        countdown = a_tag.css_first(".data-countdown")
+        if countdown:
+            start_str = countdown.attributes.get("data-start")
+            end_str = countdown.attributes.get("data-end")
+            
+            teams = a_tag.css("img")
+            if len(teams) >= 2:
+                team1 = teams[0].attributes.get('alt', 'Team 1')
+                team2 = teams[1].attributes.get('alt', 'Team 2')
+                raw_title = format_title(team1, team2)
+                logo = teams[0].attributes.get("src", "")
+            else:
+                raw_title = "Live Event"
+                logo = teams[0].attributes.get("src", "") if teams else ""
+
+            kickoff_wib = convert_time_to_wib(start_str)
+            href = a_tag.attributes.get("href")
+            full_url = f"{MAIN_URL}{href}" if href.startswith("/") else href
+            
+            events.append({
+                "raw_title": raw_title,
+                "kickoff": kickoff_wib,
+                "start_str": start_str,
+                "end_str": end_str,
+                "logo": logo,
+                "url": full_url
+            })
+            
+    return events
+
+async def extract_m3u8(context, url):
+    page = await context.new_page()
+    m3u8_link = None
+    dynamic_referer = url
+    m3u8_found_event = asyncio.Event()
+
+    # Bypass deteksi webdriver dasar
+    await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+    # Cegah popup window.open langsung dimatikan
+    page.on("popup", lambda p: asyncio.create_task(p.close()))
+
+    # 🛡️ TAMENG KARANTINA DOMAIN
+    async def route_interceptor(route):
+        req = route.request
+        
+        # HANYA blokir jika ini adalah usaha pindah halaman utama (Redirect Tab-Under)
+        if req.is_navigation_request() and req.frame == page.main_frame:
+            url_host = urlparse(req.url).hostname or ""
+            # Izinkan hanya ekosistem Pogo, Playerdee, dan Cloudflare
+            if not any(valid in url_host for valid in ["playerdee.top", "pogo.pk", "cloudflare.com"]):
+                return await route.abort()
+        
+        # Biarkan CSS, gambar, dan JS lewat agar Cloudflare berhasil ditembus
+        return await route.continue_()
+
+    async def handle_request(request):
+        nonlocal m3u8_link, dynamic_referer
+        if ".m3u8" in request.url:
+            if not m3u8_link or "index" in request.url or "master" in request.url:
+                m3u8_link = request.url
+                if "referer" in request.headers:
+                    dynamic_referer = request.headers["referer"]
+                m3u8_found_event.set()
+
+    page.on("request", handle_request)
+
+    try:
+        await page.route("**/*", route_interceptor)
+        
+        # Batas waktu diperpanjang ke 25 detik karena Cloudflare butuh waktu
+        await page.goto(url, wait_until="domcontentloaded", timeout=25000)
+        
+        try:
+            # Tunggu 8 detik untuk melihat apakah M3U8 termuat otomatis
+            await asyncio.wait_for(m3u8_found_event.wait(), timeout=8.0)
+        except asyncio.TimeoutError:
+            # Jika tidak jalan otomatis, kita paksa jalan via Injeksi JS (TIDAK ADA KLIK FISIK)
+            try:
+                await page.evaluate("""
+                    // Hapus elemen pelindung (overlay iklan transparan)
+                    document.querySelectorAll('div').forEach(d => {
+                        if (window.getComputedStyle(d).zIndex > 999) { d.remove(); }
+                    });
+                    // Paksa putar video jika ada
+                    var vids = document.getElementsByTagName('video');
+                    if(vids.length > 0) { vids[0].play(); }
+                """)
+                await asyncio.wait_for(m3u8_found_event.wait(), timeout=6.0)
+            except:
+                pass
+
+    except PlaywrightTimeout:
+        pass
+    except Exception:
+        pass
+    finally:
+        page.remove_listener("request", handle_request)
+        await page.close()
+
+    return m3u8_link, dynamic_referer
 
 async def main():
+    print("🚀 Memulai Operasi FootyStream (V7 STEALTH & KARANTINA)...")
+    all_streams = []
+    raw_events = []
+
     async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=[
-                "--no-sandbox",
-                "--disable-dev-shm-usage",
-                "--disable-blink-features=AutomationControlled",
-            ]
-        )
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-        )
+        # Gunakan resolusi standar dan mode headless standar
+        browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--mute-audio"])
+        context = await browser.new_context(viewport={'width': 1280, 'height': 720}, user_agent=USER_AGENT)
         
-        # Injeksi stealth
-        await context.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-            Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3]});
-            Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
-            window.chrome = { runtime: {} };
-        """)
-        
-        page = await context.new_page()
-        
-        print("[TEST] Membuka playerdee.top...")
-        m3u8_found = []
-        page.on("request", lambda r: m3u8_found.append(r.url) if ".m3u8" in r.url else None)
-        
-        await page.goto(
-            "https://playerdee.top/alpha/shanghai-rolex-masters/2614",
-            wait_until="domcontentloaded",
-            timeout=30000
-        )
-        
-        title = await page.title()
-        print(f"[TITLE]: {title}")
-        
-        # Tunggu 10 detik
-        await asyncio.sleep(10)
-        
-        if m3u8_found:
-            print(f"[✅ SUKSES] M3U8 tertangkap: {m3u8_found[0]}")
-        else:
-            print(f"[❌ GAGAL] Tidak ada M3U8. Judul halaman: {title}")
-            # Dump 300 char pertama
-            body = await page.evaluate("document.body.innerText.substring(0, 300)")
-            print(f"[KONTEN]: {body}")
-        
+        try:
+            print("\n🔍 Memindai Halaman Utama (Bypass Cloudflare)...")
+            scanner_page = await context.new_page()
+            await scanner_page.goto(MAIN_URL, wait_until="domcontentloaded", timeout=25000)
+            html_main = await scanner_page.content()
+            raw_events.extend(parse_schedule(html_main))
+
+            print("🔍 Memindai Halaman Soccer-Streams...")
+            await scanner_page.goto(SOCCER_URL, wait_until="domcontentloaded", timeout=25000)
+            html_soc = await scanner_page.content()
+            raw_events.extend(parse_schedule(html_soc))
+            await scanner_page.close()
+            
+        except Exception as e:
+            print(f"❌ Gagal memindai web pogo.pk: {e}")
+            ts_fail = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%d/%m/%Y %H:%M WIB")
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                f.write(f"#EXTM3U\n# Last Updated: {ts_fail}\n#EXTINF:-1, [ERROR] Cloudflare Menahan Pogo.pk\n{DUMMY_LINK}\n")
+            await browser.close()
+            return
+
+        unique_events_dict = {}
+        for ev in raw_events:
+            unique_key = f"{ev['raw_title']}_{ev['kickoff']}_{ev['url']}"
+            if unique_key not in unique_events_dict:
+                unique_events_dict[unique_key] = ev
+
+        unique_events = list(unique_events_dict.values())
+        print(f"🎯 Ditemukan Total {len(unique_events)} Pertandingan Unik.")
+
+        if unique_events:
+            for ev in unique_events:
+                try:
+                    now = datetime.now(timezone.utc)
+                    start_dt = datetime.strptime(ev['start_str'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
+                    end_dt = datetime.strptime(ev['end_str'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
+                    
+                    if (now - end_dt).total_seconds() > 14400:
+                        continue
+                        
+                    time_to_kickoff = (start_dt - now).total_seconds()
+                    
+                    detail_page = await context.new_page()
+                    await detail_page.goto(ev['url'], wait_until="domcontentloaded", timeout=20000)
+                    detail_html = await detail_page.content()
+                    await detail_page.close()
+                    
+                    match_soup = LexborHTMLParser(detail_html)
+                    
+                    tour_elem = match_soup.css_first("div.text-white.font-semibold.text-sm")
+                    category_tag = f"[{tour_elem.text(strip=True).upper()}] " if tour_elem else ""
+                    core_title = f"[{ev['kickoff']}] {category_tag}{ev['raw_title']}"
+                    
+                    if time_to_kickoff <= 3600:
+                        watch_links = []
+                        # Radar: Sapu semua elemen a href
+                        for a in match_soup.css("a"):
+                            href = a.attributes.get("href")
+                            text = a.text(strip=True).lower()
+                            # Ekstraksi tangguh (menangani nama web baru 'playerdee')
+                            if href and (
+                                text == "watch" or "stream" in text or "play" in text or
+                                "/alpha/" in href or "playerdee.top" in href or "footystream" in href
+                            ):
+                                full_watch_link = f"{MAIN_URL}{href}" if href.startswith("/") else href
+                                if full_watch_link not in watch_links:
+                                    watch_links.append(full_watch_link)
+                        
+                        extracted_any = False
+                        if watch_links:
+                            print(f"\n⚡ Mengeksekusi (Sisa {int(time_to_kickoff // 60)} menit): {core_title}")
+                            for idx, link in enumerate(watch_links):
+                                server_num = idx + 1
+                                print(f"    📡 Menyadap Server {server_num}...")
+                                m3u8_url, referer = await extract_m3u8(context, link)
+                                
+                                if m3u8_url:
+                                    print(f"      ✅ Sukses: {m3u8_url[:50]}...")
+                                    pipe_headers = f"|Referer={referer}&User-Agent={USER_AGENT}"
+                                    server_label = f" [CH {server_num}]" if len(watch_links) > 1 else ""
+                                    
+                                    all_streams.append([
+                                        f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="LIVE - FootyStream",[🔴 LIVE] {core_title}{server_label}',
+                                        f'{m3u8_url}{pipe_headers}',
+                                        ''
+                                    ])
+                                    extracted_any = True
+                                else:
+                                    print(f"      ⚠️ Server {server_num} gagal dipenetrasi.")
+                        
+                        if not extracted_any:
+                            print(f"  ⏳ {core_title} -> Link belum tayang, menanam Dummy.")
+                            all_streams.append([
+                                f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] {core_title}',
+                                DUMMY_LINK,
+                                ''
+                            ])
+                    else:
+                        print(f"  ⏳ {core_title} -> Jadwal masih jauh (> 1 Jam), tanam Dummy.")
+                        all_streams.append([
+                            f'#EXTINF:-1 tvg-logo="{ev["logo"]}" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] {core_title}',
+                            DUMMY_LINK,
+                            ''
+                        ])
+
+                except Exception as e:
+                    print(f"  ❌ Melewati pertandingan {ev['raw_title']}: {e}")
+
         await browser.close()
 
-asyncio.run(main())
+    ts = datetime.now(ZoneInfo("Asia/Jakarta")).strftime("%d/%m/%Y %H:%M WIB")
+    header = ['#EXTM3U', f'# Last Updated: {ts}', '']
+    
+    if all_streams:
+        flat_list = [item for sublist in all_streams for item in sublist]
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(header + flat_list))
+        print(f"\n🏁 BERHASIL! {len(all_streams)} opsi stream berhasil dikunci ke {OUTPUT_FILE}.")
+    else:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(header + ["# Tidak ada stream yang berhasil diekstrak saat ini."]))
+        print("\n💀 Operasi selesai tanpa hasil buruan.")
+
+if __name__ == "__main__":
+    asyncio.run(main())
