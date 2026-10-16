@@ -1,87 +1,63 @@
 #EXTM3U
 # StreamsGate - MABES ENTERPRISE V7
-# Last Updated: 2026-10-16 11:20 WIB
+# Last Updated: 2026-10-16 11:30 WIB
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 09:00 WIB] [CRC_1] Sporting San José vs Saprissa [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live3/tv401876842/index.m3u8?st=LKjnx6G_25awf-rW6F88Ug&e=1792135251
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/okc.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 07:30 WIB] [NBA] Oklahoma City Thunder vs Houston Rockets [SG]
-#EXTVLCOPT:http-referrer=https://xstream.st/
-#EXTVLCOPT:http-origin=https://xstream.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401908622/index.m3u8?st=poYZt6mbTyUwgUpxFe47AQ&e=1792135251
+https://instreams.pro/live3/tv401876842/index.m3u8?st=573Dbrh-QX6JpnXFKUcXxQ&e=1792135859
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 08:00 WIB] [NHL] Utah Mammoth vs Edmonton Oilers [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401892515/index.m3u8?st=nGCPb27ygkRmUythDTx_kA&e=1792135251
+https://instreams.xyz/live3/tv401892515/index.m3u8?st=VpTvhaYHNQ6SNpRVHeNRBQ&e=1792135859
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 09:00 WIB] [NHL] Calgary Flames vs Vegas Golden Knights [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live3/tv401892516/index.m3u8?st=KVcWSY9aNsUyskie0s9BEg&e=1792135251
+https://instreams.pro/live3/tv401892516/index.m3u8?st=8bpRT2pOm5Mp-pehb-1PZQ&e=1792135859
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:15 WIB] [NFL] Seattle Seahawks vs Denver Broncos [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401872995/index.m3u8?st=X9m9V4vWChGHenxTjhijqQ&e=1792135488
+https://instreams.live/live3/tv401872995/index.m3u8?st=aw57FpmSSNHKRNCSr8QlUg&e=1792136092
 
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/tor.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 06:30 WIB] [NBA] Toronto Raptors vs New York Knicks [SG]
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/okc.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:30 WIB] [NBA] Oklahoma City Thunder vs Houston Rockets [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live3/tv401908945/index.m3u8?st=t6uAsvRbGt8D-fwI1Y_ETw&e=1792135488
-
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/phi.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 06:30 WIB] [NHL] Philadelphia Flyers vs Detroit Red Wings [SG]
-#EXTVLCOPT:http-referrer=https://xstream.st/
-#EXTVLCOPT:http-origin=https://xstream.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401892508/index.m3u8?st=9djs5AcLueEvIwOaaN2gWw&e=1792135526
+https://instreams.xyz/live3/tv401908622/index.m3u8?st=l60sLcF89jnP3gjblHnGjw&e=1792136092
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [NHL] Winnipeg Jets vs Chicago Blackhawks [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401892512/index.m3u8?st=BtkY7h89MhNs0qvzTidjkg&e=1792135528
+https://instreams.xyz/live3/tv401892512/index.m3u8?st=rWLlHZRBHFa_UPDm2rG0oA&e=1792136130
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/sj.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [NHL] San Jose Sharks vs Nashville Predators [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live3/tv401892513/index.m3u8?st=GILtxBhi_bMbDZgqlwVuDQ&e=1792135528
+https://instreams.live/live3/tv401892513/index.m3u8?st=nbtqdYtVTik7uu4kWIj6-Q&e=1792136132
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/stl.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [NHL] St. Louis Blues vs Minnesota Wild [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401892514/index.m3u8?st=9ESs0M7nn3mhz1QIyOelkA&e=1792135529
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 06:30 WIB] [CFB] East Carolina Pirates vs UAB Blazers [SG]
-#EXTVLCOPT:http-referrer=https://xstream.st/
-#EXTVLCOPT:http-origin=https://xstream.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401862800/index.m3u8?st=czlTSf1TMFiqTJrKxHXwjw&e=1792135531
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/37/1/nfl-logo-png_seeklogo-375127.png" tvg-id="NFL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 06:30 WIB] [CFB] Georgia Southern Eagles vs Old Dominion Monarchs [SG]
-#EXTVLCOPT:http-referrer=https://xstream.st/
-#EXTVLCOPT:http-origin=https://xstream.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.live/live3/tv401869950/index.m3u8?st=0uc1UVeF9vTtXRKWhDzHKw&e=1792135531
+https://instreams.live/live3/tv401892514/index.m3u8?st=JrBeVnxbXXVHM08hDp_Mkg&e=1792136132
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [CFB] Colorado State Rams vs Texas State Bobcats [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.xyz/live3/tv401860923/index.m3u8?st=WBffiaqRYAhubL54gvv-SQ&e=1792135531
+https://instreams.live/live3/tv401860923/index.m3u8?st=KAxttC_azzGQHyKB60Bsow&e=1792136132
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/mlb/500/mil.png" tvg-id="MLB.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [MLB] Milwaukee Brewers vs Los Angeles Dodgers [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://instreams.pro/live3/tv401908033/index.m3u8?st=SviTGIB89DIrFJK1lBQrFQ&e=1792135533
+https://instreams.xyz/live3/tv401908033/index.m3u8?st=w3zjLceD7qOlA07RvtYPgw&e=1792136134
