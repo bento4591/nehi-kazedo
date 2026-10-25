@@ -1,7 +1,13 @@
 #EXTM3U
-# Last Updated: 25/10/2026 19:26 WIB
+# Last Updated: 25/10/2026 19:36 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FORMULA 1] Formula 1
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIER LEAGUE] Liverpool vs Brighton & Hove Albion
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIER LEAGUE] Manchester United vs AFC Bournemouth
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/pga-tour/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [09:00 WIB] [PGA TOUR] PGA Tour
@@ -49,13 +55,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/brentford/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIER LEAGUE] Brentford vs Hull City
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIER LEAGUE] Liverpool vs Brighton & Hove Albion
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/crystal-palace/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIER LEAGUE] Crystal Palace vs Newcastle United
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-united/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [21:00 WIB] [PREMIER LEAGUE] Manchester United vs AFC Bournemouth
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sunderland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PREMIER LEAGUE] Sunderland vs Leeds United
