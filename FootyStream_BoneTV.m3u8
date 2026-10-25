@@ -1,5 +1,5 @@
 #EXTM3U
-# Last Updated: 25/10/2026 23:31 WIB
+# Last Updated: 25/10/2026 23:51 WIB
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/league/formula-1-live-stream/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [FORMULA 1] Formula 1
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
@@ -28,13 +28,7 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/bayern-munchen/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [BUNDESLIGA] Bayern München vs Freiburg
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/borussia-dortmund/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:45 WIB] [BUNDESLIGA] Borussia Dortmund vs Werder Bremen
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/sunderland/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [23:30 WIB] [PREMIER LEAGUE] Sunderland vs Leeds United
-https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [PREMIER LEAGUE] Liverpool vs Chelsea
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/miami-dolphins/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [NFL] Miami Dolphins vs New York Jets
@@ -89,4 +83,10 @@ https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/manchester-city/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:30 WIB] [EFL] Manchester City vs Brighton & Hove Albion
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/borussia-dortmund/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [02:45 WIB] [BUNDESLIGA] Borussia Dortmund vs Werder Bremen
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/liverpool/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [03:00 WIB] [PREMIER LEAGUE] Liverpool vs Chelsea
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
