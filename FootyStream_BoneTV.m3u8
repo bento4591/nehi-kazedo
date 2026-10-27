@@ -1,5 +1,11 @@
 #EXTM3U
-# Last Updated: 27/10/2026 19:02 WIB
+# Last Updated: 27/10/2026 19:22 WIB
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/eintracht-frankfurt/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [DFB POKAL] Eintracht Frankfurt vs Hamburger SV
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/rb-leipzig/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:00 WIB] [DFB POKAL] RB Leipzig vs Rot-Weiss Essen
+https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.img4every1.org/team/lazio/logo.webp" group-title="UPCOMING - FootyStream",[⏳ UPCOMING] [00:30 WIB] [SERIE A] Lazio vs Sassuolo
 https://raw.githubusercontent.com/iwanfalstv/Nyetlu/refs/heads/main/njing/output.m3u8
