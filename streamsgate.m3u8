@@ -1,21 +1,375 @@
 #EXTM3U
 # StreamsGate - MABES ENTERPRISE V7
-# Last Updated: 2026-11-24 13:50 WIB
+# Last Updated: 2026-11-24 19:40 WIB
 
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/uta.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 10:00 WIB] [NBA] Utah Jazz vs Los Angeles Lakers [SG]
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 00:45 WIB] [UEFA Champions League] LASK Linz vs Bodo/Glimt [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://edge.candyshop.st/live/tv401910044/master.m3u8?st=T0I3DlOUnVddtnweG8a-UA&e=1795513846&_=1795503047430
+https://edge.candyshop.st/live/tv401915380/master.m3u8?st=fhwj4donbw3XV07qCngzZg&e=1795534863&_=1795524064324
 
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/sa.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 10:00 WIB] [NBA] San Antonio Spurs vs Sacramento Kings [SG]
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 00:45 WIB] [UEFA Champions League] Aston Villa vs Galatasaray [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://candyshop.st/live/tv401910045/master.m3u8?st=QIRsXWgPRxuiNuyOn7vuQw&e=1795513846&_=1795503047512
+https://edge1.candyshop.st/live/tv401915300/master.m3u8?st=ZHfpXZtHgdiOZoCki-d8Hw&e=1795534863&_=1795524064248
 
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/min.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[🔴 LIVE 10:00 WIB] [NHL] Minnesota Wild vs San Jose Sharks [SG]
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 01:00 WIB] [ITA_2] Catanzaro vs Juve Stabia [SG]
 #EXTVLCOPT:http-referrer=https://xstream.st/
 #EXTVLCOPT:http-origin=https://xstream.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://edge.candyshop.st/live/tv401892779/master.m3u8?st=fAFkunVIwcmt429iTHp0Uw&e=1795513846&_=1795503047438
+https://candyshop.st/live/tv401899536/master.m3u8?st=SRkAwhNwMb1FTI16ffL0-w&e=1795534863&_=1795524064311
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ENG_TROPHY] Leeds United U21 vs Fleetwood Town [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401906325/master.m3u8?st=avA96Qk0X2juu2ImnitceA&e=1795534863&_=1795524064408
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ENG_TROPHY] Tottenham Hotspur U21 vs Oxford United [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401906248/master.m3u8?st=W2cKXRa6-LgULdS49fHd9A&e=1795534866&_=1795524067530
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ENG_TROPHY] Sunderland U21 vs Salford City [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401906341/master.m3u8?st=iHjAER-ZYs8SwPf1voyl-Q&e=1795534866&_=1795524067442
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ENG_TROPHY] Everton U21 vs Tranmere Rovers [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401906249/master.m3u8?st=n5yxKHJaXTsFmPDaDacgkA&e=1795534866&_=1795524067389
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ITA_2] Empoli vs Benevento [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401899539/master.m3u8?st=iEnHE1VjIUY9H_HYlz2djw&e=1795534866&_=1795524067464
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ITA_2] Ascoli vs Cesena [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401899538/master.m3u8?st=4Ft4aKaBBRlkO_PpeQXWZw&e=1795534869&_=1795524070469
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ITA_2] Sudtirol vs Palermo [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401899532/master.m3u8?st=C_Z65tkZ_ZWmlzQ7CTGmRQ&e=1795534869&_=1795524070625
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ITA_2] Carrarese vs Vicenza [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401899535/master.m3u8?st=fiwfopi0iQh7OCTTG-egag&e=1795534869&_=1795524070580
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:00 WIB] [ITA_2] Hellas Verona vs Virtus Entella [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401899530/master.m3u8?st=shtE3WPX6y_Otynk5dBJGg&e=1795534869&_=1795524070642
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] Wrexham vs Bristol City [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401880148/master.m3u8?st=jnMh-bk9Qv4V6y4g8nZa6w&e=1795534872&_=1795524073813
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] Preston North End vs Cardiff City [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401880147/master.m3u8?st=Kk4wQH_YNb3YG5_9VCj9KA&e=1795534872&_=1795524073863
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] Lincoln City vs Charlton Athletic [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401880146/master.m3u8?st=iHRhxH0ZQeI-PFdX3BqhmA&e=1795534872&_=1795524073906
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] Swansea City vs Middlesbrough [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401880145/master.m3u8?st=dyobAKgi-ZPRwkQXfUcBsA&e=1795534872&_=1795524073782
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] Queens Park Rangers vs Norwich City [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401880144/master.m3u8?st=r4ySslicasQbYXV0I5UHkQ&e=1795534875&_=1795524076967
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/371.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] West Ham United vs Portsmouth [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401880143/master.m3u8?st=Ltqp2a3YX-mBjUCf47Z61w&e=1795534875&_=1795524076962
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/376.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_2] Southampton vs Sheffield United [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401880142/master.m3u8?st=UzNhHh6crIe_sOIdGR-Lnw&e=1795534875&_=1795524077045
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/375.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_3] Leicester City vs Blackpool [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401880824/master.m3u8?st=6f3N0U_67tgGCxWYU17zIg&e=1795534875&_=1795524076898
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_3] Barnsley vs Bradford City [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401880838/master.m3u8?st=gyIF0DJop9gwcUKeJtNM-A&e=1795534879&_=1795524080027
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_3] Wycombe Wanderers vs Bromley [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401880823/master.m3u8?st=EcNCYXMA0qGYu6-1_7yQiQ&e=1795534879&_=1795524080051
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_3] Sheffield Wednesday vs Stevenage [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401880829/master.m3u8?st=Ky674PIoFVDORzjqsjkk6w&e=1795534879&_=1795524080129
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_4] Barnet vs Crawley Town [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401881358/master.m3u8?st=IrpmD4-BcpFX8NHiS4v18g&e=1795534879&_=1795524080102
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_4] Northampton Town vs Port Vale [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401881354/master.m3u8?st=ocTgFrQ8SyEKybunv1M_vg&e=1795534882&_=1795524083342
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] FC Halifax Town vs AFC Fylde [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401889190/master.m3u8?st=QU7vpvyvDOe0pmYhiThUrg&e=1795534882&_=1795524083287
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Sutton United vs AFC Hornchurch [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401889416/master.m3u8?st=gUAObZF-xGA2JiAhkcPt2w&e=1795534882&_=1795524083277
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Wealdstone vs Altrincham [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401889189/master.m3u8?st=YzCgENLWy-gN50eUapTjpA&e=1795534882&_=1795524083221
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Barrow vs Boston United [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401889188/master.m3u8?st=aW8YRA9XXAoD2-EHzVeWQg&e=1795534885&_=1795524086338
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Tamworth vs Carlisle United [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401889187/master.m3u8?st=_2YUWzKo7Nqb9J-cwmU51A&e=1795534885&_=1795524086527
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Yeovil Town vs Eastleigh [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401889186/master.m3u8?st=22tNWPWhJLj2kleDBY8BNA&e=1795534885&_=1795524086570
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Southend United vs Forest Green Rovers [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401889185/master.m3u8?st=TYbAJo_if5MYx9M9MI_dIw&e=1795534885&_=1795524086434
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Gateshead vs Scunthorpe United [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401889184/master.m3u8?st=em9okxnH8TZhwgP6C12VLQ&e=1795534888&_=1795524089514
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [ENG_5] Worthing vs Woking [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401889183/master.m3u8?st=9AMspc3W1imWoXwwQJYaFQ&e=1795534888&_=1795524089552
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Airdrieonians vs Arbroath [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401933239/master.m3u8?st=eMY5WB_f_faH-p7a8YJm5A&e=1795534888&_=1795524089608
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Inverness Caledonian Thistle vs Ayr United [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401933259/master.m3u8?st=k7RsvTHI1iD8CT7_UtTgZw&e=1795534888&_=1795524089637
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Queen's Park vs Clydebank [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401933258/master.m3u8?st=qWkxtl0rLnI-VqGFCa-F_A&e=1795534891&_=1795524092807
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Kelty Hearts vs Dunfermline Athletic [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401933261/master.m3u8?st=JfLNPkxochx5xCY_vkEbcg&e=1795534891&_=1795524092709
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Partick Thistle vs East Kilbride [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401933262/master.m3u8?st=bHqCyLfDo4NWcrIcWwSKEg&e=1795534891&_=1795524092839
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/18/1/nhl-logo-png_seeklogo-183814.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Cove Rangers vs Hamilton Academical [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401933263/master.m3u8?st=PbrjjFpEmIz76g2BIbzQXQ&e=1795534891&_=1795524092815
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Peterhead vs Livingston [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401933240/master.m3u8?st=jaDqDEK68zhydICqJEd_5g&e=1795534894&_=1795524095833
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_CHALLENGE] Stenhousemuir vs Ross County [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401933260/master.m3u8?st=SOkngQHaPpVSLwvYRlqlKw&e=1795534894&_=1795524095909
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 02:45 WIB] [SCO_1] Dundee vs Hibernian [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401878348/master.m3u8?st=3_tCZLQBn_bdRKIpoyFhjQ&e=1795534894&_=1795524095940
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] Borussia Dortmund vs Arsenal [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401915295/master.m3u8?st=LG5TRUDZ1jGv1Qbal9fVbA&e=1795534894&_=1795524096061
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] AEK Athens vs Como [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401915296/master.m3u8?st=UVkhZZyJTHJkIgUUitRRfg&e=1795534898&_=1795524099018
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] FC Porto vs Feyenoord Rotterdam [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401915294/master.m3u8?st=kJeLvlUL31fl6vgZmRUDPg&e=1795534898&_=1795524099124
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/116.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] Napoli vs Manchester City [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401915379/master.m3u8?st=TKLOU0rtxlz63e54ahZU4g&e=1795534898&_=1795524099123
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] Lens vs RB Leipzig [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401915299/master.m3u8?st=RtqYE2EvW4_H7efF9pgMOg&e=1795534898&_=1795524099165
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] PSV Eindhoven vs Real Madrid [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://candyshop.st/live/tv401915298/master.m3u8?st=ZnroS54buVRIGkZO4Easyg&e=1795534901&_=1795524102290
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [UEFA Champions League] Real Betis vs Slovan Bratislava [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401915297/master.m3u8?st=MFHVog0Npivcy07bOTHljA&e=1795534901&_=1795524102216
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [ENG_2] Derby County vs Wolverhampton Wanderers [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401880141/master.m3u8?st=nTokgfDIz-niZxj0hjpI3Q&e=1795534901&_=1795524102181
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 03:00 WIB] [SCO_1] Aberdeen vs Rangers [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401878345/master.m3u8?st=yuXidOhsI_dT863Tq5Mu0g&e=1795534901&_=1795524102331
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 04:00 WIB] [BRA_1] Palmeiras vs Chapecoense [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401841335/master.m3u8?st=cNKOAoRL2T-Mr-obgbq56A&e=1795534904&_=1795524105311
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 06:20 WIB] [COL_1] Atlético Bucaramanga vs Millonarios [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401934688/master.m3u8?st=d8U60fb6tn0noI6bs3E40A&e=1795534904&_=1795524105246
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 08:30 WIB] [COL_1] Deportivo Cali vs América de Cali [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401934706/master.m3u8?st=QgUoUNO23jzu4XzejIXT0w&e=1795534904&_=1795524105371
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 10:00 WIB] [MLS] Houston Dynamo FC vs San Jose Earthquakes [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge2.candyshop.st/live/tv401933738/master.m3u8?st=VRDBKT-Ybmp9Dva6SXVTVg&e=1795534904&_=1795524105383
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/det.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [NBA] Detroit Pistons vs Orlando Magic [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401909314/master.m3u8?st=QnT3ybVSN3XnPwpT9UgB_Q&e=1795534907&_=1795524108236
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/bos.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 08:00 WIB] [NBA] Boston Celtics vs Washington Wizards [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401909315/master.m3u8?st=_Lk9BjyojS9Zz-ZyBnuc0Q&e=1795534907&_=1795524108349
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/dal.png" tvg-id="NBA.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 10:00 WIB] [NBA] Dallas Mavericks vs Denver Nuggets [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401909316/master.m3u8?st=2eIZbM8cawW9Ik_KDWlM-g&e=1795534907&_=1795524108317
+
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png" tvg-id="NHL.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 08:00 WIB] [NHL] Vegas Golden Knights vs Edmonton Oilers [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge.candyshop.st/live/tv401892780/master.m3u8?st=DT5iTEXZr14ubiZWSKcaUg&e=1795534907&_=1795524108282
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [CFB] Kent State Golden Flashes vs Eastern Michigan Eagles [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401866470/master.m3u8?st=dxRdUlIky_0s-UpfxPwwzQ&e=1795534910&_=1795524111137
+
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/48/1/soccer-ball-logo-png_seeklogo-480250.png" tvg-id="SOCCER.sg.tv" group-title="BONE TV - StreamsGate",[⏰ UPCOMING 07:00 WIB] [CFB] Miami (OH) RedHawks vs Western Michigan Broncos [SG]
+#EXTVLCOPT:http-referrer=https://xstream.st/
+#EXTVLCOPT:http-origin=https://xstream.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://edge1.candyshop.st/live/tv401866471/master.m3u8?st=BnicxSO-Z58AWRLOJ1znfQ&e=1795534910&_=1795524111194
